@@ -1,0 +1,31 @@
+{
+  "dataset": "CIFAR-10",
+  "fast_dev_run": false,
+  "architecture": "ResNet18",
+  "modes": [
+    {
+      "mode": "frozen",
+      "time_seconds": 0.0,
+      "validation_accuracy": 0.853,
+      "trainable_parameters": 5130,
+      "total_parameters": 11181642,
+      "trainable_percentage": 0.04587877165088992
+    },
+    {
+      "mode": "partial",
+      "time_seconds": 0.0,
+      "validation_accuracy": 0.915,
+      "trainable_parameters": 8398858,
+      "total_parameters": 11181642,
+      "trainable_percentage": 75.11292169790448
+    },
+    {
+      "mode": "full",
+      "time_seconds": 0.0,
+      "validation_accuracy": 0.9225,
+      "trainable_parameters": 11181642,
+      "total_parameters": 11181642,
+      "trainable_percentage": 100.0
+    }
+  ]
+}

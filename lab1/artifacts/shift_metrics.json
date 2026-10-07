@@ -1,0 +1,12 @@
+{
+  "dataset": "CIFAR-10",
+  "fast_dev_run": false,
+  "selected_architecture": "EfficientNet-B0",
+  "selected_mode": "full",
+  "shift_type": "gaussian_noise",
+  "noise_std": 0.1,
+  "test_images": 10000,
+  "shifted_accuracy": 0.086,
+  "correct_predictions": 860,
+  "incorrect_predictions": 9140
+}

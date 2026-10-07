@@ -1,0 +1,47 @@
+{
+  "dataset": "CIFAR-10",
+  "fast_dev_run": false,
+  "selected_architecture": "EfficientNet-B0",
+  "selected_mode": "full",
+  "shift_type": "gaussian_noise",
+  "num_sigma_values": 5,
+  "sigma_values": [
+    0.0,
+    0.01,
+    0.02,
+    0.05,
+    0.1
+  ],
+  "results": [
+    {
+      "sigma": 0.0,
+      "accuracy": 0.9209,
+      "correct_predictions": 9209,
+      "test_images": 10000
+    },
+    {
+      "sigma": 0.01,
+      "accuracy": 0.2346,
+      "correct_predictions": 2346,
+      "test_images": 10000
+    },
+    {
+      "sigma": 0.02,
+      "accuracy": 0.1741,
+      "correct_predictions": 1741,
+      "test_images": 10000
+    },
+    {
+      "sigma": 0.05,
+      "accuracy": 0.1007,
+      "correct_predictions": 1007,
+      "test_images": 10000
+    },
+    {
+      "sigma": 0.1,
+      "accuracy": 0.0873,
+      "correct_predictions": 873,
+      "test_images": 10000
+    }
+  ]
+}

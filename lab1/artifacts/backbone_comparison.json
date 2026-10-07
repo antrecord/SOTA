@@ -1,0 +1,48 @@
+{
+  "dataset": "CIFAR-10",
+  "fast_dev_run": false,
+  "max_train_images": 10000,
+  "train_images": 8000,
+  "validation_images": 2000,
+  "test_images": 10000,
+  "selection_metric": "validation_macro_f1",
+  "models": [
+    {
+      "architecture": "ResNet18",
+      "mode": "frozen",
+      "val_accuracy": 0.853,
+      "val_macro_f1": 0.8523561461190902,
+      "best_epoch": 5,
+      "trainable_parameters": 5130
+    },
+    {
+      "architecture": "ResNet18",
+      "mode": "partial",
+      "val_accuracy": 0.915,
+      "val_macro_f1": 0.9146813843590167,
+      "best_epoch": 5,
+      "trainable_parameters": 8398858
+    },
+    {
+      "architecture": "ResNet18",
+      "mode": "full",
+      "val_accuracy": 0.9225,
+      "val_macro_f1": 0.9227147427151234,
+      "best_epoch": 5,
+      "trainable_parameters": 11181642
+    },
+    {
+      "architecture": "EfficientNet-B0",
+      "mode": "full",
+      "val_accuracy": 0.9275,
+      "val_macro_f1": 0.927451875349864,
+      "best_epoch": 4,
+      "trainable_parameters": 4020358
+    }
+  ],
+  "selected_model": {
+    "architecture": "EfficientNet-B0",
+    "mode": "full",
+    "val_macro_f1": 0.927451875349864
+  }
+}
