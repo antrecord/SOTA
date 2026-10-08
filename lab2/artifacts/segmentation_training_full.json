@@ -1,0 +1,45 @@
+{
+  "mode": "frozen_backbone",
+  "epochs": 5,
+  "best_epoch": 5,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "total_parameters": 3218478,
+  "trainable_parameters": 246526,
+  "best_val_loss": 0.24098917793320573,
+  "time_seconds": 479.74898624420166,
+  "weights": "artifacts\\segmentation_model_final_full.pt",
+  "checkpoint": "artifacts\\segmentation_training_checkpoint_full.pt",
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.29461876084299193,
+      "val_loss": 0.25640283136264136,
+      "time_seconds": 132.69827127456665
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.2564047789606063,
+      "val_loss": 0.24594124762908273,
+      "time_seconds": 86.78798317909241
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.24539846566546222,
+      "val_loss": 0.24166654617242192,
+      "time_seconds": 87.58874654769897
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.23743502795696259,
+      "val_loss": 0.25018035555663315,
+      "time_seconds": 86.01078367233276
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.23067800886929035,
+      "val_loss": 0.24098917793320573,
+      "time_seconds": 86.51088666915894
+    }
+  ]
+}

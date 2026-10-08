@@ -1,0 +1,9 @@
+{
+  "fast_dev_run": false,
+  "split": "validation",
+  "model": "baseline",
+  "metric": "foreground IoU",
+  "hardest_validation_index": 64,
+  "iou": 0.0,
+  "image": "artifacts\\bonus_hard_case.png"
+}

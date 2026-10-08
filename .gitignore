@@ -1,1 +1,4 @@
 *.pt
+lab2/data/
+*.gz
+*.png

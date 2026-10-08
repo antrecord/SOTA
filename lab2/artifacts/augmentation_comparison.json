@@ -1,0 +1,49 @@
+{
+  "fast_dev_run": false,
+  "baseline_miou": 0.7240174412727356,
+  "augmented_miou": 0.7259060740470886,
+  "miou_difference": 0.0018886327743530273,
+  "augmentation": {
+    "type": "horizontal_flip",
+    "probability": 0.5,
+    "synchronized_image_and_mask": true
+  },
+  "epochs": 5,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "train_mode": "frozen_backbone",
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.290205724739834,
+      "val_loss": 0.25778987436838774,
+      "time_seconds": 82.4186098575592
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.256051741540432,
+      "val_loss": 0.24422065006650012,
+      "time_seconds": 82.08491587638855
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.2448171130988909,
+      "val_loss": 0.24360112279005672,
+      "time_seconds": 81.22240400314331
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.23635885471721058,
+      "val_loss": 0.24279623543438705,
+      "time_seconds": 82.18340539932251
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.23001571773025004,
+      "val_loss": 0.24723818055961444,
+      "time_seconds": 82.26594853401184
+    }
+  ],
+  "weights": "artifacts\\segmentation_aug.pt",
+  "checkpoint": "artifacts\\segmentation_aug_checkpoint.pt"
+}

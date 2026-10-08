@@ -1,0 +1,11 @@
+{
+  "fast_dev_run": false,
+  "threshold_source": "train",
+  "small_area_threshold_pixels": 18194,
+  "train_objects_count": 2944,
+  "small_validation_subset_size": 373,
+  "baseline_foreground_iou": 0.7652209522177642,
+  "augmented_foreground_iou": 0.7638632701085656,
+  "baseline_evaluated_count": 373,
+  "augmented_evaluated_count": 373
+}

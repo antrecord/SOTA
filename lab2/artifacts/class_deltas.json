@@ -1,0 +1,87 @@
+{
+  "fast_dev_run": false,
+  "dataset": "Oxford-IIIT Pet",
+  "split": "validation",
+  "test_used_for_model_selection": false,
+  "augmentation": {
+    "type": "horizontal_flip",
+    "probability": 0.5,
+    "synchronized_image_and_mask": true
+  },
+  "classes": [
+    "Foreground",
+    "Background",
+    "Boundary"
+  ],
+  "baseline": {
+    "class_iou": [
+      0.835523784160614,
+      0.9128537774085999,
+      0.42367494106292725
+    ],
+    "confusion_matrix": [
+      [
+        13066879,
+        370522,
+        687166
+      ],
+      [
+        273065,
+        27705012,
+        598606
+      ],
+      [
+        1241515,
+        1402684,
+        2889047
+      ]
+    ]
+  },
+  "augmented": {
+    "class_iou": [
+      0.8293837308883667,
+      0.9097973108291626,
+      0.438537061214447
+    ],
+    "confusion_matrix": [
+      [
+        12730727,
+        498246,
+        895594
+      ],
+      [
+        206001,
+        27744467,
+        626215
+      ],
+      [
+        1019054,
+        1420289,
+        3093903
+      ]
+    ]
+  },
+  "class_deltas": [
+    {
+      "class_id": 0,
+      "class_name": "Foreground",
+      "baseline_iou": 0.835523784160614,
+      "augmented_iou": 0.8293837308883667,
+      "delta": -0.0061400532722473145
+    },
+    {
+      "class_id": 1,
+      "class_name": "Background",
+      "baseline_iou": 0.9128537774085999,
+      "augmented_iou": 0.9097973108291626,
+      "delta": -0.003056466579437256
+    },
+    {
+      "class_id": 2,
+      "class_name": "Boundary",
+      "baseline_iou": 0.42367494106292725,
+      "augmented_iou": 0.438537061214447,
+      "delta": 0.014862120151519775
+    }
+  ]
+}
