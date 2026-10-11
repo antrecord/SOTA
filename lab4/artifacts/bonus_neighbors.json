@@ -1,0 +1,97 @@
+{
+  "feature_space": "original_dinov2",
+  "metric": "cosine",
+  "selection_criterion": "two lowest neighborhood purity values",
+  "queries": [
+    {
+      "test_index": 6613,
+      "label": 8,
+      "class_name": "ship",
+      "purity": 0.2,
+      "matching_neighbors": 1,
+      "n_neighbors": 5,
+      "neighbors": [
+        {
+          "rank": 1,
+          "train_index": 6067,
+          "label": 0,
+          "class_name": "airplane",
+          "cosine_distance": 0.35545623302459717
+        },
+        {
+          "rank": 2,
+          "train_index": 44685,
+          "label": 8,
+          "class_name": "ship",
+          "cosine_distance": 0.37917184829711914
+        },
+        {
+          "rank": 3,
+          "train_index": 27630,
+          "label": 4,
+          "class_name": "deer",
+          "cosine_distance": 0.41906267404556274
+        },
+        {
+          "rank": 4,
+          "train_index": 20136,
+          "label": 4,
+          "class_name": "deer",
+          "cosine_distance": 0.45045173168182373
+        },
+        {
+          "rank": 5,
+          "train_index": 19882,
+          "label": 4,
+          "class_name": "deer",
+          "cosine_distance": 0.452032208442688
+        }
+      ]
+    },
+    {
+      "test_index": 6756,
+      "label": 5,
+      "class_name": "dog",
+      "purity": 0.2,
+      "matching_neighbors": 1,
+      "n_neighbors": 5,
+      "neighbors": [
+        {
+          "rank": 1,
+          "train_index": 23665,
+          "label": 5,
+          "class_name": "dog",
+          "cosine_distance": 0.4034577012062073
+        },
+        {
+          "rank": 2,
+          "train_index": 43576,
+          "label": 3,
+          "class_name": "cat",
+          "cosine_distance": 0.4227787256240845
+        },
+        {
+          "rank": 3,
+          "train_index": 27108,
+          "label": 3,
+          "class_name": "cat",
+          "cosine_distance": 0.42679882049560547
+        },
+        {
+          "rank": 4,
+          "train_index": 34000,
+          "label": 3,
+          "class_name": "cat",
+          "cosine_distance": 0.42733490467071533
+        },
+        {
+          "rank": 5,
+          "train_index": 9856,
+          "label": 3,
+          "class_name": "cat",
+          "cosine_distance": 0.42917871475219727
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "encoder": "dinov2_vits14",
+  "objective": "InfoNCE",
+  "steps": 30,
+  "batch_size": 16,
+  "temperature": 0.1,
+  "learning_rate": 1e-06,
+  "max_grad_norm": 1.0,
+  "initial_loss": 0.23561565577983856,
+  "final_loss": 0.06277329474687576,
+  "device": "cpu"
+}

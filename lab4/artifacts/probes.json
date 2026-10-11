@@ -1,0 +1,13 @@
+{
+  "knn": {
+    "best_k": 5,
+    "accuracy": 0.9632,
+    "macro_f1": 0.9631844513475329
+  },
+  "logistic_regression": {
+    "accuracy": 0.968,
+    "macro_f1": 0.967998429896495
+  },
+  "n_train": 10000,
+  "n_test": 5000
+}

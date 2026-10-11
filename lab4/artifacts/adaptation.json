@@ -1,0 +1,13 @@
+{
+  "n_test": 5000,
+  "original_probe": {
+    "accuracy": 0.968,
+    "macro_f1": 0.967998429896495
+  },
+  "adapted_probe": {
+    "accuracy": 0.9742,
+    "macro_f1": 0.9742097282005859
+  },
+  "accuracy_difference": 0.006199999999999983,
+  "accuracy_difference_percentage_points": 0.6199999999999983
+}

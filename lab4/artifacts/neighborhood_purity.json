@@ -1,0 +1,124 @@
+{
+  "metric": "neighborhood_purity",
+  "neighbor_source": "neighbors.json",
+  "top_k": 5,
+  "n_queries": 5,
+  "mean_purity": 0.64,
+  "minimum_purity": 0.2,
+  "least_pure_queries": [
+    {
+      "query_position": 0,
+      "test_index": 6613,
+      "label": 8,
+      "class_name": "ship",
+      "n_neighbors": 5,
+      "matching_neighbors": 1,
+      "purity": 0.2,
+      "neighbor_classes": [
+        "airplane",
+        "ship",
+        "deer",
+        "deer",
+        "deer"
+      ]
+    },
+    {
+      "query_position": 4,
+      "test_index": 6756,
+      "label": 5,
+      "class_name": "dog",
+      "n_neighbors": 5,
+      "matching_neighbors": 1,
+      "purity": 0.2,
+      "neighbor_classes": [
+        "dog",
+        "cat",
+        "cat",
+        "cat",
+        "cat"
+      ]
+    }
+  ],
+  "queries": [
+    {
+      "query_position": 0,
+      "test_index": 6613,
+      "label": 8,
+      "class_name": "ship",
+      "n_neighbors": 5,
+      "matching_neighbors": 1,
+      "purity": 0.2,
+      "neighbor_classes": [
+        "airplane",
+        "ship",
+        "deer",
+        "deer",
+        "deer"
+      ]
+    },
+    {
+      "query_position": 1,
+      "test_index": 9907,
+      "label": 1,
+      "class_name": "automobile",
+      "n_neighbors": 5,
+      "matching_neighbors": 5,
+      "purity": 1.0,
+      "neighbor_classes": [
+        "automobile",
+        "automobile",
+        "automobile",
+        "automobile",
+        "automobile"
+      ]
+    },
+    {
+      "query_position": 2,
+      "test_index": 6721,
+      "label": 7,
+      "class_name": "horse",
+      "n_neighbors": 5,
+      "matching_neighbors": 5,
+      "purity": 1.0,
+      "neighbor_classes": [
+        "horse",
+        "horse",
+        "horse",
+        "horse",
+        "horse"
+      ]
+    },
+    {
+      "query_position": 3,
+      "test_index": 8901,
+      "label": 5,
+      "class_name": "dog",
+      "n_neighbors": 5,
+      "matching_neighbors": 4,
+      "purity": 0.8,
+      "neighbor_classes": [
+        "dog",
+        "dog",
+        "dog",
+        "dog",
+        "horse"
+      ]
+    },
+    {
+      "query_position": 4,
+      "test_index": 6756,
+      "label": 5,
+      "class_name": "dog",
+      "n_neighbors": 5,
+      "matching_neighbors": 1,
+      "purity": 0.2,
+      "neighbor_classes": [
+        "dog",
+        "cat",
+        "cat",
+        "cat",
+        "cat"
+      ]
+    }
+  ]
+}

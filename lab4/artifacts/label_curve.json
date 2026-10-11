@@ -1,0 +1,25 @@
+{
+  "seed": 19,
+  "metric": "accuracy",
+  "evaluation_split": "validation",
+  "results": [
+    {
+      "fraction": 0.01,
+      "n_objects": 100,
+      "samples_per_class": 10,
+      "accuracy": 0.91
+    },
+    {
+      "fraction": 0.1,
+      "n_objects": 1000,
+      "samples_per_class": 100,
+      "accuracy": 0.9565
+    },
+    {
+      "fraction": 1.0,
+      "n_objects": 10000,
+      "samples_per_class": 1000,
+      "accuracy": 0.9685
+    }
+  ]
+}

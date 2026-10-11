@@ -1,0 +1,248 @@
+{
+  "metric": "cosine",
+  "feature_space": "original_dinov2",
+  "n_queries": 5,
+  "top_k": 5,
+  "queries": [
+    {
+      "query_position": 0,
+      "test_index": 6613,
+      "label": 8,
+      "class_name": "ship",
+      "neighbors": [
+        {
+          "rank": 1,
+          "train_position": 8329,
+          "train_index": 6067,
+          "label": 0,
+          "class_name": "airplane",
+          "cosine_distance": 0.35545623302459717
+        },
+        {
+          "rank": 2,
+          "train_position": 4431,
+          "train_index": 44685,
+          "label": 8,
+          "class_name": "ship",
+          "cosine_distance": 0.37917184829711914
+        },
+        {
+          "rank": 3,
+          "train_position": 4198,
+          "train_index": 27630,
+          "label": 4,
+          "class_name": "deer",
+          "cosine_distance": 0.41906267404556274
+        },
+        {
+          "rank": 4,
+          "train_position": 3484,
+          "train_index": 20136,
+          "label": 4,
+          "class_name": "deer",
+          "cosine_distance": 0.45045173168182373
+        },
+        {
+          "rank": 5,
+          "train_position": 5339,
+          "train_index": 19882,
+          "label": 4,
+          "class_name": "deer",
+          "cosine_distance": 0.452032208442688
+        }
+      ]
+    },
+    {
+      "query_position": 1,
+      "test_index": 9907,
+      "label": 1,
+      "class_name": "automobile",
+      "neighbors": [
+        {
+          "rank": 1,
+          "train_position": 5935,
+          "train_index": 8563,
+          "label": 1,
+          "class_name": "automobile",
+          "cosine_distance": 0.3100826144218445
+        },
+        {
+          "rank": 2,
+          "train_position": 7735,
+          "train_index": 39322,
+          "label": 1,
+          "class_name": "automobile",
+          "cosine_distance": 0.3486504554748535
+        },
+        {
+          "rank": 3,
+          "train_position": 752,
+          "train_index": 4609,
+          "label": 1,
+          "class_name": "automobile",
+          "cosine_distance": 0.37005650997161865
+        },
+        {
+          "rank": 4,
+          "train_position": 9867,
+          "train_index": 20557,
+          "label": 1,
+          "class_name": "automobile",
+          "cosine_distance": 0.3818928003311157
+        },
+        {
+          "rank": 5,
+          "train_position": 1522,
+          "train_index": 45210,
+          "label": 1,
+          "class_name": "automobile",
+          "cosine_distance": 0.38626182079315186
+        }
+      ]
+    },
+    {
+      "query_position": 2,
+      "test_index": 6721,
+      "label": 7,
+      "class_name": "horse",
+      "neighbors": [
+        {
+          "rank": 1,
+          "train_position": 3865,
+          "train_index": 23649,
+          "label": 7,
+          "class_name": "horse",
+          "cosine_distance": 0.40717118978500366
+        },
+        {
+          "rank": 2,
+          "train_position": 4434,
+          "train_index": 40817,
+          "label": 7,
+          "class_name": "horse",
+          "cosine_distance": 0.4349527359008789
+        },
+        {
+          "rank": 3,
+          "train_position": 2237,
+          "train_index": 17472,
+          "label": 7,
+          "class_name": "horse",
+          "cosine_distance": 0.4409600496292114
+        },
+        {
+          "rank": 4,
+          "train_position": 1020,
+          "train_index": 49175,
+          "label": 7,
+          "class_name": "horse",
+          "cosine_distance": 0.44837725162506104
+        },
+        {
+          "rank": 5,
+          "train_position": 1121,
+          "train_index": 35924,
+          "label": 7,
+          "class_name": "horse",
+          "cosine_distance": 0.4509772062301636
+        }
+      ]
+    },
+    {
+      "query_position": 3,
+      "test_index": 8901,
+      "label": 5,
+      "class_name": "dog",
+      "neighbors": [
+        {
+          "rank": 1,
+          "train_position": 4551,
+          "train_index": 7726,
+          "label": 5,
+          "class_name": "dog",
+          "cosine_distance": 0.2721114158630371
+        },
+        {
+          "rank": 2,
+          "train_position": 5145,
+          "train_index": 40800,
+          "label": 5,
+          "class_name": "dog",
+          "cosine_distance": 0.33940309286117554
+        },
+        {
+          "rank": 3,
+          "train_position": 9481,
+          "train_index": 2073,
+          "label": 5,
+          "class_name": "dog",
+          "cosine_distance": 0.376863956451416
+        },
+        {
+          "rank": 4,
+          "train_position": 1929,
+          "train_index": 27691,
+          "label": 5,
+          "class_name": "dog",
+          "cosine_distance": 0.38143646717071533
+        },
+        {
+          "rank": 5,
+          "train_position": 4275,
+          "train_index": 30592,
+          "label": 7,
+          "class_name": "horse",
+          "cosine_distance": 0.39075297117233276
+        }
+      ]
+    },
+    {
+      "query_position": 4,
+      "test_index": 6756,
+      "label": 5,
+      "class_name": "dog",
+      "neighbors": [
+        {
+          "rank": 1,
+          "train_position": 5750,
+          "train_index": 23665,
+          "label": 5,
+          "class_name": "dog",
+          "cosine_distance": 0.4034577012062073
+        },
+        {
+          "rank": 2,
+          "train_position": 671,
+          "train_index": 43576,
+          "label": 3,
+          "class_name": "cat",
+          "cosine_distance": 0.4227787256240845
+        },
+        {
+          "rank": 3,
+          "train_position": 5200,
+          "train_index": 27108,
+          "label": 3,
+          "class_name": "cat",
+          "cosine_distance": 0.42679882049560547
+        },
+        {
+          "rank": 4,
+          "train_position": 5831,
+          "train_index": 34000,
+          "label": 3,
+          "class_name": "cat",
+          "cosine_distance": 0.42733490467071533
+        },
+        {
+          "rank": 5,
+          "train_position": 735,
+          "train_index": 9856,
+          "label": 3,
+          "class_name": "cat",
+          "cosine_distance": 0.42917871475219727
+        }
+      ]
+    }
+  ]
+}

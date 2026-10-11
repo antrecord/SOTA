@@ -1,0 +1,10 @@
+{
+  "n_train": 10000,
+  "n_val": 2000,
+  "n_test": 5000,
+  "embedding_dim": 384,
+  "validation_accuracy": 0.9725,
+  "validation_macro_f1": 0.9724581075903055,
+  "test_accuracy": 0.9742,
+  "test_macro_f1": 0.9742097282005859
+}

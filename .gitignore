@@ -3,3 +3,5 @@ lab2/data/
 *.gz
 *.png
 */data/
+*.npz
+*.joblib
