@@ -1,0 +1,3006 @@
+{
+  "experiment": "SAM positive point strategy comparison",
+  "point_strategies": {
+    "median": "Pixel nearest to the coordinate-wise median of foreground pixels",
+    "max_distance": "Foreground pixel with maximum Euclidean distance to the mask boundary"
+  },
+  "foreground_mask_definition": "ground_truth_mask == 1",
+  "prompt_type": "single positive point",
+  "fast_dev_run": false,
+  "summary": {
+    "num_images": 199,
+    "mean_median_iou": 0.6884006055119776,
+    "mean_max_distance_iou": 0.6579240671911235,
+    "mean_iou_change": -0.030476538320853844,
+    "max_distance_better_count": 98,
+    "median_better_count": 101,
+    "tie_count": 0
+  },
+  "results": [
+    {
+      "eval_position": 0,
+      "dataset_index": 3,
+      "median_point_xy": [
+        56,
+        161
+      ],
+      "max_distance_point_xy": [
+        0,
+        195
+      ],
+      "median_iou": 0.49468132257778563,
+      "max_distance_iou": 0.46957710713936907,
+      "iou_change": -0.025104215438416566
+    },
+    {
+      "eval_position": 1,
+      "dataset_index": 29,
+      "median_point_xy": [
+        628,
+        784
+      ],
+      "max_distance_point_xy": [
+        682,
+        871
+      ],
+      "median_iou": 0.7590270749778227,
+      "max_distance_iou": 0.7654153384822789,
+      "iou_change": 0.006388263504456204
+    },
+    {
+      "eval_position": 2,
+      "dataset_index": 33,
+      "median_point_xy": [
+        803,
+        614
+      ],
+      "max_distance_point_xy": [
+        773,
+        608
+      ],
+      "median_iou": 0.5744710924865825,
+      "max_distance_iou": 0.5606365519539968,
+      "iou_change": -0.013834540532585704
+    },
+    {
+      "eval_position": 3,
+      "dataset_index": 41,
+      "median_point_xy": [
+        105,
+        100
+      ],
+      "max_distance_point_xy": [
+        117,
+        98
+      ],
+      "median_iou": 0.7955849889624724,
+      "max_distance_iou": 0.794690889849193,
+      "iou_change": -0.0008940991132794229
+    },
+    {
+      "eval_position": 4,
+      "dataset_index": 58,
+      "median_point_xy": [
+        187,
+        215
+      ],
+      "max_distance_point_xy": [
+        224,
+        221
+      ],
+      "median_iou": 0.8267722281002591,
+      "max_distance_iou": 0.8368524202196502,
+      "iou_change": 0.010080192119391151
+    },
+    {
+      "eval_position": 5,
+      "dataset_index": 91,
+      "median_point_xy": [
+        313,
+        276
+      ],
+      "max_distance_point_xy": [
+        374,
+        349
+      ],
+      "median_iou": 0.8333643468552289,
+      "max_distance_iou": 0.834241408214585,
+      "iou_change": 0.0008770613593561682
+    },
+    {
+      "eval_position": 6,
+      "dataset_index": 157,
+      "median_point_xy": [
+        186,
+        242
+      ],
+      "max_distance_point_xy": [
+        198,
+        215
+      ],
+      "median_iou": 0.3868760840238967,
+      "max_distance_iou": 0.3883711900601825,
+      "iou_change": 0.001495106036285776
+    },
+    {
+      "eval_position": 7,
+      "dataset_index": 184,
+      "median_point_xy": [
+        275,
+        130
+      ],
+      "max_distance_point_xy": [
+        296,
+        114
+      ],
+      "median_iou": 0.13492357624967713,
+      "max_distance_iou": 0.1361819202695115,
+      "iou_change": 0.0012583440198343787
+    },
+    {
+      "eval_position": 8,
+      "dataset_index": 204,
+      "median_point_xy": [
+        113,
+        136
+      ],
+      "max_distance_point_xy": [
+        105,
+        132
+      ],
+      "median_iou": 0.5581598304450817,
+      "max_distance_iou": 0.5690477177563119,
+      "iou_change": 0.010887887311230249
+    },
+    {
+      "eval_position": 9,
+      "dataset_index": 229,
+      "median_point_xy": [
+        201,
+        145
+      ],
+      "max_distance_point_xy": [
+        171,
+        139
+      ],
+      "median_iou": 0.017149356899116282,
+      "max_distance_iou": 0.19366989149927727,
+      "iou_change": 0.17652053460016098
+    },
+    {
+      "eval_position": 10,
+      "dataset_index": 308,
+      "median_point_xy": [
+        265,
+        160
+      ],
+      "max_distance_point_xy": [
+        245,
+        155
+      ],
+      "median_iou": 0.7755778894472362,
+      "max_distance_iou": 0.7749703749824258,
+      "iou_change": -0.0006075144648103326
+    },
+    {
+      "eval_position": 11,
+      "dataset_index": 316,
+      "median_point_xy": [
+        159,
+        222
+      ],
+      "max_distance_point_xy": [
+        181,
+        244
+      ],
+      "median_iou": 0.3975527317845377,
+      "max_distance_iou": 0.641392705560751,
+      "iou_change": 0.2438399737762133
+    },
+    {
+      "eval_position": 12,
+      "dataset_index": 337,
+      "median_point_xy": [
+        162,
+        211
+      ],
+      "max_distance_point_xy": [
+        154,
+        150
+      ],
+      "median_iou": 0.7277986747132704,
+      "max_distance_iou": 0.7226832325413308,
+      "iou_change": -0.005115442171939599
+    },
+    {
+      "eval_position": 13,
+      "dataset_index": 348,
+      "median_point_xy": [
+        255,
+        235
+      ],
+      "max_distance_point_xy": [
+        258,
+        244
+      ],
+      "median_iou": 0.7649375989397342,
+      "max_distance_iou": 0.7623134191513551,
+      "iou_change": -0.002624179788379144
+    },
+    {
+      "eval_position": 14,
+      "dataset_index": 364,
+      "median_point_xy": [
+        307,
+        216
+      ],
+      "max_distance_point_xy": [
+        499,
+        247
+      ],
+      "median_iou": 0.8484711923197727,
+      "max_distance_iou": 0.5540020204090597,
+      "iou_change": -0.2944691719107131
+    },
+    {
+      "eval_position": 15,
+      "dataset_index": 365,
+      "median_point_xy": [
+        216,
+        224
+      ],
+      "max_distance_point_xy": [
+        256,
+        157
+      ],
+      "median_iou": 0.8420919917017204,
+      "max_distance_iou": 0.8085529860675837,
+      "iou_change": -0.0335390056341367
+    },
+    {
+      "eval_position": 16,
+      "dataset_index": 375,
+      "median_point_xy": [
+        306,
+        184
+      ],
+      "max_distance_point_xy": [
+        300,
+        201
+      ],
+      "median_iou": 0.7259519867549669,
+      "max_distance_iou": 0.726472537486538,
+      "iou_change": 0.00052055073157109
+    },
+    {
+      "eval_position": 17,
+      "dataset_index": 377,
+      "median_point_xy": [
+        182,
+        270
+      ],
+      "max_distance_point_xy": [
+        220,
+        224
+      ],
+      "median_iou": 0.7469913508296522,
+      "max_distance_iou": 0.036991089450105846,
+      "iou_change": -0.7100002613795463
+    },
+    {
+      "eval_position": 18,
+      "dataset_index": 410,
+      "median_point_xy": [
+        258,
+        159
+      ],
+      "max_distance_point_xy": [
+        257,
+        103
+      ],
+      "median_iou": 0.5682945736434108,
+      "max_distance_iou": 0.5726945048081302,
+      "iou_change": 0.004399931164719373
+    },
+    {
+      "eval_position": 19,
+      "dataset_index": 438,
+      "median_point_xy": [
+        173,
+        191
+      ],
+      "max_distance_point_xy": [
+        57,
+        327
+      ],
+      "median_iou": 0.05728093158660844,
+      "max_distance_iou": 0.043213973799126636,
+      "iou_change": -0.014066957787481807
+    },
+    {
+      "eval_position": 20,
+      "dataset_index": 440,
+      "median_point_xy": [
+        272,
+        164
+      ],
+      "max_distance_point_xy": [
+        284,
+        165
+      ],
+      "median_iou": 0.1450680133583123,
+      "max_distance_iou": 0.14492547039178952,
+      "iou_change": -0.00014254296652277398
+    },
+    {
+      "eval_position": 21,
+      "dataset_index": 445,
+      "median_point_xy": [
+        230,
+        144
+      ],
+      "max_distance_point_xy": [
+        241,
+        147
+      ],
+      "median_iou": 0.7747583517042564,
+      "max_distance_iou": 0.7958881435665127,
+      "iou_change": 0.021129791862256275
+    },
+    {
+      "eval_position": 22,
+      "dataset_index": 453,
+      "median_point_xy": [
+        303,
+        109
+      ],
+      "max_distance_point_xy": [
+        315,
+        102
+      ],
+      "median_iou": 0.7397367290340221,
+      "max_distance_iou": 0.7377476741017556,
+      "iou_change": -0.001989054932266532
+    },
+    {
+      "eval_position": 23,
+      "dataset_index": 514,
+      "median_point_xy": [
+        198,
+        201
+      ],
+      "max_distance_point_xy": [
+        162,
+        199
+      ],
+      "median_iou": 0.6827927972130906,
+      "max_distance_iou": 0.6860236220472441,
+      "iou_change": 0.0032308248341534895
+    },
+    {
+      "eval_position": 24,
+      "dataset_index": 523,
+      "median_point_xy": [
+        244,
+        180
+      ],
+      "max_distance_point_xy": [
+        246,
+        179
+      ],
+      "median_iou": 0.5892554930351641,
+      "max_distance_iou": 0.799251011385128,
+      "iou_change": 0.20999551834996388
+    },
+    {
+      "eval_position": 25,
+      "dataset_index": 535,
+      "median_point_xy": [
+        273,
+        202
+      ],
+      "max_distance_point_xy": [
+        367,
+        207
+      ],
+      "median_iou": 0.852920004288493,
+      "max_distance_iou": 0.8528564864450912,
+      "iou_change": -6.351784340186128e-05
+    },
+    {
+      "eval_position": 26,
+      "dataset_index": 537,
+      "median_point_xy": [
+        218,
+        149
+      ],
+      "max_distance_point_xy": [
+        226,
+        151
+      ],
+      "median_iou": 0.8791155037690176,
+      "max_distance_iou": 0.8790052546432737,
+      "iou_change": -0.00011024912574386647
+    },
+    {
+      "eval_position": 27,
+      "dataset_index": 554,
+      "median_point_xy": [
+        168,
+        222
+      ],
+      "max_distance_point_xy": [
+        167,
+        238
+      ],
+      "median_iou": 0.8342397326832263,
+      "max_distance_iou": 0.8353994372921818,
+      "iou_change": 0.0011597046089555363
+    },
+    {
+      "eval_position": 28,
+      "dataset_index": 556,
+      "median_point_xy": [
+        369,
+        203
+      ],
+      "max_distance_point_xy": [
+        497,
+        209
+      ],
+      "median_iou": 0.731737721266517,
+      "max_distance_iou": 0.7435052219321149,
+      "iou_change": 0.011767500665597841
+    },
+    {
+      "eval_position": 29,
+      "dataset_index": 566,
+      "median_point_xy": [
+        312,
+        152
+      ],
+      "max_distance_point_xy": [
+        497,
+        169
+      ],
+      "median_iou": 0.71087076189117,
+      "max_distance_iou": 0.7136904822841699,
+      "iou_change": 0.002819720392999825
+    },
+    {
+      "eval_position": 30,
+      "dataset_index": 578,
+      "median_point_xy": [
+        263,
+        234
+      ],
+      "max_distance_point_xy": [
+        244,
+        209
+      ],
+      "median_iou": 0.7462503998946161,
+      "max_distance_iou": 0.7440953006284589,
+      "iou_change": -0.002155099266157201
+    },
+    {
+      "eval_position": 31,
+      "dataset_index": 583,
+      "median_point_xy": [
+        263,
+        188
+      ],
+      "max_distance_point_xy": [
+        248,
+        210
+      ],
+      "median_iou": 0.780865529894237,
+      "max_distance_iou": 0.7815353033331532,
+      "iou_change": 0.0006697734389162768
+    },
+    {
+      "eval_position": 32,
+      "dataset_index": 591,
+      "median_point_xy": [
+        243,
+        156
+      ],
+      "max_distance_point_xy": [
+        174,
+        169
+      ],
+      "median_iou": 0.8355614750686756,
+      "max_distance_iou": 0.8416004292853071,
+      "iou_change": 0.006038954216631476
+    },
+    {
+      "eval_position": 33,
+      "dataset_index": 593,
+      "median_point_xy": [
+        256,
+        262
+      ],
+      "max_distance_point_xy": [
+        356,
+        374
+      ],
+      "median_iou": 0.8152902770425269,
+      "max_distance_iou": 0.8265406485323498,
+      "iou_change": 0.011250371489822886
+    },
+    {
+      "eval_position": 34,
+      "dataset_index": 599,
+      "median_point_xy": [
+        246,
+        209
+      ],
+      "max_distance_point_xy": [
+        249,
+        236
+      ],
+      "median_iou": 0.8090312620609803,
+      "max_distance_iou": 0.8080333050651454,
+      "iou_change": -0.0009979569958349366
+    },
+    {
+      "eval_position": 35,
+      "dataset_index": 605,
+      "median_point_xy": [
+        324,
+        197
+      ],
+      "max_distance_point_xy": [
+        348,
+        290
+      ],
+      "median_iou": 0.8146427851832999,
+      "max_distance_iou": 0.8602739419189374,
+      "iou_change": 0.045631156735637446
+    },
+    {
+      "eval_position": 36,
+      "dataset_index": 626,
+      "median_point_xy": [
+        313,
+        138
+      ],
+      "max_distance_point_xy": [
+        319,
+        112
+      ],
+      "median_iou": 0.7722336835708231,
+      "max_distance_iou": 0.7765069253414411,
+      "iou_change": 0.0042732417706179415
+    },
+    {
+      "eval_position": 37,
+      "dataset_index": 645,
+      "median_point_xy": [
+        289,
+        204
+      ],
+      "max_distance_point_xy": [
+        313,
+        193
+      ],
+      "median_iou": 0.7123737229610182,
+      "max_distance_iou": 0.7028489708933879,
+      "iou_change": -0.00952475206763026
+    },
+    {
+      "eval_position": 38,
+      "dataset_index": 647,
+      "median_point_xy": [
+        114,
+        219
+      ],
+      "max_distance_point_xy": [
+        32,
+        246
+      ],
+      "median_iou": 0.34872813905537214,
+      "max_distance_iou": 0.33716666509562904,
+      "iou_change": -0.011561473959743107
+    },
+    {
+      "eval_position": 39,
+      "dataset_index": 676,
+      "median_point_xy": [
+        295,
+        236
+      ],
+      "max_distance_point_xy": [
+        308,
+        227
+      ],
+      "median_iou": 0.695078753313877,
+      "max_distance_iou": 0.004326923076923077,
+      "iou_change": -0.690751830236954
+    },
+    {
+      "eval_position": 40,
+      "dataset_index": 681,
+      "median_point_xy": [
+        209,
+        217
+      ],
+      "max_distance_point_xy": [
+        228,
+        213
+      ],
+      "median_iou": 0.8378570230120933,
+      "max_distance_iou": 0.8123770894788593,
+      "iou_change": -0.025479933533233967
+    },
+    {
+      "eval_position": 41,
+      "dataset_index": 716,
+      "median_point_xy": [
+        106,
+        113
+      ],
+      "max_distance_point_xy": [
+        133,
+        140
+      ],
+      "median_iou": 0.505959091641166,
+      "max_distance_iou": 0.26396128071481756,
+      "iou_change": -0.24199781092634848
+    },
+    {
+      "eval_position": 42,
+      "dataset_index": 721,
+      "median_point_xy": [
+        245,
+        171
+      ],
+      "max_distance_point_xy": [
+        251,
+        168
+      ],
+      "median_iou": 0.7015400066956813,
+      "max_distance_iou": 0.7057931963624116,
+      "iou_change": 0.004253189666730273
+    },
+    {
+      "eval_position": 43,
+      "dataset_index": 724,
+      "median_point_xy": [
+        187,
+        216
+      ],
+      "max_distance_point_xy": [
+        133,
+        209
+      ],
+      "median_iou": 0.8318905047048759,
+      "max_distance_iou": 0.8286526900216292,
+      "iou_change": -0.003237814683246687
+    },
+    {
+      "eval_position": 44,
+      "dataset_index": 726,
+      "median_point_xy": [
+        279,
+        179
+      ],
+      "max_distance_point_xy": [
+        214,
+        182
+      ],
+      "median_iou": 0.46807361742339015,
+      "max_distance_iou": 0.4656770130454341,
+      "iou_change": -0.0023966043779560797
+    },
+    {
+      "eval_position": 45,
+      "dataset_index": 764,
+      "median_point_xy": [
+        277,
+        186
+      ],
+      "max_distance_point_xy": [
+        293,
+        192
+      ],
+      "median_iou": 0.8365497320830543,
+      "max_distance_iou": 0.8178273207978604,
+      "iou_change": -0.01872241128519392
+    },
+    {
+      "eval_position": 46,
+      "dataset_index": 779,
+      "median_point_xy": [
+        163,
+        89
+      ],
+      "max_distance_point_xy": [
+        144,
+        52
+      ],
+      "median_iou": 0.7883525428886606,
+      "max_distance_iou": 0.7850162866449512,
+      "iou_change": -0.003336256243709479
+    },
+    {
+      "eval_position": 47,
+      "dataset_index": 781,
+      "median_point_xy": [
+        199,
+        302
+      ],
+      "max_distance_point_xy": [
+        374,
+        499
+      ],
+      "median_iou": 0.7832975556607628,
+      "max_distance_iou": 0.5843494708036541,
+      "iou_change": -0.1989480848571087
+    },
+    {
+      "eval_position": 48,
+      "dataset_index": 799,
+      "median_point_xy": [
+        272,
+        195
+      ],
+      "max_distance_point_xy": [
+        330,
+        129
+      ],
+      "median_iou": 0.7731594776858269,
+      "max_distance_iou": 0.4956975626801782,
+      "iou_change": -0.2774619150056487
+    },
+    {
+      "eval_position": 49,
+      "dataset_index": 826,
+      "median_point_xy": [
+        266,
+        93
+      ],
+      "max_distance_point_xy": [
+        217,
+        62
+      ],
+      "median_iou": 0.6173087872461568,
+      "max_distance_iou": 0.6136054935104135,
+      "iou_change": -0.003703293735743296
+    },
+    {
+      "eval_position": 50,
+      "dataset_index": 868,
+      "median_point_xy": [
+        254,
+        169
+      ],
+      "max_distance_point_xy": [
+        258,
+        169
+      ],
+      "median_iou": 0.7066911090742438,
+      "max_distance_iou": 0.7072804603452589,
+      "iou_change": 0.000589351271015115
+    },
+    {
+      "eval_position": 51,
+      "dataset_index": 907,
+      "median_point_xy": [
+        211,
+        293
+      ],
+      "max_distance_point_xy": [
+        221,
+        408
+      ],
+      "median_iou": 0.869279729744846,
+      "max_distance_iou": 0.8636665324730434,
+      "iou_change": -0.00561319727180265
+    },
+    {
+      "eval_position": 52,
+      "dataset_index": 921,
+      "median_point_xy": [
+        264,
+        166
+      ],
+      "max_distance_point_xy": [
+        272,
+        170
+      ],
+      "median_iou": 0.891345022180644,
+      "max_distance_iou": 0.8912708717050636,
+      "iou_change": -7.415047558045895e-05
+    },
+    {
+      "eval_position": 53,
+      "dataset_index": 933,
+      "median_point_xy": [
+        192,
+        169
+      ],
+      "max_distance_point_xy": [
+        186,
+        173
+      ],
+      "median_iou": 0.8964313071689272,
+      "max_distance_iou": 0.8951363508574641,
+      "iou_change": -0.0012949563114630358
+    },
+    {
+      "eval_position": 54,
+      "dataset_index": 942,
+      "median_point_xy": [
+        201,
+        211
+      ],
+      "max_distance_point_xy": [
+        0,
+        333
+      ],
+      "median_iou": 0.9456503342641956,
+      "max_distance_iou": 0.20103796189841727,
+      "iou_change": -0.7446123723657784
+    },
+    {
+      "eval_position": 55,
+      "dataset_index": 985,
+      "median_point_xy": [
+        159,
+        144
+      ],
+      "max_distance_point_xy": [
+        151,
+        162
+      ],
+      "median_iou": 0.07768815099068055,
+      "max_distance_iou": 0.20479087452471484,
+      "iou_change": 0.1271027235340343
+    },
+    {
+      "eval_position": 56,
+      "dataset_index": 1007,
+      "median_point_xy": [
+        323,
+        156
+      ],
+      "max_distance_point_xy": [
+        362,
+        133
+      ],
+      "median_iou": 0.45593786609970927,
+      "max_distance_iou": 0.4927866006709048,
+      "iou_change": 0.03684873457119553
+    },
+    {
+      "eval_position": 57,
+      "dataset_index": 1033,
+      "median_point_xy": [
+        235,
+        148
+      ],
+      "max_distance_point_xy": [
+        228,
+        160
+      ],
+      "median_iou": 0.27434730027744186,
+      "max_distance_iou": 0.2780506710169354,
+      "iou_change": 0.003703370739493561
+    },
+    {
+      "eval_position": 58,
+      "dataset_index": 1062,
+      "median_point_xy": [
+        268,
+        209
+      ],
+      "max_distance_point_xy": [
+        289,
+        211
+      ],
+      "median_iou": 0.6900172888518922,
+      "max_distance_iou": 0.6886985425722322,
+      "iou_change": -0.0013187462796599991
+    },
+    {
+      "eval_position": 59,
+      "dataset_index": 1071,
+      "median_point_xy": [
+        146,
+        258
+      ],
+      "max_distance_point_xy": [
+        155,
+        285
+      ],
+      "median_iou": 0.7882080638891834,
+      "max_distance_iou": 0.7889593144718672,
+      "iou_change": 0.0007512505826837712
+    },
+    {
+      "eval_position": 60,
+      "dataset_index": 1073,
+      "median_point_xy": [
+        194,
+        240
+      ],
+      "max_distance_point_xy": [
+        147,
+        169
+      ],
+      "median_iou": 0.6764232434760923,
+      "max_distance_iou": 0.00913030533593569,
+      "iou_change": -0.6672929381401566
+    },
+    {
+      "eval_position": 61,
+      "dataset_index": 1122,
+      "median_point_xy": [
+        93,
+        126
+      ],
+      "max_distance_point_xy": [
+        97,
+        118
+      ],
+      "median_iou": 0.7569233053678818,
+      "max_distance_iou": 0.756979506979507,
+      "iou_change": 5.620161162522841e-05
+    },
+    {
+      "eval_position": 62,
+      "dataset_index": 1125,
+      "median_point_xy": [
+        256,
+        202
+      ],
+      "max_distance_point_xy": [
+        499,
+        248
+      ],
+      "median_iou": 0.8222787318361955,
+      "max_distance_iou": 0.8469526081769874,
+      "iou_change": 0.024673876340791878
+    },
+    {
+      "eval_position": 63,
+      "dataset_index": 1157,
+      "median_point_xy": [
+        104,
+        112
+      ],
+      "max_distance_point_xy": [
+        113,
+        147
+      ],
+      "median_iou": 0.835543018335684,
+      "max_distance_iou": 0.8385840707964601,
+      "iou_change": 0.003041052460776128
+    },
+    {
+      "eval_position": 64,
+      "dataset_index": 1158,
+      "median_point_xy": [
+        122,
+        287
+      ],
+      "max_distance_point_xy": [
+        118,
+        256
+      ],
+      "median_iou": 0.6552348203782463,
+      "max_distance_iou": 0.655472073866208,
+      "iou_change": 0.0002372534879616639
+    },
+    {
+      "eval_position": 65,
+      "dataset_index": 1167,
+      "median_point_xy": [
+        305,
+        186
+      ],
+      "max_distance_point_xy": [
+        236,
+        213
+      ],
+      "median_iou": 0.7151361694725245,
+      "max_distance_iou": 0.6676113105359279,
+      "iou_change": -0.047524858936596526
+    },
+    {
+      "eval_position": 66,
+      "dataset_index": 1179,
+      "median_point_xy": [
+        158,
+        134
+      ],
+      "max_distance_point_xy": [
+        120,
+        149
+      ],
+      "median_iou": 0.772660261298358,
+      "max_distance_iou": 0.79142403388036,
+      "iou_change": 0.018763772582002014
+    },
+    {
+      "eval_position": 67,
+      "dataset_index": 1180,
+      "median_point_xy": [
+        238,
+        182
+      ],
+      "max_distance_point_xy": [
+        285,
+        182
+      ],
+      "median_iou": 0.7510336014432835,
+      "max_distance_iou": 0.7557338581485126,
+      "iou_change": 0.004700256705229111
+    },
+    {
+      "eval_position": 68,
+      "dataset_index": 1185,
+      "median_point_xy": [
+        248,
+        213
+      ],
+      "max_distance_point_xy": [
+        258,
+        155
+      ],
+      "median_iou": 0.5929012923768496,
+      "max_distance_iou": 0.5852502001915558,
+      "iou_change": -0.007651092185293806
+    },
+    {
+      "eval_position": 69,
+      "dataset_index": 1206,
+      "median_point_xy": [
+        258,
+        179
+      ],
+      "max_distance_point_xy": [
+        272,
+        203
+      ],
+      "median_iou": 0.8142774857801137,
+      "max_distance_iou": 0.8137970722583894,
+      "iou_change": -0.00048041352172434326
+    },
+    {
+      "eval_position": 70,
+      "dataset_index": 1230,
+      "median_point_xy": [
+        252,
+        254
+      ],
+      "max_distance_point_xy": [
+        245,
+        264
+      ],
+      "median_iou": 0.788163348856251,
+      "max_distance_iou": 0.7877710720130933,
+      "iou_change": -0.0003922768431576795
+    },
+    {
+      "eval_position": 71,
+      "dataset_index": 1238,
+      "median_point_xy": [
+        116,
+        194
+      ],
+      "max_distance_point_xy": [
+        109,
+        215
+      ],
+      "median_iou": 0.6795224361124154,
+      "max_distance_iou": 0.6869871838340001,
+      "iou_change": 0.007464747721584786
+    },
+    {
+      "eval_position": 72,
+      "dataset_index": 1278,
+      "median_point_xy": [
+        265,
+        209
+      ],
+      "max_distance_point_xy": [
+        281,
+        226
+      ],
+      "median_iou": 0.7342281344591365,
+      "max_distance_iou": 0.7344914140005578,
+      "iou_change": 0.00026327954142135734
+    },
+    {
+      "eval_position": 73,
+      "dataset_index": 1288,
+      "median_point_xy": [
+        184,
+        180
+      ],
+      "max_distance_point_xy": [
+        178,
+        94
+      ],
+      "median_iou": 0.6161151332180438,
+      "max_distance_iou": 0.6152617793400259,
+      "iou_change": -0.0008533538780178818
+    },
+    {
+      "eval_position": 74,
+      "dataset_index": 1314,
+      "median_point_xy": [
+        258,
+        155
+      ],
+      "max_distance_point_xy": [
+        251,
+        131
+      ],
+      "median_iou": 0.633967024840127,
+      "max_distance_iou": 0.6335260618180237,
+      "iou_change": -0.0004409630221032801
+    },
+    {
+      "eval_position": 75,
+      "dataset_index": 1322,
+      "median_point_xy": [
+        267,
+        116
+      ],
+      "max_distance_point_xy": [
+        249,
+        0
+      ],
+      "median_iou": 0.5507274907385865,
+      "max_distance_iou": 0.8110521277521539,
+      "iou_change": 0.26032463701356734
+    },
+    {
+      "eval_position": 76,
+      "dataset_index": 1326,
+      "median_point_xy": [
+        215,
+        249
+      ],
+      "max_distance_point_xy": [
+        233,
+        221
+      ],
+      "median_iou": 0.6604060296620472,
+      "max_distance_iou": 0.3048581129228319,
+      "iou_change": -0.3555479167392153
+    },
+    {
+      "eval_position": 77,
+      "dataset_index": 1423,
+      "median_point_xy": [
+        210,
+        256
+      ],
+      "max_distance_point_xy": [
+        207,
+        268
+      ],
+      "median_iou": 0.624299674267101,
+      "max_distance_iou": 0.6230549174288067,
+      "iou_change": -0.0012447568382942809
+    },
+    {
+      "eval_position": 78,
+      "dataset_index": 1428,
+      "median_point_xy": [
+        187,
+        249
+      ],
+      "max_distance_point_xy": [
+        210,
+        251
+      ],
+      "median_iou": 0.3806847622464028,
+      "max_distance_iou": 0.38155161393416426,
+      "iou_change": 0.0008668516877614607
+    },
+    {
+      "eval_position": 79,
+      "dataset_index": 1434,
+      "median_point_xy": [
+        276,
+        179
+      ],
+      "max_distance_point_xy": [
+        349,
+        136
+      ],
+      "median_iou": 0.6222418358340689,
+      "max_distance_iou": 0.22302031618604978,
+      "iou_change": -0.3992215196480191
+    },
+    {
+      "eval_position": 80,
+      "dataset_index": 1438,
+      "median_point_xy": [
+        258,
+        125
+      ],
+      "max_distance_point_xy": [
+        257,
+        122
+      ],
+      "median_iou": 0.2453010512902198,
+      "max_distance_iou": 0.24524245560952304,
+      "iou_change": -5.8595680696771346e-05
+    },
+    {
+      "eval_position": 81,
+      "dataset_index": 1442,
+      "median_point_xy": [
+        124,
+        272
+      ],
+      "max_distance_point_xy": [
+        0,
+        499
+      ],
+      "median_iou": 0.774903562514182,
+      "max_distance_iou": 0.0371447079455864,
+      "iou_change": -0.7377588545685956
+    },
+    {
+      "eval_position": 82,
+      "dataset_index": 1471,
+      "median_point_xy": [
+        287,
+        174
+      ],
+      "max_distance_point_xy": [
+        267,
+        98
+      ],
+      "median_iou": 0.14877570173193413,
+      "max_distance_iou": 0.8074277654175573,
+      "iou_change": 0.6586520636856232
+    },
+    {
+      "eval_position": 83,
+      "dataset_index": 1473,
+      "median_point_xy": [
+        196,
+        234
+      ],
+      "max_distance_point_xy": [
+        179,
+        221
+      ],
+      "median_iou": 0.6407297394934371,
+      "max_distance_iou": 0.6406782378642722,
+      "iou_change": -5.15016291648962e-05
+    },
+    {
+      "eval_position": 84,
+      "dataset_index": 1501,
+      "median_point_xy": [
+        261,
+        179
+      ],
+      "max_distance_point_xy": [
+        221,
+        177
+      ],
+      "median_iou": 0.8037015641663704,
+      "max_distance_iou": 0.8045238201147635,
+      "iou_change": 0.0008222559483931358
+    },
+    {
+      "eval_position": 85,
+      "dataset_index": 1505,
+      "median_point_xy": [
+        258,
+        157
+      ],
+      "max_distance_point_xy": [
+        252,
+        144
+      ],
+      "median_iou": 0.8186579515220078,
+      "max_distance_iou": 0.817972494923911,
+      "iou_change": -0.000685456598096823
+    },
+    {
+      "eval_position": 86,
+      "dataset_index": 1515,
+      "median_point_xy": [
+        269,
+        216
+      ],
+      "max_distance_point_xy": [
+        291,
+        332
+      ],
+      "median_iou": 0.9141704589021686,
+      "max_distance_iou": 0.9118145845110232,
+      "iou_change": -0.002355874391145485
+    },
+    {
+      "eval_position": 87,
+      "dataset_index": 1530,
+      "median_point_xy": [
+        248,
+        224
+      ],
+      "max_distance_point_xy": [
+        225,
+        226
+      ],
+      "median_iou": 0.825851845024119,
+      "max_distance_iou": 0.8204071666208833,
+      "iou_change": -0.005444678403235703
+    },
+    {
+      "eval_position": 88,
+      "dataset_index": 1543,
+      "median_point_xy": [
+        327,
+        203
+      ],
+      "max_distance_point_xy": [
+        499,
+        332
+      ],
+      "median_iou": 0.8178438661710037,
+      "max_distance_iou": 0.8178767043468127,
+      "iou_change": 3.283817580901349e-05
+    },
+    {
+      "eval_position": 89,
+      "dataset_index": 1544,
+      "median_point_xy": [
+        346,
+        180
+      ],
+      "max_distance_point_xy": [
+        499,
+        189
+      ],
+      "median_iou": 0.8635435634276886,
+      "max_distance_iou": 0.810042013912804,
+      "iou_change": -0.053501549514884617
+    },
+    {
+      "eval_position": 90,
+      "dataset_index": 1579,
+      "median_point_xy": [
+        250,
+        209
+      ],
+      "max_distance_point_xy": [
+        221,
+        185
+      ],
+      "median_iou": 0.7167925907872289,
+      "max_distance_iou": 0.7179883631037148,
+      "iou_change": 0.0011957723164859324
+    },
+    {
+      "eval_position": 91,
+      "dataset_index": 1587,
+      "median_point_xy": [
+        271,
+        183
+      ],
+      "max_distance_point_xy": [
+        254,
+        148
+      ],
+      "median_iou": 0.7430494886684824,
+      "max_distance_iou": 0.7431626567962163,
+      "iou_change": 0.00011316812773387586
+    },
+    {
+      "eval_position": 92,
+      "dataset_index": 1597,
+      "median_point_xy": [
+        257,
+        209
+      ],
+      "max_distance_point_xy": [
+        229,
+        148
+      ],
+      "median_iou": 0.6223102138846516,
+      "max_distance_iou": 0.6221891480894296,
+      "iou_change": -0.00012106579522197514
+    },
+    {
+      "eval_position": 93,
+      "dataset_index": 1610,
+      "median_point_xy": [
+        262,
+        220
+      ],
+      "max_distance_point_xy": [
+        277,
+        222
+      ],
+      "median_iou": 0.4792567868805051,
+      "max_distance_iou": 0.803766700284429,
+      "iou_change": 0.3245099134039239
+    },
+    {
+      "eval_position": 94,
+      "dataset_index": 1657,
+      "median_point_xy": [
+        297,
+        186
+      ],
+      "max_distance_point_xy": [
+        323,
+        185
+      ],
+      "median_iou": 0.8477126776293553,
+      "max_distance_iou": 0.8538860103626943,
+      "iou_change": 0.0061733327333389765
+    },
+    {
+      "eval_position": 95,
+      "dataset_index": 1663,
+      "median_point_xy": [
+        147,
+        229
+      ],
+      "max_distance_point_xy": [
+        157,
+        262
+      ],
+      "median_iou": 0.8156108193089648,
+      "max_distance_iou": 0.814461313399818,
+      "iou_change": -0.001149505909146864
+    },
+    {
+      "eval_position": 96,
+      "dataset_index": 1749,
+      "median_point_xy": [
+        230,
+        207
+      ],
+      "max_distance_point_xy": [
+        211,
+        222
+      ],
+      "median_iou": 0.6707579597930627,
+      "max_distance_iou": 0.6752683660267842,
+      "iou_change": 0.0045104062337214534
+    },
+    {
+      "eval_position": 97,
+      "dataset_index": 1769,
+      "median_point_xy": [
+        204,
+        149
+      ],
+      "max_distance_point_xy": [
+        192,
+        190
+      ],
+      "median_iou": 0.7897977801429223,
+      "max_distance_iou": 0.7850923549247572,
+      "iou_change": -0.0047054252181651934
+    },
+    {
+      "eval_position": 98,
+      "dataset_index": 1783,
+      "median_point_xy": [
+        274,
+        200
+      ],
+      "max_distance_point_xy": [
+        324,
+        217
+      ],
+      "median_iou": 0.9015239682939105,
+      "max_distance_iou": 0.8540293855743544,
+      "iou_change": -0.04749458271955609
+    },
+    {
+      "eval_position": 99,
+      "dataset_index": 1784,
+      "median_point_xy": [
+        211,
+        243
+      ],
+      "max_distance_point_xy": [
+        208,
+        192
+      ],
+      "median_iou": 0.7269103636010111,
+      "max_distance_iou": 0.7029085779539195,
+      "iou_change": -0.024001785647091656
+    },
+    {
+      "eval_position": 100,
+      "dataset_index": 1786,
+      "median_point_xy": [
+        219,
+        243
+      ],
+      "max_distance_point_xy": [
+        201,
+        184
+      ],
+      "median_iou": 0.7700526952435244,
+      "max_distance_iou": 0.753517805480667,
+      "iou_change": -0.01653488976285733
+    },
+    {
+      "eval_position": 101,
+      "dataset_index": 1863,
+      "median_point_xy": [
+        331,
+        146
+      ],
+      "max_distance_point_xy": [
+        436,
+        0
+      ],
+      "median_iou": 0.9365123860545277,
+      "max_distance_iou": 0.9170148042993308,
+      "iou_change": -0.01949758175519689
+    },
+    {
+      "eval_position": 102,
+      "dataset_index": 1878,
+      "median_point_xy": [
+        228,
+        198
+      ],
+      "max_distance_point_xy": [
+        232,
+        204
+      ],
+      "median_iou": 0.8060246794096299,
+      "max_distance_iou": 0.8053426810105161,
+      "iou_change": -0.000681998399113759
+    },
+    {
+      "eval_position": 103,
+      "dataset_index": 1936,
+      "median_point_xy": [
+        204,
+        267
+      ],
+      "max_distance_point_xy": [
+        209,
+        256
+      ],
+      "median_iou": 0.7386311349693252,
+      "max_distance_iou": 0.7381641216255054,
+      "iou_change": -0.00046701334381982207
+    },
+    {
+      "eval_position": 104,
+      "dataset_index": 1939,
+      "median_point_xy": [
+        221,
+        170
+      ],
+      "max_distance_point_xy": [
+        239,
+        146
+      ],
+      "median_iou": 0.8651930723094549,
+      "max_distance_iou": 0.8982655527755397,
+      "iou_change": 0.0330724804660848
+    },
+    {
+      "eval_position": 105,
+      "dataset_index": 1941,
+      "median_point_xy": [
+        234,
+        198
+      ],
+      "max_distance_point_xy": [
+        358,
+        200
+      ],
+      "median_iou": 0.8397592031525377,
+      "max_distance_iou": 0.8451872902082322,
+      "iou_change": 0.00542808705569453
+    },
+    {
+      "eval_position": 106,
+      "dataset_index": 1951,
+      "median_point_xy": [
+        208,
+        209
+      ],
+      "max_distance_point_xy": [
+        214,
+        210
+      ],
+      "median_iou": 0.6859410830834363,
+      "max_distance_iou": 0.684781460219068,
+      "iou_change": -0.001159622864368215
+    },
+    {
+      "eval_position": 107,
+      "dataset_index": 2017,
+      "median_point_xy": [
+        201,
+        235
+      ],
+      "max_distance_point_xy": [
+        200,
+        216
+      ],
+      "median_iou": 0.8209546474672772,
+      "max_distance_iou": 0.8265687047310261,
+      "iou_change": 0.005614057263748862
+    },
+    {
+      "eval_position": 108,
+      "dataset_index": 2032,
+      "median_point_xy": [
+        316,
+        235
+      ],
+      "max_distance_point_xy": [
+        338,
+        348
+      ],
+      "median_iou": 0.48591516287790015,
+      "max_distance_iou": 0.4850085152258488,
+      "iou_change": -0.00090664765205134
+    },
+    {
+      "eval_position": 109,
+      "dataset_index": 2065,
+      "median_point_xy": [
+        169,
+        284
+      ],
+      "max_distance_point_xy": [
+        166,
+        295
+      ],
+      "median_iou": 0.7436171634808181,
+      "max_distance_iou": 0.7428838522588522,
+      "iou_change": -0.0007333112219658489
+    },
+    {
+      "eval_position": 110,
+      "dataset_index": 2080,
+      "median_point_xy": [
+        341,
+        221
+      ],
+      "max_distance_point_xy": [
+        166,
+        198
+      ],
+      "median_iou": 0.7963217302075933,
+      "max_distance_iou": 0.8035020075202345,
+      "iou_change": 0.007180277312641148
+    },
+    {
+      "eval_position": 111,
+      "dataset_index": 2095,
+      "median_point_xy": [
+        229,
+        246
+      ],
+      "max_distance_point_xy": [
+        252,
+        102
+      ],
+      "median_iou": 0.33150629313844904,
+      "max_distance_iou": 0.1508096780339112,
+      "iou_change": -0.18069661510453783
+    },
+    {
+      "eval_position": 112,
+      "dataset_index": 2142,
+      "median_point_xy": [
+        187,
+        275
+      ],
+      "max_distance_point_xy": [
+        116,
+        374
+      ],
+      "median_iou": 0.6060418421934161,
+      "max_distance_iou": 0.5453604787739806,
+      "iou_change": -0.06068136341943542
+    },
+    {
+      "eval_position": 113,
+      "dataset_index": 2144,
+      "median_point_xy": [
+        191,
+        239
+      ],
+      "max_distance_point_xy": [
+        213,
+        245
+      ],
+      "median_iou": 0.650840534171249,
+      "max_distance_iou": 0.6498025202181681,
+      "iou_change": -0.0010380139530808963
+    },
+    {
+      "eval_position": 114,
+      "dataset_index": 2146,
+      "median_point_xy": [
+        230,
+        99
+      ],
+      "max_distance_point_xy": [
+        227,
+        119
+      ],
+      "median_iou": 0.7466373867691463,
+      "max_distance_iou": 0.7530110976700153,
+      "iou_change": 0.006373710900869023
+    },
+    {
+      "eval_position": 115,
+      "dataset_index": 2174,
+      "median_point_xy": [
+        196,
+        147
+      ],
+      "max_distance_point_xy": [
+        181,
+        161
+      ],
+      "median_iou": 0.7439755628464758,
+      "max_distance_iou": 0.7426748715632586,
+      "iou_change": -0.0013006912832171924
+    },
+    {
+      "eval_position": 116,
+      "dataset_index": 2196,
+      "median_point_xy": [
+        227,
+        261
+      ],
+      "max_distance_point_xy": [
+        242,
+        274
+      ],
+      "median_iou": 0.6496888013253929,
+      "max_distance_iou": 0.6503148600497501,
+      "iou_change": 0.0006260587243572813
+    },
+    {
+      "eval_position": 117,
+      "dataset_index": 2236,
+      "median_point_xy": [
+        177,
+        219
+      ],
+      "max_distance_point_xy": [
+        183,
+        242
+      ],
+      "median_iou": 0.04997922149882255,
+      "max_distance_iou": 0.8353513138094687,
+      "iou_change": 0.7853720923106462
+    },
+    {
+      "eval_position": 118,
+      "dataset_index": 2241,
+      "median_point_xy": [
+        207,
+        156
+      ],
+      "max_distance_point_xy": [
+        219,
+        79
+      ],
+      "median_iou": 0.7401698985626725,
+      "max_distance_iou": 0.7420657265745744,
+      "iou_change": 0.0018958280119019122
+    },
+    {
+      "eval_position": 119,
+      "dataset_index": 2245,
+      "median_point_xy": [
+        117,
+        235
+      ],
+      "max_distance_point_xy": [
+        107,
+        216
+      ],
+      "median_iou": 0.10164620535714286,
+      "max_distance_iou": 0.873609907120743,
+      "iou_change": 0.7719637017636002
+    },
+    {
+      "eval_position": 120,
+      "dataset_index": 2288,
+      "median_point_xy": [
+        187,
+        198
+      ],
+      "max_distance_point_xy": [
+        245,
+        301
+      ],
+      "median_iou": 0.9054661483723109,
+      "max_distance_iou": 0.8961995605273672,
+      "iou_change": -0.009266587844943719
+    },
+    {
+      "eval_position": 121,
+      "dataset_index": 2333,
+      "median_point_xy": [
+        299,
+        180
+      ],
+      "max_distance_point_xy": [
+        496,
+        190
+      ],
+      "median_iou": 0.8504400196083008,
+      "max_distance_iou": 0.8574209092978174,
+      "iou_change": 0.006980889689516601
+    },
+    {
+      "eval_position": 122,
+      "dataset_index": 2334,
+      "median_point_xy": [
+        236,
+        318
+      ],
+      "max_distance_point_xy": [
+        230,
+        377
+      ],
+      "median_iou": 0.8620848590377179,
+      "max_distance_iou": 0.8622283687398359,
+      "iou_change": 0.000143509702117961
+    },
+    {
+      "eval_position": 123,
+      "dataset_index": 2348,
+      "median_point_xy": [
+        282,
+        194
+      ],
+      "max_distance_point_xy": [
+        296,
+        208
+      ],
+      "median_iou": 0.9185407960004687,
+      "max_distance_iou": 0.9186572989851678,
+      "iou_change": 0.00011650298469911835
+    },
+    {
+      "eval_position": 124,
+      "dataset_index": 2351,
+      "median_point_xy": [
+        133,
+        278
+      ],
+      "max_distance_point_xy": [
+        98,
+        269
+      ],
+      "median_iou": 0.8717520702880082,
+      "max_distance_iou": 0.9005286529921759,
+      "iou_change": 0.02877658270416772
+    },
+    {
+      "eval_position": 125,
+      "dataset_index": 2358,
+      "median_point_xy": [
+        194,
+        237
+      ],
+      "max_distance_point_xy": [
+        147,
+        374
+      ],
+      "median_iou": 0.8436635736255783,
+      "max_distance_iou": 0.8300777919164622,
+      "iou_change": -0.013585781709116063
+    },
+    {
+      "eval_position": 126,
+      "dataset_index": 2363,
+      "median_point_xy": [
+        304,
+        215
+      ],
+      "max_distance_point_xy": [
+        349,
+        187
+      ],
+      "median_iou": 0.8274787851719517,
+      "max_distance_iou": 0.8332424572882589,
+      "iou_change": 0.005763672116307128
+    },
+    {
+      "eval_position": 127,
+      "dataset_index": 2370,
+      "median_point_xy": [
+        254,
+        230
+      ],
+      "max_distance_point_xy": [
+        177,
+        349
+      ],
+      "median_iou": 0.8402510703142008,
+      "max_distance_iou": 0.8712068478976578,
+      "iou_change": 0.030955777583457023
+    },
+    {
+      "eval_position": 128,
+      "dataset_index": 2379,
+      "median_point_xy": [
+        228,
+        286
+      ],
+      "max_distance_point_xy": [
+        228,
+        275
+      ],
+      "median_iou": 0.713622722654127,
+      "max_distance_iou": 0.8529828895598865,
+      "iou_change": 0.13936016690575959
+    },
+    {
+      "eval_position": 129,
+      "dataset_index": 2382,
+      "median_point_xy": [
+        132,
+        116
+      ],
+      "max_distance_point_xy": [
+        147,
+        116
+      ],
+      "median_iou": 0.6526555480337252,
+      "max_distance_iou": 0.6906829459388875,
+      "iou_change": 0.0380273979051623
+    },
+    {
+      "eval_position": 130,
+      "dataset_index": 2395,
+      "median_point_xy": [
+        153,
+        218
+      ],
+      "max_distance_point_xy": [
+        0,
+        233
+      ],
+      "median_iou": 0.8549106788408098,
+      "max_distance_iou": 0.881141435143498,
+      "iou_change": 0.02623075630268812
+    },
+    {
+      "eval_position": 131,
+      "dataset_index": 2416,
+      "median_point_xy": [
+        203,
+        206
+      ],
+      "max_distance_point_xy": [
+        161,
+        221
+      ],
+      "median_iou": 0.7135574018126888,
+      "max_distance_iou": 0.7112877658693544,
+      "iou_change": -0.0022696359433344027
+    },
+    {
+      "eval_position": 132,
+      "dataset_index": 2422,
+      "median_point_xy": [
+        209,
+        197
+      ],
+      "max_distance_point_xy": [
+        277,
+        187
+      ],
+      "median_iou": 0.8580992577499637,
+      "max_distance_iou": 0.7565849727076236,
+      "iou_change": -0.10151428504234006
+    },
+    {
+      "eval_position": 133,
+      "dataset_index": 2433,
+      "median_point_xy": [
+        178,
+        269
+      ],
+      "max_distance_point_xy": [
+        185,
+        219
+      ],
+      "median_iou": 0.7297186687261542,
+      "max_distance_iou": 0.03592533024920035,
+      "iou_change": -0.6937933384769539
+    },
+    {
+      "eval_position": 134,
+      "dataset_index": 2487,
+      "median_point_xy": [
+        103,
+        69
+      ],
+      "max_distance_point_xy": [
+        120,
+        44
+      ],
+      "median_iou": 0.4396257428246302,
+      "max_distance_iou": 0.40271317829457365,
+      "iou_change": -0.036912564530056535
+    },
+    {
+      "eval_position": 135,
+      "dataset_index": 2488,
+      "median_point_xy": [
+        218,
+        214
+      ],
+      "max_distance_point_xy": [
+        118,
+        369
+      ],
+      "median_iou": 0.9066122964972866,
+      "max_distance_iou": 0.9151743857174959,
+      "iou_change": 0.00856208922020929
+    },
+    {
+      "eval_position": 136,
+      "dataset_index": 2496,
+      "median_point_xy": [
+        288,
+        237
+      ],
+      "max_distance_point_xy": [
+        310,
+        182
+      ],
+      "median_iou": 0.23418011158388752,
+      "max_distance_iou": 0.232982100773231,
+      "iou_change": -0.0011980108106565135
+    },
+    {
+      "eval_position": 137,
+      "dataset_index": 2502,
+      "median_point_xy": [
+        206,
+        156
+      ],
+      "max_distance_point_xy": [
+        58,
+        332
+      ],
+      "median_iou": 0.8479399350042957,
+      "max_distance_iou": 0.1175637499347779,
+      "iou_change": -0.7303761850695177
+    },
+    {
+      "eval_position": 138,
+      "dataset_index": 2506,
+      "median_point_xy": [
+        156,
+        229
+      ],
+      "max_distance_point_xy": [
+        161,
+        220
+      ],
+      "median_iou": 0.715662968832541,
+      "max_distance_iou": 0.715294272895223,
+      "iou_change": -0.00036869593731803096
+    },
+    {
+      "eval_position": 139,
+      "dataset_index": 2511,
+      "median_point_xy": [
+        229,
+        143
+      ],
+      "max_distance_point_xy": [
+        285,
+        92
+      ],
+      "median_iou": 0.5734216126743911,
+      "max_distance_iou": 0.09063027143076215,
+      "iou_change": -0.48279134124362894
+    },
+    {
+      "eval_position": 140,
+      "dataset_index": 2516,
+      "median_point_xy": [
+        222,
+        302
+      ],
+      "max_distance_point_xy": [
+        210,
+        304
+      ],
+      "median_iou": 0.6795438064473598,
+      "max_distance_iou": 0.23365983971504897,
+      "iou_change": -0.4458839667323108
+    },
+    {
+      "eval_position": 141,
+      "dataset_index": 2519,
+      "median_point_xy": [
+        289,
+        164
+      ],
+      "max_distance_point_xy": [
+        260,
+        137
+      ],
+      "median_iou": 0.8528418683173888,
+      "max_distance_iou": 0.8865909332200871,
+      "iou_change": 0.033749064902698245
+    },
+    {
+      "eval_position": 142,
+      "dataset_index": 2535,
+      "median_point_xy": [
+        218,
+        303
+      ],
+      "max_distance_point_xy": [
+        193,
+        328
+      ],
+      "median_iou": 0.7140919533866638,
+      "max_distance_iou": 0.710540086479936,
+      "iou_change": -0.0035518669067277076
+    },
+    {
+      "eval_position": 143,
+      "dataset_index": 2556,
+      "median_point_xy": [
+        265,
+        194
+      ],
+      "max_distance_point_xy": [
+        329,
+        201
+      ],
+      "median_iou": 0.8667328290015729,
+      "max_distance_iou": 0.8665543386689132,
+      "iou_change": -0.0001784903326597087
+    },
+    {
+      "eval_position": 144,
+      "dataset_index": 2583,
+      "median_point_xy": [
+        253,
+        162
+      ],
+      "max_distance_point_xy": [
+        270,
+        156
+      ],
+      "median_iou": 0.3179774919269185,
+      "max_distance_iou": 0.26913852336812083,
+      "iou_change": -0.04883896855879766
+    },
+    {
+      "eval_position": 145,
+      "dataset_index": 2598,
+      "median_point_xy": [
+        135,
+        140
+      ],
+      "max_distance_point_xy": [
+        120,
+        224
+      ],
+      "median_iou": 0.15776684644105968,
+      "max_distance_iou": 0.7791177584248391,
+      "iou_change": 0.6213509119837795
+    },
+    {
+      "eval_position": 146,
+      "dataset_index": 2622,
+      "median_point_xy": [
+        195,
+        235
+      ],
+      "max_distance_point_xy": [
+        204,
+        240
+      ],
+      "median_iou": 0.3939515557863922,
+      "max_distance_iou": 0.007511037211169085,
+      "iou_change": -0.3864405185752231
+    },
+    {
+      "eval_position": 147,
+      "dataset_index": 2635,
+      "median_point_xy": [
+        261,
+        172
+      ],
+      "max_distance_point_xy": [
+        278,
+        175
+      ],
+      "median_iou": 0.8838429743123634,
+      "max_distance_iou": 0.883598169762134,
+      "iou_change": -0.00024480455022934944
+    },
+    {
+      "eval_position": 148,
+      "dataset_index": 2659,
+      "median_point_xy": [
+        157,
+        335
+      ],
+      "max_distance_point_xy": [
+        139,
+        350
+      ],
+      "median_iou": 0.7269031083031673,
+      "max_distance_iou": 0.8867744652493035,
+      "iou_change": 0.1598713569461362
+    },
+    {
+      "eval_position": 149,
+      "dataset_index": 2668,
+      "median_point_xy": [
+        264,
+        262
+      ],
+      "max_distance_point_xy": [
+        272,
+        362
+      ],
+      "median_iou": 0.06843566242896094,
+      "max_distance_iou": 0.7843311148984738,
+      "iou_change": 0.7158954524695129
+    },
+    {
+      "eval_position": 150,
+      "dataset_index": 2688,
+      "median_point_xy": [
+        269,
+        182
+      ],
+      "max_distance_point_xy": [
+        240,
+        183
+      ],
+      "median_iou": 0.7562585468137478,
+      "max_distance_iou": 0.7573329439465567,
+      "iou_change": 0.0010743971328088797
+    },
+    {
+      "eval_position": 151,
+      "dataset_index": 2716,
+      "median_point_xy": [
+        308,
+        184
+      ],
+      "max_distance_point_xy": [
+        424,
+        332
+      ],
+      "median_iou": 0.9461393315523007,
+      "max_distance_iou": 0.9475423417655975,
+      "iou_change": 0.001403010213296807
+    },
+    {
+      "eval_position": 152,
+      "dataset_index": 2779,
+      "median_point_xy": [
+        206,
+        308
+      ],
+      "max_distance_point_xy": [
+        205,
+        255
+      ],
+      "median_iou": 0.686631415485621,
+      "max_distance_iou": 0.6944692859556032,
+      "iou_change": 0.007837870469982189
+    },
+    {
+      "eval_position": 153,
+      "dataset_index": 2795,
+      "median_point_xy": [
+        221,
+        191
+      ],
+      "max_distance_point_xy": [
+        240,
+        191
+      ],
+      "median_iou": 0.7730283351103356,
+      "max_distance_iou": 0.7749562738874134,
+      "iou_change": 0.0019279387770777534
+    },
+    {
+      "eval_position": 154,
+      "dataset_index": 2826,
+      "median_point_xy": [
+        297,
+        198
+      ],
+      "max_distance_point_xy": [
+        466,
+        334
+      ],
+      "median_iou": 0.944956700205236,
+      "max_distance_iou": 0.2781946256196191,
+      "iou_change": -0.6667620745856169
+    },
+    {
+      "eval_position": 155,
+      "dataset_index": 2873,
+      "median_point_xy": [
+        275,
+        163
+      ],
+      "max_distance_point_xy": [
+        204,
+        174
+      ],
+      "median_iou": 0.5681519914542957,
+      "max_distance_iou": 0.7209527498063517,
+      "iou_change": 0.15280075835205598
+    },
+    {
+      "eval_position": 156,
+      "dataset_index": 2876,
+      "median_point_xy": [
+        244,
+        141
+      ],
+      "max_distance_point_xy": [
+        220,
+        142
+      ],
+      "median_iou": 0.7564593691417394,
+      "max_distance_iou": 0.7572446039254064,
+      "iou_change": 0.0007852347836669882
+    },
+    {
+      "eval_position": 157,
+      "dataset_index": 2879,
+      "median_point_xy": [
+        180,
+        184
+      ],
+      "max_distance_point_xy": [
+        157,
+        116
+      ],
+      "median_iou": 0.700236728504897,
+      "max_distance_iou": 0.03998940093183474,
+      "iou_change": -0.6602473275730623
+    },
+    {
+      "eval_position": 158,
+      "dataset_index": 2882,
+      "median_point_xy": [
+        213,
+        241
+      ],
+      "max_distance_point_xy": [
+        211,
+        200
+      ],
+      "median_iou": 0.6287769784172662,
+      "max_distance_iou": 0.6276412008966303,
+      "iou_change": -0.0011357775206358722
+    },
+    {
+      "eval_position": 159,
+      "dataset_index": 2896,
+      "median_point_xy": [
+        202,
+        188
+      ],
+      "max_distance_point_xy": [
+        207,
+        172
+      ],
+      "median_iou": 0.8667409916068912,
+      "max_distance_iou": 0.8637687841887955,
+      "iou_change": -0.0029722074180956737
+    },
+    {
+      "eval_position": 160,
+      "dataset_index": 2908,
+      "median_point_xy": [
+        298,
+        190
+      ],
+      "max_distance_point_xy": [
+        289,
+        181
+      ],
+      "median_iou": 0.8556630032425607,
+      "max_distance_iou": 0.865206798367922,
+      "iou_change": 0.009543795125361298
+    },
+    {
+      "eval_position": 161,
+      "dataset_index": 2973,
+      "median_point_xy": [
+        273,
+        179
+      ],
+      "max_distance_point_xy": [
+        308,
+        159
+      ],
+      "median_iou": 0.8629163028564301,
+      "max_distance_iou": 0.012082936129647283,
+      "iou_change": -0.8508333667267828
+    },
+    {
+      "eval_position": 162,
+      "dataset_index": 2984,
+      "median_point_xy": [
+        281,
+        152
+      ],
+      "max_distance_point_xy": [
+        335,
+        145
+      ],
+      "median_iou": 0.7954817912992515,
+      "max_distance_iou": 0.7987211044520548,
+      "iou_change": 0.003239313152803347
+    },
+    {
+      "eval_position": 163,
+      "dataset_index": 2992,
+      "median_point_xy": [
+        188,
+        148
+      ],
+      "max_distance_point_xy": [
+        170,
+        140
+      ],
+      "median_iou": 0.29488955989410987,
+      "max_distance_iou": 0.2950268469568276,
+      "iou_change": 0.00013728706271776137
+    },
+    {
+      "eval_position": 164,
+      "dataset_index": 3038,
+      "median_point_xy": [
+        242,
+        209
+      ],
+      "max_distance_point_xy": [
+        243,
+        210
+      ],
+      "median_iou": 0.7896437084431063,
+      "max_distance_iou": 0.789767558580884,
+      "iou_change": 0.00012385013777771459
+    },
+    {
+      "eval_position": 165,
+      "dataset_index": 3058,
+      "median_point_xy": [
+        232,
+        208
+      ],
+      "max_distance_point_xy": [
+        188,
+        228
+      ],
+      "median_iou": 0.8050843596713694,
+      "max_distance_iou": 0.8098730864047236,
+      "iou_change": 0.004788726733354176
+    },
+    {
+      "eval_position": 166,
+      "dataset_index": 3098,
+      "median_point_xy": [
+        245,
+        179
+      ],
+      "max_distance_point_xy": [
+        213,
+        180
+      ],
+      "median_iou": 0.7156329865735575,
+      "max_distance_iou": 0.7189195053156867,
+      "iou_change": 0.003286518742129263
+    },
+    {
+      "eval_position": 167,
+      "dataset_index": 3138,
+      "median_point_xy": [
+        177,
+        407
+      ],
+      "max_distance_point_xy": [
+        165,
+        426
+      ],
+      "median_iou": 0.6490922294843864,
+      "max_distance_iou": 0.6427856427856428,
+      "iou_change": -0.006306586698743621
+    },
+    {
+      "eval_position": 168,
+      "dataset_index": 3140,
+      "median_point_xy": [
+        214,
+        152
+      ],
+      "max_distance_point_xy": [
+        179,
+        146
+      ],
+      "median_iou": 0.6141755156053319,
+      "max_distance_iou": 0.016524048391856005,
+      "iou_change": -0.5976514672134758
+    },
+    {
+      "eval_position": 169,
+      "dataset_index": 3182,
+      "median_point_xy": [
+        229,
+        302
+      ],
+      "max_distance_point_xy": [
+        191,
+        214
+      ],
+      "median_iou": 0.8003130799947508,
+      "max_distance_iou": 0.8000206144994894,
+      "iou_change": -0.00029246549526140697
+    },
+    {
+      "eval_position": 170,
+      "dataset_index": 3187,
+      "median_point_xy": [
+        171,
+        107
+      ],
+      "max_distance_point_xy": [
+        182,
+        114
+      ],
+      "median_iou": 0.7542016806722689,
+      "max_distance_iou": 0.7541182974018795,
+      "iou_change": -8.338327038936999e-05
+    },
+    {
+      "eval_position": 171,
+      "dataset_index": 3238,
+      "median_point_xy": [
+        213,
+        174
+      ],
+      "max_distance_point_xy": [
+        0,
+        247
+      ],
+      "median_iou": 0.478565625129102,
+      "max_distance_iou": 0.47808207797961894,
+      "iou_change": -0.00048354714948306565
+    },
+    {
+      "eval_position": 172,
+      "dataset_index": 3292,
+      "median_point_xy": [
+        318,
+        173
+      ],
+      "max_distance_point_xy": [
+        259,
+        186
+      ],
+      "median_iou": 0.7849889904478274,
+      "max_distance_iou": 0.7872617328233371,
+      "iou_change": 0.002272742375509673
+    },
+    {
+      "eval_position": 173,
+      "dataset_index": 3298,
+      "median_point_xy": [
+        249,
+        376
+      ],
+      "max_distance_point_xy": [
+        320,
+        416
+      ],
+      "median_iou": 0.8549704047082267,
+      "max_distance_iou": 0.8595136029879886,
+      "iou_change": 0.004543198279761906
+    },
+    {
+      "eval_position": 174,
+      "dataset_index": 3365,
+      "median_point_xy": [
+        178,
+        267
+      ],
+      "max_distance_point_xy": [
+        186,
+        268
+      ],
+      "median_iou": 0.08720980784279628,
+      "max_distance_iou": 0.08834014433527519,
+      "iou_change": 0.0011303364924789144
+    },
+    {
+      "eval_position": 175,
+      "dataset_index": 3373,
+      "median_point_xy": [
+        248,
+        228
+      ],
+      "max_distance_point_xy": [
+        248,
+        226
+      ],
+      "median_iou": 0.7449618335589961,
+      "max_distance_iou": 0.7451422963689892,
+      "iou_change": 0.00018046280999306497
+    },
+    {
+      "eval_position": 176,
+      "dataset_index": 3380,
+      "median_point_xy": [
+        262,
+        204
+      ],
+      "max_distance_point_xy": [
+        274,
+        210
+      ],
+      "median_iou": 0.8037006956460327,
+      "max_distance_iou": 0.8026803032974784,
+      "iou_change": -0.0010203923485543331
+    },
+    {
+      "eval_position": 177,
+      "dataset_index": 3388,
+      "median_point_xy": [
+        202,
+        263
+      ],
+      "max_distance_point_xy": [
+        215,
+        275
+      ],
+      "median_iou": 0.526453535190852,
+      "max_distance_iou": 0.5266655925239668,
+      "iou_change": 0.00021205733311480124
+    },
+    {
+      "eval_position": 178,
+      "dataset_index": 3391,
+      "median_point_xy": [
+        293,
+        270
+      ],
+      "max_distance_point_xy": [
+        294,
+        268
+      ],
+      "median_iou": 0.7626881631981575,
+      "max_distance_iou": 0.7627509049029286,
+      "iou_change": 6.274170477116314e-05
+    },
+    {
+      "eval_position": 179,
+      "dataset_index": 3460,
+      "median_point_xy": [
+        184,
+        243
+      ],
+      "max_distance_point_xy": [
+        190,
+        227
+      ],
+      "median_iou": 0.7603241032696975,
+      "max_distance_iou": 0.7710360063563427,
+      "iou_change": 0.01071190308664527
+    },
+    {
+      "eval_position": 180,
+      "dataset_index": 3482,
+      "median_point_xy": [
+        235,
+        252
+      ],
+      "max_distance_point_xy": [
+        120,
+        275
+      ],
+      "median_iou": 0.8088392550894821,
+      "max_distance_iou": 0.8116640510302232,
+      "iou_change": 0.0028247959407411427
+    },
+    {
+      "eval_position": 181,
+      "dataset_index": 3541,
+      "median_point_xy": [
+        116,
+        360
+      ],
+      "max_distance_point_xy": [
+        133,
+        380
+      ],
+      "median_iou": 0.7875085031871205,
+      "max_distance_iou": 0.7866670022146165,
+      "iou_change": -0.0008415009725040168
+    },
+    {
+      "eval_position": 182,
+      "dataset_index": 3544,
+      "median_point_xy": [
+        242,
+        168
+      ],
+      "max_distance_point_xy": [
+        238,
+        172
+      ],
+      "median_iou": 0.8623987765437361,
+      "max_distance_iou": 0.8624402963557272,
+      "iou_change": 4.151981199107535e-05
+    },
+    {
+      "eval_position": 183,
+      "dataset_index": 3553,
+      "median_point_xy": [
+        180,
+        233
+      ],
+      "max_distance_point_xy": [
+        167,
+        230
+      ],
+      "median_iou": 0.8195428203477141,
+      "max_distance_iou": 0.8195142378559463,
+      "iou_change": -2.8582491767736862e-05
+    },
+    {
+      "eval_position": 184,
+      "dataset_index": 3557,
+      "median_point_xy": [
+        348,
+        184
+      ],
+      "max_distance_point_xy": [
+        360,
+        190
+      ],
+      "median_iou": 0.7933751703771014,
+      "max_distance_iou": 0.788820493865772,
+      "iou_change": -0.0045546765113293475
+    },
+    {
+      "eval_position": 185,
+      "dataset_index": 3575,
+      "median_point_xy": [
+        204,
+        219
+      ],
+      "max_distance_point_xy": [
+        208,
+        176
+      ],
+      "median_iou": 0.8473004947300494,
+      "max_distance_iou": 0.8775289057699827,
+      "iou_change": 0.030228411039933234
+    },
+    {
+      "eval_position": 186,
+      "dataset_index": 3578,
+      "median_point_xy": [
+        166,
+        288
+      ],
+      "max_distance_point_xy": [
+        19,
+        499
+      ],
+      "median_iou": 0.9080161060044596,
+      "max_distance_iou": 0.9124516915033524,
+      "iou_change": 0.00443558549889278
+    },
+    {
+      "eval_position": 187,
+      "dataset_index": 3588,
+      "median_point_xy": [
+        133,
+        259
+      ],
+      "max_distance_point_xy": [
+        121,
+        267
+      ],
+      "median_iou": 0.8399430003689708,
+      "max_distance_iou": 0.8409371775107974,
+      "iou_change": 0.000994177141826591
+    },
+    {
+      "eval_position": 188,
+      "dataset_index": 3603,
+      "median_point_xy": [
+        239,
+        155
+      ],
+      "max_distance_point_xy": [
+        230,
+        114
+      ],
+      "median_iou": 0.727885918958274,
+      "max_distance_iou": 0.7279011767068946,
+      "iou_change": 1.5257748620545186e-05
+    },
+    {
+      "eval_position": 189,
+      "dataset_index": 3610,
+      "median_point_xy": [
+        161,
+        237
+      ],
+      "max_distance_point_xy": [
+        160,
+        251
+      ],
+      "median_iou": 0.7908486532039077,
+      "max_distance_iou": 0.8217238085828146,
+      "iou_change": 0.030875155378906838
+    },
+    {
+      "eval_position": 190,
+      "dataset_index": 3626,
+      "median_point_xy": [
+        231,
+        182
+      ],
+      "max_distance_point_xy": [
+        227,
+        201
+      ],
+      "median_iou": 0.7471937826822808,
+      "max_distance_iou": 0.7457403689533695,
+      "iou_change": -0.0014534137289112792
+    },
+    {
+      "eval_position": 191,
+      "dataset_index": 3635,
+      "median_point_xy": [
+        266,
+        159
+      ],
+      "max_distance_point_xy": [
+        223,
+        163
+      ],
+      "median_iou": 0.7018072289156626,
+      "max_distance_iou": 0.7004682892987223,
+      "iou_change": -0.0013389396169403156
+    },
+    {
+      "eval_position": 192,
+      "dataset_index": 3637,
+      "median_point_xy": [
+        282,
+        214
+      ],
+      "max_distance_point_xy": [
+        305,
+        215
+      ],
+      "median_iou": 0.43553251150732764,
+      "max_distance_iou": 0.30870263630350564,
+      "iou_change": -0.126829875203822
+    },
+    {
+      "eval_position": 193,
+      "dataset_index": 3640,
+      "median_point_xy": [
+        163,
+        305
+      ],
+      "max_distance_point_xy": [
+        167,
+        202
+      ],
+      "median_iou": 0.7193669244440175,
+      "max_distance_iou": 0.7175709665828243,
+      "iou_change": -0.0017959578611932425
+    },
+    {
+      "eval_position": 194,
+      "dataset_index": 3647,
+      "median_point_xy": [
+        277,
+        161
+      ],
+      "max_distance_point_xy": [
+        312,
+        139
+      ],
+      "median_iou": 0.5750856265501358,
+      "max_distance_iou": 0.5857409413747442,
+      "iou_change": 0.010655314824608353
+    },
+    {
+      "eval_position": 195,
+      "dataset_index": 3659,
+      "median_point_xy": [
+        260,
+        248
+      ],
+      "max_distance_point_xy": [
+        244,
+        247
+      ],
+      "median_iou": 0.8027407253022093,
+      "max_distance_iou": 0.8033210947930574,
+      "iou_change": 0.0005803694908480539
+    },
+    {
+      "eval_position": 196,
+      "dataset_index": 3663,
+      "median_point_xy": [
+        215,
+        189
+      ],
+      "max_distance_point_xy": [
+        229,
+        157
+      ],
+      "median_iou": 0.618064395938771,
+      "max_distance_iou": 0.6274818783485661,
+      "iou_change": 0.009417482409795008
+    },
+    {
+      "eval_position": 197,
+      "dataset_index": 3664,
+      "median_point_xy": [
+        195,
+        151
+      ],
+      "max_distance_point_xy": [
+        0,
+        218
+      ],
+      "median_iou": 0.4100949251551661,
+      "max_distance_iou": 0.2202834425629595,
+      "iou_change": -0.1898114825922066
+    },
+    {
+      "eval_position": 198,
+      "dataset_index": 3667,
+      "median_point_xy": [
+        303,
+        192
+      ],
+      "max_distance_point_xy": [
+        329,
+        200
+      ],
+      "median_iou": 0.800592620028705,
+      "max_distance_iou": 0.8015203485677204,
+      "iou_change": 0.0009277285390153489
+    }
+  ]
+}

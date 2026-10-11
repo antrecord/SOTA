@@ -1,0 +1,1696 @@
+{
+  "dataset": "Oxford-IIIT Pet",
+  "split": "test",
+  "seed": 67,
+  "fast_dev_run": false,
+  "sam_prompt_strategy": "ground-truth bounding box",
+  "supervised_foreground_class": 0,
+  "correction_failure_definition": "corrected_iou < sam_iou",
+  "num_test_samples": 199,
+  "num_correction_failures": 11,
+  "failure_fraction": 0.05527638190954774,
+  "failures": [
+    {
+      "dataset_index": 781,
+      "sam_iou": 0.9254593175853019,
+      "supervised_iou": 0.7783695395203446,
+      "corrected_iou": 0.9011312912143571,
+      "corrected_minus_sam_iou": -0.024328026370944777,
+      "corrected_minus_supervised_iou": 0.12276175169401249
+    },
+    {
+      "dataset_index": 2598,
+      "sam_iou": 0.8015687330629008,
+      "supervised_iou": 0.8497120564740851,
+      "corrected_iou": 0.790177645676367,
+      "corrected_minus_sam_iou": -0.011391087386533827,
+      "corrected_minus_supervised_iou": -0.05953441079771815
+    },
+    {
+      "dataset_index": 438,
+      "sam_iou": 0.9132865861281267,
+      "supervised_iou": 0.893153368890824,
+      "corrected_iou": 0.903703024117249,
+      "corrected_minus_sam_iou": -0.009583562010877733,
+      "corrected_minus_supervised_iou": 0.010549655226425037
+    },
+    {
+      "dataset_index": 647,
+      "sam_iou": 0.8526753434562545,
+      "supervised_iou": 0.9187366317465769,
+      "corrected_iou": 0.8431563640863808,
+      "corrected_minus_sam_iou": -0.00951897936987367,
+      "corrected_minus_supervised_iou": -0.0755802676601961
+    },
+    {
+      "dataset_index": 2502,
+      "sam_iou": 0.8534675531556866,
+      "supervised_iou": 0.9443596996578943,
+      "corrected_iou": 0.8447171784819366,
+      "corrected_minus_sam_iou": -0.00875037467374995,
+      "corrected_minus_supervised_iou": -0.09964252117595773
+    },
+    {
+      "dataset_index": 3238,
+      "sam_iou": 0.5729316694120793,
+      "supervised_iou": 0.8718227424749164,
+      "corrected_iou": 0.5660872882784566,
+      "corrected_minus_sam_iou": -0.0068443811336227345,
+      "corrected_minus_supervised_iou": -0.30573545419645987
+    },
+    {
+      "dataset_index": 2488,
+      "sam_iou": 0.9245599071790261,
+      "supervised_iou": 0.8608559951017726,
+      "corrected_iou": 0.9191886921830196,
+      "corrected_minus_sam_iou": -0.005371214996006568,
+      "corrected_minus_supervised_iou": 0.058332697081247
+    },
+    {
+      "dataset_index": 184,
+      "sam_iou": 0.8238115117143352,
+      "supervised_iou": 0.8486200283498707,
+      "corrected_iou": 0.8200740007295847,
+      "corrected_minus_sam_iou": -0.003737510984750503,
+      "corrected_minus_supervised_iou": -0.02854602762028602
+    },
+    {
+      "dataset_index": 1125,
+      "sam_iou": 0.9503185679611651,
+      "supervised_iou": 0.8409966960352423,
+      "corrected_iou": 0.9470956430801408,
+      "corrected_minus_sam_iou": -0.0032229248810242694,
+      "corrected_minus_supervised_iou": 0.10609894704489853
+    },
+    {
+      "dataset_index": 942,
+      "sam_iou": 0.946517899635133,
+      "supervised_iou": 0.8661045880101381,
+      "corrected_iou": 0.945332817503815,
+      "corrected_minus_sam_iou": -0.0011850821313179605,
+      "corrected_minus_supervised_iou": 0.07922822949367692
+    },
+    {
+      "dataset_index": 2668,
+      "sam_iou": 0.7990235461343551,
+      "supervised_iou": 0.8855031216939101,
+      "corrected_iou": 0.7981934553886891,
+      "corrected_minus_sam_iou": -0.000830090745665979,
+      "corrected_minus_supervised_iou": -0.08730966630522097
+    }
+  ],
+  "all_comparisons": [
+    {
+      "dataset_index": 3,
+      "sam_iou": 0.3930315500685871,
+      "supervised_iou": 0.6044682361938056,
+      "corrected_iou": 0.40075849604456165,
+      "corrected_minus_sam_iou": 0.007726945975974564,
+      "corrected_minus_supervised_iou": -0.20370974014924398
+    },
+    {
+      "dataset_index": 29,
+      "sam_iou": 0.7992428602909495,
+      "supervised_iou": 0.5802816152515009,
+      "corrected_iou": 0.8157160648407682,
+      "corrected_minus_sam_iou": 0.01647320454981871,
+      "corrected_minus_supervised_iou": 0.2354344495892673
+    },
+    {
+      "dataset_index": 33,
+      "sam_iou": 0.7702908387839895,
+      "supervised_iou": 0.7519981324825754,
+      "corrected_iou": 0.7850448730189039,
+      "corrected_minus_sam_iou": 0.014754034234914393,
+      "corrected_minus_supervised_iou": 0.0330467405363285
+    },
+    {
+      "dataset_index": 41,
+      "sam_iou": 0.8000355176700409,
+      "supervised_iou": 0.760884796316685,
+      "corrected_iou": 0.8859450408746183,
+      "corrected_minus_sam_iou": 0.08590952320457745,
+      "corrected_minus_supervised_iou": 0.1250602445579333
+    },
+    {
+      "dataset_index": 58,
+      "sam_iou": 0.7943605660476616,
+      "supervised_iou": 0.8618962852839342,
+      "corrected_iou": 0.8359656620461555,
+      "corrected_minus_sam_iou": 0.041605095998493935,
+      "corrected_minus_supervised_iou": -0.025930623237778727
+    },
+    {
+      "dataset_index": 91,
+      "sam_iou": 0.8550381157154027,
+      "supervised_iou": 0.7195001967729241,
+      "corrected_iou": 0.8643418665591615,
+      "corrected_minus_sam_iou": 0.009303750843758785,
+      "corrected_minus_supervised_iou": 0.14484166978623736
+    },
+    {
+      "dataset_index": 157,
+      "sam_iou": 0.6019128144708573,
+      "supervised_iou": 0.3741915614413305,
+      "corrected_iou": 0.6724365442831639,
+      "corrected_minus_sam_iou": 0.07052372981230659,
+      "corrected_minus_supervised_iou": 0.29824498284183343
+    },
+    {
+      "dataset_index": 184,
+      "sam_iou": 0.8238115117143352,
+      "supervised_iou": 0.8486200283498707,
+      "corrected_iou": 0.8200740007295847,
+      "corrected_minus_sam_iou": -0.003737510984750503,
+      "corrected_minus_supervised_iou": -0.02854602762028602
+    },
+    {
+      "dataset_index": 204,
+      "sam_iou": 0.8745703803823132,
+      "supervised_iou": 0.8614703733940617,
+      "corrected_iou": 0.9271329935886898,
+      "corrected_minus_sam_iou": 0.052562613206376674,
+      "corrected_minus_supervised_iou": 0.0656626201946281
+    },
+    {
+      "dataset_index": 229,
+      "sam_iou": 0.707960931505713,
+      "supervised_iou": 0.8036931466104845,
+      "corrected_iou": 0.7562088752021623,
+      "corrected_minus_sam_iou": 0.04824794369644925,
+      "corrected_minus_supervised_iou": -0.04748427140832223
+    },
+    {
+      "dataset_index": 308,
+      "sam_iou": 0.7818998061422304,
+      "supervised_iou": 0.7955954972033046,
+      "corrected_iou": 0.8130586696962552,
+      "corrected_minus_sam_iou": 0.03115886355402475,
+      "corrected_minus_supervised_iou": 0.017463172492950596
+    },
+    {
+      "dataset_index": 316,
+      "sam_iou": 0.7523157998101535,
+      "supervised_iou": 0.7823203177696171,
+      "corrected_iou": 0.7958964405781028,
+      "corrected_minus_sam_iou": 0.04358064076794932,
+      "corrected_minus_supervised_iou": 0.013576122808485747
+    },
+    {
+      "dataset_index": 337,
+      "sam_iou": 0.7463626389352669,
+      "supervised_iou": 0.7246778786838712,
+      "corrected_iou": 0.7609272503082614,
+      "corrected_minus_sam_iou": 0.014564611372994474,
+      "corrected_minus_supervised_iou": 0.036249371624390125
+    },
+    {
+      "dataset_index": 348,
+      "sam_iou": 0.7654293710413905,
+      "supervised_iou": 0.8005008684412489,
+      "corrected_iou": 0.8139880952380952,
+      "corrected_minus_sam_iou": 0.048558724196704706,
+      "corrected_minus_supervised_iou": 0.01348722679684633
+    },
+    {
+      "dataset_index": 364,
+      "sam_iou": 0.8699070862071311,
+      "supervised_iou": 0.8447107203630175,
+      "corrected_iou": 0.8831037816480083,
+      "corrected_minus_sam_iou": 0.013196695440877204,
+      "corrected_minus_supervised_iou": 0.03839306128499076
+    },
+    {
+      "dataset_index": 365,
+      "sam_iou": 0.794367079718678,
+      "supervised_iou": 0.8313488808156568,
+      "corrected_iou": 0.825626345388768,
+      "corrected_minus_sam_iou": 0.031259265670089964,
+      "corrected_minus_supervised_iou": -0.005722535426888831
+    },
+    {
+      "dataset_index": 375,
+      "sam_iou": 0.7227818635024618,
+      "supervised_iou": 0.7386947584789312,
+      "corrected_iou": 0.7683344305464122,
+      "corrected_minus_sam_iou": 0.04555256704395039,
+      "corrected_minus_supervised_iou": 0.02963967206748097
+    },
+    {
+      "dataset_index": 377,
+      "sam_iou": 0.7519757923615087,
+      "supervised_iou": 0.8615885815079465,
+      "corrected_iou": 0.7656805727282441,
+      "corrected_minus_sam_iou": 0.013704780366735392,
+      "corrected_minus_supervised_iou": -0.0959080087797024
+    },
+    {
+      "dataset_index": 410,
+      "sam_iou": 0.6695014528913298,
+      "supervised_iou": 0.6380363390829292,
+      "corrected_iou": 0.7163853222968128,
+      "corrected_minus_sam_iou": 0.04688386940548306,
+      "corrected_minus_supervised_iou": 0.07834898321388362
+    },
+    {
+      "dataset_index": 438,
+      "sam_iou": 0.9132865861281267,
+      "supervised_iou": 0.893153368890824,
+      "corrected_iou": 0.903703024117249,
+      "corrected_minus_sam_iou": -0.009583562010877733,
+      "corrected_minus_supervised_iou": 0.010549655226425037
+    },
+    {
+      "dataset_index": 440,
+      "sam_iou": 0.7468321577967085,
+      "supervised_iou": 0.811980208442994,
+      "corrected_iou": 0.7975538160469667,
+      "corrected_minus_sam_iou": 0.050721658250258206,
+      "corrected_minus_supervised_iou": -0.014426392396027277
+    },
+    {
+      "dataset_index": 445,
+      "sam_iou": 0.8068690449811655,
+      "supervised_iou": 0.8205721692435886,
+      "corrected_iou": 0.8518396226415095,
+      "corrected_minus_sam_iou": 0.04497057766034396,
+      "corrected_minus_supervised_iou": 0.03126745339792092
+    },
+    {
+      "dataset_index": 453,
+      "sam_iou": 0.7707255469100094,
+      "supervised_iou": 0.8744392432221572,
+      "corrected_iou": 0.8187535238756126,
+      "corrected_minus_sam_iou": 0.048027976965603236,
+      "corrected_minus_supervised_iou": -0.05568571934654454
+    },
+    {
+      "dataset_index": 514,
+      "sam_iou": 0.6842933739977373,
+      "supervised_iou": 0.5801775684000725,
+      "corrected_iou": 0.7381295732521498,
+      "corrected_minus_sam_iou": 0.05383619925441252,
+      "corrected_minus_supervised_iou": 0.15795200485207728
+    },
+    {
+      "dataset_index": 523,
+      "sam_iou": 0.8875229459865384,
+      "supervised_iou": 0.8972732940979667,
+      "corrected_iou": 0.9142443319518736,
+      "corrected_minus_sam_iou": 0.026721385965335243,
+      "corrected_minus_supervised_iou": 0.016971037853906856
+    },
+    {
+      "dataset_index": 535,
+      "sam_iou": 0.8550201851198059,
+      "supervised_iou": 0.7200452535225753,
+      "corrected_iou": 0.8897892511690475,
+      "corrected_minus_sam_iou": 0.03476906604924157,
+      "corrected_minus_supervised_iou": 0.1697439976464722
+    },
+    {
+      "dataset_index": 537,
+      "sam_iou": 0.885347582774346,
+      "supervised_iou": 0.8407983743005873,
+      "corrected_iou": 0.9124285323574228,
+      "corrected_minus_sam_iou": 0.02708094958307683,
+      "corrected_minus_supervised_iou": 0.07163015805683548
+    },
+    {
+      "dataset_index": 554,
+      "sam_iou": 0.8442099932478055,
+      "supervised_iou": 0.8889159835681192,
+      "corrected_iou": 0.874021978021978,
+      "corrected_minus_sam_iou": 0.029811984774172462,
+      "corrected_minus_supervised_iou": -0.014894005546141176
+    },
+    {
+      "dataset_index": 556,
+      "sam_iou": 0.7786373190098085,
+      "supervised_iou": 0.7162303664921466,
+      "corrected_iou": 0.8176730668150759,
+      "corrected_minus_sam_iou": 0.03903574780526742,
+      "corrected_minus_supervised_iou": 0.10144270032292935
+    },
+    {
+      "dataset_index": 566,
+      "sam_iou": 0.8663335570636637,
+      "supervised_iou": 0.8779190690572098,
+      "corrected_iou": 0.8881502964350795,
+      "corrected_minus_sam_iou": 0.021816739371415816,
+      "corrected_minus_supervised_iou": 0.010231227377869634
+    },
+    {
+      "dataset_index": 578,
+      "sam_iou": 0.7506727484397961,
+      "supervised_iou": 0.7372400756143668,
+      "corrected_iou": 0.7915494667826861,
+      "corrected_minus_sam_iou": 0.04087671834288997,
+      "corrected_minus_supervised_iou": 0.05430939116831934
+    },
+    {
+      "dataset_index": 583,
+      "sam_iou": 0.7879365771263553,
+      "supervised_iou": 0.5352926607776769,
+      "corrected_iou": 0.8350407450523865,
+      "corrected_minus_sam_iou": 0.047104167926031115,
+      "corrected_minus_supervised_iou": 0.29974808427470956
+    },
+    {
+      "dataset_index": 591,
+      "sam_iou": 0.8446172228673364,
+      "supervised_iou": 0.8391042842602017,
+      "corrected_iou": 0.8830474179642825,
+      "corrected_minus_sam_iou": 0.03843019509694612,
+      "corrected_minus_supervised_iou": 0.04394313370408087
+    },
+    {
+      "dataset_index": 593,
+      "sam_iou": 0.8235643094447082,
+      "supervised_iou": 0.6100444290939918,
+      "corrected_iou": 0.843299347846055,
+      "corrected_minus_sam_iou": 0.019735038401346827,
+      "corrected_minus_supervised_iou": 0.23325491875206317
+    },
+    {
+      "dataset_index": 599,
+      "sam_iou": 0.8144377962545652,
+      "supervised_iou": 0.8664629228744853,
+      "corrected_iou": 0.8601740129688911,
+      "corrected_minus_sam_iou": 0.04573621671432582,
+      "corrected_minus_supervised_iou": -0.006288909905594275
+    },
+    {
+      "dataset_index": 605,
+      "sam_iou": 0.8573535820845486,
+      "supervised_iou": 0.8537896475143785,
+      "corrected_iou": 0.868924686768553,
+      "corrected_minus_sam_iou": 0.011571104684004352,
+      "corrected_minus_supervised_iou": 0.015135039254174476
+    },
+    {
+      "dataset_index": 626,
+      "sam_iou": 0.77463367763632,
+      "supervised_iou": 0.8323381127757714,
+      "corrected_iou": 0.8090143868003622,
+      "corrected_minus_sam_iou": 0.034380709164042234,
+      "corrected_minus_supervised_iou": -0.023323725975409215
+    },
+    {
+      "dataset_index": 645,
+      "sam_iou": 0.7156374790207767,
+      "supervised_iou": 0.747976918086523,
+      "corrected_iou": 0.743085990630195,
+      "corrected_minus_sam_iou": 0.027448511609418302,
+      "corrected_minus_supervised_iou": -0.00489092745632802
+    },
+    {
+      "dataset_index": 647,
+      "sam_iou": 0.8526753434562545,
+      "supervised_iou": 0.9187366317465769,
+      "corrected_iou": 0.8431563640863808,
+      "corrected_minus_sam_iou": -0.00951897936987367,
+      "corrected_minus_supervised_iou": -0.0755802676601961
+    },
+    {
+      "dataset_index": 676,
+      "sam_iou": 0.6952956120607047,
+      "supervised_iou": 0.6696028535386489,
+      "corrected_iou": 0.7375712158105009,
+      "corrected_minus_sam_iou": 0.04227560374979622,
+      "corrected_minus_supervised_iou": 0.06796836227185199
+    },
+    {
+      "dataset_index": 681,
+      "sam_iou": 0.8392483016951304,
+      "supervised_iou": 0.8973628330707583,
+      "corrected_iou": 0.8644325971058644,
+      "corrected_minus_sam_iou": 0.02518429541073397,
+      "corrected_minus_supervised_iou": -0.03293023596489386
+    },
+    {
+      "dataset_index": 716,
+      "sam_iou": 0.7523425001904471,
+      "supervised_iou": 0.7037801254539452,
+      "corrected_iou": 0.8020388030253206,
+      "corrected_minus_sam_iou": 0.049696302834873474,
+      "corrected_minus_supervised_iou": 0.09825867757137541
+    },
+    {
+      "dataset_index": 721,
+      "sam_iou": 0.7492398497585405,
+      "supervised_iou": 0.40638339154055103,
+      "corrected_iou": 0.8058149610089534,
+      "corrected_minus_sam_iou": 0.056575111250412924,
+      "corrected_minus_supervised_iou": 0.3994315694684024
+    },
+    {
+      "dataset_index": 724,
+      "sam_iou": 0.8249318231249269,
+      "supervised_iou": 0.8885899814471243,
+      "corrected_iou": 0.8519997222607971,
+      "corrected_minus_sam_iou": 0.027067899135870266,
+      "corrected_minus_supervised_iou": -0.03659025918632719
+    },
+    {
+      "dataset_index": 726,
+      "sam_iou": 0.8188974796666332,
+      "supervised_iou": 0.6570297207910545,
+      "corrected_iou": 0.8541036626344086,
+      "corrected_minus_sam_iou": 0.035206182967775446,
+      "corrected_minus_supervised_iou": 0.19707394184335414
+    },
+    {
+      "dataset_index": 764,
+      "sam_iou": 0.8195808775376555,
+      "supervised_iou": 0.8537315448325531,
+      "corrected_iou": 0.8608428162712156,
+      "corrected_minus_sam_iou": 0.0412619387335601,
+      "corrected_minus_supervised_iou": 0.007111271438662525
+    },
+    {
+      "dataset_index": 779,
+      "sam_iou": 0.7873641820530355,
+      "supervised_iou": 0.8675826028320971,
+      "corrected_iou": 0.8268596702854846,
+      "corrected_minus_sam_iou": 0.03949548823244908,
+      "corrected_minus_supervised_iou": -0.04072293254661252
+    },
+    {
+      "dataset_index": 781,
+      "sam_iou": 0.9254593175853019,
+      "supervised_iou": 0.7783695395203446,
+      "corrected_iou": 0.9011312912143571,
+      "corrected_minus_sam_iou": -0.024328026370944777,
+      "corrected_minus_supervised_iou": 0.12276175169401249
+    },
+    {
+      "dataset_index": 799,
+      "sam_iou": 0.7762195920046372,
+      "supervised_iou": 0.7704434085103422,
+      "corrected_iou": 0.7792759810960128,
+      "corrected_minus_sam_iou": 0.003056389091375622,
+      "corrected_minus_supervised_iou": 0.008832572585670606
+    },
+    {
+      "dataset_index": 826,
+      "sam_iou": 0.620355535210193,
+      "supervised_iou": 0.6834752981260648,
+      "corrected_iou": 0.6870955462504759,
+      "corrected_minus_sam_iou": 0.06674001104028282,
+      "corrected_minus_supervised_iou": 0.003620248124411085
+    },
+    {
+      "dataset_index": 868,
+      "sam_iou": 0.7047381546134663,
+      "supervised_iou": 0.6771653543307087,
+      "corrected_iou": 0.8031152056225662,
+      "corrected_minus_sam_iou": 0.09837705100909988,
+      "corrected_minus_supervised_iou": 0.12594985129185754
+    },
+    {
+      "dataset_index": 907,
+      "sam_iou": 0.8719529618639411,
+      "supervised_iou": 0.9125569878040314,
+      "corrected_iou": 0.8886970650959684,
+      "corrected_minus_sam_iou": 0.01674410323202724,
+      "corrected_minus_supervised_iou": -0.02385992270806303
+    },
+    {
+      "dataset_index": 921,
+      "sam_iou": 0.8984739545121057,
+      "supervised_iou": 0.8622072001257663,
+      "corrected_iou": 0.9249280193968783,
+      "corrected_minus_sam_iou": 0.026454064884772643,
+      "corrected_minus_supervised_iou": 0.06272081927111195
+    },
+    {
+      "dataset_index": 933,
+      "sam_iou": 0.8942210434039874,
+      "supervised_iou": 0.8908087409736093,
+      "corrected_iou": 0.9186632747456059,
+      "corrected_minus_sam_iou": 0.024442231341618492,
+      "corrected_minus_supervised_iou": 0.027854533771996648
+    },
+    {
+      "dataset_index": 942,
+      "sam_iou": 0.946517899635133,
+      "supervised_iou": 0.8661045880101381,
+      "corrected_iou": 0.945332817503815,
+      "corrected_minus_sam_iou": -0.0011850821313179605,
+      "corrected_minus_supervised_iou": 0.07922822949367692
+    },
+    {
+      "dataset_index": 985,
+      "sam_iou": 0.7929427843697583,
+      "supervised_iou": 0.6942827078218169,
+      "corrected_iou": 0.8703994537384773,
+      "corrected_minus_sam_iou": 0.07745666936871898,
+      "corrected_minus_supervised_iou": 0.17611674591666038
+    },
+    {
+      "dataset_index": 1007,
+      "sam_iou": 0.7017567831348819,
+      "supervised_iou": 0.7221359400694317,
+      "corrected_iou": 0.7465192122757871,
+      "corrected_minus_sam_iou": 0.044762429140905224,
+      "corrected_minus_supervised_iou": 0.02438327220635539
+    },
+    {
+      "dataset_index": 1033,
+      "sam_iou": 0.722656798913298,
+      "supervised_iou": 0.5837510769953788,
+      "corrected_iou": 0.7794437420986093,
+      "corrected_minus_sam_iou": 0.0567869431853113,
+      "corrected_minus_supervised_iou": 0.19569266510323058
+    },
+    {
+      "dataset_index": 1062,
+      "sam_iou": 0.7009114583333333,
+      "supervised_iou": 0.6816447036797004,
+      "corrected_iou": 0.7539436619718309,
+      "corrected_minus_sam_iou": 0.05303220363849759,
+      "corrected_minus_supervised_iou": 0.07229895829213051
+    },
+    {
+      "dataset_index": 1071,
+      "sam_iou": 0.7825683414181391,
+      "supervised_iou": 0.8336739104806068,
+      "corrected_iou": 0.8232807943597504,
+      "corrected_minus_sam_iou": 0.0407124529416113,
+      "corrected_minus_supervised_iou": -0.01039311612085636
+    },
+    {
+      "dataset_index": 1073,
+      "sam_iou": 0.6821409814353893,
+      "supervised_iou": 0.7625985691158808,
+      "corrected_iou": 0.7296664860337948,
+      "corrected_minus_sam_iou": 0.047525504598405544,
+      "corrected_minus_supervised_iou": -0.03293208308208595
+    },
+    {
+      "dataset_index": 1122,
+      "sam_iou": 0.7508828722778105,
+      "supervised_iou": 0.7646616541353384,
+      "corrected_iou": 0.8435193631312713,
+      "corrected_minus_sam_iou": 0.09263649085346082,
+      "corrected_minus_supervised_iou": 0.07885770899593292
+    },
+    {
+      "dataset_index": 1125,
+      "sam_iou": 0.9503185679611651,
+      "supervised_iou": 0.8409966960352423,
+      "corrected_iou": 0.9470956430801408,
+      "corrected_minus_sam_iou": -0.0032229248810242694,
+      "corrected_minus_supervised_iou": 0.10609894704489853
+    },
+    {
+      "dataset_index": 1157,
+      "sam_iou": 0.8462474935548553,
+      "supervised_iou": 0.8745175330541184,
+      "corrected_iou": 0.9016771811047853,
+      "corrected_minus_sam_iou": 0.05542968754993005,
+      "corrected_minus_supervised_iou": 0.02715964805066695
+    },
+    {
+      "dataset_index": 1158,
+      "sam_iou": 0.6621998627944203,
+      "supervised_iou": 0.7475005554321262,
+      "corrected_iou": 0.7347322426582664,
+      "corrected_minus_sam_iou": 0.07253237986384609,
+      "corrected_minus_supervised_iou": -0.012768312773859813
+    },
+    {
+      "dataset_index": 1167,
+      "sam_iou": 0.7196009024428194,
+      "supervised_iou": 0.7908734602463606,
+      "corrected_iou": 0.7620804055307135,
+      "corrected_minus_sam_iou": 0.042479503087894166,
+      "corrected_minus_supervised_iou": -0.028793054715647082
+    },
+    {
+      "dataset_index": 1179,
+      "sam_iou": 0.7791250959324636,
+      "supervised_iou": 0.8313467682477267,
+      "corrected_iou": 0.8470080197409007,
+      "corrected_minus_sam_iou": 0.06788292380843708,
+      "corrected_minus_supervised_iou": 0.01566125149317399
+    },
+    {
+      "dataset_index": 1180,
+      "sam_iou": 0.7454301275833769,
+      "supervised_iou": 0.8163421477765496,
+      "corrected_iou": 0.8301337987201861,
+      "corrected_minus_sam_iou": 0.08470367113680921,
+      "corrected_minus_supervised_iou": 0.013791650943636546
+    },
+    {
+      "dataset_index": 1185,
+      "sam_iou": 0.7732822279105298,
+      "supervised_iou": 0.7717647766038983,
+      "corrected_iou": 0.7968552498159543,
+      "corrected_minus_sam_iou": 0.02357302190542454,
+      "corrected_minus_supervised_iou": 0.02509047321205604
+    },
+    {
+      "dataset_index": 1206,
+      "sam_iou": 0.8189795844363056,
+      "supervised_iou": 0.8419642857142857,
+      "corrected_iou": 0.8611683848797251,
+      "corrected_minus_sam_iou": 0.04218880044341955,
+      "corrected_minus_supervised_iou": 0.019204099165439414
+    },
+    {
+      "dataset_index": 1230,
+      "sam_iou": 0.8012728553170401,
+      "supervised_iou": 0.8307720068569366,
+      "corrected_iou": 0.8440935769198975,
+      "corrected_minus_sam_iou": 0.04282072160285744,
+      "corrected_minus_supervised_iou": 0.013321570062960864
+    },
+    {
+      "dataset_index": 1238,
+      "sam_iou": 0.6927179487179487,
+      "supervised_iou": 0.7922255240542928,
+      "corrected_iou": 0.7393240382509673,
+      "corrected_minus_sam_iou": 0.04660608953301859,
+      "corrected_minus_supervised_iou": -0.05290148580332554
+    },
+    {
+      "dataset_index": 1278,
+      "sam_iou": 0.7389073710369153,
+      "supervised_iou": 0.7783446213387282,
+      "corrected_iou": 0.7892776088725217,
+      "corrected_minus_sam_iou": 0.05037023783560646,
+      "corrected_minus_supervised_iou": 0.01093298753379357
+    },
+    {
+      "dataset_index": 1288,
+      "sam_iou": 0.6128336635971559,
+      "supervised_iou": 0.7191615503585321,
+      "corrected_iou": 0.6373213705748619,
+      "corrected_minus_sam_iou": 0.02448770697770608,
+      "corrected_minus_supervised_iou": -0.0818401797836702
+    },
+    {
+      "dataset_index": 1314,
+      "sam_iou": 0.652656657376607,
+      "supervised_iou": 0.6466726798957707,
+      "corrected_iou": 0.7093857493857494,
+      "corrected_minus_sam_iou": 0.056729092009142335,
+      "corrected_minus_supervised_iou": 0.06271306948997868
+    },
+    {
+      "dataset_index": 1322,
+      "sam_iou": 0.6786432842990511,
+      "supervised_iou": 0.7927383169852179,
+      "corrected_iou": 0.6936555365379594,
+      "corrected_minus_sam_iou": 0.015012252238908341,
+      "corrected_minus_supervised_iou": -0.09908278044725849
+    },
+    {
+      "dataset_index": 1326,
+      "sam_iou": 0.662683655428885,
+      "supervised_iou": 0.6396886115025837,
+      "corrected_iou": 0.7095415360501567,
+      "corrected_minus_sam_iou": 0.04685788062127172,
+      "corrected_minus_supervised_iou": 0.06985292454757297
+    },
+    {
+      "dataset_index": 1423,
+      "sam_iou": 0.6426799007444168,
+      "supervised_iou": 0.7159897114107239,
+      "corrected_iou": 0.7084484119155652,
+      "corrected_minus_sam_iou": 0.06576851117114835,
+      "corrected_minus_supervised_iou": -0.007541299495158693
+    },
+    {
+      "dataset_index": 1428,
+      "sam_iou": 0.5837245696400626,
+      "supervised_iou": 0.5035388381927443,
+      "corrected_iou": 0.6475130592777651,
+      "corrected_minus_sam_iou": 0.06378848963770256,
+      "corrected_minus_supervised_iou": 0.1439742210850209
+    },
+    {
+      "dataset_index": 1434,
+      "sam_iou": 0.6982197248188216,
+      "supervised_iou": 0.7771040058801911,
+      "corrected_iou": 0.7491519674355496,
+      "corrected_minus_sam_iou": 0.05093224261672802,
+      "corrected_minus_supervised_iou": -0.027952038444641558
+    },
+    {
+      "dataset_index": 1438,
+      "sam_iou": 0.5563988484689871,
+      "supervised_iou": 0.5494505494505495,
+      "corrected_iou": 0.5706314243759177,
+      "corrected_minus_sam_iou": 0.014232575906930611,
+      "corrected_minus_supervised_iou": 0.021180874925368243
+    },
+    {
+      "dataset_index": 1442,
+      "sam_iou": 0.7714100478293312,
+      "supervised_iou": 0.8388072662082102,
+      "corrected_iou": 0.7874160819746605,
+      "corrected_minus_sam_iou": 0.016006034145329306,
+      "corrected_minus_supervised_iou": -0.051391184233549714
+    },
+    {
+      "dataset_index": 1471,
+      "sam_iou": 0.8083758677732691,
+      "supervised_iou": 0.7890667035619302,
+      "corrected_iou": 0.8431346401742454,
+      "corrected_minus_sam_iou": 0.03475877240097636,
+      "corrected_minus_supervised_iou": 0.05406793661231524
+    },
+    {
+      "dataset_index": 1473,
+      "sam_iou": 0.6750961254066844,
+      "supervised_iou": 0.7288376690696048,
+      "corrected_iou": 0.7312008462493677,
+      "corrected_minus_sam_iou": 0.05610472084268325,
+      "corrected_minus_supervised_iou": 0.0023631771797628653
+    },
+    {
+      "dataset_index": 1501,
+      "sam_iou": 0.8076680908477626,
+      "supervised_iou": 0.8289098594318294,
+      "corrected_iou": 0.8496881397895538,
+      "corrected_minus_sam_iou": 0.04202004894179123,
+      "corrected_minus_supervised_iou": 0.020778280357724443
+    },
+    {
+      "dataset_index": 1505,
+      "sam_iou": 0.8176226936111459,
+      "supervised_iou": 0.8460942000088617,
+      "corrected_iou": 0.8479075033749945,
+      "corrected_minus_sam_iou": 0.03028480976384862,
+      "corrected_minus_supervised_iou": 0.0018133033661328346
+    },
+    {
+      "dataset_index": 1515,
+      "sam_iou": 0.9163394542933048,
+      "supervised_iou": 0.9147092634215809,
+      "corrected_iou": 0.9292305058632201,
+      "corrected_minus_sam_iou": 0.012891051569915324,
+      "corrected_minus_supervised_iou": 0.014521242441639215
+    },
+    {
+      "dataset_index": 1530,
+      "sam_iou": 0.8409410881331539,
+      "supervised_iou": 0.8616289169506247,
+      "corrected_iou": 0.8699866636307452,
+      "corrected_minus_sam_iou": 0.029045575497591236,
+      "corrected_minus_supervised_iou": 0.00835774668012046
+    },
+    {
+      "dataset_index": 1543,
+      "sam_iou": 0.9189791135224727,
+      "supervised_iou": 0.8752508877566775,
+      "corrected_iou": 0.9203940081227913,
+      "corrected_minus_sam_iou": 0.001414894600318517,
+      "corrected_minus_supervised_iou": 0.04514312036611379
+    },
+    {
+      "dataset_index": 1544,
+      "sam_iou": 0.8113025333264352,
+      "supervised_iou": 0.868599109611877,
+      "corrected_iou": 0.8381554011370815,
+      "corrected_minus_sam_iou": 0.02685286781064633,
+      "corrected_minus_supervised_iou": -0.030443708474795494
+    },
+    {
+      "dataset_index": 1579,
+      "sam_iou": 0.7146878354022802,
+      "supervised_iou": 0.7908949723001322,
+      "corrected_iou": 0.7567219863630515,
+      "corrected_minus_sam_iou": 0.042034150960771344,
+      "corrected_minus_supervised_iou": -0.034172985937080624
+    },
+    {
+      "dataset_index": 1587,
+      "sam_iou": 0.7483952236333518,
+      "supervised_iou": 0.7993620990551844,
+      "corrected_iou": 0.7734596649001659,
+      "corrected_minus_sam_iou": 0.025064441266814175,
+      "corrected_minus_supervised_iou": -0.025902434155018472
+    },
+    {
+      "dataset_index": 1597,
+      "sam_iou": 0.6900357026939306,
+      "supervised_iou": 0.6645513413506013,
+      "corrected_iou": 0.7160223083467246,
+      "corrected_minus_sam_iou": 0.025986605652794093,
+      "corrected_minus_supervised_iou": 0.0514709669961233
+    },
+    {
+      "dataset_index": 1610,
+      "sam_iou": 0.7943790937040502,
+      "supervised_iou": 0.7949573138860542,
+      "corrected_iou": 0.8220064724919094,
+      "corrected_minus_sam_iou": 0.027627378787859147,
+      "corrected_minus_supervised_iou": 0.027049158605855217
+    },
+    {
+      "dataset_index": 1657,
+      "sam_iou": 0.8546917366760013,
+      "supervised_iou": 0.7609760228058539,
+      "corrected_iou": 0.8726158245368539,
+      "corrected_minus_sam_iou": 0.017924087860852644,
+      "corrected_minus_supervised_iou": 0.11163980173100008
+    },
+    {
+      "dataset_index": 1663,
+      "sam_iou": 0.8349771469809959,
+      "supervised_iou": 0.8311553012995083,
+      "corrected_iou": 0.8473729708961675,
+      "corrected_minus_sam_iou": 0.012395823915171578,
+      "corrected_minus_supervised_iou": 0.016217669596659157
+    },
+    {
+      "dataset_index": 1749,
+      "sam_iou": 0.701677846248932,
+      "supervised_iou": 0.8270108575227122,
+      "corrected_iou": 0.7364006343504595,
+      "corrected_minus_sam_iou": 0.03472278810152751,
+      "corrected_minus_supervised_iou": -0.09061022317225265
+    },
+    {
+      "dataset_index": 1769,
+      "sam_iou": 0.7981740531417026,
+      "supervised_iou": 0.8185265122790644,
+      "corrected_iou": 0.83402067377216,
+      "corrected_minus_sam_iou": 0.035846620630457404,
+      "corrected_minus_supervised_iou": 0.015494161493095682
+    },
+    {
+      "dataset_index": 1783,
+      "sam_iou": 0.8663068596677431,
+      "supervised_iou": 0.9027415521938214,
+      "corrected_iou": 0.889979258892363,
+      "corrected_minus_sam_iou": 0.023672399224619833,
+      "corrected_minus_supervised_iou": -0.012762293301458394
+    },
+    {
+      "dataset_index": 1784,
+      "sam_iou": 0.7752703813800519,
+      "supervised_iou": 0.7978391974161831,
+      "corrected_iou": 0.8063039220875456,
+      "corrected_minus_sam_iou": 0.031033540707493756,
+      "corrected_minus_supervised_iou": 0.0084647246713625
+    },
+    {
+      "dataset_index": 1786,
+      "sam_iou": 0.8486058789561965,
+      "supervised_iou": 0.8218914198227468,
+      "corrected_iou": 0.8529084301409575,
+      "corrected_minus_sam_iou": 0.004302551184760972,
+      "corrected_minus_supervised_iou": 0.03101701031821069
+    },
+    {
+      "dataset_index": 1863,
+      "sam_iou": 0.9355977473187296,
+      "supervised_iou": 0.8489237535416755,
+      "corrected_iou": 0.9383248810911268,
+      "corrected_minus_sam_iou": 0.0027271337723971945,
+      "corrected_minus_supervised_iou": 0.08940112754945129
+    },
+    {
+      "dataset_index": 1878,
+      "sam_iou": 0.8105352798053528,
+      "supervised_iou": 0.8341291647771227,
+      "corrected_iou": 0.8537842272587427,
+      "corrected_minus_sam_iou": 0.04324894745338992,
+      "corrected_minus_supervised_iou": 0.019655062481619967
+    },
+    {
+      "dataset_index": 1936,
+      "sam_iou": 0.7559989747027623,
+      "supervised_iou": 0.8225946644676726,
+      "corrected_iou": 0.7927312729612487,
+      "corrected_minus_sam_iou": 0.03673229825848634,
+      "corrected_minus_supervised_iou": -0.02986339150642392
+    },
+    {
+      "dataset_index": 1939,
+      "sam_iou": 0.8818695287699094,
+      "supervised_iou": 0.9006723989170212,
+      "corrected_iou": 0.9117265930936276,
+      "corrected_minus_sam_iou": 0.029857064323718152,
+      "corrected_minus_supervised_iou": 0.011054194176606358
+    },
+    {
+      "dataset_index": 1941,
+      "sam_iou": 0.8434404830706073,
+      "supervised_iou": 0.8565203595980962,
+      "corrected_iou": 0.8682047584715212,
+      "corrected_minus_sam_iou": 0.02476427540091397,
+      "corrected_minus_supervised_iou": 0.011684398873424984
+    },
+    {
+      "dataset_index": 1951,
+      "sam_iou": 0.689468085106383,
+      "supervised_iou": 0.7797983207459601,
+      "corrected_iou": 0.7317238522089563,
+      "corrected_minus_sam_iou": 0.04225576710257328,
+      "corrected_minus_supervised_iou": -0.04807446853700381
+    },
+    {
+      "dataset_index": 2017,
+      "sam_iou": 0.7984873268184932,
+      "supervised_iou": 0.858284420058696,
+      "corrected_iou": 0.8340796640777555,
+      "corrected_minus_sam_iou": 0.03559233725926225,
+      "corrected_minus_supervised_iou": -0.024204755980940518
+    },
+    {
+      "dataset_index": 2032,
+      "sam_iou": 0.8741971935746878,
+      "supervised_iou": 0.7995491124083668,
+      "corrected_iou": 0.8864103015370175,
+      "corrected_minus_sam_iou": 0.012213107962329661,
+      "corrected_minus_supervised_iou": 0.0868611891286507
+    },
+    {
+      "dataset_index": 2065,
+      "sam_iou": 0.8630241761165243,
+      "supervised_iou": 0.8887786776203701,
+      "corrected_iou": 0.8831165868126853,
+      "corrected_minus_sam_iou": 0.020092410696161078,
+      "corrected_minus_supervised_iou": -0.005662090807684761
+    },
+    {
+      "dataset_index": 2080,
+      "sam_iou": 0.7924344533986836,
+      "supervised_iou": 0.8885354370785087,
+      "corrected_iou": 0.8364119160235665,
+      "corrected_minus_sam_iou": 0.04397746262488289,
+      "corrected_minus_supervised_iou": -0.05212352105494222
+    },
+    {
+      "dataset_index": 2095,
+      "sam_iou": 0.5591423753312454,
+      "supervised_iou": 0.6770255271920089,
+      "corrected_iou": 0.6016979129819596,
+      "corrected_minus_sam_iou": 0.04255553765071418,
+      "corrected_minus_supervised_iou": -0.0753276142100493
+    },
+    {
+      "dataset_index": 2142,
+      "sam_iou": 0.4239334172611554,
+      "supervised_iou": 0.5972961050419078,
+      "corrected_iou": 0.42761056843167644,
+      "corrected_minus_sam_iou": 0.0036771511705210314,
+      "corrected_minus_supervised_iou": -0.16968553661023134
+    },
+    {
+      "dataset_index": 2144,
+      "sam_iou": 0.6620960782433598,
+      "supervised_iou": 0.7297589732109544,
+      "corrected_iou": 0.7337193509185789,
+      "corrected_minus_sam_iou": 0.07162327267521906,
+      "corrected_minus_supervised_iou": 0.003960377707624474
+    },
+    {
+      "dataset_index": 2146,
+      "sam_iou": 0.7498429648241206,
+      "supervised_iou": 0.7515226124141505,
+      "corrected_iou": 0.8465102465102465,
+      "corrected_minus_sam_iou": 0.09666728168612593,
+      "corrected_minus_supervised_iou": 0.09498763409609601
+    },
+    {
+      "dataset_index": 2174,
+      "sam_iou": 0.7417792792792792,
+      "supervised_iou": 0.7109702187063751,
+      "corrected_iou": 0.8393679631525077,
+      "corrected_minus_sam_iou": 0.0975886838732285,
+      "corrected_minus_supervised_iou": 0.1283977444461326
+    },
+    {
+      "dataset_index": 2196,
+      "sam_iou": 0.6912077957055065,
+      "supervised_iou": 0.7595064781765549,
+      "corrected_iou": 0.7226374313168928,
+      "corrected_minus_sam_iou": 0.03142963561138634,
+      "corrected_minus_supervised_iou": -0.03686904685966208
+    },
+    {
+      "dataset_index": 2236,
+      "sam_iou": 0.8462674669417612,
+      "supervised_iou": 0.6322080481227961,
+      "corrected_iou": 0.8803830088668507,
+      "corrected_minus_sam_iou": 0.034115541925089476,
+      "corrected_minus_supervised_iou": 0.24817496074405465
+    },
+    {
+      "dataset_index": 2241,
+      "sam_iou": 0.7706588689105954,
+      "supervised_iou": 0.7206536639330463,
+      "corrected_iou": 0.7992729161256816,
+      "corrected_minus_sam_iou": 0.028614047215086202,
+      "corrected_minus_supervised_iou": 0.07861925219263532
+    },
+    {
+      "dataset_index": 2245,
+      "sam_iou": 0.8703712859049785,
+      "supervised_iou": 0.8675960078108049,
+      "corrected_iou": 0.8874366975292853,
+      "corrected_minus_sam_iou": 0.01706541162430686,
+      "corrected_minus_supervised_iou": 0.01984068971848041
+    },
+    {
+      "dataset_index": 2288,
+      "sam_iou": 0.9029901503891982,
+      "supervised_iou": 0.9012108152480632,
+      "corrected_iou": 0.9094221492353485,
+      "corrected_minus_sam_iou": 0.006431998846150311,
+      "corrected_minus_supervised_iou": 0.008211333987285241
+    },
+    {
+      "dataset_index": 2333,
+      "sam_iou": 0.8690093309509629,
+      "supervised_iou": 0.8280395205541433,
+      "corrected_iou": 0.8791014516259833,
+      "corrected_minus_sam_iou": 0.01009212067502041,
+      "corrected_minus_supervised_iou": 0.05106193107183998
+    },
+    {
+      "dataset_index": 2334,
+      "sam_iou": 0.8606577282429478,
+      "supervised_iou": 0.8739119857274152,
+      "corrected_iou": 0.882066046169217,
+      "corrected_minus_sam_iou": 0.021408317926269183,
+      "corrected_minus_supervised_iou": 0.00815406044180178
+    },
+    {
+      "dataset_index": 2348,
+      "sam_iou": 0.9165759967899005,
+      "supervised_iou": 0.8984503818015912,
+      "corrected_iou": 0.926124910783614,
+      "corrected_minus_sam_iou": 0.009548913993713493,
+      "corrected_minus_supervised_iou": 0.027674528982022828
+    },
+    {
+      "dataset_index": 2351,
+      "sam_iou": 0.9023454662205549,
+      "supervised_iou": 0.9267247785831068,
+      "corrected_iou": 0.9092088420003608,
+      "corrected_minus_sam_iou": 0.006863375779805891,
+      "corrected_minus_supervised_iou": -0.017515936582745972
+    },
+    {
+      "dataset_index": 2358,
+      "sam_iou": 0.6575268114703843,
+      "supervised_iou": 0.8103057173789762,
+      "corrected_iou": 0.676807907248311,
+      "corrected_minus_sam_iou": 0.019281095777926693,
+      "corrected_minus_supervised_iou": -0.1334978101306652
+    },
+    {
+      "dataset_index": 2363,
+      "sam_iou": 0.8281889095013523,
+      "supervised_iou": 0.8518076886387485,
+      "corrected_iou": 0.8522148764138122,
+      "corrected_minus_sam_iou": 0.02402596691245995,
+      "corrected_minus_supervised_iou": 0.00040718777506376647
+    },
+    {
+      "dataset_index": 2370,
+      "sam_iou": 0.8791514403682786,
+      "supervised_iou": 0.8226213270491199,
+      "corrected_iou": 0.887262914567032,
+      "corrected_minus_sam_iou": 0.008111474198753355,
+      "corrected_minus_supervised_iou": 0.06464158751791205
+    },
+    {
+      "dataset_index": 2379,
+      "sam_iou": 0.8351668408913667,
+      "supervised_iou": 0.9180716559828407,
+      "corrected_iou": 0.8639013645335698,
+      "corrected_minus_sam_iou": 0.02873452364220308,
+      "corrected_minus_supervised_iou": -0.05417029144927088
+    },
+    {
+      "dataset_index": 2382,
+      "sam_iou": 0.8755265165334483,
+      "supervised_iou": 0.8605193852718606,
+      "corrected_iou": 0.9052214970143035,
+      "corrected_minus_sam_iou": 0.029694980480855282,
+      "corrected_minus_supervised_iou": 0.044702111742442985
+    },
+    {
+      "dataset_index": 2395,
+      "sam_iou": 0.8787868895272917,
+      "supervised_iou": 0.9192949244561918,
+      "corrected_iou": 0.8950023463162834,
+      "corrected_minus_sam_iou": 0.016215456788991722,
+      "corrected_minus_supervised_iou": -0.024292578139908372
+    },
+    {
+      "dataset_index": 2416,
+      "sam_iou": 0.8447306409089849,
+      "supervised_iou": 0.8311071604014129,
+      "corrected_iou": 0.8792913866829566,
+      "corrected_minus_sam_iou": 0.034560745773971724,
+      "corrected_minus_supervised_iou": 0.04818422628154373
+    },
+    {
+      "dataset_index": 2422,
+      "sam_iou": 0.8602361383453627,
+      "supervised_iou": 0.8624500404044816,
+      "corrected_iou": 0.8940388684101468,
+      "corrected_minus_sam_iou": 0.03380273006478407,
+      "corrected_minus_supervised_iou": 0.031588828005665204
+    },
+    {
+      "dataset_index": 2433,
+      "sam_iou": 0.8352601592842787,
+      "supervised_iou": 0.8191867415619933,
+      "corrected_iou": 0.8643945682647579,
+      "corrected_minus_sam_iou": 0.029134408980479254,
+      "corrected_minus_supervised_iou": 0.045207826702764575
+    },
+    {
+      "dataset_index": 2487,
+      "sam_iou": 0.6742718008837587,
+      "supervised_iou": 0.5671718469047008,
+      "corrected_iou": 0.7184873949579832,
+      "corrected_minus_sam_iou": 0.044215594074224485,
+      "corrected_minus_supervised_iou": 0.1513155480532824
+    },
+    {
+      "dataset_index": 2488,
+      "sam_iou": 0.9245599071790261,
+      "supervised_iou": 0.8608559951017726,
+      "corrected_iou": 0.9191886921830196,
+      "corrected_minus_sam_iou": -0.005371214996006568,
+      "corrected_minus_supervised_iou": 0.058332697081247
+    },
+    {
+      "dataset_index": 2496,
+      "sam_iou": 0.7862232412360947,
+      "supervised_iou": 0.8388755047334668,
+      "corrected_iou": 0.7996114940894985,
+      "corrected_minus_sam_iou": 0.013388252853403837,
+      "corrected_minus_supervised_iou": -0.03926401064396834
+    },
+    {
+      "dataset_index": 2502,
+      "sam_iou": 0.8534675531556866,
+      "supervised_iou": 0.9443596996578943,
+      "corrected_iou": 0.8447171784819366,
+      "corrected_minus_sam_iou": -0.00875037467374995,
+      "corrected_minus_supervised_iou": -0.09964252117595773
+    },
+    {
+      "dataset_index": 2506,
+      "sam_iou": 0.5688506507831458,
+      "supervised_iou": 0.7088253750927035,
+      "corrected_iou": 0.6206313960223981,
+      "corrected_minus_sam_iou": 0.05178074523925236,
+      "corrected_minus_supervised_iou": -0.08819397907030535
+    },
+    {
+      "dataset_index": 2511,
+      "sam_iou": 0.5805949601963248,
+      "supervised_iou": 0.7143634808305467,
+      "corrected_iou": 0.6300181889047681,
+      "corrected_minus_sam_iou": 0.04942322870844329,
+      "corrected_minus_supervised_iou": -0.08434529192577855
+    },
+    {
+      "dataset_index": 2516,
+      "sam_iou": 0.6764374295377678,
+      "supervised_iou": 0.7374052608114133,
+      "corrected_iou": 0.7258735137500911,
+      "corrected_minus_sam_iou": 0.04943608421232337,
+      "corrected_minus_supervised_iou": -0.011531747061322206
+    },
+    {
+      "dataset_index": 2519,
+      "sam_iou": 0.880929043255913,
+      "supervised_iou": 0.909691729663664,
+      "corrected_iou": 0.8986284508528223,
+      "corrected_minus_sam_iou": 0.017699407596909245,
+      "corrected_minus_supervised_iou": -0.011063278810841681
+    },
+    {
+      "dataset_index": 2535,
+      "sam_iou": 0.7099213716282625,
+      "supervised_iou": 0.6775736146533735,
+      "corrected_iou": 0.7345634795564597,
+      "corrected_minus_sam_iou": 0.02464210792819721,
+      "corrected_minus_supervised_iou": 0.05698986490308622
+    },
+    {
+      "dataset_index": 2556,
+      "sam_iou": 0.8703459947348627,
+      "supervised_iou": 0.8568737856378128,
+      "corrected_iou": 0.9181955364943214,
+      "corrected_minus_sam_iou": 0.04784954175945866,
+      "corrected_minus_supervised_iou": 0.061321750856508594
+    },
+    {
+      "dataset_index": 2583,
+      "sam_iou": 0.8906644404066199,
+      "supervised_iou": 0.9211578979510825,
+      "corrected_iou": 0.9044671474358974,
+      "corrected_minus_sam_iou": 0.01380270702927755,
+      "corrected_minus_supervised_iou": -0.016690750515185093
+    },
+    {
+      "dataset_index": 2598,
+      "sam_iou": 0.8015687330629008,
+      "supervised_iou": 0.8497120564740851,
+      "corrected_iou": 0.790177645676367,
+      "corrected_minus_sam_iou": -0.011391087386533827,
+      "corrected_minus_supervised_iou": -0.05953441079771815
+    },
+    {
+      "dataset_index": 2622,
+      "sam_iou": 0.7363063499757635,
+      "supervised_iou": 0.6381343580230555,
+      "corrected_iou": 0.7598264291841162,
+      "corrected_minus_sam_iou": 0.02352007920835275,
+      "corrected_minus_supervised_iou": 0.12169207116106073
+    },
+    {
+      "dataset_index": 2635,
+      "sam_iou": 0.891357485814055,
+      "supervised_iou": 0.825190518490813,
+      "corrected_iou": 0.906989217274708,
+      "corrected_minus_sam_iou": 0.015631731460652998,
+      "corrected_minus_supervised_iou": 0.08179869878389501
+    },
+    {
+      "dataset_index": 2659,
+      "sam_iou": 0.8575489661460894,
+      "supervised_iou": 0.8449921586090727,
+      "corrected_iou": 0.8740233477341668,
+      "corrected_minus_sam_iou": 0.016474381588077347,
+      "corrected_minus_supervised_iou": 0.02903118912509406
+    },
+    {
+      "dataset_index": 2668,
+      "sam_iou": 0.7990235461343551,
+      "supervised_iou": 0.8855031216939101,
+      "corrected_iou": 0.7981934553886891,
+      "corrected_minus_sam_iou": -0.000830090745665979,
+      "corrected_minus_supervised_iou": -0.08730966630522097
+    },
+    {
+      "dataset_index": 2688,
+      "sam_iou": 0.863536432160804,
+      "supervised_iou": 0.8555520537871625,
+      "corrected_iou": 0.8897699089411466,
+      "corrected_minus_sam_iou": 0.0262334767803426,
+      "corrected_minus_supervised_iou": 0.03421785515398412
+    },
+    {
+      "dataset_index": 2716,
+      "sam_iou": 0.9492623212042818,
+      "supervised_iou": 0.8907168933667585,
+      "corrected_iou": 0.9522672804047628,
+      "corrected_minus_sam_iou": 0.00300495920048105,
+      "corrected_minus_supervised_iou": 0.061550387038004306
+    },
+    {
+      "dataset_index": 2779,
+      "sam_iou": 0.7006338665861757,
+      "supervised_iou": 0.6939345733398596,
+      "corrected_iou": 0.722581590571291,
+      "corrected_minus_sam_iou": 0.021947723985115353,
+      "corrected_minus_supervised_iou": 0.02864701723143137
+    },
+    {
+      "dataset_index": 2795,
+      "sam_iou": 0.8091935264517884,
+      "supervised_iou": 0.8700758312269103,
+      "corrected_iou": 0.8570497501629372,
+      "corrected_minus_sam_iou": 0.047856223711148727,
+      "corrected_minus_supervised_iou": -0.013026081063973183
+    },
+    {
+      "dataset_index": 2826,
+      "sam_iou": 0.9496428141429546,
+      "supervised_iou": 0.9388820856399721,
+      "corrected_iou": 0.9542031407636886,
+      "corrected_minus_sam_iou": 0.004560326620734023,
+      "corrected_minus_supervised_iou": 0.01532105512371651
+    },
+    {
+      "dataset_index": 2873,
+      "sam_iou": 0.8048882343890806,
+      "supervised_iou": 0.7811311075962895,
+      "corrected_iou": 0.8436063201624384,
+      "corrected_minus_sam_iou": 0.03871808577335778,
+      "corrected_minus_supervised_iou": 0.06247521256614896
+    },
+    {
+      "dataset_index": 2876,
+      "sam_iou": 0.7593542053016253,
+      "supervised_iou": 0.7170464190115557,
+      "corrected_iou": 0.8095252025860808,
+      "corrected_minus_sam_iou": 0.05017099728445551,
+      "corrected_minus_supervised_iou": 0.0924787835745251
+    },
+    {
+      "dataset_index": 2879,
+      "sam_iou": 0.7002413291667956,
+      "supervised_iou": 0.7592663222495752,
+      "corrected_iou": 0.7235546862474749,
+      "corrected_minus_sam_iou": 0.023313357080679276,
+      "corrected_minus_supervised_iou": -0.035711636002100366
+    },
+    {
+      "dataset_index": 2882,
+      "sam_iou": 0.6308233117483811,
+      "supervised_iou": 0.7001912522867121,
+      "corrected_iou": 0.6696474295844003,
+      "corrected_minus_sam_iou": 0.038824117836019134,
+      "corrected_minus_supervised_iou": -0.030543822702311818
+    },
+    {
+      "dataset_index": 2896,
+      "sam_iou": 0.8619558175016198,
+      "supervised_iou": 0.8950865699578849,
+      "corrected_iou": 0.8935125860608562,
+      "corrected_minus_sam_iou": 0.03155676855923639,
+      "corrected_minus_supervised_iou": -0.0015739838970287856
+    },
+    {
+      "dataset_index": 2908,
+      "sam_iou": 0.8625584188213505,
+      "supervised_iou": 0.7058979875965068,
+      "corrected_iou": 0.8913278319579895,
+      "corrected_minus_sam_iou": 0.028769413136638944,
+      "corrected_minus_supervised_iou": 0.1854298443614827
+    },
+    {
+      "dataset_index": 2973,
+      "sam_iou": 0.86133503331414,
+      "supervised_iou": 0.9046204030564369,
+      "corrected_iou": 0.8967502201602336,
+      "corrected_minus_sam_iou": 0.03541518684609368,
+      "corrected_minus_supervised_iou": -0.007870182896203226
+    },
+    {
+      "dataset_index": 2984,
+      "sam_iou": 0.8054716166630693,
+      "supervised_iou": 0.8478598292639246,
+      "corrected_iou": 0.8552457981988183,
+      "corrected_minus_sam_iou": 0.049774181535748974,
+      "corrected_minus_supervised_iou": 0.0073859689348937385
+    },
+    {
+      "dataset_index": 2992,
+      "sam_iou": 0.4664461402417057,
+      "supervised_iou": 0.34072386614202005,
+      "corrected_iou": 0.4961836060992437,
+      "corrected_minus_sam_iou": 0.029737465857538004,
+      "corrected_minus_supervised_iou": 0.15545973995722367
+    },
+    {
+      "dataset_index": 3038,
+      "sam_iou": 0.794402549458871,
+      "supervised_iou": 0.8698049665075311,
+      "corrected_iou": 0.8448935741623581,
+      "corrected_minus_sam_iou": 0.0504910247034871,
+      "corrected_minus_supervised_iou": -0.024911392345173033
+    },
+    {
+      "dataset_index": 3058,
+      "sam_iou": 0.8103071682781163,
+      "supervised_iou": 0.8500583052604301,
+      "corrected_iou": 0.840049735382261,
+      "corrected_minus_sam_iou": 0.02974256710414469,
+      "corrected_minus_supervised_iou": -0.010008569878169116
+    },
+    {
+      "dataset_index": 3098,
+      "sam_iou": 0.7290696395174007,
+      "supervised_iou": 0.7851958099708785,
+      "corrected_iou": 0.7893023071119406,
+      "corrected_minus_sam_iou": 0.060232667594539935,
+      "corrected_minus_supervised_iou": 0.004106497141062149
+    },
+    {
+      "dataset_index": 3138,
+      "sam_iou": 0.645740554518029,
+      "supervised_iou": 0.46500415627597674,
+      "corrected_iou": 0.7382572614107884,
+      "corrected_minus_sam_iou": 0.09251670689275937,
+      "corrected_minus_supervised_iou": 0.27325310513481166
+    },
+    {
+      "dataset_index": 3140,
+      "sam_iou": 0.867778675410667,
+      "supervised_iou": 0.829136042375139,
+      "corrected_iou": 0.8712567560987486,
+      "corrected_minus_sam_iou": 0.0034780806880816417,
+      "corrected_minus_supervised_iou": 0.04212071372360959
+    },
+    {
+      "dataset_index": 3182,
+      "sam_iou": 0.7976140429547004,
+      "supervised_iou": 0.8324017762827284,
+      "corrected_iou": 0.8176668266922708,
+      "corrected_minus_sam_iou": 0.020052783737570357,
+      "corrected_minus_supervised_iou": -0.014734949590457624
+    },
+    {
+      "dataset_index": 3187,
+      "sam_iou": 0.7552370452039692,
+      "supervised_iou": 0.7684060042887777,
+      "corrected_iou": 0.7893749267034127,
+      "corrected_minus_sam_iou": 0.03413788149944352,
+      "corrected_minus_supervised_iou": 0.020968922414634994
+    },
+    {
+      "dataset_index": 3238,
+      "sam_iou": 0.5729316694120793,
+      "supervised_iou": 0.8718227424749164,
+      "corrected_iou": 0.5660872882784566,
+      "corrected_minus_sam_iou": -0.0068443811336227345,
+      "corrected_minus_supervised_iou": -0.30573545419645987
+    },
+    {
+      "dataset_index": 3292,
+      "sam_iou": 0.8051958628552813,
+      "supervised_iou": 0.839489924769239,
+      "corrected_iou": 0.8464867661005259,
+      "corrected_minus_sam_iou": 0.04129090324524454,
+      "corrected_minus_supervised_iou": 0.006996841331286863
+    },
+    {
+      "dataset_index": 3298,
+      "sam_iou": 0.859966197565885,
+      "supervised_iou": 0.868341327947488,
+      "corrected_iou": 0.8835407659723132,
+      "corrected_minus_sam_iou": 0.023574568406428242,
+      "corrected_minus_supervised_iou": 0.015199438024825263
+    },
+    {
+      "dataset_index": 3365,
+      "sam_iou": 0.6971883092859785,
+      "supervised_iou": 0.5406641715677538,
+      "corrected_iou": 0.7638888888888888,
+      "corrected_minus_sam_iou": 0.06670057960291031,
+      "corrected_minus_supervised_iou": 0.22322471732113502
+    },
+    {
+      "dataset_index": 3373,
+      "sam_iou": 0.7658926301773358,
+      "supervised_iou": 0.8281284853892483,
+      "corrected_iou": 0.818007415071564,
+      "corrected_minus_sam_iou": 0.05211478489422827,
+      "corrected_minus_supervised_iou": -0.010121070317684278
+    },
+    {
+      "dataset_index": 3380,
+      "sam_iou": 0.8132728182402973,
+      "supervised_iou": 0.77941286044259,
+      "corrected_iou": 0.8751350517055101,
+      "corrected_minus_sam_iou": 0.0618622334652128,
+      "corrected_minus_supervised_iou": 0.09572219126292014
+    },
+    {
+      "dataset_index": 3388,
+      "sam_iou": 0.5534575146721102,
+      "supervised_iou": 0.6542275840916062,
+      "corrected_iou": 0.6257713073659853,
+      "corrected_minus_sam_iou": 0.07231379269387506,
+      "corrected_minus_supervised_iou": -0.0284562767256209
+    },
+    {
+      "dataset_index": 3391,
+      "sam_iou": 0.7662176679613255,
+      "supervised_iou": 0.7677872553938786,
+      "corrected_iou": 0.8383298614255955,
+      "corrected_minus_sam_iou": 0.07211219346427,
+      "corrected_minus_supervised_iou": 0.07054260603171691
+    },
+    {
+      "dataset_index": 3460,
+      "sam_iou": 0.7723495145631067,
+      "supervised_iou": 0.8473511864710895,
+      "corrected_iou": 0.8250472256243123,
+      "corrected_minus_sam_iou": 0.05269771106120558,
+      "corrected_minus_supervised_iou": -0.022303960846777215
+    },
+    {
+      "dataset_index": 3482,
+      "sam_iou": 0.8757333217019606,
+      "supervised_iou": 0.8115074503214665,
+      "corrected_iou": 0.8984688585216254,
+      "corrected_minus_sam_iou": 0.02273553681966478,
+      "corrected_minus_supervised_iou": 0.08696140820015885
+    },
+    {
+      "dataset_index": 3541,
+      "sam_iou": 0.7892477462690336,
+      "supervised_iou": 0.8415735286021032,
+      "corrected_iou": 0.8241293663795382,
+      "corrected_minus_sam_iou": 0.03488162011050455,
+      "corrected_minus_supervised_iou": -0.017444162222565063
+    },
+    {
+      "dataset_index": 3544,
+      "sam_iou": 0.8636594857186459,
+      "supervised_iou": 0.884235474634554,
+      "corrected_iou": 0.8848044678089645,
+      "corrected_minus_sam_iou": 0.021144982090318565,
+      "corrected_minus_supervised_iou": 0.0005689931744105037
+    },
+    {
+      "dataset_index": 3553,
+      "sam_iou": 0.824340954725047,
+      "supervised_iou": 0.8705129127400907,
+      "corrected_iou": 0.8640253673838181,
+      "corrected_minus_sam_iou": 0.039684412658771095,
+      "corrected_minus_supervised_iou": -0.006487545356272606
+    },
+    {
+      "dataset_index": 3557,
+      "sam_iou": 0.7923290048136125,
+      "supervised_iou": 0.7565228735432249,
+      "corrected_iou": 0.8336508499106523,
+      "corrected_minus_sam_iou": 0.041321845097039844,
+      "corrected_minus_supervised_iou": 0.07712797636742741
+    },
+    {
+      "dataset_index": 3575,
+      "sam_iou": 0.878224422000758,
+      "supervised_iou": 0.9000690631986796,
+      "corrected_iou": 0.907244874452891,
+      "corrected_minus_sam_iou": 0.029020452452133028,
+      "corrected_minus_supervised_iou": 0.007175811254211406
+    },
+    {
+      "dataset_index": 3578,
+      "sam_iou": 0.9126145343481844,
+      "supervised_iou": 0.9289129795369553,
+      "corrected_iou": 0.9170241209904287,
+      "corrected_minus_sam_iou": 0.004409586642244334,
+      "corrected_minus_supervised_iou": -0.011888858546526548
+    },
+    {
+      "dataset_index": 3588,
+      "sam_iou": 0.839376659004026,
+      "supervised_iou": 0.8385929026093744,
+      "corrected_iou": 0.865333088158033,
+      "corrected_minus_sam_iou": 0.025956429154006977,
+      "corrected_minus_supervised_iou": 0.026740185548658646
+    },
+    {
+      "dataset_index": 3603,
+      "sam_iou": 0.7294609010701466,
+      "supervised_iou": 0.8020939831118179,
+      "corrected_iou": 0.7570919508105086,
+      "corrected_minus_sam_iou": 0.027631049740362013,
+      "corrected_minus_supervised_iou": -0.04500203230130928
+    },
+    {
+      "dataset_index": 3610,
+      "sam_iou": 0.8088858970043756,
+      "supervised_iou": 0.7752651303723787,
+      "corrected_iou": 0.8227989395842054,
+      "corrected_minus_sam_iou": 0.013913042579829726,
+      "corrected_minus_supervised_iou": 0.047533809211826705
+    },
+    {
+      "dataset_index": 3626,
+      "sam_iou": 0.8658758883047579,
+      "supervised_iou": 0.7999357793513715,
+      "corrected_iou": 0.8763531587167657,
+      "corrected_minus_sam_iou": 0.010477270412007744,
+      "corrected_minus_supervised_iou": 0.07641737936539417
+    },
+    {
+      "dataset_index": 3635,
+      "sam_iou": 0.7214051801131289,
+      "supervised_iou": 0.7823782042678835,
+      "corrected_iou": 0.7907569616943392,
+      "corrected_minus_sam_iou": 0.06935178158121025,
+      "corrected_minus_supervised_iou": 0.008378757426455663
+    },
+    {
+      "dataset_index": 3637,
+      "sam_iou": 0.44632861376358246,
+      "supervised_iou": 0.5163617286379435,
+      "corrected_iou": 0.48164892034977097,
+      "corrected_minus_sam_iou": 0.03532030658618851,
+      "corrected_minus_supervised_iou": -0.034712808288172525
+    },
+    {
+      "dataset_index": 3640,
+      "sam_iou": 0.7180375884793752,
+      "supervised_iou": 0.8256762189169011,
+      "corrected_iou": 0.7476630713918849,
+      "corrected_minus_sam_iou": 0.02962548291250977,
+      "corrected_minus_supervised_iou": -0.0780131475250162
+    },
+    {
+      "dataset_index": 3647,
+      "sam_iou": 0.5484785089387599,
+      "supervised_iou": 0.7286693191865605,
+      "corrected_iou": 0.6138419105856193,
+      "corrected_minus_sam_iou": 0.06536340164685939,
+      "corrected_minus_supervised_iou": -0.1148274086009412
+    },
+    {
+      "dataset_index": 3659,
+      "sam_iou": 0.7990711849648067,
+      "supervised_iou": 0.7110464457125582,
+      "corrected_iou": 0.8244738926591167,
+      "corrected_minus_sam_iou": 0.025402707694310078,
+      "corrected_minus_supervised_iou": 0.1134274469465586
+    },
+    {
+      "dataset_index": 3663,
+      "sam_iou": 0.6719119335449449,
+      "supervised_iou": 0.7867120807105286,
+      "corrected_iou": 0.706313616627518,
+      "corrected_minus_sam_iou": 0.034401683082573076,
+      "corrected_minus_supervised_iou": -0.08039846408301055
+    },
+    {
+      "dataset_index": 3664,
+      "sam_iou": 0.7126844805368475,
+      "supervised_iou": 0.8431490472767811,
+      "corrected_iou": 0.7257696836093088,
+      "corrected_minus_sam_iou": 0.013085203072461304,
+      "corrected_minus_supervised_iou": -0.11737936366747226
+    },
+    {
+      "dataset_index": 3667,
+      "sam_iou": 0.8005597187528911,
+      "supervised_iou": 0.8222922410397795,
+      "corrected_iou": 0.8421322273725299,
+      "corrected_minus_sam_iou": 0.04157250861963879,
+      "corrected_minus_supervised_iou": 0.019839986332750414
+    }
+  ]
+}

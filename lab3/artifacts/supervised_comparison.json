@@ -1,0 +1,1811 @@
+{
+  "dataset": "Oxford-IIIT Pet",
+  "split": "test",
+  "seed": 67,
+  "fast_dev_run": false,
+  "num_samples": 199,
+  "supervised_model": "LRASPP-MobileNetV3-Large",
+  "sam_prompt": "ground-truth bounding box",
+  "foreground_mask_value": 1,
+  "metrics": {
+    "supervised_mean_iou": 0.7861816696665057,
+    "sam_box_mean_iou": 0.7781091932319515,
+    "mean_paired_iou_difference": 0.008072476434554256,
+    "supervised_wins": 116,
+    "sam_wins": 83,
+    "ties": 0
+  },
+  "results": [
+    {
+      "eval_position": 0,
+      "dataset_index": 3,
+      "supervised_iou": 0.6044682361938056,
+      "sam_box_iou": 0.3930315500685871,
+      "supervised_minus_sam_iou": 0.21143668612521854,
+      "gt_area": 16412,
+      "supervised_predicted_area": 12961
+    },
+    {
+      "eval_position": 1,
+      "dataset_index": 29,
+      "supervised_iou": 0.5802816152515009,
+      "sam_box_iou": 0.7992428602909495,
+      "supervised_minus_sam_iou": -0.21896124503944858,
+      "gt_area": 243001,
+      "supervised_predicted_area": 410850
+    },
+    {
+      "eval_position": 2,
+      "dataset_index": 33,
+      "supervised_iou": 0.7519981324825754,
+      "sam_box_iou": 0.7702908387839895,
+      "supervised_minus_sam_iou": -0.018292706301414108,
+      "gt_area": 206491,
+      "supervised_predicted_area": 266333
+    },
+    {
+      "eval_position": 3,
+      "dataset_index": 41,
+      "supervised_iou": 0.760884796316685,
+      "sam_box_iou": 0.8000355176700409,
+      "supervised_minus_sam_iou": -0.039150721353355844,
+      "gt_area": 9011,
+      "supervised_predicted_area": 8582
+    },
+    {
+      "eval_position": 4,
+      "dataset_index": 58,
+      "supervised_iou": 0.8618962852839342,
+      "sam_box_iou": 0.7943605660476616,
+      "supervised_minus_sam_iou": 0.06753571923627266,
+      "gt_area": 45378,
+      "supervised_predicted_area": 49804
+    },
+    {
+      "eval_position": 5,
+      "dataset_index": 91,
+      "supervised_iou": 0.7195001967729241,
+      "sam_box_iou": 0.8550381157154027,
+      "supervised_minus_sam_iou": -0.13553791894247857,
+      "gt_area": 36000,
+      "supervised_predicted_area": 33908
+    },
+    {
+      "eval_position": 6,
+      "dataset_index": 157,
+      "supervised_iou": 0.3741915614413305,
+      "sam_box_iou": 0.6019128144708573,
+      "supervised_minus_sam_iou": -0.22772125302952684,
+      "gt_area": 8844,
+      "supervised_predicted_area": 22390
+    },
+    {
+      "eval_position": 7,
+      "dataset_index": 184,
+      "supervised_iou": 0.8486200283498707,
+      "sam_box_iou": 0.8238115117143352,
+      "supervised_minus_sam_iou": 0.024808516635535516,
+      "gt_area": 89029,
+      "supervised_predicted_area": 88335
+    },
+    {
+      "eval_position": 8,
+      "dataset_index": 204,
+      "supervised_iou": 0.8614703733940617,
+      "sam_box_iou": 0.8745703803823132,
+      "supervised_minus_sam_iou": -0.013100006988251423,
+      "gt_area": 22648,
+      "supervised_predicted_area": 20674
+    },
+    {
+      "eval_position": 9,
+      "dataset_index": 229,
+      "supervised_iou": 0.8036931466104845,
+      "sam_box_iou": 0.707960931505713,
+      "supervised_minus_sam_iou": 0.09573221510477148,
+      "gt_area": 34140,
+      "supervised_predicted_area": 38630
+    },
+    {
+      "eval_position": 10,
+      "dataset_index": 308,
+      "supervised_iou": 0.7955954972033046,
+      "sam_box_iou": 0.7818998061422304,
+      "supervised_minus_sam_iou": 0.013695691061074156,
+      "gt_area": 38606,
+      "supervised_predicted_area": 38118
+    },
+    {
+      "eval_position": 11,
+      "dataset_index": 316,
+      "supervised_iou": 0.7823203177696171,
+      "sam_box_iou": 0.7523157998101535,
+      "supervised_minus_sam_iou": 0.030004517959463572,
+      "gt_area": 22998,
+      "supervised_predicted_area": 24565
+    },
+    {
+      "eval_position": 12,
+      "dataset_index": 337,
+      "supervised_iou": 0.7246778786838712,
+      "sam_box_iou": 0.7463626389352669,
+      "supervised_minus_sam_iou": -0.02168476025139565,
+      "gt_area": 89558,
+      "supervised_predicted_area": 96364
+    },
+    {
+      "eval_position": 13,
+      "dataset_index": 348,
+      "supervised_iou": 0.8005008684412489,
+      "sam_box_iou": 0.7654293710413905,
+      "supervised_minus_sam_iou": 0.035071497399858376,
+      "gt_area": 20786,
+      "supervised_predicted_area": 23789
+    },
+    {
+      "eval_position": 14,
+      "dataset_index": 364,
+      "supervised_iou": 0.8447107203630175,
+      "sam_box_iou": 0.8699070862071311,
+      "supervised_minus_sam_iou": -0.025196365844113555,
+      "gt_area": 64329,
+      "supervised_predicted_area": 65760
+    },
+    {
+      "eval_position": 15,
+      "dataset_index": 365,
+      "supervised_iou": 0.8313488808156568,
+      "sam_box_iou": 0.794367079718678,
+      "supervised_minus_sam_iou": 0.036981801096978795,
+      "gt_area": 73563,
+      "supervised_predicted_area": 82706
+    },
+    {
+      "eval_position": 16,
+      "dataset_index": 375,
+      "supervised_iou": 0.7386947584789312,
+      "sam_box_iou": 0.7227818635024618,
+      "supervised_minus_sam_iou": 0.015912894976469416,
+      "gt_area": 35149,
+      "supervised_predicted_area": 39288
+    },
+    {
+      "eval_position": 17,
+      "dataset_index": 377,
+      "supervised_iou": 0.8615885815079465,
+      "sam_box_iou": 0.7519757923615087,
+      "supervised_minus_sam_iou": 0.1096127891464378,
+      "gt_area": 101565,
+      "supervised_predicted_area": 105291
+    },
+    {
+      "eval_position": 18,
+      "dataset_index": 410,
+      "supervised_iou": 0.6380363390829292,
+      "sam_box_iou": 0.6695014528913298,
+      "supervised_minus_sam_iou": -0.03146511380840056,
+      "gt_area": 44029,
+      "supervised_predicted_area": 62712
+    },
+    {
+      "eval_position": 19,
+      "dataset_index": 438,
+      "supervised_iou": 0.893153368890824,
+      "sam_box_iou": 0.9132865861281267,
+      "supervised_minus_sam_iou": -0.02013321723730277,
+      "gt_area": 85875,
+      "supervised_predicted_area": 88049
+    },
+    {
+      "eval_position": 20,
+      "dataset_index": 440,
+      "supervised_iou": 0.811980208442994,
+      "sam_box_iou": 0.7468321577967085,
+      "supervised_minus_sam_iou": 0.06514805064628548,
+      "gt_area": 48919,
+      "supervised_predicted_area": 54353
+    },
+    {
+      "eval_position": 21,
+      "dataset_index": 445,
+      "supervised_iou": 0.8205721692435886,
+      "sam_box_iou": 0.8068690449811655,
+      "supervised_minus_sam_iou": 0.013703124262423039,
+      "gt_area": 18275,
+      "supervised_predicted_area": 21053
+    },
+    {
+      "eval_position": 22,
+      "dataset_index": 453,
+      "supervised_iou": 0.8744392432221572,
+      "sam_box_iou": 0.7707255469100094,
+      "supervised_minus_sam_iou": 0.10371369631214777,
+      "gt_area": 19069,
+      "supervised_predicted_area": 19372
+    },
+    {
+      "eval_position": 23,
+      "dataset_index": 514,
+      "supervised_iou": 0.5801775684000725,
+      "sam_box_iou": 0.6842933739977373,
+      "supervised_minus_sam_iou": -0.10411580559766476,
+      "gt_area": 13948,
+      "supervised_predicted_area": 20936
+    },
+    {
+      "eval_position": 24,
+      "dataset_index": 523,
+      "supervised_iou": 0.8972732940979667,
+      "sam_box_iou": 0.8875229459865384,
+      "supervised_minus_sam_iou": 0.009750348111428386,
+      "gt_area": 63850,
+      "supervised_predicted_area": 60909
+    },
+    {
+      "eval_position": 25,
+      "dataset_index": 535,
+      "supervised_iou": 0.7200452535225753,
+      "sam_box_iou": 0.8550201851198059,
+      "supervised_minus_sam_iou": -0.13497493159723062,
+      "gt_area": 55727,
+      "supervised_predicted_area": 44617
+    },
+    {
+      "eval_position": 26,
+      "dataset_index": 537,
+      "supervised_iou": 0.8407983743005873,
+      "sam_box_iou": 0.885347582774346,
+      "supervised_minus_sam_iou": -0.04454920847375865,
+      "gt_area": 70094,
+      "supervised_predicted_area": 62160
+    },
+    {
+      "eval_position": 27,
+      "dataset_index": 554,
+      "supervised_iou": 0.8889159835681192,
+      "sam_box_iou": 0.8442099932478055,
+      "supervised_minus_sam_iou": 0.04470599032031364,
+      "gt_area": 50019,
+      "supervised_predicted_area": 50681
+    },
+    {
+      "eval_position": 28,
+      "dataset_index": 556,
+      "supervised_iou": 0.7162303664921466,
+      "sam_box_iou": 0.7786373190098085,
+      "supervised_minus_sam_iou": -0.06240695251766193,
+      "gt_area": 26673,
+      "supervised_predicted_area": 24136
+    },
+    {
+      "eval_position": 29,
+      "dataset_index": 566,
+      "supervised_iou": 0.8779190690572098,
+      "sam_box_iou": 0.8663335570636637,
+      "supervised_minus_sam_iou": 0.011585511993546183,
+      "gt_area": 69798,
+      "supervised_predicted_area": 72860
+    },
+    {
+      "eval_position": 30,
+      "dataset_index": 578,
+      "supervised_iou": 0.7372400756143668,
+      "sam_box_iou": 0.7506727484397961,
+      "supervised_minus_sam_iou": -0.01343267282542937,
+      "gt_area": 39929,
+      "supervised_predicted_area": 47376
+    },
+    {
+      "eval_position": 31,
+      "dataset_index": 583,
+      "supervised_iou": 0.5352926607776769,
+      "sam_box_iou": 0.7879365771263553,
+      "supervised_minus_sam_iou": -0.25264391634867844,
+      "gt_area": 14581,
+      "supervised_predicted_area": 22613
+    },
+    {
+      "eval_position": 32,
+      "dataset_index": 591,
+      "supervised_iou": 0.8391042842602017,
+      "sam_box_iou": 0.8446172228673364,
+      "supervised_minus_sam_iou": -0.005512938607134754,
+      "gt_area": 50188,
+      "supervised_predicted_area": 49188
+    },
+    {
+      "eval_position": 33,
+      "dataset_index": 593,
+      "supervised_iou": 0.6100444290939918,
+      "sam_box_iou": 0.8235643094447082,
+      "supervised_minus_sam_iou": -0.21351988035071634,
+      "gt_area": 55914,
+      "supervised_predicted_area": 46641
+    },
+    {
+      "eval_position": 34,
+      "dataset_index": 599,
+      "supervised_iou": 0.8664629228744853,
+      "sam_box_iou": 0.8144377962545652,
+      "supervised_minus_sam_iou": 0.05202512661992009,
+      "gt_area": 20962,
+      "supervised_predicted_area": 23010
+    },
+    {
+      "eval_position": 35,
+      "dataset_index": 605,
+      "supervised_iou": 0.8537896475143785,
+      "sam_box_iou": 0.8573535820845486,
+      "supervised_minus_sam_iou": -0.003563934570170124,
+      "gt_area": 77292,
+      "supervised_predicted_area": 85480
+    },
+    {
+      "eval_position": 36,
+      "dataset_index": 626,
+      "supervised_iou": 0.8323381127757714,
+      "sam_box_iou": 0.77463367763632,
+      "supervised_minus_sam_iou": 0.05770443513945145,
+      "gt_area": 48414,
+      "supervised_predicted_area": 54076
+    },
+    {
+      "eval_position": 37,
+      "dataset_index": 645,
+      "supervised_iou": 0.747976918086523,
+      "sam_box_iou": 0.7156374790207767,
+      "supervised_minus_sam_iou": 0.03233943906574632,
+      "gt_area": 25073,
+      "supervised_predicted_area": 26120
+    },
+    {
+      "eval_position": 38,
+      "dataset_index": 647,
+      "supervised_iou": 0.9187366317465769,
+      "sam_box_iou": 0.8526753434562545,
+      "supervised_minus_sam_iou": 0.06606128829032243,
+      "gt_area": 61661,
+      "supervised_predicted_area": 61236
+    },
+    {
+      "eval_position": 39,
+      "dataset_index": 676,
+      "supervised_iou": 0.6696028535386489,
+      "sam_box_iou": 0.6952956120607047,
+      "supervised_minus_sam_iou": -0.02569275852205577,
+      "gt_area": 31200,
+      "supervised_predicted_area": 45565
+    },
+    {
+      "eval_position": 40,
+      "dataset_index": 681,
+      "supervised_iou": 0.8973628330707583,
+      "sam_box_iou": 0.8392483016951304,
+      "supervised_minus_sam_iou": 0.05811453137562783,
+      "gt_area": 66095,
+      "supervised_predicted_area": 72403
+    },
+    {
+      "eval_position": 41,
+      "dataset_index": 716,
+      "supervised_iou": 0.7037801254539452,
+      "sam_box_iou": 0.7523425001904471,
+      "supervised_minus_sam_iou": -0.048562374736501934,
+      "gt_area": 10199,
+      "supervised_predicted_area": 10444
+    },
+    {
+      "eval_position": 42,
+      "dataset_index": 721,
+      "supervised_iou": 0.40638339154055103,
+      "sam_box_iou": 0.7492398497585405,
+      "supervised_minus_sam_iou": -0.3428564582179895,
+      "gt_area": 8382,
+      "supervised_predicted_area": 20612
+    },
+    {
+      "eval_position": 43,
+      "dataset_index": 724,
+      "supervised_iou": 0.8885899814471243,
+      "sam_box_iou": 0.8249318231249269,
+      "supervised_minus_sam_iou": 0.06365815832219746,
+      "gt_area": 49673,
+      "supervised_predicted_area": 52122
+    },
+    {
+      "eval_position": 44,
+      "dataset_index": 726,
+      "supervised_iou": 0.6570297207910545,
+      "sam_box_iou": 0.8188974796666332,
+      "supervised_minus_sam_iou": -0.1618677588755787,
+      "gt_area": 40794,
+      "supervised_predicted_area": 32856
+    },
+    {
+      "eval_position": 45,
+      "dataset_index": 764,
+      "supervised_iou": 0.8537315448325531,
+      "sam_box_iou": 0.8195808775376555,
+      "supervised_minus_sam_iou": 0.034150667294897574,
+      "gt_area": 40058,
+      "supervised_predicted_area": 42307
+    },
+    {
+      "eval_position": 46,
+      "dataset_index": 779,
+      "supervised_iou": 0.8675826028320971,
+      "sam_box_iou": 0.7873641820530355,
+      "supervised_minus_sam_iou": 0.0802184207790616,
+      "gt_area": 20798,
+      "supervised_predicted_area": 23516
+    },
+    {
+      "eval_position": 47,
+      "dataset_index": 781,
+      "supervised_iou": 0.7783695395203446,
+      "sam_box_iou": 0.9254593175853019,
+      "supervised_minus_sam_iou": -0.14708977806495727,
+      "gt_area": 147870,
+      "supervised_predicted_area": 122933
+    },
+    {
+      "eval_position": 48,
+      "dataset_index": 799,
+      "supervised_iou": 0.7704434085103422,
+      "sam_box_iou": 0.7762195920046372,
+      "supervised_minus_sam_iou": -0.005776183494294984,
+      "gt_area": 83482,
+      "supervised_predicted_area": 94637
+    },
+    {
+      "eval_position": 49,
+      "dataset_index": 826,
+      "supervised_iou": 0.6834752981260648,
+      "sam_box_iou": 0.620355535210193,
+      "supervised_minus_sam_iou": 0.06311976291587174,
+      "gt_area": 16264,
+      "supervised_predicted_area": 18323
+    },
+    {
+      "eval_position": 50,
+      "dataset_index": 868,
+      "supervised_iou": 0.6771653543307087,
+      "sam_box_iou": 0.7047381546134663,
+      "supervised_minus_sam_iou": -0.02757280028275766,
+      "gt_area": 8481,
+      "supervised_predicted_area": 10263
+    },
+    {
+      "eval_position": 51,
+      "dataset_index": 907,
+      "supervised_iou": 0.9125569878040314,
+      "sam_box_iou": 0.8719529618639411,
+      "supervised_minus_sam_iou": 0.04060402594009027,
+      "gt_area": 79395,
+      "supervised_predicted_area": 85892
+    },
+    {
+      "eval_position": 52,
+      "dataset_index": 921,
+      "supervised_iou": 0.8622072001257663,
+      "sam_box_iou": 0.8984739545121057,
+      "supervised_minus_sam_iou": -0.036266754386339306,
+      "gt_area": 61660,
+      "supervised_predicted_area": 56795
+    },
+    {
+      "eval_position": 53,
+      "dataset_index": 933,
+      "supervised_iou": 0.8908087409736093,
+      "sam_box_iou": 0.8942210434039874,
+      "supervised_minus_sam_iou": -0.0034123024303781557,
+      "gt_area": 79615,
+      "supervised_predicted_area": 80372
+    },
+    {
+      "eval_position": 54,
+      "dataset_index": 942,
+      "supervised_iou": 0.8661045880101381,
+      "sam_box_iou": 0.946517899635133,
+      "supervised_minus_sam_iou": -0.08041331162499488,
+      "gt_area": 90305,
+      "supervised_predicted_area": 90082
+    },
+    {
+      "eval_position": 55,
+      "dataset_index": 985,
+      "supervised_iou": 0.6942827078218169,
+      "sam_box_iou": 0.7929427843697583,
+      "supervised_minus_sam_iou": -0.0986600765479414,
+      "gt_area": 12769,
+      "supervised_predicted_area": 11383
+    },
+    {
+      "eval_position": 56,
+      "dataset_index": 1007,
+      "supervised_iou": 0.7221359400694317,
+      "sam_box_iou": 0.7017567831348819,
+      "supervised_minus_sam_iou": 0.020379156934549836,
+      "gt_area": 36311,
+      "supervised_predicted_area": 39091
+    },
+    {
+      "eval_position": 57,
+      "dataset_index": 1033,
+      "supervised_iou": 0.5837510769953788,
+      "sam_box_iou": 0.722656798913298,
+      "supervised_minus_sam_iou": -0.13890572191791928,
+      "gt_area": 30860,
+      "supervised_predicted_area": 50019
+    },
+    {
+      "eval_position": 58,
+      "dataset_index": 1062,
+      "supervised_iou": 0.6816447036797004,
+      "sam_box_iou": 0.7009114583333333,
+      "supervised_minus_sam_iou": -0.019266754653632923,
+      "gt_area": 10796,
+      "supervised_predicted_area": 12557
+    },
+    {
+      "eval_position": 59,
+      "dataset_index": 1071,
+      "supervised_iou": 0.8336739104806068,
+      "sam_box_iou": 0.7825683414181391,
+      "supervised_minus_sam_iou": 0.05110556906246766,
+      "gt_area": 44771,
+      "supervised_predicted_area": 48552
+    },
+    {
+      "eval_position": 60,
+      "dataset_index": 1073,
+      "supervised_iou": 0.7625985691158808,
+      "sam_box_iou": 0.6821409814353893,
+      "supervised_minus_sam_iou": 0.0804575876804915,
+      "gt_area": 30229,
+      "supervised_predicted_area": 37275
+    },
+    {
+      "eval_position": 61,
+      "dataset_index": 1122,
+      "supervised_iou": 0.7646616541353384,
+      "sam_box_iou": 0.7508828722778105,
+      "supervised_minus_sam_iou": 0.0137787818575279,
+      "gt_area": 10206,
+      "supervised_predicted_area": 8570
+    },
+    {
+      "eval_position": 62,
+      "dataset_index": 1125,
+      "supervised_iou": 0.8409966960352423,
+      "sam_box_iou": 0.9503185679611651,
+      "supervised_minus_sam_iou": -0.1093218719259228,
+      "gt_area": 127119,
+      "supervised_predicted_area": 113595
+    },
+    {
+      "eval_position": 63,
+      "dataset_index": 1157,
+      "supervised_iou": 0.8745175330541184,
+      "sam_box_iou": 0.8462474935548553,
+      "supervised_minus_sam_iou": 0.0282700394992631,
+      "gt_area": 11879,
+      "supervised_predicted_area": 10947
+    },
+    {
+      "eval_position": 64,
+      "dataset_index": 1158,
+      "supervised_iou": 0.7475005554321262,
+      "sam_box_iou": 0.6621998627944203,
+      "supervised_minus_sam_iou": 0.0853006926377059,
+      "gt_area": 14484,
+      "supervised_predicted_area": 16978
+    },
+    {
+      "eval_position": 65,
+      "dataset_index": 1167,
+      "supervised_iou": 0.7908734602463606,
+      "sam_box_iou": 0.7196009024428194,
+      "supervised_minus_sam_iou": 0.07127255780354125,
+      "gt_area": 37006,
+      "supervised_predicted_area": 46155
+    },
+    {
+      "eval_position": 66,
+      "dataset_index": 1179,
+      "supervised_iou": 0.8313467682477267,
+      "sam_box_iou": 0.7791250959324636,
+      "supervised_minus_sam_iou": 0.05222167231526309,
+      "gt_area": 15275,
+      "supervised_predicted_area": 14532
+    },
+    {
+      "eval_position": 67,
+      "dataset_index": 1180,
+      "supervised_iou": 0.8163421477765496,
+      "sam_box_iou": 0.7454301275833769,
+      "supervised_minus_sam_iou": 0.07091202019317266,
+      "gt_area": 9991,
+      "supervised_predicted_area": 11371
+    },
+    {
+      "eval_position": 68,
+      "dataset_index": 1185,
+      "supervised_iou": 0.7717647766038983,
+      "sam_box_iou": 0.7732822279105298,
+      "supervised_minus_sam_iou": -0.001517451306631501,
+      "gt_area": 57925,
+      "supervised_predicted_area": 59970
+    },
+    {
+      "eval_position": 69,
+      "dataset_index": 1206,
+      "supervised_iou": 0.8419642857142857,
+      "sam_box_iou": 0.8189795844363056,
+      "supervised_minus_sam_iou": 0.022984701277980135,
+      "gt_area": 22641,
+      "supervised_predicted_area": 22745
+    },
+    {
+      "eval_position": 70,
+      "dataset_index": 1230,
+      "supervised_iou": 0.8307720068569366,
+      "sam_box_iou": 0.8012728553170401,
+      "supervised_minus_sam_iou": 0.029499151539896573,
+      "gt_area": 30823,
+      "supervised_predicted_area": 30052
+    },
+    {
+      "eval_position": 71,
+      "dataset_index": 1238,
+      "supervised_iou": 0.7922255240542928,
+      "sam_box_iou": 0.6927179487179487,
+      "supervised_minus_sam_iou": 0.09950757533634413,
+      "gt_area": 10131,
+      "supervised_predicted_area": 12184
+    },
+    {
+      "eval_position": 72,
+      "dataset_index": 1278,
+      "supervised_iou": 0.7783446213387282,
+      "sam_box_iou": 0.7389073710369153,
+      "supervised_minus_sam_iou": 0.03943725030181289,
+      "gt_area": 18435,
+      "supervised_predicted_area": 22001
+    },
+    {
+      "eval_position": 73,
+      "dataset_index": 1288,
+      "supervised_iou": 0.7191615503585321,
+      "sam_box_iou": 0.6128336635971559,
+      "supervised_minus_sam_iou": 0.10632788676137628,
+      "gt_area": 63485,
+      "supervised_predicted_area": 83242
+    },
+    {
+      "eval_position": 74,
+      "dataset_index": 1314,
+      "supervised_iou": 0.6466726798957707,
+      "sam_box_iou": 0.652656657376607,
+      "supervised_minus_sam_iou": -0.005983977480836344,
+      "gt_area": 14574,
+      "supervised_predicted_area": 18287
+    },
+    {
+      "eval_position": 75,
+      "dataset_index": 1322,
+      "supervised_iou": 0.7927383169852179,
+      "sam_box_iou": 0.6786432842990511,
+      "supervised_minus_sam_iou": 0.11409503268616683,
+      "gt_area": 99470,
+      "supervised_predicted_area": 95908
+    },
+    {
+      "eval_position": 76,
+      "dataset_index": 1326,
+      "supervised_iou": 0.6396886115025837,
+      "sam_box_iou": 0.662683655428885,
+      "supervised_minus_sam_iou": -0.02299504392630125,
+      "gt_area": 21740,
+      "supervised_predicted_area": 27126
+    },
+    {
+      "eval_position": 77,
+      "dataset_index": 1423,
+      "supervised_iou": 0.7159897114107239,
+      "sam_box_iou": 0.6426799007444168,
+      "supervised_minus_sam_iou": 0.07330981066630704,
+      "gt_area": 28749,
+      "supervised_predicted_area": 31961
+    },
+    {
+      "eval_position": 78,
+      "dataset_index": 1428,
+      "supervised_iou": 0.5035388381927443,
+      "sam_box_iou": 0.5837245696400626,
+      "supervised_minus_sam_iou": -0.08018573144731833,
+      "gt_area": 11643,
+      "supervised_predicted_area": 22134
+    },
+    {
+      "eval_position": 79,
+      "dataset_index": 1434,
+      "supervised_iou": 0.7771040058801911,
+      "sam_box_iou": 0.6982197248188216,
+      "supervised_minus_sam_iou": 0.07888428106136958,
+      "gt_area": 26790,
+      "supervised_predicted_area": 31236
+    },
+    {
+      "eval_position": 80,
+      "dataset_index": 1438,
+      "supervised_iou": 0.5494505494505495,
+      "sam_box_iou": 0.5563988484689871,
+      "supervised_minus_sam_iou": -0.006948299018437631,
+      "gt_area": 3080,
+      "supervised_predicted_area": 5239
+    },
+    {
+      "eval_position": 81,
+      "dataset_index": 1442,
+      "supervised_iou": 0.8388072662082102,
+      "sam_box_iou": 0.7714100478293312,
+      "supervised_minus_sam_iou": 0.06739721837887902,
+      "gt_area": 63293,
+      "supervised_predicted_area": 67996
+    },
+    {
+      "eval_position": 82,
+      "dataset_index": 1471,
+      "supervised_iou": 0.7890667035619302,
+      "sam_box_iou": 0.8083758677732691,
+      "supervised_minus_sam_iou": -0.01930916421133888,
+      "gt_area": 57336,
+      "supervised_predicted_area": 59041
+    },
+    {
+      "eval_position": 83,
+      "dataset_index": 1473,
+      "supervised_iou": 0.7288376690696048,
+      "sam_box_iou": 0.6750961254066844,
+      "supervised_minus_sam_iou": 0.05374154366292039,
+      "gt_area": 32136,
+      "supervised_predicted_area": 39571
+    },
+    {
+      "eval_position": 84,
+      "dataset_index": 1501,
+      "supervised_iou": 0.8289098594318294,
+      "sam_box_iou": 0.8076680908477626,
+      "supervised_minus_sam_iou": 0.02124176858406679,
+      "gt_area": 36173,
+      "supervised_predicted_area": 38249
+    },
+    {
+      "eval_position": 85,
+      "dataset_index": 1505,
+      "supervised_iou": 0.8460942000088617,
+      "sam_box_iou": 0.8176226936111459,
+      "supervised_minus_sam_iou": 0.028471506397715785,
+      "gt_area": 39163,
+      "supervised_predicted_area": 44166
+    },
+    {
+      "eval_position": 86,
+      "dataset_index": 1515,
+      "supervised_iou": 0.9147092634215809,
+      "sam_box_iou": 0.9163394542933048,
+      "supervised_minus_sam_iou": -0.001630190871723891,
+      "gt_area": 55117,
+      "supervised_predicted_area": 56478
+    },
+    {
+      "eval_position": 87,
+      "dataset_index": 1530,
+      "supervised_iou": 0.8616289169506247,
+      "sam_box_iou": 0.8409410881331539,
+      "supervised_minus_sam_iou": 0.020687828817470777,
+      "gt_area": 26945,
+      "supervised_predicted_area": 28781
+    },
+    {
+      "eval_position": 88,
+      "dataset_index": 1543,
+      "supervised_iou": 0.8752508877566775,
+      "sam_box_iou": 0.9189791135224727,
+      "supervised_minus_sam_iou": -0.04372822576579527,
+      "gt_area": 71550,
+      "supervised_predicted_area": 74202
+    },
+    {
+      "eval_position": 89,
+      "dataset_index": 1544,
+      "supervised_iou": 0.868599109611877,
+      "sam_box_iou": 0.8113025333264352,
+      "supervised_minus_sam_iou": 0.057296576285441825,
+      "gt_area": 47122,
+      "supervised_predicted_area": 48156
+    },
+    {
+      "eval_position": 90,
+      "dataset_index": 1579,
+      "supervised_iou": 0.7908949723001322,
+      "sam_box_iou": 0.7146878354022802,
+      "supervised_minus_sam_iou": 0.07620713689785197,
+      "gt_area": 35292,
+      "supervised_predicted_area": 41969
+    },
+    {
+      "eval_position": 91,
+      "dataset_index": 1587,
+      "supervised_iou": 0.7993620990551844,
+      "sam_box_iou": 0.7483952236333518,
+      "supervised_minus_sam_iou": 0.05096687542183265,
+      "gt_area": 43384,
+      "supervised_predicted_area": 46316
+    },
+    {
+      "eval_position": 92,
+      "dataset_index": 1597,
+      "supervised_iou": 0.6645513413506013,
+      "sam_box_iou": 0.6900357026939306,
+      "supervised_minus_sam_iou": -0.02548436134332921,
+      "gt_area": 38663,
+      "supervised_predicted_area": 51306
+    },
+    {
+      "eval_position": 93,
+      "dataset_index": 1610,
+      "supervised_iou": 0.7949573138860542,
+      "sam_box_iou": 0.7943790937040502,
+      "supervised_minus_sam_iou": 0.0005782201820039301,
+      "gt_area": 71622,
+      "supervised_predicted_area": 72610
+    },
+    {
+      "eval_position": 94,
+      "dataset_index": 1657,
+      "supervised_iou": 0.7609760228058539,
+      "sam_box_iou": 0.8546917366760013,
+      "supervised_minus_sam_iou": -0.09371571387014743,
+      "gt_area": 57844,
+      "supervised_predicted_area": 66937
+    },
+    {
+      "eval_position": 95,
+      "dataset_index": 1663,
+      "supervised_iou": 0.8311553012995083,
+      "sam_box_iou": 0.8349771469809959,
+      "supervised_minus_sam_iou": -0.003821845681487579,
+      "gt_area": 45653,
+      "supervised_predicted_area": 54535
+    },
+    {
+      "eval_position": 96,
+      "dataset_index": 1749,
+      "supervised_iou": 0.8270108575227122,
+      "sam_box_iou": 0.701677846248932,
+      "supervised_minus_sam_iou": 0.12533301127378016,
+      "gt_area": 38679,
+      "supervised_predicted_area": 43774
+    },
+    {
+      "eval_position": 97,
+      "dataset_index": 1769,
+      "supervised_iou": 0.8185265122790644,
+      "sam_box_iou": 0.7981740531417026,
+      "supervised_minus_sam_iou": 0.020352459137361723,
+      "gt_area": 31321,
+      "supervised_predicted_area": 31029
+    },
+    {
+      "eval_position": 98,
+      "dataset_index": 1783,
+      "supervised_iou": 0.9027415521938214,
+      "sam_box_iou": 0.8663068596677431,
+      "supervised_minus_sam_iou": 0.03643469252607823,
+      "gt_area": 115090,
+      "supervised_predicted_area": 114706
+    },
+    {
+      "eval_position": 99,
+      "dataset_index": 1784,
+      "supervised_iou": 0.7978391974161831,
+      "sam_box_iou": 0.7752703813800519,
+      "supervised_minus_sam_iou": 0.022568816036131256,
+      "gt_area": 61552,
+      "supervised_predicted_area": 64250
+    },
+    {
+      "eval_position": 100,
+      "dataset_index": 1786,
+      "supervised_iou": 0.8218914198227468,
+      "sam_box_iou": 0.8486058789561965,
+      "supervised_minus_sam_iou": -0.02671445913344972,
+      "gt_area": 128864,
+      "supervised_predicted_area": 124603
+    },
+    {
+      "eval_position": 101,
+      "dataset_index": 1863,
+      "supervised_iou": 0.8489237535416755,
+      "sam_box_iou": 0.9355977473187296,
+      "supervised_minus_sam_iou": -0.08667399377705409,
+      "gt_area": 90805,
+      "supervised_predicted_area": 84081
+    },
+    {
+      "eval_position": 102,
+      "dataset_index": 1878,
+      "supervised_iou": 0.8341291647771227,
+      "sam_box_iou": 0.8105352798053528,
+      "supervised_minus_sam_iou": 0.02359388497176995,
+      "gt_area": 33313,
+      "supervised_predicted_area": 35443
+    },
+    {
+      "eval_position": 103,
+      "dataset_index": 1936,
+      "supervised_iou": 0.8225946644676726,
+      "sam_box_iou": 0.7559989747027623,
+      "supervised_minus_sam_iou": 0.06659568976491026,
+      "gt_area": 38541,
+      "supervised_predicted_area": 43237
+    },
+    {
+      "eval_position": 104,
+      "dataset_index": 1939,
+      "supervised_iou": 0.9006723989170212,
+      "sam_box_iou": 0.8818695287699094,
+      "supervised_minus_sam_iou": 0.018802870147111794,
+      "gt_area": 64220,
+      "supervised_predicted_area": 63547
+    },
+    {
+      "eval_position": 105,
+      "dataset_index": 1941,
+      "supervised_iou": 0.8565203595980962,
+      "sam_box_iou": 0.8434404830706073,
+      "supervised_minus_sam_iou": 0.013079876527488987,
+      "gt_area": 85627,
+      "supervised_predicted_area": 89907
+    },
+    {
+      "eval_position": 106,
+      "dataset_index": 1951,
+      "supervised_iou": 0.7797983207459601,
+      "sam_box_iou": 0.689468085106383,
+      "supervised_minus_sam_iou": 0.0903302356395771,
+      "gt_area": 19443,
+      "supervised_predicted_area": 22740
+    },
+    {
+      "eval_position": 107,
+      "dataset_index": 2017,
+      "supervised_iou": 0.858284420058696,
+      "sam_box_iou": 0.7984873268184932,
+      "supervised_minus_sam_iou": 0.05979709324020277,
+      "gt_area": 57357,
+      "supervised_predicted_area": 59150
+    },
+    {
+      "eval_position": 108,
+      "dataset_index": 2032,
+      "supervised_iou": 0.7995491124083668,
+      "sam_box_iou": 0.8741971935746878,
+      "supervised_minus_sam_iou": -0.07464808116632105,
+      "gt_area": 61600,
+      "supervised_predicted_area": 58932
+    },
+    {
+      "eval_position": 109,
+      "dataset_index": 2065,
+      "supervised_iou": 0.8887786776203701,
+      "sam_box_iou": 0.8630241761165243,
+      "supervised_minus_sam_iou": 0.02575450150384584,
+      "gt_area": 79628,
+      "supervised_predicted_area": 82229
+    },
+    {
+      "eval_position": 110,
+      "dataset_index": 2080,
+      "supervised_iou": 0.8885354370785087,
+      "sam_box_iou": 0.7924344533986836,
+      "supervised_minus_sam_iou": 0.09610098367982511,
+      "gt_area": 50457,
+      "supervised_predicted_area": 53437
+    },
+    {
+      "eval_position": 111,
+      "dataset_index": 2095,
+      "supervised_iou": 0.6770255271920089,
+      "sam_box_iou": 0.5591423753312454,
+      "supervised_minus_sam_iou": 0.11788315186076348,
+      "gt_area": 25539,
+      "supervised_predicted_area": 34901
+    },
+    {
+      "eval_position": 112,
+      "dataset_index": 2142,
+      "supervised_iou": 0.5972961050419078,
+      "sam_box_iou": 0.4239334172611554,
+      "supervised_minus_sam_iou": 0.17336268778075237,
+      "gt_area": 61890,
+      "supervised_predicted_area": 61220
+    },
+    {
+      "eval_position": 113,
+      "dataset_index": 2144,
+      "supervised_iou": 0.7297589732109544,
+      "sam_box_iou": 0.6620960782433598,
+      "supervised_minus_sam_iou": 0.06766289496759459,
+      "gt_area": 20909,
+      "supervised_predicted_area": 25452
+    },
+    {
+      "eval_position": 114,
+      "dataset_index": 2146,
+      "supervised_iou": 0.7515226124141505,
+      "sam_box_iou": 0.7498429648241206,
+      "supervised_minus_sam_iou": 0.0016796475900299201,
+      "gt_area": 14325,
+      "supervised_predicted_area": 12708
+    },
+    {
+      "eval_position": 115,
+      "dataset_index": 2174,
+      "supervised_iou": 0.7109702187063751,
+      "sam_box_iou": 0.7417792792792792,
+      "supervised_minus_sam_iou": -0.030809060572904112,
+      "gt_area": 13174,
+      "supervised_predicted_area": 16241
+    },
+    {
+      "eval_position": 116,
+      "dataset_index": 2196,
+      "supervised_iou": 0.7595064781765549,
+      "sam_box_iou": 0.6912077957055065,
+      "supervised_minus_sam_iou": 0.06829868247104842,
+      "gt_area": 29019,
+      "supervised_predicted_area": 33586
+    },
+    {
+      "eval_position": 117,
+      "dataset_index": 2236,
+      "supervised_iou": 0.6322080481227961,
+      "sam_box_iou": 0.8462674669417612,
+      "supervised_minus_sam_iou": -0.21405941881896517,
+      "gt_area": 36095,
+      "supervised_predicted_area": 26856
+    },
+    {
+      "eval_position": 118,
+      "dataset_index": 2241,
+      "supervised_iou": 0.7206536639330463,
+      "sam_box_iou": 0.7706588689105954,
+      "supervised_minus_sam_iou": -0.05000520497754912,
+      "gt_area": 62124,
+      "supervised_predicted_area": 80969
+    },
+    {
+      "eval_position": 119,
+      "dataset_index": 2245,
+      "supervised_iou": 0.8675960078108049,
+      "sam_box_iou": 0.8703712859049785,
+      "supervised_minus_sam_iou": -0.00277527809417355,
+      "gt_area": 35840,
+      "supervised_predicted_area": 33022
+    },
+    {
+      "eval_position": 120,
+      "dataset_index": 2288,
+      "supervised_iou": 0.9012108152480632,
+      "sam_box_iou": 0.9029901503891982,
+      "supervised_minus_sam_iou": -0.00177933514113493,
+      "gt_area": 72369,
+      "supervised_predicted_area": 75857
+    },
+    {
+      "eval_position": 121,
+      "dataset_index": 2333,
+      "supervised_iou": 0.8280395205541433,
+      "sam_box_iou": 0.8690093309509629,
+      "supervised_minus_sam_iou": -0.04096981039681957,
+      "gt_area": 109922,
+      "supervised_predicted_area": 112289
+    },
+    {
+      "eval_position": 122,
+      "dataset_index": 2334,
+      "supervised_iou": 0.8739119857274152,
+      "sam_box_iou": 0.8606577282429478,
+      "supervised_minus_sam_iou": 0.013254257484467402,
+      "gt_area": 67337,
+      "supervised_predicted_area": 71310
+    },
+    {
+      "eval_position": 123,
+      "dataset_index": 2348,
+      "supervised_iou": 0.8984503818015912,
+      "sam_box_iou": 0.9165759967899005,
+      "supervised_minus_sam_iou": -0.018125614988309335,
+      "gt_area": 119961,
+      "supervised_predicted_area": 117220
+    },
+    {
+      "eval_position": 124,
+      "dataset_index": 2351,
+      "supervised_iou": 0.9267247785831068,
+      "sam_box_iou": 0.9023454662205549,
+      "supervised_minus_sam_iou": 0.024379312362551864,
+      "gt_area": 107413,
+      "supervised_predicted_area": 112960
+    },
+    {
+      "eval_position": 125,
+      "dataset_index": 2358,
+      "supervised_iou": 0.8103057173789762,
+      "sam_box_iou": 0.6575268114703843,
+      "supervised_minus_sam_iou": 0.1527789059085919,
+      "gt_area": 65892,
+      "supervised_predicted_area": 74566
+    },
+    {
+      "eval_position": 126,
+      "dataset_index": 2363,
+      "supervised_iou": 0.8518076886387485,
+      "sam_box_iou": 0.8281889095013523,
+      "supervised_minus_sam_iou": 0.023618779137396184,
+      "gt_area": 74117,
+      "supervised_predicted_area": 81183
+    },
+    {
+      "eval_position": 127,
+      "dataset_index": 2370,
+      "supervised_iou": 0.8226213270491199,
+      "sam_box_iou": 0.8791514403682786,
+      "supervised_minus_sam_iou": -0.05653011331915869,
+      "gt_area": 93266,
+      "supervised_predicted_area": 104729
+    },
+    {
+      "eval_position": 128,
+      "dataset_index": 2379,
+      "supervised_iou": 0.9180716559828407,
+      "sam_box_iou": 0.8351668408913667,
+      "supervised_minus_sam_iou": 0.08290481509147396,
+      "gt_area": 150999,
+      "supervised_predicted_area": 162880
+    },
+    {
+      "eval_position": 129,
+      "dataset_index": 2382,
+      "supervised_iou": 0.8605193852718606,
+      "sam_box_iou": 0.8755265165334483,
+      "supervised_minus_sam_iou": -0.015007131261587703,
+      "gt_area": 26711,
+      "supervised_predicted_area": 29099
+    },
+    {
+      "eval_position": 130,
+      "dataset_index": 2395,
+      "supervised_iou": 0.9192949244561918,
+      "sam_box_iou": 0.8787868895272917,
+      "supervised_minus_sam_iou": 0.040508034928900094,
+      "gt_area": 53888,
+      "supervised_predicted_area": 53581
+    },
+    {
+      "eval_position": 131,
+      "dataset_index": 2416,
+      "supervised_iou": 0.8311071604014129,
+      "sam_box_iou": 0.8447306409089849,
+      "supervised_minus_sam_iou": -0.013623480507572006,
+      "gt_area": 36349,
+      "supervised_predicted_area": 41929
+    },
+    {
+      "eval_position": 132,
+      "dataset_index": 2422,
+      "supervised_iou": 0.8624500404044816,
+      "sam_box_iou": 0.8602361383453627,
+      "supervised_minus_sam_iou": 0.0022139020591188663,
+      "gt_area": 41359,
+      "supervised_predicted_area": 43917
+    },
+    {
+      "eval_position": 133,
+      "dataset_index": 2433,
+      "supervised_iou": 0.8191867415619933,
+      "sam_box_iou": 0.8352601592842787,
+      "supervised_minus_sam_iou": -0.01607341772228532,
+      "gt_area": 55337,
+      "supervised_predicted_area": 55748
+    },
+    {
+      "eval_position": 134,
+      "dataset_index": 2487,
+      "supervised_iou": 0.5671718469047008,
+      "sam_box_iou": 0.6742718008837587,
+      "supervised_minus_sam_iou": -0.10709995397905792,
+      "gt_area": 7512,
+      "supervised_predicted_area": 4690
+    },
+    {
+      "eval_position": 135,
+      "dataset_index": 2488,
+      "supervised_iou": 0.8608559951017726,
+      "sam_box_iou": 0.9245599071790261,
+      "supervised_minus_sam_iou": -0.06370391207725357,
+      "gt_area": 125237,
+      "supervised_predicted_area": 123980
+    },
+    {
+      "eval_position": 136,
+      "dataset_index": 2496,
+      "supervised_iou": 0.8388755047334668,
+      "sam_box_iou": 0.7862232412360947,
+      "supervised_minus_sam_iou": 0.052652263497372176,
+      "gt_area": 102302,
+      "supervised_predicted_area": 114472
+    },
+    {
+      "eval_position": 137,
+      "dataset_index": 2502,
+      "supervised_iou": 0.9443596996578943,
+      "sam_box_iou": 0.8534675531556866,
+      "supervised_minus_sam_iou": 0.09089214650220778,
+      "gt_area": 131895,
+      "supervised_predicted_area": 130683
+    },
+    {
+      "eval_position": 138,
+      "dataset_index": 2506,
+      "supervised_iou": 0.7088253750927035,
+      "sam_box_iou": 0.5688506507831458,
+      "supervised_minus_sam_iou": 0.1399747243095577,
+      "gt_area": 12944,
+      "supervised_predicted_area": 17010
+    },
+    {
+      "eval_position": 139,
+      "dataset_index": 2511,
+      "supervised_iou": 0.7143634808305467,
+      "sam_box_iou": 0.5805949601963248,
+      "supervised_minus_sam_iou": 0.13376852063422184,
+      "gt_area": 19401,
+      "supervised_predicted_area": 24689
+    },
+    {
+      "eval_position": 140,
+      "dataset_index": 2516,
+      "supervised_iou": 0.7374052608114133,
+      "sam_box_iou": 0.6764374295377678,
+      "supervised_minus_sam_iou": 0.06096783127364558,
+      "gt_area": 10371,
+      "supervised_predicted_area": 13011
+    },
+    {
+      "eval_position": 141,
+      "dataset_index": 2519,
+      "supervised_iou": 0.909691729663664,
+      "sam_box_iou": 0.880929043255913,
+      "supervised_minus_sam_iou": 0.028762686407750926,
+      "gt_area": 42314,
+      "supervised_predicted_area": 42060
+    },
+    {
+      "eval_position": 142,
+      "dataset_index": 2535,
+      "supervised_iou": 0.6775736146533735,
+      "sam_box_iou": 0.7099213716282625,
+      "supervised_minus_sam_iou": -0.03234775697488901,
+      "gt_area": 26345,
+      "supervised_predicted_area": 31538
+    },
+    {
+      "eval_position": 143,
+      "dataset_index": 2556,
+      "supervised_iou": 0.8568737856378128,
+      "sam_box_iou": 0.8703459947348627,
+      "supervised_minus_sam_iou": -0.013472209097049936,
+      "gt_area": 46287,
+      "supervised_predicted_area": 47370
+    },
+    {
+      "eval_position": 144,
+      "dataset_index": 2583,
+      "supervised_iou": 0.9211578979510825,
+      "sam_box_iou": 0.8906644404066199,
+      "supervised_minus_sam_iou": 0.030493457544462643,
+      "gt_area": 92527,
+      "supervised_predicted_area": 96221
+    },
+    {
+      "eval_position": 145,
+      "dataset_index": 2598,
+      "supervised_iou": 0.8497120564740851,
+      "sam_box_iou": 0.8015687330629008,
+      "supervised_minus_sam_iou": 0.048143323411184324,
+      "gt_area": 50485,
+      "supervised_predicted_area": 49085
+    },
+    {
+      "eval_position": 146,
+      "dataset_index": 2622,
+      "supervised_iou": 0.6381343580230555,
+      "sam_box_iou": 0.7363063499757635,
+      "supervised_minus_sam_iou": -0.09817199195270798,
+      "gt_area": 17441,
+      "supervised_predicted_area": 19648
+    },
+    {
+      "eval_position": 147,
+      "dataset_index": 2635,
+      "supervised_iou": 0.825190518490813,
+      "sam_box_iou": 0.891357485814055,
+      "supervised_minus_sam_iou": -0.06616696732324201,
+      "gt_area": 81839,
+      "supervised_predicted_area": 74317
+    },
+    {
+      "eval_position": 148,
+      "dataset_index": 2659,
+      "supervised_iou": 0.8449921586090727,
+      "sam_box_iou": 0.8575489661460894,
+      "supervised_minus_sam_iou": -0.012556807537016712,
+      "gt_area": 96525,
+      "supervised_predicted_area": 94059
+    },
+    {
+      "eval_position": 149,
+      "dataset_index": 2668,
+      "supervised_iou": 0.8855031216939101,
+      "sam_box_iou": 0.7990235461343551,
+      "supervised_minus_sam_iou": 0.08647957555955499,
+      "gt_area": 121764,
+      "supervised_predicted_area": 131312
+    },
+    {
+      "eval_position": 150,
+      "dataset_index": 2688,
+      "supervised_iou": 0.8555520537871625,
+      "sam_box_iou": 0.863536432160804,
+      "supervised_minus_sam_iou": -0.00798437837364152,
+      "gt_area": 50193,
+      "supervised_predicted_area": 55785
+    },
+    {
+      "eval_position": 151,
+      "dataset_index": 2716,
+      "supervised_iou": 0.8907168933667585,
+      "sam_box_iou": 0.9492623212042818,
+      "supervised_minus_sam_iou": -0.058545427837523256,
+      "gt_area": 101663,
+      "supervised_predicted_area": 96694
+    },
+    {
+      "eval_position": 152,
+      "dataset_index": 2779,
+      "supervised_iou": 0.6939345733398596,
+      "sam_box_iou": 0.7006338665861757,
+      "supervised_minus_sam_iou": -0.006699293246316018,
+      "gt_area": 35393,
+      "supervised_predicted_area": 47664
+    },
+    {
+      "eval_position": 153,
+      "dataset_index": 2795,
+      "supervised_iou": 0.8700758312269103,
+      "sam_box_iou": 0.8091935264517884,
+      "supervised_minus_sam_iou": 0.06088230477512191,
+      "gt_area": 23926,
+      "supervised_predicted_area": 24163
+    },
+    {
+      "eval_position": 154,
+      "dataset_index": 2826,
+      "supervised_iou": 0.9388820856399721,
+      "sam_box_iou": 0.9496428141429546,
+      "supervised_minus_sam_iou": -0.010760728502982486,
+      "gt_area": 94961,
+      "supervised_predicted_area": 96618
+    },
+    {
+      "eval_position": 155,
+      "dataset_index": 2873,
+      "supervised_iou": 0.7811311075962895,
+      "sam_box_iou": 0.8048882343890806,
+      "supervised_minus_sam_iou": -0.023757126792791183,
+      "gt_area": 37257,
+      "supervised_predicted_area": 46075
+    },
+    {
+      "eval_position": 156,
+      "dataset_index": 2876,
+      "supervised_iou": 0.7170464190115557,
+      "sam_box_iou": 0.7593542053016253,
+      "supervised_minus_sam_iou": -0.04230778629006959,
+      "gt_area": 27993,
+      "supervised_predicted_area": 24607
+    },
+    {
+      "eval_position": 157,
+      "dataset_index": 2879,
+      "supervised_iou": 0.7592663222495752,
+      "sam_box_iou": 0.7002413291667956,
+      "supervised_minus_sam_iou": 0.05902499308277964,
+      "gt_area": 45287,
+      "supervised_predicted_area": 56191
+    },
+    {
+      "eval_position": 158,
+      "dataset_index": 2882,
+      "supervised_iou": 0.7001912522867121,
+      "sam_box_iou": 0.6308233117483811,
+      "supervised_minus_sam_iou": 0.06936794053833095,
+      "gt_area": 17140,
+      "supervised_predicted_area": 23753
+    },
+    {
+      "eval_position": 159,
+      "dataset_index": 2896,
+      "supervised_iou": 0.8950865699578849,
+      "sam_box_iou": 0.8619558175016198,
+      "supervised_minus_sam_iou": 0.03313075245626518,
+      "gt_area": 41290,
+      "supervised_predicted_area": 39706
+    },
+    {
+      "eval_position": 160,
+      "dataset_index": 2908,
+      "supervised_iou": 0.7058979875965068,
+      "sam_box_iou": 0.8625584188213505,
+      "supervised_minus_sam_iou": -0.15666043122484374,
+      "gt_area": 59907,
+      "supervised_predicted_area": 74876
+    },
+    {
+      "eval_position": 161,
+      "dataset_index": 2973,
+      "supervised_iou": 0.9046204030564369,
+      "sam_box_iou": 0.86133503331414,
+      "supervised_minus_sam_iou": 0.04328536974229691,
+      "gt_area": 41960,
+      "supervised_predicted_area": 43287
+    },
+    {
+      "eval_position": 162,
+      "dataset_index": 2984,
+      "supervised_iou": 0.8478598292639246,
+      "sam_box_iou": 0.8054716166630693,
+      "supervised_minus_sam_iou": 0.042388212600855235,
+      "gt_area": 29868,
+      "supervised_predicted_area": 32039
+    },
+    {
+      "eval_position": 163,
+      "dataset_index": 2992,
+      "supervised_iou": 0.34072386614202005,
+      "sam_box_iou": 0.4664461402417057,
+      "supervised_minus_sam_iou": -0.12572227409968567,
+      "gt_area": 28517,
+      "supervised_predicted_area": 81539
+    },
+    {
+      "eval_position": 164,
+      "dataset_index": 3038,
+      "supervised_iou": 0.8698049665075311,
+      "sam_box_iou": 0.794402549458871,
+      "supervised_minus_sam_iou": 0.07540241704866013,
+      "gt_area": 25177,
+      "supervised_predicted_area": 25347
+    },
+    {
+      "eval_position": 165,
+      "dataset_index": 3058,
+      "supervised_iou": 0.8500583052604301,
+      "sam_box_iou": 0.8103071682781163,
+      "supervised_minus_sam_iou": 0.039751136982313806,
+      "gt_area": 53624,
+      "supervised_predicted_area": 60606
+    },
+    {
+      "eval_position": 166,
+      "dataset_index": 3098,
+      "supervised_iou": 0.7851958099708785,
+      "sam_box_iou": 0.7290696395174007,
+      "supervised_minus_sam_iou": 0.056126170453477786,
+      "gt_area": 19881,
+      "supervised_predicted_area": 21191
+    },
+    {
+      "eval_position": 167,
+      "dataset_index": 3138,
+      "supervised_iou": 0.46500415627597674,
+      "sam_box_iou": 0.645740554518029,
+      "supervised_minus_sam_iou": -0.1807363982420523,
+      "gt_area": 4509,
+      "supervised_predicted_area": 4303
+    },
+    {
+      "eval_position": 168,
+      "dataset_index": 3140,
+      "supervised_iou": 0.829136042375139,
+      "sam_box_iou": 0.867778675410667,
+      "supervised_minus_sam_iou": -0.03864263303552795,
+      "gt_area": 57613,
+      "supervised_predicted_area": 59106
+    },
+    {
+      "eval_position": 169,
+      "dataset_index": 3182,
+      "supervised_iou": 0.8324017762827284,
+      "sam_box_iou": 0.7976140429547004,
+      "supervised_minus_sam_iou": 0.03478773332802798,
+      "gt_area": 85379,
+      "supervised_predicted_area": 93293
+    },
+    {
+      "eval_position": 170,
+      "dataset_index": 3187,
+      "supervised_iou": 0.7684060042887777,
+      "sam_box_iou": 0.7552370452039692,
+      "supervised_minus_sam_iou": 0.01316895908480853,
+      "gt_area": 7985,
+      "supervised_predicted_area": 9333
+    },
+    {
+      "eval_position": 171,
+      "dataset_index": 3238,
+      "supervised_iou": 0.8718227424749164,
+      "sam_box_iou": 0.5729316694120793,
+      "supervised_minus_sam_iou": 0.29889107306283713,
+      "gt_area": 70318,
+      "supervised_predicted_area": 64004
+    },
+    {
+      "eval_position": 172,
+      "dataset_index": 3292,
+      "supervised_iou": 0.839489924769239,
+      "sam_box_iou": 0.8051958628552813,
+      "supervised_minus_sam_iou": 0.034294061913957674,
+      "gt_area": 49722,
+      "supervised_predicted_area": 53707
+    },
+    {
+      "eval_position": 173,
+      "dataset_index": 3298,
+      "supervised_iou": 0.868341327947488,
+      "sam_box_iou": 0.859966197565885,
+      "supervised_minus_sam_iou": 0.00837513038160298,
+      "gt_area": 101258,
+      "supervised_predicted_area": 105956
+    },
+    {
+      "eval_position": 174,
+      "dataset_index": 3365,
+      "supervised_iou": 0.5406641715677538,
+      "sam_box_iou": 0.6971883092859785,
+      "supervised_minus_sam_iou": -0.1565241377182247,
+      "gt_area": 11501,
+      "supervised_predicted_area": 14433
+    },
+    {
+      "eval_position": 175,
+      "dataset_index": 3373,
+      "supervised_iou": 0.8281284853892483,
+      "sam_box_iou": 0.7658926301773358,
+      "supervised_minus_sam_iou": 0.06223585521191255,
+      "gt_area": 37968,
+      "supervised_predicted_area": 43987
+    },
+    {
+      "eval_position": 176,
+      "dataset_index": 3380,
+      "supervised_iou": 0.77941286044259,
+      "sam_box_iou": 0.8132728182402973,
+      "supervised_minus_sam_iou": -0.03385995779770734,
+      "gt_area": 22760,
+      "supervised_predicted_area": 25003
+    },
+    {
+      "eval_position": 177,
+      "dataset_index": 3388,
+      "supervised_iou": 0.6542275840916062,
+      "sam_box_iou": 0.5534575146721102,
+      "supervised_minus_sam_iou": 0.10077006941949596,
+      "gt_area": 13075,
+      "supervised_predicted_area": 19285
+    },
+    {
+      "eval_position": 178,
+      "dataset_index": 3391,
+      "supervised_iou": 0.7677872553938786,
+      "sam_box_iou": 0.7662176679613255,
+      "supervised_minus_sam_iou": 0.0015695874325530879,
+      "gt_area": 9274,
+      "supervised_predicted_area": 8342
+    },
+    {
+      "eval_position": 179,
+      "dataset_index": 3460,
+      "supervised_iou": 0.8473511864710895,
+      "sam_box_iou": 0.7723495145631067,
+      "supervised_minus_sam_iou": 0.07500167190798279,
+      "gt_area": 39787,
+      "supervised_predicted_area": 42579
+    },
+    {
+      "eval_position": 180,
+      "dataset_index": 3482,
+      "supervised_iou": 0.8115074503214665,
+      "sam_box_iou": 0.8757333217019606,
+      "supervised_minus_sam_iou": -0.06422587138049407,
+      "gt_area": 80650,
+      "supervised_predicted_area": 74598
+    },
+    {
+      "eval_position": 181,
+      "dataset_index": 3541,
+      "supervised_iou": 0.8415735286021032,
+      "sam_box_iou": 0.7892477462690336,
+      "supervised_minus_sam_iou": 0.052325782333069615,
+      "gt_area": 31266,
+      "supervised_predicted_area": 35631
+    },
+    {
+      "eval_position": 182,
+      "dataset_index": 3544,
+      "supervised_iou": 0.884235474634554,
+      "sam_box_iou": 0.8636594857186459,
+      "supervised_minus_sam_iou": 0.02057598891590806,
+      "gt_area": 68860,
+      "supervised_predicted_area": 68676
+    },
+    {
+      "eval_position": 183,
+      "dataset_index": 3553,
+      "supervised_iou": 0.8705129127400907,
+      "sam_box_iou": 0.824340954725047,
+      "supervised_minus_sam_iou": 0.0461719580150437,
+      "gt_area": 25512,
+      "supervised_predicted_area": 26492
+    },
+    {
+      "eval_position": 184,
+      "dataset_index": 3557,
+      "supervised_iou": 0.7565228735432249,
+      "sam_box_iou": 0.7923290048136125,
+      "supervised_minus_sam_iou": -0.035806131270387564,
+      "gt_area": 56690,
+      "supervised_predicted_area": 64489
+    },
+    {
+      "eval_position": 185,
+      "dataset_index": 3575,
+      "supervised_iou": 0.9000690631986796,
+      "sam_box_iou": 0.878224422000758,
+      "supervised_minus_sam_iou": 0.02184464119792162,
+      "gt_area": 78783,
+      "supervised_predicted_area": 83538
+    },
+    {
+      "eval_position": 186,
+      "dataset_index": 3578,
+      "supervised_iou": 0.9289129795369553,
+      "sam_box_iou": 0.9126145343481844,
+      "supervised_minus_sam_iou": 0.016298445188770883,
+      "gt_area": 113471,
+      "supervised_predicted_area": 116060
+    },
+    {
+      "eval_position": 187,
+      "dataset_index": 3588,
+      "supervised_iou": 0.8385929026093744,
+      "sam_box_iou": 0.839376659004026,
+      "supervised_minus_sam_iou": -0.000783756394651669,
+      "gt_area": 66520,
+      "supervised_predicted_area": 70104
+    },
+    {
+      "eval_position": 188,
+      "dataset_index": 3603,
+      "supervised_iou": 0.8020939831118179,
+      "sam_box_iou": 0.7294609010701466,
+      "supervised_minus_sam_iou": 0.07263308204167129,
+      "gt_area": 43555,
+      "supervised_predicted_area": 51628
+    },
+    {
+      "eval_position": 189,
+      "dataset_index": 3610,
+      "supervised_iou": 0.7752651303723787,
+      "sam_box_iou": 0.8088858970043756,
+      "supervised_minus_sam_iou": -0.03362076663199698,
+      "gt_area": 50676,
+      "supervised_predicted_area": 60642
+    },
+    {
+      "eval_position": 190,
+      "dataset_index": 3626,
+      "supervised_iou": 0.7999357793513715,
+      "sam_box_iou": 0.8658758883047579,
+      "supervised_minus_sam_iou": -0.06594010895338642,
+      "gt_area": 98943,
+      "supervised_predicted_area": 114065
+    },
+    {
+      "eval_position": 191,
+      "dataset_index": 3635,
+      "supervised_iou": 0.7823782042678835,
+      "sam_box_iou": 0.7214051801131289,
+      "supervised_minus_sam_iou": 0.060973024154754585,
+      "gt_area": 12116,
+      "supervised_predicted_area": 14445
+    },
+    {
+      "eval_position": 192,
+      "dataset_index": 3637,
+      "supervised_iou": 0.5163617286379435,
+      "sam_box_iou": 0.44632861376358246,
+      "supervised_minus_sam_iou": 0.07003311487436104,
+      "gt_area": 8247,
+      "supervised_predicted_area": 14876
+    },
+    {
+      "eval_position": 193,
+      "dataset_index": 3640,
+      "supervised_iou": 0.8256762189169011,
+      "sam_box_iou": 0.7180375884793752,
+      "supervised_minus_sam_iou": 0.10763863043752597,
+      "gt_area": 29955,
+      "supervised_predicted_area": 33626
+    },
+    {
+      "eval_position": 194,
+      "dataset_index": 3647,
+      "supervised_iou": 0.7286693191865605,
+      "sam_box_iou": 0.5484785089387599,
+      "supervised_minus_sam_iou": 0.1801908102478006,
+      "gt_area": 28888,
+      "supervised_predicted_area": 33676
+    },
+    {
+      "eval_position": 195,
+      "dataset_index": 3659,
+      "supervised_iou": 0.7110464457125582,
+      "sam_box_iou": 0.7990711849648067,
+      "supervised_minus_sam_iou": -0.08802473925224852,
+      "gt_area": 77106,
+      "supervised_predicted_area": 103998
+    },
+    {
+      "eval_position": 196,
+      "dataset_index": 3663,
+      "supervised_iou": 0.7867120807105286,
+      "sam_box_iou": 0.6719119335449449,
+      "supervised_minus_sam_iou": 0.11480014716558362,
+      "gt_area": 19914,
+      "supervised_predicted_area": 21527
+    },
+    {
+      "eval_position": 197,
+      "dataset_index": 3664,
+      "supervised_iou": 0.8431490472767811,
+      "sam_box_iou": 0.7126844805368475,
+      "supervised_minus_sam_iou": 0.13046456673993356,
+      "gt_area": 58772,
+      "supervised_predicted_area": 66881
+    },
+    {
+      "eval_position": 198,
+      "dataset_index": 3667,
+      "supervised_iou": 0.8222922410397795,
+      "sam_box_iou": 0.8005597187528911,
+      "supervised_minus_sam_iou": 0.02173252228688838,
+      "gt_area": 34693,
+      "supervised_predicted_area": 34709
+    }
+  ]
+}

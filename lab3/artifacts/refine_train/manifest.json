@@ -1,0 +1,1818 @@
+{
+  "dataset": "Oxford-IIIT Pet",
+  "split": "trainval",
+  "seed": 67,
+  "fast_dev_run": false,
+  "num_samples": 200,
+  "input_channels": [
+    "R",
+    "G",
+    "B",
+    "SAM_mask"
+  ],
+  "target": "ground-truth foreground mask (class 1)",
+  "prompt_strategy": "bounding box derived from ground-truth mask",
+  "samples": [
+    {
+      "dataset_index": 3,
+      "file": "sample_00003.pt",
+      "height": 351,
+      "width": 500,
+      "gt_area": 30003,
+      "sam_area": 37009,
+      "sam_iou": 0.7939711945173208
+    },
+    {
+      "dataset_index": 29,
+      "file": "sample_00029.pt",
+      "height": 400,
+      "width": 266,
+      "gt_area": 6572,
+      "sam_area": 8244,
+      "sam_iou": 0.7213895666318113
+    },
+    {
+      "dataset_index": 33,
+      "file": "sample_00033.pt",
+      "height": 500,
+      "width": 333,
+      "gt_area": 23665,
+      "sam_area": 61124,
+      "sam_iou": 0.38544117647058823
+    },
+    {
+      "dataset_index": 42,
+      "file": "sample_00042.pt",
+      "height": 333,
+      "width": 500,
+      "gt_area": 25604,
+      "sam_area": 31310,
+      "sam_iou": 0.8177579048227404
+    },
+    {
+      "dataset_index": 58,
+      "file": "sample_00058.pt",
+      "height": 500,
+      "width": 375,
+      "gt_area": 24851,
+      "sam_area": 34842,
+      "sam_iou": 0.6972221432430127
+    },
+    {
+      "dataset_index": 91,
+      "file": "sample_00091.pt",
+      "height": 500,
+      "width": 333,
+      "gt_area": 43938,
+      "sam_area": 67433,
+      "sam_iou": 0.647158872422871
+    },
+    {
+      "dataset_index": 157,
+      "file": "sample_00157.pt",
+      "height": 500,
+      "width": 375,
+      "gt_area": 33343,
+      "sam_area": 35740,
+      "sam_iou": 0.7034817773832421
+    },
+    {
+      "dataset_index": 184,
+      "file": "sample_00184.pt",
+      "height": 375,
+      "width": 500,
+      "gt_area": 67305,
+      "sam_area": 81251,
+      "sam_iou": 0.8244967638136644
+    },
+    {
+      "dataset_index": 204,
+      "file": "sample_00204.pt",
+      "height": 333,
+      "width": 500,
+      "gt_area": 44064,
+      "sam_area": 51211,
+      "sam_iou": 0.8542846577528659
+    },
+    {
+      "dataset_index": 229,
+      "file": "sample_00229.pt",
+      "height": 500,
+      "width": 332,
+      "gt_area": 27048,
+      "sam_area": 40248,
+      "sam_iou": 0.6714935048806537
+    },
+    {
+      "dataset_index": 309,
+      "file": "sample_00309.pt",
+      "height": 500,
+      "width": 355,
+      "gt_area": 108736,
+      "sam_area": 118661,
+      "sam_iou": 0.9060139977368928
+    },
+    {
+      "dataset_index": 317,
+      "file": "sample_00317.pt",
+      "height": 500,
+      "width": 333,
+      "gt_area": 66341,
+      "sam_area": 77108,
+      "sam_iou": 0.8492845172102617
+    },
+    {
+      "dataset_index": 338,
+      "file": "sample_00338.pt",
+      "height": 500,
+      "width": 375,
+      "gt_area": 62439,
+      "sam_area": 71890,
+      "sam_iou": 0.84853030219629
+    },
+    {
+      "dataset_index": 349,
+      "file": "sample_00349.pt",
+      "height": 375,
+      "width": 500,
+      "gt_area": 20520,
+      "sam_area": 24639,
+      "sam_iou": 0.8327516233766233
+    },
+    {
+      "dataset_index": 366,
+      "file": "sample_00366.pt",
+      "height": 428,
+      "width": 600,
+      "gt_area": 153045,
+      "sam_area": 165496,
+      "sam_iou": 0.9176278655365054
+    },
+    {
+      "dataset_index": 376,
+      "file": "sample_00376.pt",
+      "height": 225,
+      "width": 297,
+      "gt_area": 19097,
+      "sam_area": 23173,
+      "sam_iou": 0.8101233299075026
+    },
+    {
+      "dataset_index": 378,
+      "file": "sample_00378.pt",
+      "height": 870,
+      "width": 600,
+      "gt_area": 77871,
+      "sam_area": 111962,
+      "sam_iou": 0.6943928737191617
+    },
+    {
+      "dataset_index": 412,
+      "file": "sample_00412.pt",
+      "height": 333,
+      "width": 500,
+      "gt_area": 36815,
+      "sam_area": 41824,
+      "sam_iou": 0.8723125639865718
+    },
+    {
+      "dataset_index": 439,
+      "file": "sample_00439.pt",
+      "height": 375,
+      "width": 500,
+      "gt_area": 65427,
+      "sam_area": 68657,
+      "sam_iou": 0.8857183039167429
+    },
+    {
+      "dataset_index": 442,
+      "file": "sample_00442.pt",
+      "height": 500,
+      "width": 333,
+      "gt_area": 20673,
+      "sam_area": 33765,
+      "sam_iou": 0.6113067929554536
+    },
+    {
+      "dataset_index": 447,
+      "file": "sample_00447.pt",
+      "height": 375,
+      "width": 500,
+      "gt_area": 34793,
+      "sam_area": 42247,
+      "sam_iou": 0.8225260817108656
+    },
+    {
+      "dataset_index": 455,
+      "file": "sample_00455.pt",
+      "height": 375,
+      "width": 500,
+      "gt_area": 47065,
+      "sam_area": 51371,
+      "sam_iou": 0.8891127871495192
+    },
+    {
+      "dataset_index": 515,
+      "file": "sample_00515.pt",
+      "height": 279,
+      "width": 300,
+      "gt_area": 22078,
+      "sam_area": 28902,
+      "sam_iou": 0.7600552390816503
+    },
+    {
+      "dataset_index": 524,
+      "file": "sample_00524.pt",
+      "height": 200,
+      "width": 300,
+      "gt_area": 5527,
+      "sam_area": 8223,
+      "sam_iou": 0.6574252651880425
+    },
+    {
+      "dataset_index": 537,
+      "file": "sample_00537.pt",
+      "height": 200,
+      "width": 154,
+      "gt_area": 13362,
+      "sam_area": 14985,
+      "sam_iou": 0.8654251118715451
+    },
+    {
+      "dataset_index": 538,
+      "file": "sample_00538.pt",
+      "height": 182,
+      "width": 200,
+      "gt_area": 15009,
+      "sam_area": 20235,
+      "sam_iou": 0.7373558118899733
+    },
+    {
+      "dataset_index": 539,
+      "file": "sample_00539.pt",
+      "height": 300,
+      "width": 205,
+      "gt_area": 25598,
+      "sam_area": 41669,
+      "sam_iou": 0.6139302766381152
+    },
+    {
+      "dataset_index": 556,
+      "file": "sample_00556.pt",
+      "height": 357,
+      "width": 250,
+      "gt_area": 36753,
+      "sam_area": 66646,
+      "sam_iou": 0.548747060497581
+    },
+    {
+      "dataset_index": 558,
+      "file": "sample_00558.pt",
+      "height": 250,
+      "width": 180,
+      "gt_area": 31541,
+      "sam_area": 35155,
+      "sam_iou": 0.8866259334691107
+    },
+    {
+      "dataset_index": 567,
+      "file": "sample_00567.pt",
+      "height": 500,
+      "width": 375,
+      "gt_area": 23985,
+      "sam_area": 33113,
+      "sam_iou": 0.7243378733427959
+    },
+    {
+      "dataset_index": 580,
+      "file": "sample_00580.pt",
+      "height": 370,
+      "width": 354,
+      "gt_area": 26465,
+      "sam_area": 31953,
+      "sam_iou": 0.8040269285405472
+    },
+    {
+      "dataset_index": 585,
+      "file": "sample_00585.pt",
+      "height": 420,
+      "width": 400,
+      "gt_area": 32958,
+      "sam_area": 111048,
+      "sam_iou": 0.29578706786402004
+    },
+    {
+      "dataset_index": 593,
+      "file": "sample_00593.pt",
+      "height": 550,
+      "width": 366,
+      "gt_area": 29056,
+      "sam_area": 36215,
+      "sam_iou": 0.7857025607353907
+    },
+    {
+      "dataset_index": 594,
+      "file": "sample_00594.pt",
+      "height": 576,
+      "width": 512,
+      "gt_area": 70500,
+      "sam_area": 96218,
+      "sam_iou": 0.7327111351306408
+    },
+    {
+      "dataset_index": 601,
+      "file": "sample_00601.pt",
+      "height": 500,
+      "width": 484,
+      "gt_area": 152948,
+      "sam_area": 168427,
+      "sam_iou": 0.8721055544228584
+    },
+    {
+      "dataset_index": 606,
+      "file": "sample_00606.pt",
+      "height": 500,
+      "width": 333,
+      "gt_area": 68603,
+      "sam_area": 82833,
+      "sam_iou": 0.8228171116300345
+    },
+    {
+      "dataset_index": 628,
+      "file": "sample_00628.pt",
+      "height": 333,
+      "width": 500,
+      "gt_area": 53010,
+      "sam_area": 62849,
+      "sam_iou": 0.839703383775029
+    },
+    {
+      "dataset_index": 647,
+      "file": "sample_00647.pt",
+      "height": 500,
+      "width": 333,
+      "gt_area": 31076,
+      "sam_area": 40246,
+      "sam_iou": 0.7710951080208592
+    },
+    {
+      "dataset_index": 649,
+      "file": "sample_00649.pt",
+      "height": 500,
+      "width": 333,
+      "gt_area": 78710,
+      "sam_area": 97339,
+      "sam_iou": 0.8086173065266749
+    },
+    {
+      "dataset_index": 678,
+      "file": "sample_00678.pt",
+      "height": 500,
+      "width": 360,
+      "gt_area": 98050,
+      "sam_area": 116680,
+      "sam_iou": 0.8403325334247514
+    },
+    {
+      "dataset_index": 683,
+      "file": "sample_00683.pt",
+      "height": 375,
+      "width": 500,
+      "gt_area": 29831,
+      "sam_area": 36536,
+      "sam_iou": 0.8153892444882105
+    },
+    {
+      "dataset_index": 718,
+      "file": "sample_00718.pt",
+      "height": 500,
+      "width": 333,
+      "gt_area": 36607,
+      "sam_area": 46669,
+      "sam_iou": 0.78347932238237
+    },
+    {
+      "dataset_index": 723,
+      "file": "sample_00723.pt",
+      "height": 375,
+      "width": 500,
+      "gt_area": 21182,
+      "sam_area": 27322,
+      "sam_iou": 0.7752726740355758
+    },
+    {
+      "dataset_index": 726,
+      "file": "sample_00726.pt",
+      "height": 500,
+      "width": 453,
+      "gt_area": 39566,
+      "sam_area": 58887,
+      "sam_iou": 0.6717834643663718
+    },
+    {
+      "dataset_index": 729,
+      "file": "sample_00729.pt",
+      "height": 500,
+      "width": 333,
+      "gt_area": 32199,
+      "sam_area": 42755,
+      "sam_iou": 0.7462025906252913
+    },
+    {
+      "dataset_index": 766,
+      "file": "sample_00766.pt",
+      "height": 345,
+      "width": 500,
+      "gt_area": 71539,
+      "sam_area": 81512,
+      "sam_iou": 0.8774656526005888
+    },
+    {
+      "dataset_index": 782,
+      "file": "sample_00782.pt",
+      "height": 333,
+      "width": 500,
+      "gt_area": 52422,
+      "sam_area": 60014,
+      "sam_iou": 0.8733401089654943
+    },
+    {
+      "dataset_index": 783,
+      "file": "sample_00783.pt",
+      "height": 489,
+      "width": 500,
+      "gt_area": 73547,
+      "sam_area": 87251,
+      "sam_iou": 0.8429358975828357
+    },
+    {
+      "dataset_index": 801,
+      "file": "sample_00801.pt",
+      "height": 500,
+      "width": 375,
+      "gt_area": 158511,
+      "sam_area": 164437,
+      "sam_iou": 0.9481338939393026
+    },
+    {
+      "dataset_index": 828,
+      "file": "sample_00828.pt",
+      "height": 500,
+      "width": 357,
+      "gt_area": 78379,
+      "sam_area": 82343,
+      "sam_iou": 0.7435669342590584
+    },
+    {
+      "dataset_index": 871,
+      "file": "sample_00871.pt",
+      "height": 500,
+      "width": 378,
+      "gt_area": 57008,
+      "sam_area": 66149,
+      "sam_iou": 0.788616823515743
+    },
+    {
+      "dataset_index": 910,
+      "file": "sample_00910.pt",
+      "height": 500,
+      "width": 333,
+      "gt_area": 62009,
+      "sam_area": 69774,
+      "sam_iou": 0.8880626952061663
+    },
+    {
+      "dataset_index": 924,
+      "file": "sample_00924.pt",
+      "height": 333,
+      "width": 500,
+      "gt_area": 96648,
+      "sam_area": 106001,
+      "sam_iou": 0.9043810848400556
+    },
+    {
+      "dataset_index": 936,
+      "file": "sample_00936.pt",
+      "height": 500,
+      "width": 489,
+      "gt_area": 160188,
+      "sam_area": 167369,
+      "sam_iou": 0.8950800134223529
+    },
+    {
+      "dataset_index": 945,
+      "file": "sample_00945.pt",
+      "height": 500,
+      "width": 333,
+      "gt_area": 79440,
+      "sam_area": 90594,
+      "sam_iou": 0.873322609787806
+    },
+    {
+      "dataset_index": 988,
+      "file": "sample_00988.pt",
+      "height": 333,
+      "width": 500,
+      "gt_area": 77719,
+      "sam_area": 83540,
+      "sam_iou": 0.9256875365710943
+    },
+    {
+      "dataset_index": 1011,
+      "file": "sample_01011.pt",
+      "height": 333,
+      "width": 500,
+      "gt_area": 17688,
+      "sam_area": 22572,
+      "sam_iou": 0.7626198502692526
+    },
+    {
+      "dataset_index": 1036,
+      "file": "sample_01036.pt",
+      "height": 500,
+      "width": 333,
+      "gt_area": 49333,
+      "sam_area": 57791,
+      "sam_iou": 0.8467426345096282
+    },
+    {
+      "dataset_index": 1065,
+      "file": "sample_01065.pt",
+      "height": 225,
+      "width": 300,
+      "gt_area": 15489,
+      "sam_area": 19238,
+      "sam_iou": 0.7924538040673067
+    },
+    {
+      "dataset_index": 1074,
+      "file": "sample_01074.pt",
+      "height": 300,
+      "width": 211,
+      "gt_area": 17238,
+      "sam_area": 22539,
+      "sam_iou": 0.7626179820091283
+    },
+    {
+      "dataset_index": 1076,
+      "file": "sample_01076.pt",
+      "height": 197,
+      "width": 300,
+      "gt_area": 4611,
+      "sam_area": 6907,
+      "sam_iou": 0.6675836108295932
+    },
+    {
+      "dataset_index": 1077,
+      "file": "sample_01077.pt",
+      "height": 225,
+      "width": 300,
+      "gt_area": 6005,
+      "sam_area": 7453,
+      "sam_iou": 0.8008831794460056
+    },
+    {
+      "dataset_index": 1125,
+      "file": "sample_01125.pt",
+      "height": 333,
+      "width": 500,
+      "gt_area": 58329,
+      "sam_area": 63870,
+      "sam_iou": 0.9132456552372006
+    },
+    {
+      "dataset_index": 1129,
+      "file": "sample_01129.pt",
+      "height": 500,
+      "width": 334,
+      "gt_area": 44410,
+      "sam_area": 54087,
+      "sam_iou": 0.8205459956009833
+    },
+    {
+      "dataset_index": 1161,
+      "file": "sample_01161.pt",
+      "height": 375,
+      "width": 500,
+      "gt_area": 97716,
+      "sam_area": 104811,
+      "sam_iou": 0.9293430629120146
+    },
+    {
+      "dataset_index": 1170,
+      "file": "sample_01170.pt",
+      "height": 334,
+      "width": 500,
+      "gt_area": 65277,
+      "sam_area": 76253,
+      "sam_iou": 0.848687905743433
+    },
+    {
+      "dataset_index": 1183,
+      "file": "sample_01183.pt",
+      "height": 500,
+      "width": 358,
+      "gt_area": 106797,
+      "sam_area": 114435,
+      "sam_iou": 0.9205166935777905
+    },
+    {
+      "dataset_index": 1184,
+      "file": "sample_01184.pt",
+      "height": 396,
+      "width": 500,
+      "gt_area": 96383,
+      "sam_area": 103443,
+      "sam_iou": 0.9101815296670522
+    },
+    {
+      "dataset_index": 1189,
+      "file": "sample_01189.pt",
+      "height": 375,
+      "width": 500,
+      "gt_area": 90763,
+      "sam_area": 127939,
+      "sam_iou": 0.7054383256133128
+    },
+    {
+      "dataset_index": 1210,
+      "file": "sample_01210.pt",
+      "height": 225,
+      "width": 300,
+      "gt_area": 8779,
+      "sam_area": 11918,
+      "sam_iou": 0.7355974842767296
+    },
+    {
+      "dataset_index": 1234,
+      "file": "sample_01234.pt",
+      "height": 300,
+      "width": 218,
+      "gt_area": 38186,
+      "sam_area": 49765,
+      "sam_iou": 0.7331612343830055
+    },
+    {
+      "dataset_index": 1242,
+      "file": "sample_01242.pt",
+      "height": 225,
+      "width": 300,
+      "gt_area": 14441,
+      "sam_area": 18388,
+      "sam_iou": 0.7417763157894737
+    },
+    {
+      "dataset_index": 1282,
+      "file": "sample_01282.pt",
+      "height": 225,
+      "width": 300,
+      "gt_area": 14677,
+      "sam_area": 17284,
+      "sam_iou": 0.8168950031265988
+    },
+    {
+      "dataset_index": 1291,
+      "file": "sample_01291.pt",
+      "height": 225,
+      "width": 300,
+      "gt_area": 26225,
+      "sam_area": 31407,
+      "sam_iou": 0.8344792462439521
+    },
+    {
+      "dataset_index": 1318,
+      "file": "sample_01318.pt",
+      "height": 500,
+      "width": 334,
+      "gt_area": 86818,
+      "sam_area": 93777,
+      "sam_iou": 0.8716835254124865
+    },
+    {
+      "dataset_index": 1326,
+      "file": "sample_01326.pt",
+      "height": 375,
+      "width": 500,
+      "gt_area": 118130,
+      "sam_area": 124766,
+      "sam_iou": 0.931993350460934
+    },
+    {
+      "dataset_index": 1330,
+      "file": "sample_01330.pt",
+      "height": 479,
+      "width": 500,
+      "gt_area": 127533,
+      "sam_area": 141722,
+      "sam_iou": 0.8931489319814943
+    },
+    {
+      "dataset_index": 1427,
+      "file": "sample_01427.pt",
+      "height": 375,
+      "width": 500,
+      "gt_area": 4447,
+      "sam_area": 5846,
+      "sam_iou": 0.7493201903467029
+    },
+    {
+      "dataset_index": 1432,
+      "file": "sample_01432.pt",
+      "height": 375,
+      "width": 500,
+      "gt_area": 74937,
+      "sam_area": 84216,
+      "sam_iou": 0.8793972816267728
+    },
+    {
+      "dataset_index": 1438,
+      "file": "sample_01438.pt",
+      "height": 500,
+      "width": 333,
+      "gt_area": 22190,
+      "sam_area": 29720,
+      "sam_iou": 0.7463414634146341
+    },
+    {
+      "dataset_index": 1442,
+      "file": "sample_01442.pt",
+      "height": 375,
+      "width": 500,
+      "gt_area": 44330,
+      "sam_area": 51629,
+      "sam_iou": 0.8574746907725364
+    },
+    {
+      "dataset_index": 1447,
+      "file": "sample_01447.pt",
+      "height": 375,
+      "width": 500,
+      "gt_area": 10359,
+      "sam_area": 17043,
+      "sam_iou": 0.6078155254356628
+    },
+    {
+      "dataset_index": 1476,
+      "file": "sample_01476.pt",
+      "height": 375,
+      "width": 500,
+      "gt_area": 76157,
+      "sam_area": 95568,
+      "sam_iou": 0.7968880796919471
+    },
+    {
+      "dataset_index": 1477,
+      "file": "sample_01477.pt",
+      "height": 500,
+      "width": 333,
+      "gt_area": 61558,
+      "sam_area": 76001,
+      "sam_iou": 0.8088681999289913
+    },
+    {
+      "dataset_index": 1505,
+      "file": "sample_01505.pt",
+      "height": 375,
+      "width": 500,
+      "gt_area": 10559,
+      "sam_area": 13852,
+      "sam_iou": 0.7613824951295187
+    },
+    {
+      "dataset_index": 1509,
+      "file": "sample_01509.pt",
+      "height": 500,
+      "width": 375,
+      "gt_area": 29528,
+      "sam_area": 39765,
+      "sam_iou": 0.7425625550106878
+    },
+    {
+      "dataset_index": 1520,
+      "file": "sample_01520.pt",
+      "height": 439,
+      "width": 449,
+      "gt_area": 42563,
+      "sam_area": 56725,
+      "sam_iou": 0.739514348785872
+    },
+    {
+      "dataset_index": 1535,
+      "file": "sample_01535.pt",
+      "height": 500,
+      "width": 413,
+      "gt_area": 80676,
+      "sam_area": 106572,
+      "sam_iou": 0.7563501294413387
+    },
+    {
+      "dataset_index": 1548,
+      "file": "sample_01548.pt",
+      "height": 375,
+      "width": 500,
+      "gt_area": 26198,
+      "sam_area": 36660,
+      "sam_iou": 0.7061505890016828
+    },
+    {
+      "dataset_index": 1549,
+      "file": "sample_01549.pt",
+      "height": 400,
+      "width": 500,
+      "gt_area": 17789,
+      "sam_area": 20222,
+      "sam_iou": 0.8367238463396955
+    },
+    {
+      "dataset_index": 1584,
+      "file": "sample_01584.pt",
+      "height": 375,
+      "width": 500,
+      "gt_area": 44259,
+      "sam_area": 53424,
+      "sam_iou": 0.8095141062927218
+    },
+    {
+      "dataset_index": 1592,
+      "file": "sample_01592.pt",
+      "height": 334,
+      "width": 500,
+      "gt_area": 23648,
+      "sam_area": 33457,
+      "sam_iou": 0.706664674237896
+    },
+    {
+      "dataset_index": 1602,
+      "file": "sample_01602.pt",
+      "height": 378,
+      "width": 500,
+      "gt_area": 38664,
+      "sam_area": 45931,
+      "sam_iou": 0.8417042213659025
+    },
+    {
+      "dataset_index": 1615,
+      "file": "sample_01615.pt",
+      "height": 334,
+      "width": 500,
+      "gt_area": 54562,
+      "sam_area": 63412,
+      "sam_iou": 0.8516181686913394
+    },
+    {
+      "dataset_index": 1663,
+      "file": "sample_01663.pt",
+      "height": 375,
+      "width": 500,
+      "gt_area": 58192,
+      "sam_area": 66790,
+      "sam_iou": 0.8689456133267537
+    },
+    {
+      "dataset_index": 1668,
+      "file": "sample_01668.pt",
+      "height": 332,
+      "width": 500,
+      "gt_area": 23768,
+      "sam_area": 30811,
+      "sam_iou": 0.7444068013295833
+    },
+    {
+      "dataset_index": 1754,
+      "file": "sample_01754.pt",
+      "height": 500,
+      "width": 333,
+      "gt_area": 80155,
+      "sam_area": 90359,
+      "sam_iou": 0.8595576688187053
+    },
+    {
+      "dataset_index": 1774,
+      "file": "sample_01774.pt",
+      "height": 333,
+      "width": 500,
+      "gt_area": 14819,
+      "sam_area": 17325,
+      "sam_iou": 0.8356461652675461
+    },
+    {
+      "dataset_index": 1789,
+      "file": "sample_01789.pt",
+      "height": 334,
+      "width": 500,
+      "gt_area": 24920,
+      "sam_area": 30328,
+      "sam_iou": 0.7829987736397083
+    },
+    {
+      "dataset_index": 1791,
+      "file": "sample_01791.pt",
+      "height": 375,
+      "width": 500,
+      "gt_area": 45589,
+      "sam_area": 54864,
+      "sam_iou": 0.830945610965296
+    },
+    {
+      "dataset_index": 1869,
+      "file": "sample_01869.pt",
+      "height": 335,
+      "width": 500,
+      "gt_area": 24574,
+      "sam_area": 33583,
+      "sam_iou": 0.7219458755255522
+    },
+    {
+      "dataset_index": 1884,
+      "file": "sample_01884.pt",
+      "height": 300,
+      "width": 378,
+      "gt_area": 20768,
+      "sam_area": 26656,
+      "sam_iou": 0.7791116446578632
+    },
+    {
+      "dataset_index": 1942,
+      "file": "sample_01942.pt",
+      "height": 333,
+      "width": 500,
+      "gt_area": 87226,
+      "sam_area": 92108,
+      "sam_iou": 0.8739772406658516
+    },
+    {
+      "dataset_index": 1945,
+      "file": "sample_01945.pt",
+      "height": 500,
+      "width": 412,
+      "gt_area": 46691,
+      "sam_area": 58715,
+      "sam_iou": 0.7907612850614159
+    },
+    {
+      "dataset_index": 1947,
+      "file": "sample_01947.pt",
+      "height": 225,
+      "width": 300,
+      "gt_area": 10320,
+      "sam_area": 13933,
+      "sam_iou": 0.7389402738940274
+    },
+    {
+      "dataset_index": 1957,
+      "file": "sample_01957.pt",
+      "height": 216,
+      "width": 215,
+      "gt_area": 15084,
+      "sam_area": 18405,
+      "sam_iou": 0.8169931094351907
+    },
+    {
+      "dataset_index": 2023,
+      "file": "sample_02023.pt",
+      "height": 333,
+      "width": 500,
+      "gt_area": 75830,
+      "sam_area": 80216,
+      "sam_iou": 0.9274456521739131
+    },
+    {
+      "dataset_index": 2038,
+      "file": "sample_02038.pt",
+      "height": 500,
+      "width": 334,
+      "gt_area": 54216,
+      "sam_area": 63486,
+      "sam_iou": 0.8477841096406536
+    },
+    {
+      "dataset_index": 2071,
+      "file": "sample_02071.pt",
+      "height": 375,
+      "width": 500,
+      "gt_area": 49175,
+      "sam_area": 68027,
+      "sam_iou": 0.7228747409116968
+    },
+    {
+      "dataset_index": 2087,
+      "file": "sample_02087.pt",
+      "height": 500,
+      "width": 334,
+      "gt_area": 65067,
+      "sam_area": 78758,
+      "sam_iou": 0.8139567147613762
+    },
+    {
+      "dataset_index": 2101,
+      "file": "sample_02101.pt",
+      "height": 179,
+      "width": 200,
+      "gt_area": 23276,
+      "sam_area": 30611,
+      "sam_iou": 0.7552768729641693
+    },
+    {
+      "dataset_index": 2148,
+      "file": "sample_02148.pt",
+      "height": 320,
+      "width": 500,
+      "gt_area": 89875,
+      "sam_area": 100354,
+      "sam_iou": 0.8943526623447754
+    },
+    {
+      "dataset_index": 2150,
+      "file": "sample_02150.pt",
+      "height": 500,
+      "width": 375,
+      "gt_area": 71783,
+      "sam_area": 80389,
+      "sam_iou": 0.8850198818239251
+    },
+    {
+      "dataset_index": 2152,
+      "file": "sample_02152.pt",
+      "height": 500,
+      "width": 375,
+      "gt_area": 25252,
+      "sam_area": 31573,
+      "sam_iou": 0.7652997825411618
+    },
+    {
+      "dataset_index": 2181,
+      "file": "sample_02181.pt",
+      "height": 500,
+      "width": 375,
+      "gt_area": 23784,
+      "sam_area": 31325,
+      "sam_iou": 0.6999506447035597
+    },
+    {
+      "dataset_index": 2202,
+      "file": "sample_02202.pt",
+      "height": 200,
+      "width": 300,
+      "gt_area": 10630,
+      "sam_area": 13352,
+      "sam_iou": 0.795866407069043
+    },
+    {
+      "dataset_index": 2203,
+      "file": "sample_02203.pt",
+      "height": 359,
+      "width": 500,
+      "gt_area": 83909,
+      "sam_area": 93523,
+      "sam_iou": 0.8834669072766839
+    },
+    {
+      "dataset_index": 2243,
+      "file": "sample_02243.pt",
+      "height": 333,
+      "width": 500,
+      "gt_area": 70576,
+      "sam_area": 79078,
+      "sam_iou": 0.8924619684113355
+    },
+    {
+      "dataset_index": 2248,
+      "file": "sample_02248.pt",
+      "height": 375,
+      "width": 500,
+      "gt_area": 10515,
+      "sam_area": 17644,
+      "sam_iou": 0.591353489686352
+    },
+    {
+      "dataset_index": 2252,
+      "file": "sample_02252.pt",
+      "height": 500,
+      "width": 333,
+      "gt_area": 23921,
+      "sam_area": 33447,
+      "sam_iou": 0.7145248057381949
+    },
+    {
+      "dataset_index": 2295,
+      "file": "sample_02295.pt",
+      "height": 434,
+      "width": 600,
+      "gt_area": 83026,
+      "sam_area": 98693,
+      "sam_iou": 0.8412552055363602
+    },
+    {
+      "dataset_index": 2340,
+      "file": "sample_02340.pt",
+      "height": 375,
+      "width": 500,
+      "gt_area": 66523,
+      "sam_area": 71475,
+      "sam_iou": 0.8890896646132785
+    },
+    {
+      "dataset_index": 2341,
+      "file": "sample_02341.pt",
+      "height": 419,
+      "width": 500,
+      "gt_area": 68086,
+      "sam_area": 94831,
+      "sam_iou": 0.7083521207990353
+    },
+    {
+      "dataset_index": 2355,
+      "file": "sample_02355.pt",
+      "height": 200,
+      "width": 117,
+      "gt_area": 7732,
+      "sam_area": 9827,
+      "sam_iou": 0.7172616136919315
+    },
+    {
+      "dataset_index": 2358,
+      "file": "sample_02358.pt",
+      "height": 500,
+      "width": 372,
+      "gt_area": 52795,
+      "sam_area": 64447,
+      "sam_iou": 0.801146052570937
+    },
+    {
+      "dataset_index": 2366,
+      "file": "sample_02366.pt",
+      "height": 240,
+      "width": 300,
+      "gt_area": 27020,
+      "sam_area": 30862,
+      "sam_iou": 0.8629546186031541
+    },
+    {
+      "dataset_index": 2370,
+      "file": "sample_02370.pt",
+      "height": 225,
+      "width": 300,
+      "gt_area": 22430,
+      "sam_area": 26262,
+      "sam_iou": 0.8481041484799028
+    },
+    {
+      "dataset_index": 2377,
+      "file": "sample_02377.pt",
+      "height": 225,
+      "width": 300,
+      "gt_area": 9523,
+      "sam_area": 12492,
+      "sam_iou": 0.7021029843822484
+    },
+    {
+      "dataset_index": 2378,
+      "file": "sample_02378.pt",
+      "height": 225,
+      "width": 300,
+      "gt_area": 5895,
+      "sam_area": 6632,
+      "sam_iou": 0.7980479402899383
+    },
+    {
+      "dataset_index": 2386,
+      "file": "sample_02386.pt",
+      "height": 218,
+      "width": 300,
+      "gt_area": 11149,
+      "sam_area": 14535,
+      "sam_iou": 0.7540121559789661
+    },
+    {
+      "dataset_index": 2390,
+      "file": "sample_02390.pt",
+      "height": 200,
+      "width": 300,
+      "gt_area": 10368,
+      "sam_area": 13679,
+      "sam_iou": 0.7542311059235483
+    },
+    {
+      "dataset_index": 2402,
+      "file": "sample_02402.pt",
+      "height": 265,
+      "width": 400,
+      "gt_area": 22204,
+      "sam_area": 33042,
+      "sam_iou": 0.6718414283552732
+    },
+    {
+      "dataset_index": 2424,
+      "file": "sample_02424.pt",
+      "height": 1499,
+      "width": 1999,
+      "gt_area": 527926,
+      "sam_area": 614176,
+      "sam_iou": 0.8477027114476153
+    },
+    {
+      "dataset_index": 2430,
+      "file": "sample_02430.pt",
+      "height": 410,
+      "width": 360,
+      "gt_area": 30375,
+      "sam_area": 38448,
+      "sam_iou": 0.7763524674788355
+    },
+    {
+      "dataset_index": 2440,
+      "file": "sample_02440.pt",
+      "height": 335,
+      "width": 500,
+      "gt_area": 34570,
+      "sam_area": 40470,
+      "sam_iou": 0.8542129972819372
+    },
+    {
+      "dataset_index": 2495,
+      "file": "sample_02495.pt",
+      "height": 390,
+      "width": 500,
+      "gt_area": 67253,
+      "sam_area": 109278,
+      "sam_iou": 0.6154303702483575
+    },
+    {
+      "dataset_index": 2496,
+      "file": "sample_02496.pt",
+      "height": 333,
+      "width": 500,
+      "gt_area": 57253,
+      "sam_area": 68780,
+      "sam_iou": 0.832407676650189
+    },
+    {
+      "dataset_index": 2504,
+      "file": "sample_02504.pt",
+      "height": 500,
+      "width": 375,
+      "gt_area": 21333,
+      "sam_area": 27429,
+      "sam_iou": 0.7669952166980721
+    },
+    {
+      "dataset_index": 2510,
+      "file": "sample_02510.pt",
+      "height": 375,
+      "width": 500,
+      "gt_area": 29029,
+      "sam_area": 37030,
+      "sam_iou": 0.783883773055008
+    },
+    {
+      "dataset_index": 2514,
+      "file": "sample_02514.pt",
+      "height": 375,
+      "width": 500,
+      "gt_area": 22227,
+      "sam_area": 29967,
+      "sam_iou": 0.7407283884738527
+    },
+    {
+      "dataset_index": 2519,
+      "file": "sample_02519.pt",
+      "height": 479,
+      "width": 500,
+      "gt_area": 61692,
+      "sam_area": 70112,
+      "sam_iou": 0.8021028452672309
+    },
+    {
+      "dataset_index": 2524,
+      "file": "sample_02524.pt",
+      "height": 500,
+      "width": 395,
+      "gt_area": 85167,
+      "sam_area": 98470,
+      "sam_iou": 0.8648651393289463
+    },
+    {
+      "dataset_index": 2527,
+      "file": "sample_02527.pt",
+      "height": 333,
+      "width": 500,
+      "gt_area": 24213,
+      "sam_area": 31537,
+      "sam_iou": 0.7677648476392809
+    },
+    {
+      "dataset_index": 2543,
+      "file": "sample_02543.pt",
+      "height": 500,
+      "width": 333,
+      "gt_area": 24569,
+      "sam_area": 34707,
+      "sam_iou": 0.703529141280607
+    },
+    {
+      "dataset_index": 2563,
+      "file": "sample_02563.pt",
+      "height": 500,
+      "width": 478,
+      "gt_area": 36603,
+      "sam_area": 46359,
+      "sam_iou": 0.789362436373048
+    },
+    {
+      "dataset_index": 2591,
+      "file": "sample_02591.pt",
+      "height": 333,
+      "width": 500,
+      "gt_area": 31172,
+      "sam_area": 39426,
+      "sam_iou": 0.7906457667529042
+    },
+    {
+      "dataset_index": 2606,
+      "file": "sample_02606.pt",
+      "height": 500,
+      "width": 333,
+      "gt_area": 48234,
+      "sam_area": 58834,
+      "sam_iou": 0.8198320698915593
+    },
+    {
+      "dataset_index": 2630,
+      "file": "sample_02630.pt",
+      "height": 375,
+      "width": 500,
+      "gt_area": 23369,
+      "sam_area": 29919,
+      "sam_iou": 0.7793508748497395
+    },
+    {
+      "dataset_index": 2643,
+      "file": "sample_02643.pt",
+      "height": 375,
+      "width": 500,
+      "gt_area": 121041,
+      "sam_area": 133842,
+      "sam_iou": 0.9040728511452093
+    },
+    {
+      "dataset_index": 2667,
+      "file": "sample_02667.pt",
+      "height": 500,
+      "width": 429,
+      "gt_area": 120307,
+      "sam_area": 100421,
+      "sam_iou": 0.4930901760770599
+    },
+    {
+      "dataset_index": 2676,
+      "file": "sample_02676.pt",
+      "height": 500,
+      "width": 334,
+      "gt_area": 64833,
+      "sam_area": 78745,
+      "sam_iou": 0.7739695561925471
+    },
+    {
+      "dataset_index": 2696,
+      "file": "sample_02696.pt",
+      "height": 500,
+      "width": 375,
+      "gt_area": 62490,
+      "sam_area": 72742,
+      "sam_iou": 0.8294867285370275
+    },
+    {
+      "dataset_index": 2724,
+      "file": "sample_02724.pt",
+      "height": 500,
+      "width": 394,
+      "gt_area": 22084,
+      "sam_area": 28051,
+      "sam_iou": 0.7768917242601453
+    },
+    {
+      "dataset_index": 2787,
+      "file": "sample_02787.pt",
+      "height": 333,
+      "width": 500,
+      "gt_area": 35974,
+      "sam_area": 43936,
+      "sam_iou": 0.8156411887667
+    },
+    {
+      "dataset_index": 2804,
+      "file": "sample_02804.pt",
+      "height": 500,
+      "width": 333,
+      "gt_area": 100752,
+      "sam_area": 113156,
+      "sam_iou": 0.8703647031049166
+    },
+    {
+      "dataset_index": 2834,
+      "file": "sample_02834.pt",
+      "height": 500,
+      "width": 375,
+      "gt_area": 58965,
+      "sam_area": 70111,
+      "sam_iou": 0.8409447471261089
+    },
+    {
+      "dataset_index": 2864,
+      "file": "sample_02864.pt",
+      "height": 229,
+      "width": 500,
+      "gt_area": 31536,
+      "sam_area": 39868,
+      "sam_iou": 0.7904714142427282
+    },
+    {
+      "dataset_index": 2865,
+      "file": "sample_02865.pt",
+      "height": 333,
+      "width": 500,
+      "gt_area": 62889,
+      "sam_area": 71684,
+      "sam_iou": 0.874536843571528
+    },
+    {
+      "dataset_index": 2882,
+      "file": "sample_02882.pt",
+      "height": 225,
+      "width": 300,
+      "gt_area": 13087,
+      "sam_area": 14381,
+      "sam_iou": 0.8714996252640186
+    },
+    {
+      "dataset_index": 2885,
+      "file": "sample_02885.pt",
+      "height": 268,
+      "width": 300,
+      "gt_area": 39798,
+      "sam_area": 54898,
+      "sam_iou": 0.6213402732595966
+    },
+    {
+      "dataset_index": 2888,
+      "file": "sample_02888.pt",
+      "height": 225,
+      "width": 300,
+      "gt_area": 4725,
+      "sam_area": 6114,
+      "sam_iou": 0.7567260940032415
+    },
+    {
+      "dataset_index": 2891,
+      "file": "sample_02891.pt",
+      "height": 225,
+      "width": 300,
+      "gt_area": 20596,
+      "sam_area": 22882,
+      "sam_iou": 0.8583518550179517
+    },
+    {
+      "dataset_index": 2905,
+      "file": "sample_02905.pt",
+      "height": 270,
+      "width": 229,
+      "gt_area": 23298,
+      "sam_area": 26085,
+      "sam_iou": 0.8268348623853211
+    },
+    {
+      "dataset_index": 2917,
+      "file": "sample_02917.pt",
+      "height": 225,
+      "width": 300,
+      "gt_area": 10252,
+      "sam_area": 12620,
+      "sam_iou": 0.8119306028677811
+    },
+    {
+      "dataset_index": 2982,
+      "file": "sample_02982.pt",
+      "height": 500,
+      "width": 500,
+      "gt_area": 65103,
+      "sam_area": 76996,
+      "sam_iou": 0.8426655946885212
+    },
+    {
+      "dataset_index": 2993,
+      "file": "sample_02993.pt",
+      "height": 500,
+      "width": 375,
+      "gt_area": 78926,
+      "sam_area": 88214,
+      "sam_iou": 0.882546404757614
+    },
+    {
+      "dataset_index": 3002,
+      "file": "sample_03002.pt",
+      "height": 500,
+      "width": 375,
+      "gt_area": 140724,
+      "sam_area": 150057,
+      "sam_iou": 0.9175112928220515
+    },
+    {
+      "dataset_index": 3047,
+      "file": "sample_03047.pt",
+      "height": 274,
+      "width": 300,
+      "gt_area": 33372,
+      "sam_area": 41493,
+      "sam_iou": 0.8025859578156602
+    },
+    {
+      "dataset_index": 3068,
+      "file": "sample_03068.pt",
+      "height": 375,
+      "width": 500,
+      "gt_area": 77148,
+      "sam_area": 87295,
+      "sam_iou": 0.8657869655986203
+    },
+    {
+      "dataset_index": 3107,
+      "file": "sample_03107.pt",
+      "height": 219,
+      "width": 300,
+      "gt_area": 21851,
+      "sam_area": 28071,
+      "sam_iou": 0.7779756392905478
+    },
+    {
+      "dataset_index": 3147,
+      "file": "sample_03147.pt",
+      "height": 332,
+      "width": 500,
+      "gt_area": 90480,
+      "sam_area": 99104,
+      "sam_iou": 0.8961813126362745
+    },
+    {
+      "dataset_index": 3148,
+      "file": "sample_03148.pt",
+      "height": 500,
+      "width": 334,
+      "gt_area": 72158,
+      "sam_area": 77378,
+      "sam_iou": 0.859414829459967
+    },
+    {
+      "dataset_index": 3150,
+      "file": "sample_03150.pt",
+      "height": 500,
+      "width": 400,
+      "gt_area": 98269,
+      "sam_area": 121207,
+      "sam_iou": 0.808917827412841
+    },
+    {
+      "dataset_index": 3192,
+      "file": "sample_03192.pt",
+      "height": 333,
+      "width": 500,
+      "gt_area": 27613,
+      "sam_area": 34543,
+      "sam_iou": 0.7993804822974264
+    },
+    {
+      "dataset_index": 3197,
+      "file": "sample_03197.pt",
+      "height": 374,
+      "width": 500,
+      "gt_area": 68974,
+      "sam_area": 106175,
+      "sam_iou": 0.638652396010703
+    },
+    {
+      "dataset_index": 3248,
+      "file": "sample_03248.pt",
+      "height": 500,
+      "width": 375,
+      "gt_area": 39601,
+      "sam_area": 47896,
+      "sam_iou": 0.8266978433787762
+    },
+    {
+      "dataset_index": 3302,
+      "file": "sample_03302.pt",
+      "height": 500,
+      "width": 317,
+      "gt_area": 62775,
+      "sam_area": 101444,
+      "sam_iou": 0.6016990480649188
+    },
+    {
+      "dataset_index": 3308,
+      "file": "sample_03308.pt",
+      "height": 333,
+      "width": 500,
+      "gt_area": 17902,
+      "sam_area": 21152,
+      "sam_iou": 0.8102345415778252
+    },
+    {
+      "dataset_index": 3375,
+      "file": "sample_03375.pt",
+      "height": 333,
+      "width": 500,
+      "gt_area": 29009,
+      "sam_area": 36108,
+      "sam_iou": 0.8033953694472139
+    },
+    {
+      "dataset_index": 3383,
+      "file": "sample_03383.pt",
+      "height": 500,
+      "width": 377,
+      "gt_area": 56557,
+      "sam_area": 71606,
+      "sam_iou": 0.7893862392494136
+    },
+    {
+      "dataset_index": 3390,
+      "file": "sample_03390.pt",
+      "height": 500,
+      "width": 333,
+      "gt_area": 64302,
+      "sam_area": 74557,
+      "sam_iou": 0.8529604077983427
+    },
+    {
+      "dataset_index": 3399,
+      "file": "sample_03399.pt",
+      "height": 375,
+      "width": 500,
+      "gt_area": 115279,
+      "sam_area": 123915,
+      "sam_iou": 0.9023358279583575
+    },
+    {
+      "dataset_index": 3402,
+      "file": "sample_03402.pt",
+      "height": 422,
+      "width": 500,
+      "gt_area": 61255,
+      "sam_area": 74789,
+      "sam_iou": 0.8187700534759358
+    },
+    {
+      "dataset_index": 3470,
+      "file": "sample_03470.pt",
+      "height": 332,
+      "width": 500,
+      "gt_area": 15707,
+      "sam_area": 20165,
+      "sam_iou": 0.7178431184752418
+    },
+    {
+      "dataset_index": 3493,
+      "file": "sample_03493.pt",
+      "height": 401,
+      "width": 500,
+      "gt_area": 107458,
+      "sam_area": 119374,
+      "sam_iou": 0.8954475566548566
+    },
+    {
+      "dataset_index": 3535,
+      "file": "sample_03535.pt",
+      "height": 375,
+      "width": 500,
+      "gt_area": 22767,
+      "sam_area": 31469,
+      "sam_iou": 0.7134552807000916
+    },
+    {
+      "dataset_index": 3551,
+      "file": "sample_03551.pt",
+      "height": 375,
+      "width": 500,
+      "gt_area": 35848,
+      "sam_area": 40661,
+      "sam_iou": 0.8808909211593775
+    },
+    {
+      "dataset_index": 3555,
+      "file": "sample_03555.pt",
+      "height": 500,
+      "width": 333,
+      "gt_area": 65153,
+      "sam_area": 74724,
+      "sam_iou": 0.8706886175491153
+    },
+    {
+      "dataset_index": 3564,
+      "file": "sample_03564.pt",
+      "height": 375,
+      "width": 500,
+      "gt_area": 12312,
+      "sam_area": 16872,
+      "sam_iou": 0.7297297297297297
+    },
+    {
+      "dataset_index": 3568,
+      "file": "sample_03568.pt",
+      "height": 333,
+      "width": 500,
+      "gt_area": 86368,
+      "sam_area": 88351,
+      "sam_iou": 0.956254968481632
+    },
+    {
+      "dataset_index": 3589,
+      "file": "sample_03589.pt",
+      "height": 375,
+      "width": 500,
+      "gt_area": 66741,
+      "sam_area": 78720,
+      "sam_iou": 0.8442432771670914
+    },
+    {
+      "dataset_index": 3621,
+      "file": "sample_03621.pt",
+      "height": 330,
+      "width": 500,
+      "gt_area": 8628,
+      "sam_area": 13992,
+      "sam_iou": 0.6166380789022299
+    },
+    {
+      "dataset_index": 3637,
+      "file": "sample_03637.pt",
+      "height": 201,
+      "width": 300,
+      "gt_area": 13892,
+      "sam_area": 14593,
+      "sam_iou": 0.8285402490692002
+    },
+    {
+      "dataset_index": 3646,
+      "file": "sample_03646.pt",
+      "height": 382,
+      "width": 500,
+      "gt_area": 49011,
+      "sam_area": 64437,
+      "sam_iou": 0.760603380045626
+    },
+    {
+      "dataset_index": 3655,
+      "file": "sample_03655.pt",
+      "height": 333,
+      "width": 500,
+      "gt_area": 19909,
+      "sam_area": 24700,
+      "sam_iou": 0.8060323886639676
+    },
+    {
+      "dataset_index": 3658,
+      "file": "sample_03658.pt",
+      "height": 375,
+      "width": 500,
+      "gt_area": 31111,
+      "sam_area": 35067,
+      "sam_iou": 0.886219181986604
+    },
+    {
+      "dataset_index": 3660,
+      "file": "sample_03660.pt",
+      "height": 375,
+      "width": 500,
+      "gt_area": 49152,
+      "sam_area": 58232,
+      "sam_iou": 0.8440719879104273
+    },
+    {
+      "dataset_index": 3674,
+      "file": "sample_03674.pt",
+      "height": 375,
+      "width": 500,
+      "gt_area": 31204,
+      "sam_area": 41823,
+      "sam_iou": 0.7460966453865098
+    },
+    {
+      "dataset_index": 3675,
+      "file": "sample_03675.pt",
+      "height": 334,
+      "width": 500,
+      "gt_area": 18635,
+      "sam_area": 24993,
+      "sam_iou": 0.7456087704557276
+    },
+    {
+      "dataset_index": 3678,
+      "file": "sample_03678.pt",
+      "height": 375,
+      "width": 500,
+      "gt_area": 69956,
+      "sam_area": 75968,
+      "sam_iou": 0.9126286126220591
+    }
+  ],
+  "mean_sam_iou": 0.7944974040287442
+}

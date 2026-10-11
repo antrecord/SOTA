@@ -1,0 +1,5388 @@
+{
+  "dataset": "Oxford-IIIT Pet",
+  "split": "test",
+  "model": "facebook/sam-vit-base",
+  "seed": 67,
+  "fast_dev_run": false,
+  "num_images": 199,
+  "mask_definition": "GT foreground is class 1",
+  "metrics": {
+    "iou": "Intersection over Union between SAM mask and binary GT foreground mask",
+    "area": "Number of foreground pixels in the binary mask"
+  },
+  "results": [
+    {
+      "eval_position": 0,
+      "dataset_index": 3,
+      "image_size": {
+        "width": 240,
+        "height": 300
+      },
+      "gt_area": 16412,
+      "point": {
+        "coordinates": [
+          53,
+          161
+        ],
+        "predicted_area": 17324,
+        "iou": 0.4942640740576693
+      },
+      "box": {
+        "coordinates_xyxy": [
+          0,
+          17,
+          174,
+          299
+        ],
+        "predicted_area": 34364,
+        "iou": 0.3930315500685871
+      }
+    },
+    {
+      "eval_position": 1,
+      "dataset_index": 29,
+      "image_size": {
+        "width": 1200,
+        "height": 1600
+      },
+      "gt_area": 243001,
+      "point": {
+        "coordinates": [
+          701,
+          784
+        ],
+        "predicted_area": 315146,
+        "iou": 0.7710743591859012
+      },
+      "box": {
+        "coordinates_xyxy": [
+          327,
+          197,
+          1038,
+          1130
+        ],
+        "predicted_area": 304039,
+        "iou": 0.7992428602909495
+      }
+    },
+    {
+      "eval_position": 2,
+      "dataset_index": 33,
+      "image_size": {
+        "width": 1600,
+        "height": 1200
+      },
+      "gt_area": 206491,
+      "point": {
+        "coordinates": [
+          1009,
+          614
+        ],
+        "predicted_area": 78289,
+        "iou": 0.26287128273806887
+      },
+      "box": {
+        "coordinates_xyxy": [
+          413,
+          350,
+          1211,
+          922
+        ],
+        "predicted_area": 266883,
+        "iou": 0.7702908387839895
+      }
+    },
+    {
+      "eval_position": 3,
+      "dataset_index": 41,
+      "image_size": {
+        "width": 190,
+        "height": 168
+      },
+      "gt_area": 9011,
+      "point": {
+        "coordinates": [
+          78,
+          100
+        ],
+        "predicted_area": 10894,
+        "iou": 0.8067531996006172
+      },
+      "box": {
+        "coordinates_xyxy": [
+          47,
+          8,
+          170,
+          162
+        ],
+        "predicted_area": 11261,
+        "iou": 0.8000355176700409
+      }
+    },
+    {
+      "eval_position": 4,
+      "dataset_index": 58,
+      "image_size": {
+        "width": 500,
+        "height": 335
+      },
+      "gt_area": 45378,
+      "point": {
+        "coordinates": [
+          111,
+          215
+        ],
+        "predicted_area": 38193,
+        "iou": 0.6639323046291687
+      },
+      "box": {
+        "coordinates_xyxy": [
+          0,
+          8,
+          310,
+          297
+        ],
+        "predicted_area": 56949,
+        "iou": 0.7943605660476616
+      }
+    },
+    {
+      "eval_position": 5,
+      "dataset_index": 91,
+      "image_size": {
+        "width": 375,
+        "height": 500
+      },
+      "gt_area": 36000,
+      "point": {
+        "coordinates": [
+          314,
+          276
+        ],
+        "predicted_area": 42820,
+        "iou": 0.83340699216115
+      },
+      "box": {
+        "coordinates_xyxy": [
+          196,
+          138,
+          374,
+          494
+        ],
+        "predicted_area": 39923,
+        "iou": 0.8550381157154027
+      }
+    },
+    {
+      "eval_position": 6,
+      "dataset_index": 157,
+      "image_size": {
+        "width": 375,
+        "height": 500
+      },
+      "gt_area": 8844,
+      "point": {
+        "coordinates": [
+          205,
+          251
+        ],
+        "predicted_area": 5509,
+        "iou": 0.3858260113932606
+      },
+      "box": {
+        "coordinates_xyxy": [
+          113,
+          155,
+          237,
+          412
+        ],
+        "predicted_area": 14270,
+        "iou": 0.6019128144708573
+      }
+    },
+    {
+      "eval_position": 7,
+      "dataset_index": 184,
+      "image_size": {
+        "width": 500,
+        "height": 376
+      },
+      "gt_area": 89029,
+      "point": {
+        "coordinates": [
+          62,
+          130
+        ],
+        "predicted_area": 3412,
+        "iou": 0.021278241175495774
+      },
+      "box": {
+        "coordinates_xyxy": [
+          35,
+          0,
+          482,
+          274
+        ],
+        "predicted_area": 90093,
+        "iou": 0.8238115117143352
+      }
+    },
+    {
+      "eval_position": 8,
+      "dataset_index": 204,
+      "image_size": {
+        "width": 250,
+        "height": 269
+      },
+      "gt_area": 22648,
+      "point": {
+        "coordinates": [
+          49,
+          136
+        ],
+        "predicted_area": 1161,
+        "iou": 0.04333917616126205
+      },
+      "box": {
+        "coordinates_xyxy": [
+          35,
+          24,
+          229,
+          246
+        ],
+        "predicted_area": 25894,
+        "iou": 0.8745703803823132
+      }
+    },
+    {
+      "eval_position": 9,
+      "dataset_index": 229,
+      "image_size": {
+        "width": 500,
+        "height": 379
+      },
+      "gt_area": 34140,
+      "point": {
+        "coordinates": [
+          207,
+          145
+        ],
+        "predicted_area": 731,
+        "iou": 0.01718102794469401
+      },
+      "box": {
+        "coordinates_xyxy": [
+          40,
+          57,
+          334,
+          365
+        ],
+        "predicted_area": 48223,
+        "iou": 0.707960931505713
+      }
+    },
+    {
+      "eval_position": 10,
+      "dataset_index": 308,
+      "image_size": {
+        "width": 500,
+        "height": 333
+      },
+      "gt_area": 38606,
+      "point": {
+        "coordinates": [
+          256,
+          160
+        ],
+        "predicted_area": 49738,
+        "iou": 0.7754376092767138
+      },
+      "box": {
+        "coordinates_xyxy": [
+          120,
+          32,
+          440,
+          270
+        ],
+        "predicted_area": 48716,
+        "iou": 0.7818998061422304
+      }
+    },
+    {
+      "eval_position": 11,
+      "dataset_index": 316,
+      "image_size": {
+        "width": 334,
+        "height": 500
+      },
+      "gt_area": 22998,
+      "point": {
+        "coordinates": [
+          109,
+          222
+        ],
+        "predicted_area": 8317,
+        "iou": 0.24073853956178928
+      },
+      "box": {
+        "coordinates_xyxy": [
+          40,
+          120,
+          241,
+          368
+        ],
+        "predicted_area": 30537,
+        "iou": 0.7523157998101535
+      }
+    },
+    {
+      "eval_position": 12,
+      "dataset_index": 337,
+      "image_size": {
+        "width": 375,
+        "height": 500
+      },
+      "gt_area": 89558,
+      "point": {
+        "coordinates": [
+          49,
+          211
+        ],
+        "predicted_area": 99582,
+        "iou": 0.7171753853975632
+      },
+      "box": {
+        "coordinates_xyxy": [
+          0,
+          32,
+          374,
+          422
+        ],
+        "predicted_area": 93487,
+        "iou": 0.7463626389352669
+      }
+    },
+    {
+      "eval_position": 13,
+      "dataset_index": 348,
+      "image_size": {
+        "width": 500,
+        "height": 375
+      },
+      "gt_area": 20786,
+      "point": {
+        "coordinates": [
+          288,
+          235
+        ],
+        "predicted_area": 27219,
+        "iou": 0.7636577390793196
+      },
+      "box": {
+        "coordinates_xyxy": [
+          168,
+          105,
+          322,
+          347
+        ],
+        "predicted_area": 27156,
+        "iou": 0.7654293710413905
+      }
+    },
+    {
+      "eval_position": 14,
+      "dataset_index": 364,
+      "image_size": {
+        "width": 500,
+        "height": 332
+      },
+      "gt_area": 64329,
+      "point": {
+        "coordinates": [
+          300,
+          216
+        ],
+        "predicted_area": 70859,
+        "iou": 0.8497112990175957
+      },
+      "box": {
+        "coordinates_xyxy": [
+          139,
+          57,
+          499,
+          331
+        ],
+        "predicted_area": 73126,
+        "iou": 0.8699070862071311
+      }
+    },
+    {
+      "eval_position": 15,
+      "dataset_index": 365,
+      "image_size": {
+        "width": 500,
+        "height": 375
+      },
+      "gt_area": 73563,
+      "point": {
+        "coordinates": [
+          49,
+          224
+        ],
+        "predicted_area": 16159,
+        "iou": 0.1587049449201245
+      },
+      "box": {
+        "coordinates_xyxy": [
+          0,
+          12,
+          359,
+          374
+        ],
+        "predicted_area": 92529,
+        "iou": 0.794367079718678
+      }
+    },
+    {
+      "eval_position": 16,
+      "dataset_index": 375,
+      "image_size": {
+        "width": 500,
+        "height": 332
+      },
+      "gt_area": 35149,
+      "point": {
+        "coordinates": [
+          121,
+          184
+        ],
+        "predicted_area": 48351,
+        "iou": 0.7247433540577944
+      },
+      "box": {
+        "coordinates_xyxy": [
+          62,
+          53,
+          444,
+          320
+        ],
+        "predicted_area": 48480,
+        "iou": 0.7227818635024618
+      }
+    },
+    {
+      "eval_position": 17,
+      "dataset_index": 377,
+      "image_size": {
+        "width": 362,
+        "height": 500
+      },
+      "gt_area": 101565,
+      "point": {
+        "coordinates": [
+          237,
+          270
+        ],
+        "predicted_area": 126944,
+        "iou": 0.7627378831007536
+      },
+      "box": {
+        "coordinates_xyxy": [
+          0,
+          47,
+          361,
+          499
+        ],
+        "predicted_area": 134081,
+        "iou": 0.7519757923615087
+      }
+    },
+    {
+      "eval_position": 18,
+      "dataset_index": 410,
+      "image_size": {
+        "width": 500,
+        "height": 391
+      },
+      "gt_area": 44029,
+      "point": {
+        "coordinates": [
+          247,
+          159
+        ],
+        "predicted_area": 77283,
+        "iou": 0.568453035102463
+      },
+      "box": {
+        "coordinates_xyxy": [
+          130,
+          31,
+          413,
+          366
+        ],
+        "predicted_area": 65709,
+        "iou": 0.6695014528913298
+      }
+    },
+    {
+      "eval_position": 19,
+      "dataset_index": 438,
+      "image_size": {
+        "width": 500,
+        "height": 328
+      },
+      "gt_area": 85875,
+      "point": {
+        "coordinates": [
+          109,
+          191
+        ],
+        "predicted_area": 74511,
+        "iou": 0.823065381467673
+      },
+      "box": {
+        "coordinates_xyxy": [
+          0,
+          33,
+          351,
+          327
+        ],
+        "predicted_area": 82477,
+        "iou": 0.9132865861281267
+      }
+    },
+    {
+      "eval_position": 20,
+      "dataset_index": 440,
+      "image_size": {
+        "width": 500,
+        "height": 365
+      },
+      "gt_area": 48919,
+      "point": {
+        "coordinates": [
+          173,
+          164
+        ],
+        "predicted_area": 65733,
+        "iou": 0.7442076278277273
+      },
+      "box": {
+        "coordinates_xyxy": [
+          70,
+          26,
+          436,
+          358
+        ],
+        "predicted_area": 65502,
+        "iou": 0.7468321577967085
+      }
+    },
+    {
+      "eval_position": 21,
+      "dataset_index": 445,
+      "image_size": {
+        "width": 500,
+        "height": 280
+      },
+      "gt_area": 18275,
+      "point": {
+        "coordinates": [
+          286,
+          144
+        ],
+        "predicted_area": 139,
+        "iou": 0.0076060191518467855
+      },
+      "box": {
+        "coordinates_xyxy": [
+          98,
+          97,
+          341,
+          198
+        ],
+        "predicted_area": 22497,
+        "iou": 0.8068690449811655
+      }
+    },
+    {
+      "eval_position": 22,
+      "dataset_index": 453,
+      "image_size": {
+        "width": 500,
+        "height": 375
+      },
+      "gt_area": 19069,
+      "point": {
+        "coordinates": [
+          318,
+          109
+        ],
+        "predicted_area": 25351,
+        "iou": 0.7431912722706224
+      },
+      "box": {
+        "coordinates_xyxy": [
+          201,
+          27,
+          379,
+          203
+        ],
+        "predicted_area": 24397,
+        "iou": 0.7707255469100094
+      }
+    },
+    {
+      "eval_position": 23,
+      "dataset_index": 514,
+      "image_size": {
+        "width": 500,
+        "height": 375
+      },
+      "gt_area": 13948,
+      "point": {
+        "coordinates": [
+          148,
+          201
+        ],
+        "predicted_area": 20232,
+        "iou": 0.6884849083633848
+      },
+      "box": {
+        "coordinates_xyxy": [
+          72,
+          127,
+          394,
+          248
+        ],
+        "predicted_area": 20292,
+        "iou": 0.6842933739977373
+      }
+    },
+    {
+      "eval_position": 24,
+      "dataset_index": 523,
+      "image_size": {
+        "width": 500,
+        "height": 333
+      },
+      "gt_area": 63850,
+      "point": {
+        "coordinates": [
+          194,
+          180
+        ],
+        "predicted_area": 81297,
+        "iou": 0.7851502927141241
+      },
+      "box": {
+        "coordinates_xyxy": [
+          87,
+          16,
+          385,
+          310
+        ],
+        "predicted_area": 71878,
+        "iou": 0.8875229459865384
+      }
+    },
+    {
+      "eval_position": 25,
+      "dataset_index": 535,
+      "image_size": {
+        "width": 500,
+        "height": 357
+      },
+      "gt_area": 55727,
+      "point": {
+        "coordinates": [
+          146,
+          202
+        ],
+        "predicted_area": 62671,
+        "iou": 0.8586521404687525
+      },
+      "box": {
+        "coordinates_xyxy": [
+          16,
+          62,
+          499,
+          282
+        ],
+        "predicted_area": 65122,
+        "iou": 0.8550201851198059
+      }
+    },
+    {
+      "eval_position": 26,
+      "dataset_index": 537,
+      "image_size": {
+        "width": 500,
+        "height": 375
+      },
+      "gt_area": 70094,
+      "point": {
+        "coordinates": [
+          141,
+          149
+        ],
+        "predicted_area": 80077,
+        "iou": 0.8752856554152774
+      },
+      "box": {
+        "coordinates_xyxy": [
+          49,
+          36,
+          433,
+          267
+        ],
+        "predicted_area": 79152,
+        "iou": 0.885347582774346
+      }
+    },
+    {
+      "eval_position": 27,
+      "dataset_index": 554,
+      "image_size": {
+        "width": 500,
+        "height": 333
+      },
+      "gt_area": 50019,
+      "point": {
+        "coordinates": [
+          75,
+          222
+        ],
+        "predicted_area": 58988,
+        "iou": 0.841707778603771
+      },
+      "box": {
+        "coordinates_xyxy": [
+          0,
+          47,
+          380,
+          315
+        ],
+        "predicted_area": 59232,
+        "iou": 0.8442099932478055
+      }
+    },
+    {
+      "eval_position": 28,
+      "dataset_index": 556,
+      "image_size": {
+        "width": 500,
+        "height": 334
+      },
+      "gt_area": 26673,
+      "point": {
+        "coordinates": [
+          440,
+          203
+        ],
+        "predicted_area": 33696,
+        "iou": 0.784217526230235
+      },
+      "box": {
+        "coordinates_xyxy": [
+          173,
+          127,
+          499,
+          280
+        ],
+        "predicted_area": 34256,
+        "iou": 0.7786373190098085
+      }
+    },
+    {
+      "eval_position": 29,
+      "dataset_index": 566,
+      "image_size": {
+        "width": 500,
+        "height": 377
+      },
+      "gt_area": 69798,
+      "point": {
+        "coordinates": [
+          234,
+          152
+        ],
+        "predicted_area": 92982,
+        "iou": 0.7498333799152925
+      },
+      "box": {
+        "coordinates_xyxy": [
+          103,
+          26,
+          499,
+          333
+        ],
+        "predicted_area": 80356,
+        "iou": 0.8663335570636637
+      }
+    },
+    {
+      "eval_position": 30,
+      "dataset_index": 578,
+      "image_size": {
+        "width": 500,
+        "height": 500
+      },
+      "gt_area": 39929,
+      "point": {
+        "coordinates": [
+          185,
+          234
+        ],
+        "predicted_area": 51464,
+        "iou": 0.7499521311224294
+      },
+      "box": {
+        "coordinates_xyxy": [
+          67,
+          29,
+          404,
+          485
+        ],
+        "predicted_area": 51801,
+        "iou": 0.7506727484397961
+      }
+    },
+    {
+      "eval_position": 31,
+      "dataset_index": 583,
+      "image_size": {
+        "width": 500,
+        "height": 375
+      },
+      "gt_area": 14581,
+      "point": {
+        "coordinates": [
+          217,
+          188
+        ],
+        "predicted_area": 18328,
+        "iou": 0.7852338070955842
+      },
+      "box": {
+        "coordinates_xyxy": [
+          185,
+          77,
+          329,
+          273
+        ],
+        "predicted_area": 18233,
+        "iou": 0.7879365771263553
+      }
+    },
+    {
+      "eval_position": 32,
+      "dataset_index": 591,
+      "image_size": {
+        "width": 500,
+        "height": 322
+      },
+      "gt_area": 50188,
+      "point": {
+        "coordinates": [
+          376,
+          156
+        ],
+        "predicted_area": 59489,
+        "iou": 0.8436517675536653
+      },
+      "box": {
+        "coordinates_xyxy": [
+          35,
+          20,
+          487,
+          234
+        ],
+        "predicted_area": 59421,
+        "iou": 0.8446172228673364
+      }
+    },
+    {
+      "eval_position": 33,
+      "dataset_index": 593,
+      "image_size": {
+        "width": 500,
+        "height": 375
+      },
+      "gt_area": 55914,
+      "point": {
+        "coordinates": [
+          257,
+          262
+        ],
+        "predicted_area": 67536,
+        "iou": 0.8152810046172396
+      },
+      "box": {
+        "coordinates_xyxy": [
+          108,
+          41,
+          471,
+          374
+        ],
+        "predicted_area": 67038,
+        "iou": 0.8235643094447082
+      }
+    },
+    {
+      "eval_position": 34,
+      "dataset_index": 599,
+      "image_size": {
+        "width": 500,
+        "height": 334
+      },
+      "gt_area": 20962,
+      "point": {
+        "coordinates": [
+          299,
+          209
+        ],
+        "predicted_area": 25886,
+        "iou": 0.8097813489917329
+      },
+      "box": {
+        "coordinates_xyxy": [
+          183,
+          80,
+          312,
+          319
+        ],
+        "predicted_area": 25738,
+        "iou": 0.8144377962545652
+      }
+    },
+    {
+      "eval_position": 35,
+      "dataset_index": 605,
+      "image_size": {
+        "width": 500,
+        "height": 333
+      },
+      "gt_area": 77292,
+      "point": {
+        "coordinates": [
+          244,
+          197
+        ],
+        "predicted_area": 83289,
+        "iou": 0.9196772265391512
+      },
+      "box": {
+        "coordinates_xyxy": [
+          171,
+          0,
+          495,
+          332
+        ],
+        "predicted_area": 88917,
+        "iou": 0.8573535820845486
+      }
+    },
+    {
+      "eval_position": 36,
+      "dataset_index": 626,
+      "image_size": {
+        "width": 500,
+        "height": 332
+      },
+      "gt_area": 48414,
+      "point": {
+        "coordinates": [
+          316,
+          138
+        ],
+        "predicted_area": 62460,
+        "iou": 0.7716595826275926
+      },
+      "box": {
+        "coordinates_xyxy": [
+          45,
+          26,
+          466,
+          313
+        ],
+        "predicted_area": 62403,
+        "iou": 0.77463367763632
+      }
+    },
+    {
+      "eval_position": 37,
+      "dataset_index": 645,
+      "image_size": {
+        "width": 500,
+        "height": 375
+      },
+      "gt_area": 25073,
+      "point": {
+        "coordinates": [
+          345,
+          204
+        ],
+        "predicted_area": 35519,
+        "iou": 0.7039370078740157
+      },
+      "box": {
+        "coordinates_xyxy": [
+          195,
+          133,
+          411,
+          342
+        ],
+        "predicted_area": 34216,
+        "iou": 0.7156374790207767
+      }
+    },
+    {
+      "eval_position": 38,
+      "dataset_index": 647,
+      "image_size": {
+        "width": 323,
+        "height": 448
+      },
+      "gt_area": 61661,
+      "point": {
+        "coordinates": [
+          4,
+          219
+        ],
+        "predicted_area": 63067,
+        "iou": 0.36299857939023056
+      },
+      "box": {
+        "coordinates_xyxy": [
+          0,
+          35,
+          302,
+          380
+        ],
+        "predicted_area": 61327,
+        "iou": 0.8526753434562545
+      }
+    },
+    {
+      "eval_position": 39,
+      "dataset_index": 676,
+      "image_size": {
+        "width": 500,
+        "height": 400
+      },
+      "gt_area": 31200,
+      "point": {
+        "coordinates": [
+          108,
+          236
+        ],
+        "predicted_area": 46296,
+        "iou": 0.673924313115604
+      },
+      "box": {
+        "coordinates_xyxy": [
+          47,
+          137,
+          433,
+          351
+        ],
+        "predicted_area": 44873,
+        "iou": 0.6952956120607047
+      }
+    },
+    {
+      "eval_position": 40,
+      "dataset_index": 681,
+      "image_size": {
+        "width": 500,
+        "height": 333
+      },
+      "gt_area": 66095,
+      "point": {
+        "coordinates": [
+          175,
+          217
+        ],
+        "predicted_area": 74996,
+        "iou": 0.8288828973634408
+      },
+      "box": {
+        "coordinates_xyxy": [
+          0,
+          23,
+          456,
+          309
+        ],
+        "predicted_area": 78755,
+        "iou": 0.8392483016951304
+      }
+    },
+    {
+      "eval_position": 41,
+      "dataset_index": 716,
+      "image_size": {
+        "width": 275,
+        "height": 196
+      },
+      "gt_area": 10199,
+      "point": {
+        "coordinates": [
+          73,
+          113
+        ],
+        "predicted_area": 8465,
+        "iou": 0.5071059431524548
+      },
+      "box": {
+        "coordinates_xyxy": [
+          60,
+          9,
+          231,
+          178
+        ],
+        "predicted_area": 12804,
+        "iou": 0.7523425001904471
+      }
+    },
+    {
+      "eval_position": 42,
+      "dataset_index": 721,
+      "image_size": {
+        "width": 500,
+        "height": 375
+      },
+      "gt_area": 8382,
+      "point": {
+        "coordinates": [
+          274,
+          171
+        ],
+        "predicted_area": 122,
+        "iou": 0.01455499880696731
+      },
+      "box": {
+        "coordinates_xyxy": [
+          175,
+          122,
+          301,
+          215
+        ],
+        "predicted_area": 11178,
+        "iou": 0.7492398497585405
+      }
+    },
+    {
+      "eval_position": 43,
+      "dataset_index": 724,
+      "image_size": {
+        "width": 500,
+        "height": 375
+      },
+      "gt_area": 49673,
+      "point": {
+        "coordinates": [
+          69,
+          216
+        ],
+        "predicted_area": 57778,
+        "iou": 0.8278953456722917
+      },
+      "box": {
+        "coordinates_xyxy": [
+          19,
+          90,
+          411,
+          306
+        ],
+        "predicted_area": 59405,
+        "iou": 0.8249318231249269
+      }
+    },
+    {
+      "eval_position": 44,
+      "dataset_index": 726,
+      "image_size": {
+        "width": 500,
+        "height": 375
+      },
+      "gt_area": 40794,
+      "point": {
+        "coordinates": [
+          171,
+          179
+        ],
+        "predicted_area": 24269,
+        "iou": 0.46935411020776874
+      },
+      "box": {
+        "coordinates_xyxy": [
+          59,
+          99,
+          499,
+          245
+        ],
+        "predicted_area": 49778,
+        "iou": 0.8188974796666332
+      }
+    },
+    {
+      "eval_position": 45,
+      "dataset_index": 764,
+      "image_size": {
+        "width": 500,
+        "height": 375
+      },
+      "gt_area": 40058,
+      "point": {
+        "coordinates": [
+          267,
+          186
+        ],
+        "predicted_area": 48997,
+        "iou": 0.8175602587913545
+      },
+      "box": {
+        "coordinates_xyxy": [
+          19,
+          101,
+          392,
+          335
+        ],
+        "predicted_area": 48854,
+        "iou": 0.8195808775376555
+      }
+    },
+    {
+      "eval_position": 46,
+      "dataset_index": 779,
+      "image_size": {
+        "width": 352,
+        "height": 300
+      },
+      "gt_area": 20798,
+      "point": {
+        "coordinates": [
+          104,
+          89
+        ],
+        "predicted_area": 26167,
+        "iou": 0.7897564879387219
+      },
+      "box": {
+        "coordinates_xyxy": [
+          82,
+          0,
+          228,
+          238
+        ],
+        "predicted_area": 26249,
+        "iou": 0.7873641820530355
+      }
+    },
+    {
+      "eval_position": 47,
+      "dataset_index": 781,
+      "image_size": {
+        "width": 375,
+        "height": 500
+      },
+      "gt_area": 147870,
+      "point": {
+        "coordinates": [
+          315,
+          302
+        ],
+        "predicted_area": 123532,
+        "iou": 0.7571135382204986
+      },
+      "box": {
+        "coordinates_xyxy": [
+          0,
+          16,
+          374,
+          499
+        ],
+        "predicted_area": 149238,
+        "iou": 0.9254593175853019
+      }
+    },
+    {
+      "eval_position": 48,
+      "dataset_index": 799,
+      "image_size": {
+        "width": 500,
+        "height": 333
+      },
+      "gt_area": 83482,
+      "point": {
+        "coordinates": [
+          328,
+          195
+        ],
+        "predicted_area": 51171,
+        "iou": 0.49252920703185615
+      },
+      "box": {
+        "coordinates_xyxy": [
+          0,
+          22,
+          462,
+          332
+        ],
+        "predicted_area": 106506,
+        "iou": 0.7762195920046372
+      }
+    },
+    {
+      "eval_position": 49,
+      "dataset_index": 826,
+      "image_size": {
+        "width": 500,
+        "height": 309
+      },
+      "gt_area": 16264,
+      "point": {
+        "coordinates": [
+          318,
+          93
+        ],
+        "predicted_area": 26311,
+        "iou": 0.6180830039525692
+      },
+      "box": {
+        "coordinates_xyxy": [
+          168,
+          24,
+          366,
+          288
+        ],
+        "predicted_area": 26212,
+        "iou": 0.620355535210193
+      }
+    },
+    {
+      "eval_position": 50,
+      "dataset_index": 868,
+      "image_size": {
+        "width": 500,
+        "height": 333
+      },
+      "gt_area": 8481,
+      "point": {
+        "coordinates": [
+          273,
+          169
+        ],
+        "predicted_area": 11984,
+        "iou": 0.7076935914552737
+      },
+      "box": {
+        "coordinates_xyxy": [
+          182,
+          69,
+          293,
+          272
+        ],
+        "predicted_area": 12027,
+        "iou": 0.7047381546134663
+      }
+    },
+    {
+      "eval_position": 51,
+      "dataset_index": 907,
+      "image_size": {
+        "width": 400,
+        "height": 460
+      },
+      "gt_area": 79395,
+      "point": {
+        "coordinates": [
+          231,
+          293
+        ],
+        "predicted_area": 89713,
+        "iou": 0.8750817745351326
+      },
+      "box": {
+        "coordinates_xyxy": [
+          97,
+          43,
+          363,
+          459
+        ],
+        "predicted_area": 90934,
+        "iou": 0.8719529618639411
+      }
+    },
+    {
+      "eval_position": 52,
+      "dataset_index": 921,
+      "image_size": {
+        "width": 500,
+        "height": 375
+      },
+      "gt_area": 61660,
+      "point": {
+        "coordinates": [
+          302,
+          166
+        ],
+        "predicted_area": 62391,
+        "iou": 0.8925215109538048
+      },
+      "box": {
+        "coordinates_xyxy": [
+          101,
+          7,
+          422,
+          351
+        ],
+        "predicted_area": 67721,
+        "iou": 0.8984739545121057
+      }
+    },
+    {
+      "eval_position": 53,
+      "dataset_index": 933,
+      "image_size": {
+        "width": 500,
+        "height": 373
+      },
+      "gt_area": 79615,
+      "point": {
+        "coordinates": [
+          46,
+          169
+        ],
+        "predicted_area": 87593,
+        "iou": 0.8998534274124825
+      },
+      "box": {
+        "coordinates_xyxy": [
+          14,
+          23,
+          365,
+          363
+        ],
+        "predicted_area": 88929,
+        "iou": 0.8942210434039874
+      }
+    },
+    {
+      "eval_position": 54,
+      "dataset_index": 942,
+      "image_size": {
+        "width": 500,
+        "height": 334
+      },
+      "gt_area": 90305,
+      "point": {
+        "coordinates": [
+          222,
+          211
+        ],
+        "predicted_area": 93682,
+        "iou": 0.9459227921734532
+      },
+      "box": {
+        "coordinates_xyxy": [
+          0,
+          23,
+          386,
+          333
+        ],
+        "predicted_area": 93748,
+        "iou": 0.946517899635133
+      }
+    },
+    {
+      "eval_position": 55,
+      "dataset_index": 985,
+      "image_size": {
+        "width": 300,
+        "height": 225
+      },
+      "gt_area": 12769,
+      "point": {
+        "coordinates": [
+          163,
+          144
+        ],
+        "predicted_area": 1015,
+        "iou": 0.07948938836244028
+      },
+      "box": {
+        "coordinates_xyxy": [
+          96,
+          46,
+          235,
+          219
+        ],
+        "predicted_area": 16092,
+        "iou": 0.7929427843697583
+      }
+    },
+    {
+      "eval_position": 56,
+      "dataset_index": 1007,
+      "image_size": {
+        "width": 500,
+        "height": 333
+      },
+      "gt_area": 36311,
+      "point": {
+        "coordinates": [
+          366,
+          156
+        ],
+        "predicted_area": 30730,
+        "iou": 0.45655810719794904
+      },
+      "box": {
+        "coordinates_xyxy": [
+          107,
+          56,
+          499,
+          237
+        ],
+        "predicted_area": 50870,
+        "iou": 0.7017567831348819
+      }
+    },
+    {
+      "eval_position": 57,
+      "dataset_index": 1033,
+      "image_size": {
+        "width": 493,
+        "height": 432
+      },
+      "gt_area": 30860,
+      "point": {
+        "coordinates": [
+          236,
+          148
+        ],
+        "predicted_area": 112548,
+        "iou": 0.27410355734034614
+      },
+      "box": {
+        "coordinates_xyxy": [
+          151,
+          0,
+          379,
+          419
+        ],
+        "predicted_area": 42694,
+        "iou": 0.722656798913298
+      }
+    },
+    {
+      "eval_position": 58,
+      "dataset_index": 1062,
+      "image_size": {
+        "width": 500,
+        "height": 357
+      },
+      "gt_area": 10796,
+      "point": {
+        "coordinates": [
+          220,
+          209
+        ],
+        "predicted_area": 15534,
+        "iou": 0.691289825282631
+      },
+      "box": {
+        "coordinates_xyxy": [
+          199,
+          151,
+          361,
+          270
+        ],
+        "predicted_area": 15330,
+        "iou": 0.7009114583333333
+      }
+    },
+    {
+      "eval_position": 59,
+      "dataset_index": 1071,
+      "image_size": {
+        "width": 333,
+        "height": 500
+      },
+      "gt_area": 44771,
+      "point": {
+        "coordinates": [
+          109,
+          258
+        ],
+        "predicted_area": 56440,
+        "iou": 0.7880222595177104
+      },
+      "box": {
+        "coordinates_xyxy": [
+          71,
+          19,
+          265,
+          470
+        ],
+        "predicted_area": 57019,
+        "iou": 0.7825683414181391
+      }
+    },
+    {
+      "eval_position": 60,
+      "dataset_index": 1073,
+      "image_size": {
+        "width": 333,
+        "height": 500
+      },
+      "gt_area": 30229,
+      "point": {
+        "coordinates": [
+          225,
+          226
+        ],
+        "predicted_area": 42642,
+        "iou": 0.6720435041989812
+      },
+      "box": {
+        "coordinates_xyxy": [
+          101,
+          53,
+          332,
+          417
+        ],
+        "predicted_area": 43437,
+        "iou": 0.6821409814353893
+      }
+    },
+    {
+      "eval_position": 61,
+      "dataset_index": 1122,
+      "image_size": {
+        "width": 183,
+        "height": 275
+      },
+      "gt_area": 10206,
+      "point": {
+        "coordinates": [
+          76,
+          126
+        ],
+        "predicted_area": 13462,
+        "iou": 0.7565682054326852
+      },
+      "box": {
+        "coordinates_xyxy": [
+          35,
+          17,
+          144,
+          255
+        ],
+        "predicted_area": 13592,
+        "iou": 0.7508828722778105
+      }
+    },
+    {
+      "eval_position": 62,
+      "dataset_index": 1125,
+      "image_size": {
+        "width": 500,
+        "height": 375
+      },
+      "gt_area": 127119,
+      "point": {
+        "coordinates": [
+          147,
+          202
+        ],
+        "predicted_area": 150211,
+        "iou": 0.8191299556581744
+      },
+      "box": {
+        "coordinates_xyxy": [
+          61,
+          0,
+          499,
+          374
+        ],
+        "predicted_area": 130011,
+        "iou": 0.9503185679611651
+      }
+    },
+    {
+      "eval_position": 63,
+      "dataset_index": 1157,
+      "image_size": {
+        "width": 200,
+        "height": 192
+      },
+      "gt_area": 11879,
+      "point": {
+        "coordinates": [
+          122,
+          112
+        ],
+        "predicted_area": 14109,
+        "iou": 0.8375167927596691
+      },
+      "box": {
+        "coordinates_xyxy": [
+          63,
+          5,
+          153,
+          188
+        ],
+        "predicted_area": 13902,
+        "iou": 0.8462474935548553
+      }
+    },
+    {
+      "eval_position": 64,
+      "dataset_index": 1158,
+      "image_size": {
+        "width": 250,
+        "height": 500
+      },
+      "gt_area": 14484,
+      "point": {
+        "coordinates": [
+          135,
+          287
+        ],
+        "predicted_area": 22089,
+        "iou": 0.6555610882259744
+      },
+      "box": {
+        "coordinates_xyxy": [
+          59,
+          131,
+          172,
+          488
+        ],
+        "predicted_area": 21860,
+        "iou": 0.6621998627944203
+      }
+    },
+    {
+      "eval_position": 65,
+      "dataset_index": 1167,
+      "image_size": {
+        "width": 600,
+        "height": 393
+      },
+      "gt_area": 37006,
+      "point": {
+        "coordinates": [
+          326,
+          186
+        ],
+        "predicted_area": 43241,
+        "iou": 0.6604659824532362
+      },
+      "box": {
+        "coordinates_xyxy": [
+          37,
+          25,
+          538,
+          392
+        ],
+        "predicted_area": 51409,
+        "iou": 0.7196009024428194
+      }
+    },
+    {
+      "eval_position": 66,
+      "dataset_index": 1179,
+      "image_size": {
+        "width": 300,
+        "height": 240
+      },
+      "gt_area": 15275,
+      "point": {
+        "coordinates": [
+          120,
+          134
+        ],
+        "predicted_area": 18883,
+        "iou": 0.7934474430326578
+      },
+      "box": {
+        "coordinates_xyxy": [
+          30,
+          37,
+          249,
+          219
+        ],
+        "predicted_area": 19498,
+        "iou": 0.7791250959324636
+      }
+    },
+    {
+      "eval_position": 67,
+      "dataset_index": 1180,
+      "image_size": {
+        "width": 400,
+        "height": 300
+      },
+      "gt_area": 9991,
+      "point": {
+        "coordinates": [
+          285,
+          182
+        ],
+        "predicted_area": 13204,
+        "iou": 0.7557338581485126
+      },
+      "box": {
+        "coordinates_xyxy": [
+          63,
+          120,
+          324,
+          217
+        ],
+        "predicted_area": 13403,
+        "iou": 0.7454301275833769
+      }
+    },
+    {
+      "eval_position": 68,
+      "dataset_index": 1185,
+      "image_size": {
+        "width": 500,
+        "height": 375
+      },
+      "gt_area": 57925,
+      "point": {
+        "coordinates": [
+          342,
+          213
+        ],
+        "predicted_area": 3755,
+        "iou": 0.046754348748408996
+      },
+      "box": {
+        "coordinates_xyxy": [
+          52,
+          32,
+          403,
+          352
+        ],
+        "predicted_area": 74392,
+        "iou": 0.7732822279105298
+      }
+    },
+    {
+      "eval_position": 69,
+      "dataset_index": 1206,
+      "image_size": {
+        "width": 500,
+        "height": 343
+      },
+      "gt_area": 22641,
+      "point": {
+        "coordinates": [
+          297,
+          179
+        ],
+        "predicted_area": 27742,
+        "iou": 0.8146227264541689
+      },
+      "box": {
+        "coordinates_xyxy": [
+          189,
+          55,
+          340,
+          277
+        ],
+        "predicted_area": 27521,
+        "iou": 0.8189795844363056
+      }
+    },
+    {
+      "eval_position": 70,
+      "dataset_index": 1230,
+      "image_size": {
+        "width": 500,
+        "height": 480
+      },
+      "gt_area": 30823,
+      "point": {
+        "coordinates": [
+          223,
+          254
+        ],
+        "predicted_area": 39064,
+        "iou": 0.7883060388945752
+      },
+      "box": {
+        "coordinates_xyxy": [
+          170,
+          89,
+          329,
+          401
+        ],
+        "predicted_area": 38236,
+        "iou": 0.8012728553170401
+      }
+    },
+    {
+      "eval_position": 71,
+      "dataset_index": 1238,
+      "image_size": {
+        "width": 333,
+        "height": 500
+      },
+      "gt_area": 10131,
+      "point": {
+        "coordinates": [
+          166,
+          194
+        ],
+        "predicted_area": 14879,
+        "iou": 0.6808925331003428
+      },
+      "box": {
+        "coordinates_xyxy": [
+          75,
+          110,
+          181,
+          284
+        ],
+        "predicted_area": 14625,
+        "iou": 0.6927179487179487
+      }
+    },
+    {
+      "eval_position": 72,
+      "dataset_index": 1278,
+      "image_size": {
+        "width": 500,
+        "height": 335
+      },
+      "gt_area": 18435,
+      "point": {
+        "coordinates": [
+          235,
+          209
+        ],
+        "predicted_area": 25098,
+        "iou": 0.7345206789385609
+      },
+      "box": {
+        "coordinates_xyxy": [
+          190,
+          65,
+          345,
+          323
+        ],
+        "predicted_area": 24949,
+        "iou": 0.7389073710369153
+      }
+    },
+    {
+      "eval_position": 73,
+      "dataset_index": 1288,
+      "image_size": {
+        "width": 375,
+        "height": 500
+      },
+      "gt_area": 63485,
+      "point": {
+        "coordinates": [
+          123,
+          180
+        ],
+        "predicted_area": 94770,
+        "iou": 0.6607549506249278
+      },
+      "box": {
+        "coordinates_xyxy": [
+          4,
+          10,
+          368,
+          489
+        ],
+        "predicted_area": 102553,
+        "iou": 0.6128336635971559
+      }
+    },
+    {
+      "eval_position": 74,
+      "dataset_index": 1314,
+      "image_size": {
+        "width": 500,
+        "height": 375
+      },
+      "gt_area": 14574,
+      "point": {
+        "coordinates": [
+          262,
+          155
+        ],
+        "predicted_area": 23019,
+        "iou": 0.6330582102519549
+      },
+      "box": {
+        "coordinates_xyxy": [
+          182,
+          55,
+          358,
+          351
+        ],
+        "predicted_area": 22191,
+        "iou": 0.652656657376607
+      }
+    },
+    {
+      "eval_position": 75,
+      "dataset_index": 1322,
+      "image_size": {
+        "width": 500,
+        "height": 375
+      },
+      "gt_area": 99470,
+      "point": {
+        "coordinates": [
+          388,
+          116
+        ],
+        "predicted_area": 13150,
+        "iou": 0.12067507189555492
+      },
+      "box": {
+        "coordinates_xyxy": [
+          0,
+          0,
+          499,
+          367
+        ],
+        "predicted_area": 141652,
+        "iou": 0.6786432842990511
+      }
+    },
+    {
+      "eval_position": 76,
+      "dataset_index": 1326,
+      "image_size": {
+        "width": 375,
+        "height": 500
+      },
+      "gt_area": 21740,
+      "point": {
+        "coordinates": [
+          264,
+          249
+        ],
+        "predicted_area": 9388,
+        "iou": 0.3059238127202551
+      },
+      "box": {
+        "coordinates_xyxy": [
+          0,
+          177,
+          319,
+          422
+        ],
+        "predicted_area": 32806,
+        "iou": 0.662683655428885
+      }
+    },
+    {
+      "eval_position": 77,
+      "dataset_index": 1423,
+      "image_size": {
+        "width": 429,
+        "height": 500
+      },
+      "gt_area": 28749,
+      "point": {
+        "coordinates": [
+          232,
+          256
+        ],
+        "predicted_area": 46000,
+        "iou": 0.6249782608695652
+      },
+      "box": {
+        "coordinates_xyxy": [
+          116,
+          57,
+          322,
+          453
+        ],
+        "predicted_area": 44733,
+        "iou": 0.6426799007444168
+      }
+    },
+    {
+      "eval_position": 78,
+      "dataset_index": 1428,
+      "image_size": {
+        "width": 372,
+        "height": 500
+      },
+      "gt_area": 11643,
+      "point": {
+        "coordinates": [
+          199,
+          249
+        ],
+        "predicted_area": 22912,
+        "iou": 0.38197888337865943
+      },
+      "box": {
+        "coordinates_xyxy": [
+          102,
+          97,
+          256,
+          319
+        ],
+        "predicted_area": 19729,
+        "iou": 0.5837245696400626
+      }
+    },
+    {
+      "eval_position": 79,
+      "dataset_index": 1434,
+      "image_size": {
+        "width": 500,
+        "height": 400
+      },
+      "gt_area": 26790,
+      "point": {
+        "coordinates": [
+          160,
+          179
+        ],
+        "predicted_area": 10780,
+        "iou": 0.29977512541082857
+      },
+      "box": {
+        "coordinates_xyxy": [
+          101,
+          79,
+          399,
+          270
+        ],
+        "predicted_area": 37885,
+        "iou": 0.6982197248188216
+      }
+    },
+    {
+      "eval_position": 80,
+      "dataset_index": 1438,
+      "image_size": {
+        "width": 500,
+        "height": 334
+      },
+      "gt_area": 3080,
+      "point": {
+        "coordinates": [
+          226,
+          125
+        ],
+        "predicted_area": 406,
+        "iou": 0.0028768699654775605
+      },
+      "box": {
+        "coordinates_xyxy": [
+          225,
+          98,
+          296,
+          196
+        ],
+        "predicted_area": 2867,
+        "iou": 0.5563988484689871
+      }
+    },
+    {
+      "eval_position": 81,
+      "dataset_index": 1442,
+      "image_size": {
+        "width": 375,
+        "height": 500
+      },
+      "gt_area": 63293,
+      "point": {
+        "coordinates": [
+          188,
+          272
+        ],
+        "predicted_area": 78647,
+        "iou": 0.7967998379664794
+      },
+      "box": {
+        "coordinates_xyxy": [
+          0,
+          112,
+          332,
+          499
+        ],
+        "predicted_area": 81518,
+        "iou": 0.7714100478293312
+      }
+    },
+    {
+      "eval_position": 82,
+      "dataset_index": 1471,
+      "image_size": {
+        "width": 500,
+        "height": 375
+      },
+      "gt_area": 57336,
+      "point": {
+        "coordinates": [
+          219,
+          174
+        ],
+        "predicted_area": 9911,
+        "iou": 0.147579310227137
+      },
+      "box": {
+        "coordinates_xyxy": [
+          141,
+          10,
+          447,
+          374
+        ],
+        "predicted_area": 70565,
+        "iou": 0.8083758677732691
+      }
+    },
+    {
+      "eval_position": 83,
+      "dataset_index": 1473,
+      "image_size": {
+        "width": 375,
+        "height": 500
+      },
+      "gt_area": 32136,
+      "point": {
+        "coordinates": [
+          189,
+          234
+        ],
+        "predicted_area": 49655,
+        "iou": 0.6406105829020741
+      },
+      "box": {
+        "coordinates_xyxy": [
+          85,
+          87,
+          286,
+          471
+        ],
+        "predicted_area": 47153,
+        "iou": 0.6750961254066844
+      }
+    },
+    {
+      "eval_position": 84,
+      "dataset_index": 1501,
+      "image_size": {
+        "width": 500,
+        "height": 375
+      },
+      "gt_area": 36173,
+      "point": {
+        "coordinates": [
+          162,
+          179
+        ],
+        "predicted_area": 462,
+        "iou": 0.012771956984491194
+      },
+      "box": {
+        "coordinates_xyxy": [
+          129,
+          93,
+          427,
+          343
+        ],
+        "predicted_area": 44214,
+        "iou": 0.8076680908477626
+      }
+    },
+    {
+      "eval_position": 85,
+      "dataset_index": 1505,
+      "image_size": {
+        "width": 500,
+        "height": 334
+      },
+      "gt_area": 39163,
+      "point": {
+        "coordinates": [
+          204,
+          157
+        ],
+        "predicted_area": 47520,
+        "iou": 0.8208801596470959
+      },
+      "box": {
+        "coordinates_xyxy": [
+          167,
+          0,
+          360,
+          333
+        ],
+        "predicted_area": 47723,
+        "iou": 0.8176226936111459
+      }
+    },
+    {
+      "eval_position": 86,
+      "dataset_index": 1515,
+      "image_size": {
+        "width": 500,
+        "height": 333
+      },
+      "gt_area": 55117,
+      "point": {
+        "coordinates": [
+          233,
+          216
+        ],
+        "predicted_area": 59719,
+        "iou": 0.9141247458079141
+      },
+      "box": {
+        "coordinates_xyxy": [
+          168,
+          29,
+          446,
+          332
+        ],
+        "predicted_area": 59574,
+        "iou": 0.9163394542933048
+      }
+    },
+    {
+      "eval_position": 87,
+      "dataset_index": 1530,
+      "image_size": {
+        "width": 500,
+        "height": 333
+      },
+      "gt_area": 26945,
+      "point": {
+        "coordinates": [
+          237,
+          224
+        ],
+        "predicted_area": 32595,
+        "iou": 0.822969290591225
+      },
+      "box": {
+        "coordinates_xyxy": [
+          157,
+          133,
+          344,
+          332
+        ],
+        "predicted_area": 31897,
+        "iou": 0.8409410881331539
+      }
+    },
+    {
+      "eval_position": 88,
+      "dataset_index": 1543,
+      "image_size": {
+        "width": 500,
+        "height": 333
+      },
+      "gt_area": 71550,
+      "point": {
+        "coordinates": [
+          395,
+          203
+        ],
+        "predicted_area": 76101,
+        "iou": 0.9091402785140744
+      },
+      "box": {
+        "coordinates_xyxy": [
+          121,
+          82,
+          499,
+          332
+        ],
+        "predicted_area": 76647,
+        "iou": 0.9189791135224727
+      }
+    },
+    {
+      "eval_position": 89,
+      "dataset_index": 1544,
+      "image_size": {
+        "width": 500,
+        "height": 333
+      },
+      "gt_area": 47122,
+      "point": {
+        "coordinates": [
+          329,
+          180
+        ],
+        "predicted_area": 54189,
+        "iou": 0.8639106597490525
+      },
+      "box": {
+        "coordinates_xyxy": [
+          181,
+          92,
+          499,
+          332
+        ],
+        "predicted_area": 57910,
+        "iou": 0.8113025333264352
+      }
+    },
+    {
+      "eval_position": 90,
+      "dataset_index": 1579,
+      "image_size": {
+        "width": 404,
+        "height": 500
+      },
+      "gt_area": 35292,
+      "point": {
+        "coordinates": [
+          327,
+          209
+        ],
+        "predicted_area": 49257,
+        "iou": 0.7164869967720324
+      },
+      "box": {
+        "coordinates_xyxy": [
+          127,
+          98,
+          341,
+          488
+        ],
+        "predicted_area": 49381,
+        "iou": 0.7146878354022802
+      }
+    },
+    {
+      "eval_position": 91,
+      "dataset_index": 1587,
+      "image_size": {
+        "width": 500,
+        "height": 333
+      },
+      "gt_area": 43384,
+      "point": {
+        "coordinates": [
+          322,
+          183
+        ],
+        "predicted_area": 57932,
+        "iou": 0.7474904274034979
+      },
+      "box": {
+        "coordinates_xyxy": [
+          150,
+          52,
+          377,
+          329
+        ],
+        "predicted_area": 57939,
+        "iou": 0.7483952236333518
+      }
+    },
+    {
+      "eval_position": 92,
+      "dataset_index": 1597,
+      "image_size": {
+        "width": 500,
+        "height": 500
+      },
+      "gt_area": 38663,
+      "point": {
+        "coordinates": [
+          217,
+          213
+        ],
+        "predicted_area": 61140,
+        "iou": 0.6228130081300813
+      },
+      "box": {
+        "coordinates_xyxy": [
+          160,
+          85,
+          384,
+          411
+        ],
+        "predicted_area": 55063,
+        "iou": 0.6900357026939306
+      }
+    },
+    {
+      "eval_position": 93,
+      "dataset_index": 1610,
+      "image_size": {
+        "width": 500,
+        "height": 500
+      },
+      "gt_area": 71622,
+      "point": {
+        "coordinates": [
+          216,
+          220
+        ],
+        "predicted_area": 77140,
+        "iou": 0.7302333154993138
+      },
+      "box": {
+        "coordinates_xyxy": [
+          84,
+          25,
+          409,
+          464
+        ],
+        "predicted_area": 89463,
+        "iou": 0.7943790937040502
+      }
+    },
+    {
+      "eval_position": 94,
+      "dataset_index": 1657,
+      "image_size": {
+        "width": 500,
+        "height": 333
+      },
+      "gt_area": 57844,
+      "point": {
+        "coordinates": [
+          342,
+          186
+        ],
+        "predicted_area": 68041,
+        "iou": 0.8458481795920761
+      },
+      "box": {
+        "coordinates_xyxy": [
+          161,
+          58,
+          415,
+          332
+        ],
+        "predicted_area": 67331,
+        "iou": 0.8546917366760013
+      }
+    },
+    {
+      "eval_position": 95,
+      "dataset_index": 1663,
+      "image_size": {
+        "width": 333,
+        "height": 500
+      },
+      "gt_area": 45653,
+      "point": {
+        "coordinates": [
+          173,
+          229
+        ],
+        "predicted_area": 56046,
+        "iou": 0.8145630375049067
+      },
+      "box": {
+        "coordinates_xyxy": [
+          45,
+          64,
+          280,
+          349
+        ],
+        "predicted_area": 53511,
+        "iou": 0.8349771469809959
+      }
+    },
+    {
+      "eval_position": 96,
+      "dataset_index": 1749,
+      "image_size": {
+        "width": 500,
+        "height": 375
+      },
+      "gt_area": 38679,
+      "point": {
+        "coordinates": [
+          284,
+          207
+        ],
+        "predicted_area": 56319,
+        "iou": 0.6847500310355223
+      },
+      "box": {
+        "coordinates_xyxy": [
+          25,
+          36,
+          349,
+          350
+        ],
+        "predicted_area": 54932,
+        "iou": 0.701677846248932
+      }
+    },
+    {
+      "eval_position": 97,
+      "dataset_index": 1769,
+      "image_size": {
+        "width": 500,
+        "height": 375
+      },
+      "gt_area": 31321,
+      "point": {
+        "coordinates": [
+          179,
+          149
+        ],
+        "predicted_area": 39015,
+        "iou": 0.794514606454905
+      },
+      "box": {
+        "coordinates_xyxy": [
+          92,
+          59,
+          364,
+          250
+        ],
+        "predicted_area": 38993,
+        "iou": 0.7981740531417026
+      }
+    },
+    {
+      "eval_position": 98,
+      "dataset_index": 1783,
+      "image_size": {
+        "width": 500,
+        "height": 375
+      },
+      "gt_area": 115090,
+      "point": {
+        "coordinates": [
+          306,
+          200
+        ],
+        "predicted_area": 134987,
+        "iou": 0.8525731726288809
+      },
+      "box": {
+        "coordinates_xyxy": [
+          72,
+          5,
+          480,
+          372
+        ],
+        "predicted_area": 132847,
+        "iou": 0.8663068596677431
+      }
+    },
+    {
+      "eval_position": 99,
+      "dataset_index": 1784,
+      "image_size": {
+        "width": 464,
+        "height": 500
+      },
+      "gt_area": 61552,
+      "point": {
+        "coordinates": [
+          184,
+          243
+        ],
+        "predicted_area": 85619,
+        "iou": 0.7187051115860281
+      },
+      "box": {
+        "coordinates_xyxy": [
+          82,
+          64,
+          377,
+          443
+        ],
+        "predicted_area": 78792,
+        "iou": 0.7752703813800519
+      }
+    },
+    {
+      "eval_position": 100,
+      "dataset_index": 1786,
+      "image_size": {
+        "width": 432,
+        "height": 432
+      },
+      "gt_area": 128864,
+      "point": {
+        "coordinates": [
+          212,
+          243
+        ],
+        "predicted_area": 121152,
+        "iou": 0.7578288687337411
+      },
+      "box": {
+        "coordinates_xyxy": [
+          27,
+          25,
+          427,
+          428
+        ],
+        "predicted_area": 140049,
+        "iou": 0.8486058789561965
+      }
+    },
+    {
+      "eval_position": 101,
+      "dataset_index": 1863,
+      "image_size": {
+        "width": 500,
+        "height": 375
+      },
+      "gt_area": 90805,
+      "point": {
+        "coordinates": [
+          242,
+          146
+        ],
+        "predicted_area": 95926,
+        "iou": 0.9372043323097352
+      },
+      "box": {
+        "coordinates_xyxy": [
+          141,
+          0,
+          499,
+          311
+        ],
+        "predicted_area": 96166,
+        "iou": 0.9355977473187296
+      }
+    },
+    {
+      "eval_position": 102,
+      "dataset_index": 1878,
+      "image_size": {
+        "width": 500,
+        "height": 375
+      },
+      "gt_area": 33313,
+      "point": {
+        "coordinates": [
+          167,
+          198
+        ],
+        "predicted_area": 40551,
+        "iou": 0.8215087174175729
+      },
+      "box": {
+        "coordinates_xyxy": [
+          4,
+          94,
+          387,
+          273
+        ],
+        "predicted_area": 41100,
+        "iou": 0.8105352798053528
+      }
+    },
+    {
+      "eval_position": 103,
+      "dataset_index": 1936,
+      "image_size": {
+        "width": 493,
+        "height": 500
+      },
+      "gt_area": 38541,
+      "point": {
+        "coordinates": [
+          249,
+          267
+        ],
+        "predicted_area": 52169,
+        "iou": 0.7380391255197256
+      },
+      "box": {
+        "coordinates_xyxy": [
+          110,
+          107,
+          377,
+          409
+        ],
+        "predicted_area": 50518,
+        "iou": 0.7559989747027623
+      }
+    },
+    {
+      "eval_position": 104,
+      "dataset_index": 1939,
+      "image_size": {
+        "width": 500,
+        "height": 375
+      },
+      "gt_area": 64220,
+      "point": {
+        "coordinates": [
+          221,
+          170
+        ],
+        "predicted_area": 74168,
+        "iou": 0.8651930723094549
+      },
+      "box": {
+        "coordinates_xyxy": [
+          13,
+          28,
+          359,
+          350
+        ],
+        "predicted_area": 72718,
+        "iou": 0.8818695287699094
+      }
+    },
+    {
+      "eval_position": 105,
+      "dataset_index": 1941,
+      "image_size": {
+        "width": 500,
+        "height": 375
+      },
+      "gt_area": 85627,
+      "point": {
+        "coordinates": [
+          213,
+          198
+        ],
+        "predicted_area": 100114,
+        "iou": 0.838746720784042
+      },
+      "box": {
+        "coordinates_xyxy": [
+          29,
+          25,
+          482,
+          374
+        ],
+        "predicted_area": 99377,
+        "iou": 0.8434404830706073
+      }
+    },
+    {
+      "eval_position": 106,
+      "dataset_index": 1951,
+      "image_size": {
+        "width": 403,
+        "height": 500
+      },
+      "gt_area": 19443,
+      "point": {
+        "coordinates": [
+          184,
+          209
+        ],
+        "predicted_area": 348,
+        "iou": 0.01789847245795402
+      },
+      "box": {
+        "coordinates_xyxy": [
+          152,
+          78,
+          266,
+          352
+        ],
+        "predicted_area": 28200,
+        "iou": 0.689468085106383
+      }
+    },
+    {
+      "eval_position": 107,
+      "dataset_index": 2017,
+      "image_size": {
+        "width": 500,
+        "height": 418
+      },
+      "gt_area": 57357,
+      "point": {
+        "coordinates": [
+          240,
+          235
+        ],
+        "predicted_area": 104244,
+        "iou": 0.550218717624036
+      },
+      "box": {
+        "coordinates_xyxy": [
+          85,
+          49,
+          482,
+          373
+        ],
+        "predicted_area": 71287,
+        "iou": 0.7984873268184932
+      }
+    },
+    {
+      "eval_position": 108,
+      "dataset_index": 2032,
+      "image_size": {
+        "width": 500,
+        "height": 349
+      },
+      "gt_area": 61600,
+      "point": {
+        "coordinates": [
+          168,
+          235
+        ],
+        "predicted_area": 748,
+        "iou": 0.006522019888931939
+      },
+      "box": {
+        "coordinates_xyxy": [
+          163,
+          34,
+          474,
+          348
+        ],
+        "predicted_area": 69427,
+        "iou": 0.8741971935746878
+      }
+    },
+    {
+      "eval_position": 109,
+      "dataset_index": 2065,
+      "image_size": {
+        "width": 335,
+        "height": 500
+      },
+      "gt_area": 79628,
+      "point": {
+        "coordinates": [
+          282,
+          284
+        ],
+        "predicted_area": 103973,
+        "iou": 0.737231042900668
+      },
+      "box": {
+        "coordinates_xyxy": [
+          21,
+          49,
+          312,
+          469
+        ],
+        "predicted_area": 88441,
+        "iou": 0.8630241761165243
+      }
+    },
+    {
+      "eval_position": 110,
+      "dataset_index": 2080,
+      "image_size": {
+        "width": 600,
+        "height": 400
+      },
+      "gt_area": 50457,
+      "point": {
+        "coordinates": [
+          158,
+          221
+        ],
+        "predicted_area": 62113,
+        "iou": 0.8046137321855111
+      },
+      "box": {
+        "coordinates_xyxy": [
+          65,
+          89,
+          566,
+          370
+        ],
+        "predicted_area": 63644,
+        "iou": 0.7924344533986836
+      }
+    },
+    {
+      "eval_position": 111,
+      "dataset_index": 2095,
+      "image_size": {
+        "width": 500,
+        "height": 375
+      },
+      "gt_area": 25539,
+      "point": {
+        "coordinates": [
+          142,
+          246
+        ],
+        "predicted_area": 7333,
+        "iou": 0.20388207288042484
+      },
+      "box": {
+        "coordinates_xyxy": [
+          68,
+          11,
+          344,
+          374
+        ],
+        "predicted_area": 45653,
+        "iou": 0.5591423753312454
+      }
+    },
+    {
+      "eval_position": 112,
+      "dataset_index": 2142,
+      "image_size": {
+        "width": 500,
+        "height": 375
+      },
+      "gt_area": 61890,
+      "point": {
+        "coordinates": [
+          289,
+          275
+        ],
+        "predicted_area": 51637,
+        "iou": 0.7063774781680721
+      },
+      "box": {
+        "coordinates_xyxy": [
+          0,
+          18,
+          481,
+          374
+        ],
+        "predicted_area": 141704,
+        "iou": 0.4239334172611554
+      }
+    },
+    {
+      "eval_position": 113,
+      "dataset_index": 2144,
+      "image_size": {
+        "width": 333,
+        "height": 500
+      },
+      "gt_area": 20909,
+      "point": {
+        "coordinates": [
+          194,
+          239
+        ],
+        "predicted_area": 31640,
+        "iou": 0.6506675043191456
+      },
+      "box": {
+        "coordinates_xyxy": [
+          109,
+          114,
+          272,
+          446
+        ],
+        "predicted_area": 31093,
+        "iou": 0.6620960782433598
+      }
+    },
+    {
+      "eval_position": 114,
+      "dataset_index": 2146,
+      "image_size": {
+        "width": 500,
+        "height": 281
+      },
+      "gt_area": 14325,
+      "point": {
+        "coordinates": [
+          186,
+          99
+        ],
+        "predicted_area": 17792,
+        "iou": 0.7498637899095565
+      },
+      "box": {
+        "coordinates_xyxy": [
+          147,
+          0,
+          320,
+          256
+        ],
+        "predicted_area": 19104,
+        "iou": 0.7498429648241206
+      }
+    },
+    {
+      "eval_position": 115,
+      "dataset_index": 2174,
+      "image_size": {
+        "width": 500,
+        "height": 333
+      },
+      "gt_area": 13174,
+      "point": {
+        "coordinates": [
+          220,
+          147
+        ],
+        "predicted_area": 17706,
+        "iou": 0.7418772563176895
+      },
+      "box": {
+        "coordinates_xyxy": [
+          107,
+          55,
+          282,
+          304
+        ],
+        "predicted_area": 17760,
+        "iou": 0.7417792792792792
+      }
+    },
+    {
+      "eval_position": 116,
+      "dataset_index": 2196,
+      "image_size": {
+        "width": 500,
+        "height": 449
+      },
+      "gt_area": 29019,
+      "point": {
+        "coordinates": [
+          173,
+          261
+        ],
+        "predicted_area": 42781,
+        "iou": 0.6783151398985531
+      },
+      "box": {
+        "coordinates_xyxy": [
+          139,
+          105,
+          327,
+          414
+        ],
+        "predicted_area": 40055,
+        "iou": 0.6912077957055065
+      }
+    },
+    {
+      "eval_position": 117,
+      "dataset_index": 2236,
+      "image_size": {
+        "width": 500,
+        "height": 353
+      },
+      "gt_area": 36095,
+      "point": {
+        "coordinates": [
+          247,
+          219
+        ],
+        "predicted_area": 43727,
+        "iou": 0.8252120824091647
+      },
+      "box": {
+        "coordinates_xyxy": [
+          77,
+          78,
+          270,
+          325
+        ],
+        "predicted_area": 42652,
+        "iou": 0.8462674669417612
+      }
+    },
+    {
+      "eval_position": 118,
+      "dataset_index": 2241,
+      "image_size": {
+        "width": 500,
+        "height": 375
+      },
+      "gt_area": 62124,
+      "point": {
+        "coordinates": [
+          247,
+          156
+        ],
+        "predicted_area": 83723,
+        "iou": 0.7381568127376086
+      },
+      "box": {
+        "coordinates_xyxy": [
+          88,
+          0,
+          402,
+          374
+        ],
+        "predicted_area": 80175,
+        "iou": 0.7706588689105954
+      }
+    },
+    {
+      "eval_position": 119,
+      "dataset_index": 2245,
+      "image_size": {
+        "width": 332,
+        "height": 500
+      },
+      "gt_area": 35840,
+      "point": {
+        "coordinates": [
+          130,
+          235
+        ],
+        "predicted_area": 3635,
+        "iou": 0.10142299107142858
+      },
+      "box": {
+        "coordinates_xyxy": [
+          23,
+          114,
+          223,
+          355
+        ],
+        "predicted_area": 39824,
+        "iou": 0.8703712859049785
+      }
+    },
+    {
+      "eval_position": 120,
+      "dataset_index": 2288,
+      "image_size": {
+        "width": 400,
+        "height": 302
+      },
+      "gt_area": 72369,
+      "point": {
+        "coordinates": [
+          111,
+          198
+        ],
+        "predicted_area": 76295,
+        "iou": 0.9059731535019679
+      },
+      "box": {
+        "coordinates_xyxy": [
+          0,
+          17,
+          383,
+          301
+        ],
+        "predicted_area": 78717,
+        "iou": 0.9029901503891982
+      }
+    },
+    {
+      "eval_position": 121,
+      "dataset_index": 2333,
+      "image_size": {
+        "width": 500,
+        "height": 375
+      },
+      "gt_area": 109922,
+      "point": {
+        "coordinates": [
+          296,
+          180
+        ],
+        "predicted_area": 126094,
+        "iou": 0.8587595983461311
+      },
+      "box": {
+        "coordinates_xyxy": [
+          59,
+          22,
+          499,
+          374
+        ],
+        "predicted_area": 125433,
+        "iou": 0.8690093309509629
+      }
+    },
+    {
+      "eval_position": 122,
+      "dataset_index": 2334,
+      "image_size": {
+        "width": 375,
+        "height": 500
+      },
+      "gt_area": 67337,
+      "point": {
+        "coordinates": [
+          347,
+          318
+        ],
+        "predicted_area": 77564,
+        "iou": 0.8674734508712239
+      },
+      "box": {
+        "coordinates_xyxy": [
+          128,
+          79,
+          359,
+          499
+        ],
+        "predicted_area": 78239,
+        "iou": 0.8606577282429478
+      }
+    },
+    {
+      "eval_position": 123,
+      "dataset_index": 2348,
+      "image_size": {
+        "width": 500,
+        "height": 456
+      },
+      "gt_area": 119961,
+      "point": {
+        "coordinates": [
+          261,
+          194
+        ],
+        "predicted_area": 126157,
+        "iou": 0.9180018703241896
+      },
+      "box": {
+        "coordinates_xyxy": [
+          6,
+          30,
+          475,
+          428
+        ],
+        "predicted_area": 128410,
+        "iou": 0.9165759967899005
+      }
+    },
+    {
+      "eval_position": 124,
+      "dataset_index": 2351,
+      "image_size": {
+        "width": 334,
+        "height": 500
+      },
+      "gt_area": 107413,
+      "point": {
+        "coordinates": [
+          186,
+          278
+        ],
+        "predicted_area": 121093,
+        "iou": 0.8816680116602711
+      },
+      "box": {
+        "coordinates_xyxy": [
+          0,
+          54,
+          285,
+          499
+        ],
+        "predicted_area": 117741,
+        "iou": 0.9023454662205549
+      }
+    },
+    {
+      "eval_position": 125,
+      "dataset_index": 2358,
+      "image_size": {
+        "width": 500,
+        "height": 375
+      },
+      "gt_area": 65892,
+      "point": {
+        "coordinates": [
+          90,
+          237
+        ],
+        "predicted_area": 74133,
+        "iou": 0.8186718273089761
+      },
+      "box": {
+        "coordinates_xyxy": [
+          26,
+          9,
+          332,
+          374
+        ],
+        "predicted_area": 99017,
+        "iou": 0.6575268114703843
+      }
+    },
+    {
+      "eval_position": 126,
+      "dataset_index": 2363,
+      "image_size": {
+        "width": 500,
+        "height": 375
+      },
+      "gt_area": 74117,
+      "point": {
+        "coordinates": [
+          219,
+          215
+        ],
+        "predicted_area": 90727,
+        "iou": 0.816883245709751
+      },
+      "box": {
+        "coordinates_xyxy": [
+          0,
+          34,
+          464,
+          316
+        ],
+        "predicted_area": 89473,
+        "iou": 0.8281889095013523
+      }
+    },
+    {
+      "eval_position": 127,
+      "dataset_index": 2370,
+      "image_size": {
+        "width": 500,
+        "height": 350
+      },
+      "gt_area": 93266,
+      "point": {
+        "coordinates": [
+          45,
+          230
+        ],
+        "predicted_area": 102010,
+        "iou": 0.8890060459492141
+      },
+      "box": {
+        "coordinates_xyxy": [
+          0,
+          33,
+          453,
+          349
+        ],
+        "predicted_area": 104712,
+        "iou": 0.8791514403682786
+      }
+    },
+    {
+      "eval_position": 128,
+      "dataset_index": 2379,
+      "image_size": {
+        "width": 487,
+        "height": 500
+      },
+      "gt_area": 150999,
+      "point": {
+        "coordinates": [
+          334,
+          286
+        ],
+        "predicted_area": 218897,
+        "iou": 0.689694079383134
+      },
+      "box": {
+        "coordinates_xyxy": [
+          21,
+          44,
+          457,
+          477
+        ],
+        "predicted_area": 180801,
+        "iou": 0.8351668408913667
+      }
+    },
+    {
+      "eval_position": 129,
+      "dataset_index": 2382,
+      "image_size": {
+        "width": 300,
+        "height": 212
+      },
+      "gt_area": 26711,
+      "point": {
+        "coordinates": [
+          212,
+          116
+        ],
+        "predicted_area": 26092,
+        "iou": 0.6483423862146469
+      },
+      "box": {
+        "coordinates_xyxy": [
+          5,
+          11,
+          220,
+          205
+        ],
+        "predicted_area": 29838,
+        "iou": 0.8755265165334483
+      }
+    },
+    {
+      "eval_position": 130,
+      "dataset_index": 2395,
+      "image_size": {
+        "width": 500,
+        "height": 333
+      },
+      "gt_area": 53888,
+      "point": {
+        "coordinates": [
+          40,
+          218
+        ],
+        "predicted_area": 9655,
+        "iou": 0.15534827905961926
+      },
+      "box": {
+        "coordinates_xyxy": [
+          0,
+          69,
+          295,
+          332
+        ],
+        "predicted_area": 61214,
+        "iou": 0.8787868895272917
+      }
+    },
+    {
+      "eval_position": 131,
+      "dataset_index": 2416,
+      "image_size": {
+        "width": 500,
+        "height": 382
+      },
+      "gt_area": 36349,
+      "point": {
+        "coordinates": [
+          53,
+          206
+        ],
+        "predicted_area": 7677,
+        "iou": 0.16529472486170296
+      },
+      "box": {
+        "coordinates_xyxy": [
+          27,
+          85,
+          365,
+          281
+        ],
+        "predicted_area": 42718,
+        "iou": 0.8447306409089849
+      }
+    },
+    {
+      "eval_position": 132,
+      "dataset_index": 2422,
+      "image_size": {
+        "width": 500,
+        "height": 375
+      },
+      "gt_area": 41359,
+      "point": {
+        "coordinates": [
+          263,
+          197
+        ],
+        "predicted_area": 54233,
+        "iou": 0.7607662552956346
+      },
+      "box": {
+        "coordinates_xyxy": [
+          0,
+          85,
+          347,
+          285
+        ],
+        "predicted_area": 47817,
+        "iou": 0.8602361383453627
+      }
+    },
+    {
+      "eval_position": 133,
+      "dataset_index": 2433,
+      "image_size": {
+        "width": 375,
+        "height": 500
+      },
+      "gt_area": 55337,
+      "point": {
+        "coordinates": [
+          257,
+          269
+        ],
+        "predicted_area": 76183,
+        "iou": 0.7251465823681414
+      },
+      "box": {
+        "coordinates_xyxy": [
+          0,
+          98,
+          294,
+          428
+        ],
+        "predicted_area": 66104,
+        "iou": 0.8352601592842787
+      }
+    },
+    {
+      "eval_position": 134,
+      "dataset_index": 2487,
+      "image_size": {
+        "width": 200,
+        "height": 150
+      },
+      "gt_area": 7512,
+      "point": {
+        "coordinates": [
+          69,
+          69
+        ],
+        "predicted_area": 11214,
+        "iou": 0.6598120900549548
+      },
+      "box": {
+        "coordinates_xyxy": [
+          47,
+          8,
+          150,
+          147
+        ],
+        "predicted_area": 11054,
+        "iou": 0.6742718008837587
+      }
+    },
+    {
+      "eval_position": 135,
+      "dataset_index": 2488,
+      "image_size": {
+        "width": 500,
+        "height": 370
+      },
+      "gt_area": 125237,
+      "point": {
+        "coordinates": [
+          127,
+          214
+        ],
+        "predicted_area": 123385,
+        "iou": 0.9116828394359267
+      },
+      "box": {
+        "coordinates_xyxy": [
+          0,
+          33,
+          499,
+          369
+        ],
+        "predicted_area": 125231,
+        "iou": 0.9245599071790261
+      }
+    },
+    {
+      "eval_position": 136,
+      "dataset_index": 2496,
+      "image_size": {
+        "width": 500,
+        "height": 478
+      },
+      "gt_area": 102302,
+      "point": {
+        "coordinates": [
+          178,
+          237
+        ],
+        "predicted_area": 129295,
+        "iou": 0.7835046782950214
+      },
+      "box": {
+        "coordinates_xyxy": [
+          113,
+          58,
+          465,
+          477
+        ],
+        "predicted_area": 129080,
+        "iou": 0.7862232412360947
+      }
+    },
+    {
+      "eval_position": 137,
+      "dataset_index": 2502,
+      "image_size": {
+        "width": 500,
+        "height": 333
+      },
+      "gt_area": 131895,
+      "point": {
+        "coordinates": [
+          391,
+          156
+        ],
+        "predicted_area": 114946,
+        "iou": 0.8478889055247791
+      },
+      "box": {
+        "coordinates_xyxy": [
+          0,
+          0,
+          460,
+          332
+        ],
+        "predicted_area": 115934,
+        "iou": 0.8534675531556866
+      }
+    },
+    {
+      "eval_position": 138,
+      "dataset_index": 2506,
+      "image_size": {
+        "width": 332,
+        "height": 500
+      },
+      "gt_area": 12944,
+      "point": {
+        "coordinates": [
+          151,
+          229
+        ],
+        "predicted_area": 13033,
+        "iou": 0.7158993328489333
+      },
+      "box": {
+        "coordinates_xyxy": [
+          83,
+          160,
+          232,
+          400
+        ],
+        "predicted_area": 22614,
+        "iou": 0.5688506507831458
+      }
+    },
+    {
+      "eval_position": 139,
+      "dataset_index": 2511,
+      "image_size": {
+        "width": 500,
+        "height": 333
+      },
+      "gt_area": 19401,
+      "point": {
+        "coordinates": [
+          151,
+          143
+        ],
+        "predicted_area": 33722,
+        "iou": 0.5752750348426889
+      },
+      "box": {
+        "coordinates_xyxy": [
+          91,
+          51,
+          325,
+          300
+        ],
+        "predicted_area": 33413,
+        "iou": 0.5805949601963248
+      }
+    },
+    {
+      "eval_position": 140,
+      "dataset_index": 2516,
+      "image_size": {
+        "width": 333,
+        "height": 500
+      },
+      "gt_area": 10371,
+      "point": {
+        "coordinates": [
+          219,
+          302
+        ],
+        "predicted_area": 3605,
+        "iou": 0.23966648926734077
+      },
+      "box": {
+        "coordinates_xyxy": [
+          145,
+          255,
+          325,
+          398
+        ],
+        "predicted_area": 14908,
+        "iou": 0.6764374295377678
+      }
+    },
+    {
+      "eval_position": 141,
+      "dataset_index": 2519,
+      "image_size": {
+        "width": 500,
+        "height": 333
+      },
+      "gt_area": 42314,
+      "point": {
+        "coordinates": [
+          347,
+          164
+        ],
+        "predicted_area": 45476,
+        "iou": 0.8734128593073132
+      },
+      "box": {
+        "coordinates_xyxy": [
+          148,
+          41,
+          444,
+          302
+        ],
+        "predicted_area": 45958,
+        "iou": 0.880929043255913
+      }
+    },
+    {
+      "eval_position": 142,
+      "dataset_index": 2535,
+      "image_size": {
+        "width": 357,
+        "height": 500
+      },
+      "gt_area": 26345,
+      "point": {
+        "coordinates": [
+          220,
+          303
+        ],
+        "predicted_area": 35577,
+        "iou": 0.7141038062283737
+      },
+      "box": {
+        "coordinates_xyxy": [
+          113,
+          154,
+          298,
+          410
+        ],
+        "predicted_area": 36286,
+        "iou": 0.7099213716282625
+      }
+    },
+    {
+      "eval_position": 143,
+      "dataset_index": 2556,
+      "image_size": {
+        "width": 500,
+        "height": 375
+      },
+      "gt_area": 46287,
+      "point": {
+        "coordinates": [
+          158,
+          194
+        ],
+        "predicted_area": 51724,
+        "iou": 0.8546180483281927
+      },
+      "box": {
+        "coordinates_xyxy": [
+          101,
+          76,
+          405,
+          338
+        ],
+        "predicted_area": 53178,
+        "iou": 0.8703459947348627
+      }
+    },
+    {
+      "eval_position": 144,
+      "dataset_index": 2583,
+      "image_size": {
+        "width": 500,
+        "height": 426
+      },
+      "gt_area": 92527,
+      "point": {
+        "coordinates": [
+          402,
+          162
+        ],
+        "predicted_area": 107052,
+        "iou": 0.8486041384931735
+      },
+      "box": {
+        "coordinates_xyxy": [
+          61,
+          19,
+          451,
+          294
+        ],
+        "predicted_area": 99971,
+        "iou": 0.8906644404066199
+      }
+    },
+    {
+      "eval_position": 145,
+      "dataset_index": 2598,
+      "image_size": {
+        "width": 300,
+        "height": 225
+      },
+      "gt_area": 50485,
+      "point": {
+        "coordinates": [
+          257,
+          140
+        ],
+        "predicted_area": 45263,
+        "iou": 0.8147495309035083
+      },
+      "box": {
+        "coordinates_xyxy": [
+          0,
+          4,
+          299,
+          224
+        ],
+        "predicted_area": 56548,
+        "iou": 0.8015687330629008
+      }
+    },
+    {
+      "eval_position": 146,
+      "dataset_index": 2622,
+      "image_size": {
+        "width": 374,
+        "height": 500
+      },
+      "gt_area": 17441,
+      "point": {
+        "coordinates": [
+          178,
+          235
+        ],
+        "predicted_area": 19129,
+        "iou": 0.710637103564412
+      },
+      "box": {
+        "coordinates_xyxy": [
+          133,
+          127,
+          269,
+          315
+        ],
+        "predicted_area": 18379,
+        "iou": 0.7363063499757635
+      }
+    },
+    {
+      "eval_position": 147,
+      "dataset_index": 2635,
+      "image_size": {
+        "width": 500,
+        "height": 332
+      },
+      "gt_area": 81839,
+      "point": {
+        "coordinates": [
+          405,
+          172
+        ],
+        "predicted_area": 91534,
+        "iou": 0.8893974564357406
+      },
+      "box": {
+        "coordinates_xyxy": [
+          29,
+          9,
+          499,
+          331
+        ],
+        "predicted_area": 91485,
+        "iou": 0.891357485814055
+      }
+    },
+    {
+      "eval_position": 148,
+      "dataset_index": 2659,
+      "image_size": {
+        "width": 375,
+        "height": 500
+      },
+      "gt_area": 96525,
+      "point": {
+        "coordinates": [
+          241,
+          335
+        ],
+        "predicted_area": 157199,
+        "iou": 0.6112324730745783
+      },
+      "box": {
+        "coordinates_xyxy": [
+          0,
+          84,
+          361,
+          499
+        ],
+        "predicted_area": 111266,
+        "iou": 0.8575489661460894
+      }
+    },
+    {
+      "eval_position": 149,
+      "dataset_index": 2668,
+      "image_size": {
+        "width": 500,
+        "height": 416
+      },
+      "gt_area": 121764,
+      "point": {
+        "coordinates": [
+          231,
+          262
+        ],
+        "predicted_area": 8320,
+        "iou": 0.0683288985250156
+      },
+      "box": {
+        "coordinates_xyxy": [
+          67,
+          27,
+          471,
+          415
+        ],
+        "predicted_area": 111116,
+        "iou": 0.7990235461343551
+      }
+    },
+    {
+      "eval_position": 150,
+      "dataset_index": 2688,
+      "image_size": {
+        "width": 500,
+        "height": 334
+      },
+      "gt_area": 50193,
+      "point": {
+        "coordinates": [
+          305,
+          182
+        ],
+        "predicted_area": 1191,
+        "iou": 0.02372840834379296
+      },
+      "box": {
+        "coordinates_xyxy": [
+          114,
+          19,
+          499,
+          288
+        ],
+        "predicted_area": 56610,
+        "iou": 0.863536432160804
+      }
+    },
+    {
+      "eval_position": 151,
+      "dataset_index": 2716,
+      "image_size": {
+        "width": 500,
+        "height": 333
+      },
+      "gt_area": 101663,
+      "point": {
+        "coordinates": [
+          122,
+          184
+        ],
+        "predicted_area": 103607,
+        "iou": 0.9316802333788171
+      },
+      "box": {
+        "coordinates_xyxy": [
+          112,
+          0,
+          499,
+          332
+        ],
+        "predicted_area": 106296,
+        "iou": 0.9492623212042818
+      }
+    },
+    {
+      "eval_position": 152,
+      "dataset_index": 2779,
+      "image_size": {
+        "width": 333,
+        "height": 500
+      },
+      "gt_area": 35393,
+      "point": {
+        "coordinates": [
+          305,
+          308
+        ],
+        "predicted_area": 3729,
+        "iou": 0.07498694803945814
+      },
+      "box": {
+        "coordinates_xyxy": [
+          94,
+          172,
+          315,
+          433
+        ],
+        "predicted_area": 49120,
+        "iou": 0.7006338665861757
+      }
+    },
+    {
+      "eval_position": 153,
+      "dataset_index": 2795,
+      "image_size": {
+        "width": 500,
+        "height": 333
+      },
+      "gt_area": 23926,
+      "point": {
+        "coordinates": [
+          240,
+          191
+        ],
+        "predicted_area": 30874,
+        "iou": 0.7749562738874134
+      },
+      "box": {
+        "coordinates_xyxy": [
+          40,
+          143,
+          365,
+          267
+        ],
+        "predicted_area": 29286,
+        "iou": 0.8091935264517884
+      }
+    },
+    {
+      "eval_position": 154,
+      "dataset_index": 2826,
+      "image_size": {
+        "width": 500,
+        "height": 335
+      },
+      "gt_area": 94961,
+      "point": {
+        "coordinates": [
+          350,
+          198
+        ],
+        "predicted_area": 98883,
+        "iou": 0.9393126907108199
+      },
+      "box": {
+        "coordinates_xyxy": [
+          103,
+          36,
+          499,
+          334
+        ],
+        "predicted_area": 99356,
+        "iou": 0.9496428141429546
+      }
+    },
+    {
+      "eval_position": 155,
+      "dataset_index": 2873,
+      "image_size": {
+        "width": 500,
+        "height": 332
+      },
+      "gt_area": 37257,
+      "point": {
+        "coordinates": [
+          334,
+          163
+        ],
+        "predicted_area": 50952,
+        "iou": 0.711433615956229
+      },
+      "box": {
+        "coordinates_xyxy": [
+          114,
+          66,
+          418,
+          260
+        ],
+        "predicted_area": 44860,
+        "iou": 0.8048882343890806
+      }
+    },
+    {
+      "eval_position": 156,
+      "dataset_index": 2876,
+      "image_size": {
+        "width": 500,
+        "height": 332
+      },
+      "gt_area": 27993,
+      "point": {
+        "coordinates": [
+          233,
+          141
+        ],
+        "predicted_area": 36672,
+        "iou": 0.7570578485449556
+      },
+      "box": {
+        "coordinates_xyxy": [
+          86,
+          76,
+          384,
+          286
+        ],
+        "predicted_area": 36519,
+        "iou": 0.7593542053016253
+      }
+    },
+    {
+      "eval_position": 157,
+      "dataset_index": 2879,
+      "image_size": {
+        "width": 357,
+        "height": 500
+      },
+      "gt_area": 45287,
+      "point": {
+        "coordinates": [
+          246,
+          184
+        ],
+        "predicted_area": 65365,
+        "iou": 0.6921853494418106
+      },
+      "box": {
+        "coordinates_xyxy": [
+          63,
+          32,
+          270,
+          437
+        ],
+        "predicted_area": 64620,
+        "iou": 0.7002413291667956
+      }
+    },
+    {
+      "eval_position": 158,
+      "dataset_index": 2882,
+      "image_size": {
+        "width": 375,
+        "height": 500
+      },
+      "gt_area": 17140,
+      "point": {
+        "coordinates": [
+          229,
+          241
+        ],
+        "predicted_area": 592,
+        "iou": 0.03453908984830805
+      },
+      "box": {
+        "coordinates_xyxy": [
+          145,
+          143,
+          269,
+          374
+        ],
+        "predicted_area": 26933,
+        "iou": 0.6308233117483811
+      }
+    },
+    {
+      "eval_position": 159,
+      "dataset_index": 2896,
+      "image_size": {
+        "width": 500,
+        "height": 375
+      },
+      "gt_area": 41290,
+      "point": {
+        "coordinates": [
+          249,
+          188
+        ],
+        "predicted_area": 47615,
+        "iou": 0.8638364779874214
+      },
+      "box": {
+        "coordinates_xyxy": [
+          106,
+          75,
+          367,
+          374
+        ],
+        "predicted_area": 47799,
+        "iou": 0.8619558175016198
+      }
+    },
+    {
+      "eval_position": 160,
+      "dataset_index": 2908,
+      "image_size": {
+        "width": 500,
+        "height": 375
+      },
+      "gt_area": 59907,
+      "point": {
+        "coordinates": [
+          227,
+          190
+        ],
+        "predicted_area": 68103,
+        "iou": 0.8657902024515735
+      },
+      "box": {
+        "coordinates_xyxy": [
+          181,
+          14,
+          403,
+          371
+        ],
+        "predicted_area": 68820,
+        "iou": 0.8625584188213505
+      }
+    },
+    {
+      "eval_position": 161,
+      "dataset_index": 2973,
+      "image_size": {
+        "width": 500,
+        "height": 315
+      },
+      "gt_area": 41960,
+      "point": {
+        "coordinates": [
+          307,
+          179
+        ],
+        "predicted_area": 556,
+        "iou": 0.01325071496663489
+      },
+      "box": {
+        "coordinates_xyxy": [
+          40,
+          39,
+          399,
+          250
+        ],
+        "predicted_area": 48553,
+        "iou": 0.86133503331414
+      }
+    },
+    {
+      "eval_position": 162,
+      "dataset_index": 2984,
+      "image_size": {
+        "width": 500,
+        "height": 378
+      },
+      "gt_area": 29868,
+      "point": {
+        "coordinates": [
+          172,
+          152
+        ],
+        "predicted_area": 37326,
+        "iou": 0.7995661372827338
+      },
+      "box": {
+        "coordinates_xyxy": [
+          145,
+          45,
+          457,
+          258
+        ],
+        "predicted_area": 37050,
+        "iou": 0.8054716166630693
+      }
+    },
+    {
+      "eval_position": 163,
+      "dataset_index": 2992,
+      "image_size": {
+        "width": 375,
+        "height": 500
+      },
+      "gt_area": 28517,
+      "point": {
+        "coordinates": [
+          157,
+          148
+        ],
+        "predicted_area": 258,
+        "iou": 0.009047234982641933
+      },
+      "box": {
+        "coordinates_xyxy": [
+          75,
+          0,
+          334,
+          383
+        ],
+        "predicted_area": 61033,
+        "iou": 0.4664461402417057
+      }
+    },
+    {
+      "eval_position": 164,
+      "dataset_index": 3038,
+      "image_size": {
+        "width": 500,
+        "height": 333
+      },
+      "gt_area": 25177,
+      "point": {
+        "coordinates": [
+          308,
+          209
+        ],
+        "predicted_area": 31788,
+        "iou": 0.7920284384044294
+      },
+      "box": {
+        "coordinates_xyxy": [
+          118,
+          87,
+          328,
+          278
+        ],
+        "predicted_area": 31693,
+        "iou": 0.794402549458871
+      }
+    },
+    {
+      "eval_position": 165,
+      "dataset_index": 3058,
+      "image_size": {
+        "width": 500,
+        "height": 375
+      },
+      "gt_area": 53624,
+      "point": {
+        "coordinates": [
+          304,
+          208
+        ],
+        "predicted_area": 65092,
+        "iou": 0.8025234964546545
+      },
+      "box": {
+        "coordinates_xyxy": [
+          0,
+          44,
+          368,
+          347
+        ],
+        "predicted_area": 64895,
+        "iou": 0.8103071682781163
+      }
+    },
+    {
+      "eval_position": 166,
+      "dataset_index": 3098,
+      "image_size": {
+        "width": 500,
+        "height": 333
+      },
+      "gt_area": 19881,
+      "point": {
+        "coordinates": [
+          304,
+          179
+        ],
+        "predicted_area": 23347,
+        "iou": 0.6620400630550963
+      },
+      "box": {
+        "coordinates_xyxy": [
+          159,
+          81,
+          338,
+          304
+        ],
+        "predicted_area": 27269,
+        "iou": 0.7290696395174007
+      }
+    },
+    {
+      "eval_position": 167,
+      "dataset_index": 3138,
+      "image_size": {
+        "width": 274,
+        "height": 500
+      },
+      "gt_area": 4509,
+      "point": {
+        "coordinates": [
+          203,
+          407
+        ],
+        "predicted_area": 7078,
+        "iou": 0.6345041613767809
+      },
+      "box": {
+        "coordinates_xyxy": [
+          138,
+          330,
+          212,
+          454
+        ],
+        "predicted_area": 6947,
+        "iou": 0.645740554518029
+      }
+    },
+    {
+      "eval_position": 168,
+      "dataset_index": 3140,
+      "image_size": {
+        "width": 500,
+        "height": 271
+      },
+      "gt_area": 57613,
+      "point": {
+        "coordinates": [
+          302,
+          152
+        ],
+        "predicted_area": 16249,
+        "iou": 0.2567121516316739
+      },
+      "box": {
+        "coordinates_xyxy": [
+          80,
+          0,
+          357,
+          270
+        ],
+        "predicted_area": 60298,
+        "iou": 0.867778675410667
+      }
+    },
+    {
+      "eval_position": 169,
+      "dataset_index": 3182,
+      "image_size": {
+        "width": 500,
+        "height": 500
+      },
+      "gt_area": 85379,
+      "point": {
+        "coordinates": [
+          343,
+          302
+        ],
+        "predicted_area": 106470,
+        "iou": 0.8019066403681788
+      },
+      "box": {
+        "coordinates_xyxy": [
+          87,
+          47,
+          400,
+          499
+        ],
+        "predicted_area": 107043,
+        "iou": 0.7976140429547004
+      }
+    },
+    {
+      "eval_position": 170,
+      "dataset_index": 3187,
+      "image_size": {
+        "width": 300,
+        "height": 225
+      },
+      "gt_area": 7985,
+      "point": {
+        "coordinates": [
+          220,
+          107
+        ],
+        "predicted_area": 7919,
+        "iou": 0.7521207447394513
+      },
+      "box": {
+        "coordinates_xyxy": [
+          102,
+          48,
+          233,
+          157
+        ],
+        "predicted_area": 7935,
+        "iou": 0.7552370452039692
+      }
+    },
+    {
+      "eval_position": 171,
+      "dataset_index": 3238,
+      "image_size": {
+        "width": 500,
+        "height": 333
+      },
+      "gt_area": 70318,
+      "point": {
+        "coordinates": [
+          360,
+          174
+        ],
+        "predicted_area": 33497,
+        "iou": 0.39435087436537997
+      },
+      "box": {
+        "coordinates_xyxy": [
+          0,
+          65,
+          485,
+          332
+        ],
+        "predicted_area": 112065,
+        "iou": 0.5729316694120793
+      }
+    },
+    {
+      "eval_position": 172,
+      "dataset_index": 3292,
+      "image_size": {
+        "width": 625,
+        "height": 414
+      },
+      "gt_area": 49722,
+      "point": {
+        "coordinates": [
+          268,
+          173
+        ],
+        "predicted_area": 62906,
+        "iou": 0.7857052257737189
+      },
+      "box": {
+        "coordinates_xyxy": [
+          135,
+          9,
+          583,
+          361
+        ],
+        "predicted_area": 61108,
+        "iou": 0.8051958628552813
+      }
+    },
+    {
+      "eval_position": 173,
+      "dataset_index": 3298,
+      "image_size": {
+        "width": 551,
+        "height": 625
+      },
+      "gt_area": 101258,
+      "point": {
+        "coordinates": [
+          383,
+          376
+        ],
+        "predicted_area": 118190,
+        "iou": 0.8566920206780435
+      },
+      "box": {
+        "coordinates_xyxy": [
+          67,
+          42,
+          497,
+          569
+        ],
+        "predicted_area": 117740,
+        "iou": 0.859966197565885
+      }
+    },
+    {
+      "eval_position": 174,
+      "dataset_index": 3365,
+      "image_size": {
+        "width": 332,
+        "height": 500
+      },
+      "gt_area": 11501,
+      "point": {
+        "coordinates": [
+          166,
+          267
+        ],
+        "predicted_area": 14956,
+        "iou": 0.702071538857437
+      },
+      "box": {
+        "coordinates_xyxy": [
+          82,
+          187,
+          300,
+          370
+        ],
+        "predicted_area": 16024,
+        "iou": 0.6971883092859785
+      }
+    },
+    {
+      "eval_position": 175,
+      "dataset_index": 3373,
+      "image_size": {
+        "width": 500,
+        "height": 457
+      },
+      "gt_area": 37968,
+      "point": {
+        "coordinates": [
+          293,
+          228
+        ],
+        "predicted_area": 55680,
+        "iou": 0.6818663457912034
+      },
+      "box": {
+        "coordinates_xyxy": [
+          122,
+          41,
+          400,
+          390
+        ],
+        "predicted_area": 49562,
+        "iou": 0.7658926301773358
+      }
+    },
+    {
+      "eval_position": 176,
+      "dataset_index": 3380,
+      "image_size": {
+        "width": 500,
+        "height": 375
+      },
+      "gt_area": 22760,
+      "point": {
+        "coordinates": [
+          188,
+          204
+        ],
+        "predicted_area": 27144,
+        "iou": 0.8275167539458747
+      },
+      "box": {
+        "coordinates_xyxy": [
+          171,
+          109,
+          378,
+          369
+        ],
+        "predicted_area": 27979,
+        "iou": 0.8132728182402973
+      }
+    },
+    {
+      "eval_position": 177,
+      "dataset_index": 3388,
+      "image_size": {
+        "width": 346,
+        "height": 500
+      },
+      "gt_area": 13075,
+      "point": {
+        "coordinates": [
+          194,
+          263
+        ],
+        "predicted_area": 24823,
+        "iou": 0.5267292430407283
+      },
+      "box": {
+        "coordinates_xyxy": [
+          147,
+          142,
+          281,
+          420
+        ],
+        "predicted_area": 23453,
+        "iou": 0.5534575146721102
+      }
+    },
+    {
+      "eval_position": 178,
+      "dataset_index": 3391,
+      "image_size": {
+        "width": 396,
+        "height": 500
+      },
+      "gt_area": 9274,
+      "point": {
+        "coordinates": [
+          275,
+          270
+        ],
+        "predicted_area": 12145,
+        "iou": 0.7631708923279552
+      },
+      "box": {
+        "coordinates_xyxy": [
+          251,
+          199,
+          344,
+          354
+        ],
+        "predicted_area": 12099,
+        "iou": 0.7662176679613255
+      }
+    },
+    {
+      "eval_position": 179,
+      "dataset_index": 3460,
+      "image_size": {
+        "width": 357,
+        "height": 500
+      },
+      "gt_area": 39787,
+      "point": {
+        "coordinates": [
+          163,
+          243
+        ],
+        "predicted_area": 51799,
+        "iou": 0.7681036313442344
+      },
+      "box": {
+        "coordinates_xyxy": [
+          81,
+          117,
+          308,
+          441
+        ],
+        "predicted_area": 51489,
+        "iou": 0.7723495145631067
+      }
+    },
+    {
+      "eval_position": 180,
+      "dataset_index": 3482,
+      "image_size": {
+        "width": 500,
+        "height": 375
+      },
+      "gt_area": 80650,
+      "point": {
+        "coordinates": [
+          239,
+          252
+        ],
+        "predicted_area": 98458,
+        "iou": 0.8103420392981321
+      },
+      "box": {
+        "coordinates_xyxy": [
+          0,
+          30,
+          441,
+          374
+        ],
+        "predicted_area": 91366,
+        "iou": 0.8757333217019606
+      }
+    },
+    {
+      "eval_position": 181,
+      "dataset_index": 3541,
+      "image_size": {
+        "width": 378,
+        "height": 500
+      },
+      "gt_area": 31266,
+      "point": {
+        "coordinates": [
+          171,
+          360
+        ],
+        "predicted_area": 39743,
+        "iou": 0.7861652622311659
+      },
+      "box": {
+        "coordinates_xyxy": [
+          38,
+          190,
+          229,
+          451
+        ],
+        "predicted_area": 39590,
+        "iou": 0.7892477462690336
+      }
+    },
+    {
+      "eval_position": 182,
+      "dataset_index": 3544,
+      "image_size": {
+        "width": 500,
+        "height": 375
+      },
+      "gt_area": 68860,
+      "point": {
+        "coordinates": [
+          95,
+          168
+        ],
+        "predicted_area": 4422,
+        "iou": 0.03628598902652865
+      },
+      "box": {
+        "coordinates_xyxy": [
+          52,
+          23,
+          391,
+          306
+        ],
+        "predicted_area": 77687,
+        "iou": 0.8636594857186459
+      }
+    },
+    {
+      "eval_position": 183,
+      "dataset_index": 3553,
+      "image_size": {
+        "width": 500,
+        "height": 334
+      },
+      "gt_area": 25512,
+      "point": {
+        "coordinates": [
+          305,
+          233
+        ],
+        "predicted_area": 30663,
+        "iou": 0.8214980544747081
+      },
+      "box": {
+        "coordinates_xyxy": [
+          60,
+          151,
+          351,
+          300
+        ],
+        "predicted_area": 30820,
+        "iou": 0.824340954725047
+      }
+    },
+    {
+      "eval_position": 184,
+      "dataset_index": 3557,
+      "image_size": {
+        "width": 500,
+        "height": 433
+      },
+      "gt_area": 56690,
+      "point": {
+        "coordinates": [
+          309,
+          184
+        ],
+        "predicted_area": 70241,
+        "iou": 0.797278545536928
+      },
+      "box": {
+        "coordinates_xyxy": [
+          147,
+          21,
+          486,
+          406
+        ],
+        "predicted_area": 71397,
+        "iou": 0.7923290048136125
+      }
+    },
+    {
+      "eval_position": 185,
+      "dataset_index": 3575,
+      "image_size": {
+        "width": 500,
+        "height": 375
+      },
+      "gt_area": 78783,
+      "point": {
+        "coordinates": [
+          196,
+          219
+        ],
+        "predicted_area": 89343,
+        "iou": 0.8752760613023401
+      },
+      "box": {
+        "coordinates_xyxy": [
+          36,
+          43,
+          365,
+          369
+        ],
+        "predicted_area": 89705,
+        "iou": 0.878224422000758
+      }
+    },
+    {
+      "eval_position": 186,
+      "dataset_index": 3578,
+      "image_size": {
+        "width": 334,
+        "height": 500
+      },
+      "gt_area": 113471,
+      "point": {
+        "coordinates": [
+          62,
+          288
+        ],
+        "predicted_area": 123006,
+        "iou": 0.9145919862686519
+      },
+      "box": {
+        "coordinates_xyxy": [
+          0,
+          37,
+          323,
+          499
+        ],
+        "predicted_area": 123238,
+        "iou": 0.9126145343481844
+      }
+    },
+    {
+      "eval_position": 187,
+      "dataset_index": 3588,
+      "image_size": {
+        "width": 345,
+        "height": 500
+      },
+      "gt_area": 66520,
+      "point": {
+        "coordinates": [
+          186,
+          259
+        ],
+        "predicted_area": 77950,
+        "iou": 0.8410388418799062
+      },
+      "box": {
+        "coordinates_xyxy": [
+          27,
+          48,
+          277,
+          450
+        ],
+        "predicted_area": 78307,
+        "iou": 0.839376659004026
+      }
+    },
+    {
+      "eval_position": 188,
+      "dataset_index": 3603,
+      "image_size": {
+        "width": 500,
+        "height": 375
+      },
+      "gt_area": 43555,
+      "point": {
+        "coordinates": [
+          212,
+          155
+        ],
+        "predicted_area": 59612,
+        "iou": 0.7286406058879711
+      },
+      "box": {
+        "coordinates_xyxy": [
+          142,
+          0,
+          354,
+          374
+        ],
+        "predicted_area": 59552,
+        "iou": 0.7294609010701466
+      }
+    },
+    {
+      "eval_position": 189,
+      "dataset_index": 3610,
+      "image_size": {
+        "width": 340,
+        "height": 500
+      },
+      "gt_area": 50676,
+      "point": {
+        "coordinates": [
+          227,
+          237
+        ],
+        "predicted_area": 68206,
+        "iou": 0.7429844881681964
+      },
+      "box": {
+        "coordinates_xyxy": [
+          53,
+          68,
+          262,
+          450
+        ],
+        "predicted_area": 56808,
+        "iou": 0.8088858970043756
+      }
+    },
+    {
+      "eval_position": 190,
+      "dataset_index": 3626,
+      "image_size": {
+        "width": 500,
+        "height": 375
+      },
+      "gt_area": 98943,
+      "point": {
+        "coordinates": [
+          252,
+          182
+        ],
+        "predicted_area": 108098,
+        "iou": 0.8805155407001035
+      },
+      "box": {
+        "coordinates_xyxy": [
+          40,
+          0,
+          382,
+          374
+        ],
+        "predicted_area": 112944,
+        "iou": 0.8658758883047579
+      }
+    },
+    {
+      "eval_position": 191,
+      "dataset_index": 3635,
+      "image_size": {
+        "width": 500,
+        "height": 333
+      },
+      "gt_area": 12116,
+      "point": {
+        "coordinates": [
+          298,
+          159
+        ],
+        "predicted_area": 17263,
+        "iou": 0.7018478827550252
+      },
+      "box": {
+        "coordinates_xyxy": [
+          146,
+          91,
+          342,
+          216
+        ],
+        "predicted_area": 16795,
+        "iou": 0.7214051801131289
+      }
+    },
+    {
+      "eval_position": 192,
+      "dataset_index": 3637,
+      "image_size": {
+        "width": 500,
+        "height": 375
+      },
+      "gt_area": 8247,
+      "point": {
+        "coordinates": [
+          268,
+          214
+        ],
+        "predicted_area": 18654,
+        "iou": 0.4395569112217049
+      },
+      "box": {
+        "coordinates_xyxy": [
+          206,
+          132,
+          339,
+          287
+        ],
+        "predicted_area": 18108,
+        "iou": 0.44632861376358246
+      }
+    },
+    {
+      "eval_position": 193,
+      "dataset_index": 3640,
+      "image_size": {
+        "width": 333,
+        "height": 500
+      },
+      "gt_area": 29955,
+      "point": {
+        "coordinates": [
+          175,
+          305
+        ],
+        "predicted_area": 41187,
+        "iou": 0.7246545454545454
+      },
+      "box": {
+        "coordinates_xyxy": [
+          51,
+          144,
+          243,
+          430
+        ],
+        "predicted_area": 40433,
+        "iou": 0.7180375884793752
+      }
+    },
+    {
+      "eval_position": 194,
+      "dataset_index": 3647,
+      "image_size": {
+        "width": 500,
+        "height": 375
+      },
+      "gt_area": 28888,
+      "point": {
+        "coordinates": [
+          337,
+          161
+        ],
+        "predicted_area": 23925,
+        "iou": 0.5837881604990104
+      },
+      "box": {
+        "coordinates_xyxy": [
+          44,
+          41,
+          388,
+          293
+        ],
+        "predicted_area": 52531,
+        "iou": 0.5484785089387599
+      }
+    },
+    {
+      "eval_position": 195,
+      "dataset_index": 3659,
+      "image_size": {
+        "width": 500,
+        "height": 500
+      },
+      "gt_area": 77106,
+      "point": {
+        "coordinates": [
+          316,
+          248
+        ],
+        "predicted_area": 95576,
+        "iou": 0.8040891377707199
+      },
+      "box": {
+        "coordinates_xyxy": [
+          138,
+          17,
+          374,
+          479
+        ],
+        "predicted_area": 96445,
+        "iou": 0.7990711849648067
+      }
+    },
+    {
+      "eval_position": 196,
+      "dataset_index": 3663,
+      "image_size": {
+        "width": 500,
+        "height": 332
+      },
+      "gt_area": 19914,
+      "point": {
+        "coordinates": [
+          167,
+          189
+        ],
+        "predicted_area": 29920,
+        "iou": 0.6648515016871012
+      },
+      "box": {
+        "coordinates_xyxy": [
+          123,
+          86,
+          337,
+          274
+        ],
+        "predicted_area": 29598,
+        "iou": 0.6719119335449449
+      }
+    },
+    {
+      "eval_position": 197,
+      "dataset_index": 3664,
+      "image_size": {
+        "width": 500,
+        "height": 335
+      },
+      "gt_area": 58772,
+      "point": {
+        "coordinates": [
+          339,
+          155
+        ],
+        "predicted_area": 79175,
+        "iou": 0.7053653109160588
+      },
+      "box": {
+        "coordinates_xyxy": [
+          0,
+          16,
+          373,
+          334
+        ],
+        "predicted_area": 82110,
+        "iou": 0.7126844805368475
+      }
+    },
+    {
+      "eval_position": 198,
+      "dataset_index": 3667,
+      "image_size": {
+        "width": 500,
+        "height": 358
+      },
+      "gt_area": 34693,
+      "point": {
+        "coordinates": [
+          306,
+          192
+        ],
+        "predicted_area": 43067,
+        "iou": 0.8009171337255083
+      },
+      "box": {
+        "coordinates_xyxy": [
+          197,
+          57,
+          425,
+          309
+        ],
+        "predicted_area": 43156,
+        "iou": 0.8005597187528911
+      }
+    }
+  ]
+}

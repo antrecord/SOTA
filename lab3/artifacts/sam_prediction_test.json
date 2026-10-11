@@ -1,0 +1,28 @@
+{
+  "dataset": "Oxford-IIIT Pet",
+  "split": "test",
+  "model": "facebook/sam-vit-base",
+  "index": 29,
+  "prompt_type": "point",
+  "prompt": [
+    701,
+    784
+  ],
+  "gt_classes": [
+    1,
+    2,
+    3
+  ],
+  "gt_foreground_class": 1,
+  "image_size": [
+    1200,
+    1600
+  ],
+  "pred_mask_shape": [
+    1600,
+    1200
+  ],
+  "pred_mask_area": 315146,
+  "gt_area": 243001,
+  "iou_with_gt": 0.7710743591859012
+}
