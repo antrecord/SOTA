@@ -1,0 +1,78 @@
+{
+  "query": "horseback riding",
+  "top_k": 10,
+  "search_space_size": 10000,
+  "fast_dev_run": false,
+  "results": [
+    {
+      "rank": 1,
+      "dataset_index": 1320,
+      "similarity": 0.32368016242980957,
+      "label_id": 7,
+      "class_name": "horse"
+    },
+    {
+      "rank": 2,
+      "dataset_index": 7660,
+      "similarity": 0.3155685365200043,
+      "label_id": 7,
+      "class_name": "horse"
+    },
+    {
+      "rank": 3,
+      "dataset_index": 8976,
+      "similarity": 0.30651211738586426,
+      "label_id": 7,
+      "class_name": "horse"
+    },
+    {
+      "rank": 4,
+      "dataset_index": 2657,
+      "similarity": 0.3054389953613281,
+      "label_id": 7,
+      "class_name": "horse"
+    },
+    {
+      "rank": 5,
+      "dataset_index": 8685,
+      "similarity": 0.30502527952194214,
+      "label_id": 7,
+      "class_name": "horse"
+    },
+    {
+      "rank": 6,
+      "dataset_index": 7456,
+      "similarity": 0.30499541759490967,
+      "label_id": 7,
+      "class_name": "horse"
+    },
+    {
+      "rank": 7,
+      "dataset_index": 3116,
+      "similarity": 0.30038970708847046,
+      "label_id": 7,
+      "class_name": "horse"
+    },
+    {
+      "rank": 8,
+      "dataset_index": 782,
+      "similarity": 0.2993272542953491,
+      "label_id": 7,
+      "class_name": "horse"
+    },
+    {
+      "rank": 9,
+      "dataset_index": 9635,
+      "similarity": 0.29896020889282227,
+      "label_id": 7,
+      "class_name": "horse"
+    },
+    {
+      "rank": 10,
+      "dataset_index": 7625,
+      "similarity": 0.2973194122314453,
+      "label_id": 7,
+      "class_name": "horse"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "model_name": "ViT-B-32",
+  "pretrained": "laion2b_s34b_b79k",
+  "fast_dev_run": false,
+  "num_test_images": 10000,
+  "num_classes": 10,
+  "k": 10,
+  "metric": "Precision@10",
+  "per_class": {
+    "airplane": {
+      "baseline_precision_at_10": 1.0,
+      "adapted_precision_at_10": 1.0,
+      "delta": 0.0,
+      "change": "unchanged"
+    },
+    "automobile": {
+      "baseline_precision_at_10": 1.0,
+      "adapted_precision_at_10": 1.0,
+      "delta": 0.0,
+      "change": "unchanged"
+    },
+    "bird": {
+      "baseline_precision_at_10": 1.0,
+      "adapted_precision_at_10": 1.0,
+      "delta": 0.0,
+      "change": "unchanged"
+    },
+    "cat": {
+      "baseline_precision_at_10": 1.0,
+      "adapted_precision_at_10": 1.0,
+      "delta": 0.0,
+      "change": "unchanged"
+    },
+    "deer": {
+      "baseline_precision_at_10": 1.0,
+      "adapted_precision_at_10": 1.0,
+      "delta": 0.0,
+      "change": "unchanged"
+    },
+    "dog": {
+      "baseline_precision_at_10": 1.0,
+      "adapted_precision_at_10": 1.0,
+      "delta": 0.0,
+      "change": "unchanged"
+    },
+    "frog": {
+      "baseline_precision_at_10": 1.0,
+      "adapted_precision_at_10": 1.0,
+      "delta": 0.0,
+      "change": "unchanged"
+    },
+    "horse": {
+      "baseline_precision_at_10": 1.0,
+      "adapted_precision_at_10": 1.0,
+      "delta": 0.0,
+      "change": "unchanged"
+    },
+    "ship": {
+      "baseline_precision_at_10": 1.0,
+      "adapted_precision_at_10": 1.0,
+      "delta": 0.0,
+      "change": "unchanged"
+    },
+    "truck": {
+      "baseline_precision_at_10": 1.0,
+      "adapted_precision_at_10": 1.0,
+      "delta": 0.0,
+      "change": "unchanged"
+    }
+  },
+  "macro_average": {
+    "baseline_precision_at_10": 1.0,
+    "adapted_precision_at_10": 1.0,
+    "delta": 0.0
+  },
+  "summary": {
+    "improved_classes": [],
+    "worsened_classes": [],
+    "unchanged_classes": [
+      "airplane",
+      "automobile",
+      "bird",
+      "cat",
+      "deer",
+      "dog",
+      "frog",
+      "horse",
+      "ship",
+      "truck"
+    ],
+    "num_improved": 0,
+    "num_worsened": 0,
+    "num_unchanged": 10
+  }
+}

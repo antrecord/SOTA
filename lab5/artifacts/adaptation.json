@@ -1,0 +1,46 @@
+{
+  "model_name": "ViT-B-32",
+  "pretrained": "laion2b_s34b_b79k",
+  "fast_dev_run": false,
+  "num_test_images": 10000,
+  "num_classes": 10,
+  "retrieval_k": 10,
+  "metrics": {
+    "baseline": {
+      "accuracy": 0.9366000294685364,
+      "mean_precision_at_10": 1.0,
+      "precision_at_10_per_class": {
+        "airplane": 1.0,
+        "automobile": 1.0,
+        "bird": 1.0,
+        "cat": 1.0,
+        "deer": 1.0,
+        "dog": 1.0,
+        "frog": 1.0,
+        "horse": 1.0,
+        "ship": 1.0,
+        "truck": 1.0
+      }
+    },
+    "adapted": {
+      "accuracy": 0.963699996471405,
+      "mean_precision_at_10": 1.0,
+      "precision_at_10_per_class": {
+        "airplane": 1.0,
+        "automobile": 1.0,
+        "bird": 1.0,
+        "cat": 1.0,
+        "deer": 1.0,
+        "dog": 1.0,
+        "frog": 1.0,
+        "horse": 1.0,
+        "ship": 1.0,
+        "truck": 1.0
+      }
+    },
+    "delta_adapted_minus_baseline": {
+      "accuracy": 0.027099967002868652,
+      "mean_precision_at_10": 0.0
+    }
+  }
+}

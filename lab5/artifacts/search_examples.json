@@ -1,0 +1,184 @@
+{
+  "model_name": "ViT-B-32",
+  "pretrained": "laion2b_s34b_b79k",
+  "fast_dev_run": false,
+  "num_test_images": 10000,
+  "top_k": 10,
+  "selection_metric": "adapted precision_at_10",
+  "best": {
+    "query_class": "airplane",
+    "query_class_id": 0,
+    "query": "a photo of a airplane",
+    "precision_at_10": 1.0,
+    "retrieved_images": [
+      {
+        "rank": 1,
+        "dataset_index": 192,
+        "true_label_id": 0,
+        "true_class": "airplane",
+        "similarity": 0.9486407041549683,
+        "relevant": true
+      },
+      {
+        "rank": 2,
+        "dataset_index": 9980,
+        "true_label_id": 0,
+        "true_class": "airplane",
+        "similarity": 0.9434831142425537,
+        "relevant": true
+      },
+      {
+        "rank": 3,
+        "dataset_index": 4901,
+        "true_label_id": 0,
+        "true_class": "airplane",
+        "similarity": 0.9434301853179932,
+        "relevant": true
+      },
+      {
+        "rank": 4,
+        "dataset_index": 5516,
+        "true_label_id": 0,
+        "true_class": "airplane",
+        "similarity": 0.9381001591682434,
+        "relevant": true
+      },
+      {
+        "rank": 5,
+        "dataset_index": 6284,
+        "true_label_id": 0,
+        "true_class": "airplane",
+        "similarity": 0.9374621510505676,
+        "relevant": true
+      },
+      {
+        "rank": 6,
+        "dataset_index": 9512,
+        "true_label_id": 0,
+        "true_class": "airplane",
+        "similarity": 0.9368435144424438,
+        "relevant": true
+      },
+      {
+        "rank": 7,
+        "dataset_index": 8812,
+        "true_label_id": 0,
+        "true_class": "airplane",
+        "similarity": 0.9359313249588013,
+        "relevant": true
+      },
+      {
+        "rank": 8,
+        "dataset_index": 526,
+        "true_label_id": 0,
+        "true_class": "airplane",
+        "similarity": 0.9340250492095947,
+        "relevant": true
+      },
+      {
+        "rank": 9,
+        "dataset_index": 6334,
+        "true_label_id": 0,
+        "true_class": "airplane",
+        "similarity": 0.9304108619689941,
+        "relevant": true
+      },
+      {
+        "rank": 10,
+        "dataset_index": 1719,
+        "true_label_id": 0,
+        "true_class": "airplane",
+        "similarity": 0.9300574064254761,
+        "relevant": true
+      }
+    ]
+  },
+  "worst": {
+    "query_class": "airplane",
+    "query_class_id": 0,
+    "query": "a photo of a airplane",
+    "precision_at_10": 1.0,
+    "retrieved_images": [
+      {
+        "rank": 1,
+        "dataset_index": 192,
+        "true_label_id": 0,
+        "true_class": "airplane",
+        "similarity": 0.9486407041549683,
+        "relevant": true
+      },
+      {
+        "rank": 2,
+        "dataset_index": 9980,
+        "true_label_id": 0,
+        "true_class": "airplane",
+        "similarity": 0.9434831142425537,
+        "relevant": true
+      },
+      {
+        "rank": 3,
+        "dataset_index": 4901,
+        "true_label_id": 0,
+        "true_class": "airplane",
+        "similarity": 0.9434301853179932,
+        "relevant": true
+      },
+      {
+        "rank": 4,
+        "dataset_index": 5516,
+        "true_label_id": 0,
+        "true_class": "airplane",
+        "similarity": 0.9381001591682434,
+        "relevant": true
+      },
+      {
+        "rank": 5,
+        "dataset_index": 6284,
+        "true_label_id": 0,
+        "true_class": "airplane",
+        "similarity": 0.9374621510505676,
+        "relevant": true
+      },
+      {
+        "rank": 6,
+        "dataset_index": 9512,
+        "true_label_id": 0,
+        "true_class": "airplane",
+        "similarity": 0.9368435144424438,
+        "relevant": true
+      },
+      {
+        "rank": 7,
+        "dataset_index": 8812,
+        "true_label_id": 0,
+        "true_class": "airplane",
+        "similarity": 0.9359313249588013,
+        "relevant": true
+      },
+      {
+        "rank": 8,
+        "dataset_index": 526,
+        "true_label_id": 0,
+        "true_class": "airplane",
+        "similarity": 0.9340250492095947,
+        "relevant": true
+      },
+      {
+        "rank": 9,
+        "dataset_index": 6334,
+        "true_label_id": 0,
+        "true_class": "airplane",
+        "similarity": 0.9304108619689941,
+        "relevant": true
+      },
+      {
+        "rank": 10,
+        "dataset_index": 1719,
+        "true_label_id": 0,
+        "true_class": "airplane",
+        "similarity": 0.9300574064254761,
+        "relevant": true
+      }
+    ]
+  }
+}

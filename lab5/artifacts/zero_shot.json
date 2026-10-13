@@ -1,0 +1,52 @@
+{
+  "model": "ViT-B-32",
+  "pretrained": "laion2b_s34b_b79k",
+  "dataset": "CIFAR-10",
+  "split": "test",
+  "fast_dev_run": false,
+  "num_test_images": 10000,
+  "classes": [
+    "airplane",
+    "automobile",
+    "bird",
+    "cat",
+    "deer",
+    "dog",
+    "frog",
+    "horse",
+    "ship",
+    "truck"
+  ],
+  "results": [
+    {
+      "template": "{class}",
+      "accuracy": 0.7175,
+      "correct": 7175,
+      "total": 10000
+    },
+    {
+      "template": "a photo of a {class}",
+      "accuracy": 0.9366,
+      "correct": 9366,
+      "total": 10000
+    },
+    {
+      "template": "a picture of a {class}",
+      "accuracy": 0.9362,
+      "correct": 9362,
+      "total": 10000
+    },
+    {
+      "template": "an image of a {class}",
+      "accuracy": 0.9361,
+      "correct": 9361,
+      "total": 10000
+    },
+    {
+      "template": "это фотография {class}",
+      "accuracy": 0.9355,
+      "correct": 9355,
+      "total": 10000
+    }
+  ]
+}

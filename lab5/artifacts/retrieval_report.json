@@ -1,0 +1,113 @@
+{
+  "dataset": "CIFAR-10",
+  "model_name": "ViT-B-32",
+  "pretrained": "laion2b_s34b_b79k",
+  "fast_dev_run": false,
+  "index_size": 10000,
+  "relevance_definition": "An image is relevant if its true label matches the query class.",
+  "k": 10,
+  "macro_precision_at_10": 1.0,
+  "macro_recall_at_10": 0.01,
+  "per_class": [
+    {
+      "class_id": 0,
+      "class_name": "airplane",
+      "query": "a photo of a airplane",
+      "k": 10,
+      "relevant_in_index": 1000,
+      "relevant_in_top_k": 10,
+      "precision_at_10": 1.0,
+      "recall_at_10": 0.01
+    },
+    {
+      "class_id": 1,
+      "class_name": "automobile",
+      "query": "a photo of a automobile",
+      "k": 10,
+      "relevant_in_index": 1000,
+      "relevant_in_top_k": 10,
+      "precision_at_10": 1.0,
+      "recall_at_10": 0.01
+    },
+    {
+      "class_id": 2,
+      "class_name": "bird",
+      "query": "a photo of a bird",
+      "k": 10,
+      "relevant_in_index": 1000,
+      "relevant_in_top_k": 10,
+      "precision_at_10": 1.0,
+      "recall_at_10": 0.01
+    },
+    {
+      "class_id": 3,
+      "class_name": "cat",
+      "query": "a photo of a cat",
+      "k": 10,
+      "relevant_in_index": 1000,
+      "relevant_in_top_k": 10,
+      "precision_at_10": 1.0,
+      "recall_at_10": 0.01
+    },
+    {
+      "class_id": 4,
+      "class_name": "deer",
+      "query": "a photo of a deer",
+      "k": 10,
+      "relevant_in_index": 1000,
+      "relevant_in_top_k": 10,
+      "precision_at_10": 1.0,
+      "recall_at_10": 0.01
+    },
+    {
+      "class_id": 5,
+      "class_name": "dog",
+      "query": "a photo of a dog",
+      "k": 10,
+      "relevant_in_index": 1000,
+      "relevant_in_top_k": 10,
+      "precision_at_10": 1.0,
+      "recall_at_10": 0.01
+    },
+    {
+      "class_id": 6,
+      "class_name": "frog",
+      "query": "a photo of a frog",
+      "k": 10,
+      "relevant_in_index": 1000,
+      "relevant_in_top_k": 10,
+      "precision_at_10": 1.0,
+      "recall_at_10": 0.01
+    },
+    {
+      "class_id": 7,
+      "class_name": "horse",
+      "query": "a photo of a horse",
+      "k": 10,
+      "relevant_in_index": 1000,
+      "relevant_in_top_k": 10,
+      "precision_at_10": 1.0,
+      "recall_at_10": 0.01
+    },
+    {
+      "class_id": 8,
+      "class_name": "ship",
+      "query": "a photo of a ship",
+      "k": 10,
+      "relevant_in_index": 1000,
+      "relevant_in_top_k": 10,
+      "precision_at_10": 1.0,
+      "recall_at_10": 0.01
+    },
+    {
+      "class_id": 9,
+      "class_name": "truck",
+      "query": "a photo of a truck",
+      "k": 10,
+      "relevant_in_index": 1000,
+      "relevant_in_top_k": 10,
+      "precision_at_10": 1.0,
+      "recall_at_10": 0.01
+    }
+  ]
+}

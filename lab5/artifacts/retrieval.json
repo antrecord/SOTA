@@ -1,0 +1,90 @@
+{
+  "query": "a photo of a dog",
+  "model_name": "ViT-B-32",
+  "pretrained": "laion2b_s34b_b79k",
+  "fast_dev_run": false,
+  "index_size": 10000,
+  "top_k": 10,
+  "results": [
+    {
+      "rank": 1,
+      "index": 4863,
+      "test_index": 5459,
+      "label": 5,
+      "class_name": "dog",
+      "similarity": 0.3063121438026428
+    },
+    {
+      "rank": 2,
+      "index": 5911,
+      "test_index": 6072,
+      "label": 5,
+      "class_name": "dog",
+      "similarity": 0.30598533153533936
+    },
+    {
+      "rank": 3,
+      "index": 3088,
+      "test_index": 4998,
+      "label": 5,
+      "class_name": "dog",
+      "similarity": 0.3056945204734802
+    },
+    {
+      "rank": 4,
+      "index": 8717,
+      "test_index": 2989,
+      "label": 5,
+      "class_name": "dog",
+      "similarity": 0.30503374338150024
+    },
+    {
+      "rank": 5,
+      "index": 8822,
+      "test_index": 4241,
+      "label": 5,
+      "class_name": "dog",
+      "similarity": 0.304574191570282
+    },
+    {
+      "rank": 6,
+      "index": 9439,
+      "test_index": 9215,
+      "label": 5,
+      "class_name": "dog",
+      "similarity": 0.3013647198677063
+    },
+    {
+      "rank": 7,
+      "index": 6984,
+      "test_index": 33,
+      "label": 5,
+      "class_name": "dog",
+      "similarity": 0.3013184666633606
+    },
+    {
+      "rank": 8,
+      "index": 1459,
+      "test_index": 3393,
+      "label": 5,
+      "class_name": "dog",
+      "similarity": 0.3009585738182068
+    },
+    {
+      "rank": 9,
+      "index": 5951,
+      "test_index": 6142,
+      "label": 5,
+      "class_name": "dog",
+      "similarity": 0.3008015751838684
+    },
+    {
+      "rank": 10,
+      "index": 2691,
+      "test_index": 8202,
+      "label": 5,
+      "class_name": "dog",
+      "similarity": 0.3005087375640869
+    }
+  ]
+}
