@@ -1,0 +1,234 @@
+{
+  "prompt=direct__resolution=original__decoding=greedy": {
+    "configuration": {
+      "prompt_template": "direct",
+      "resolution": "original",
+      "decoding_mode": "greedy"
+    },
+    "total_records": 20,
+    "metrics": {
+      "captioning": {
+        "metric": "ROUGE-L",
+        "count": 5,
+        "mean_rouge_l": 0.1902955601172271,
+        "CIDEr": 0.008781889940243396
+      },
+      "ocr": {
+        "count": 5,
+        "CER": 5.436893203883495,
+        "WER": 5.235294117647059
+      },
+      "structured": {
+        "count": 5,
+        "valid_json_pairs": 5,
+        "field_accuracy": 0.9,
+        "micro_precision": 0.9,
+        "micro_recall": 0.9,
+        "micro_f1": 0.9
+      }
+    }
+  },
+  "prompt=direct__resolution=original__decoding=sampling": {
+    "configuration": {
+      "prompt_template": "direct",
+      "resolution": "original",
+      "decoding_mode": "sampling"
+    },
+    "total_records": 20,
+    "metrics": {
+      "captioning": {
+        "metric": "ROUGE-L",
+        "count": 5,
+        "mean_rouge_l": 0.20737669531516456,
+        "CIDEr": 0.012295093761767201
+      },
+      "ocr": {
+        "count": 5,
+        "CER": 8.398058252427184,
+        "WER": 7.529411764705882
+      },
+      "structured": {
+        "count": 5,
+        "valid_json_pairs": 5,
+        "field_accuracy": 0.9,
+        "micro_precision": 0.9,
+        "micro_recall": 0.9,
+        "micro_f1": 0.9
+      }
+    }
+  },
+  "prompt=direct__resolution=512__decoding=greedy": {
+    "configuration": {
+      "prompt_template": "direct",
+      "resolution": "512",
+      "decoding_mode": "greedy"
+    },
+    "total_records": 20,
+    "metrics": {
+      "captioning": {
+        "metric": "ROUGE-L",
+        "count": 5,
+        "mean_rouge_l": 0.20457214947148544,
+        "CIDEr": 0.0038444105566853145
+      },
+      "ocr": {
+        "count": 5,
+        "CER": 7.543689320388349,
+        "WER": 7.470588235294118
+      },
+      "structured": {
+        "count": 5,
+        "valid_json_pairs": 5,
+        "field_accuracy": 0.9,
+        "micro_precision": 0.9,
+        "micro_recall": 0.9,
+        "micro_f1": 0.9
+      }
+    }
+  },
+  "prompt=direct__resolution=512__decoding=sampling": {
+    "configuration": {
+      "prompt_template": "direct",
+      "resolution": "512",
+      "decoding_mode": "sampling"
+    },
+    "total_records": 20,
+    "metrics": {
+      "captioning": {
+        "metric": "ROUGE-L",
+        "count": 5,
+        "mean_rouge_l": 0.20392684242537995,
+        "CIDEr": 0.00026385730329753383
+      },
+      "ocr": {
+        "count": 5,
+        "CER": 6.718446601941747,
+        "WER": 6.470588235294118
+      },
+      "structured": {
+        "count": 5,
+        "valid_json_pairs": 5,
+        "field_accuracy": 0.9,
+        "micro_precision": 0.9,
+        "micro_recall": 0.9,
+        "micro_f1": 0.9
+      }
+    }
+  },
+  "prompt=concise__resolution=original__decoding=greedy": {
+    "configuration": {
+      "prompt_template": "concise",
+      "resolution": "original",
+      "decoding_mode": "greedy"
+    },
+    "total_records": 20,
+    "metrics": {
+      "captioning": {
+        "metric": "ROUGE-L",
+        "count": 5,
+        "mean_rouge_l": 0.19335588035369292,
+        "CIDEr": 6.2213254647251455e-62
+      },
+      "ocr": {
+        "count": 5,
+        "CER": 1.5242718446601942,
+        "WER": 1.1764705882352942
+      },
+      "structured": {
+        "count": 5,
+        "valid_json_pairs": 5,
+        "field_accuracy": 0.9,
+        "micro_precision": 0.9,
+        "micro_recall": 0.9,
+        "micro_f1": 0.9
+      }
+    }
+  },
+  "prompt=concise__resolution=original__decoding=sampling": {
+    "configuration": {
+      "prompt_template": "concise",
+      "resolution": "original",
+      "decoding_mode": "sampling"
+    },
+    "total_records": 20,
+    "metrics": {
+      "captioning": {
+        "metric": "ROUGE-L",
+        "count": 5,
+        "mean_rouge_l": 0.1505617767889475,
+        "CIDEr": 1.966441332447437e-68
+      },
+      "ocr": {
+        "count": 5,
+        "CER": 1.5242718446601942,
+        "WER": 1.1764705882352942
+      },
+      "structured": {
+        "count": 5,
+        "valid_json_pairs": 5,
+        "field_accuracy": 0.9,
+        "micro_precision": 0.9,
+        "micro_recall": 0.9,
+        "micro_f1": 0.9
+      }
+    }
+  },
+  "prompt=concise__resolution=512__decoding=greedy": {
+    "configuration": {
+      "prompt_template": "concise",
+      "resolution": "512",
+      "decoding_mode": "greedy"
+    },
+    "total_records": 20,
+    "metrics": {
+      "captioning": {
+        "metric": "ROUGE-L",
+        "count": 5,
+        "mean_rouge_l": 0.15665695863385964,
+        "CIDEr": 4.372652230489133e-61
+      },
+      "ocr": {
+        "count": 5,
+        "CER": 4.077669902912621,
+        "WER": 3.1176470588235294
+      },
+      "structured": {
+        "count": 5,
+        "valid_json_pairs": 5,
+        "field_accuracy": 0.9,
+        "micro_precision": 0.9,
+        "micro_recall": 0.9,
+        "micro_f1": 0.9
+      }
+    }
+  },
+  "prompt=concise__resolution=512__decoding=sampling": {
+    "configuration": {
+      "prompt_template": "concise",
+      "resolution": "512",
+      "decoding_mode": "sampling"
+    },
+    "total_records": 20,
+    "metrics": {
+      "captioning": {
+        "metric": "ROUGE-L",
+        "count": 5,
+        "mean_rouge_l": 0.17515366881643052,
+        "CIDEr": 3.722203036369616e-42
+      },
+      "ocr": {
+        "count": 5,
+        "CER": 4.077669902912621,
+        "WER": 3.1176470588235294
+      },
+      "structured": {
+        "count": 5,
+        "valid_json_pairs": 5,
+        "field_accuracy": 0.8,
+        "micro_precision": 0.8,
+        "micro_recall": 0.8,
+        "micro_f1": 0.8000000000000002
+      }
+    }
+  }
+}

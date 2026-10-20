@@ -1,0 +1,18 @@
+{
+  "total_examples": 20,
+  "reviewed_examples": 20,
+  "pending_examples": 0,
+  "error_counts": {
+    "missing_information": 3,
+    "attribute": 1,
+    "object_or_entity": 2,
+    "counting": 1
+  },
+  "error_rates": {
+    "missing_information": 0.15,
+    "attribute": 0.05,
+    "object_or_entity": 0.1,
+    "counting": 0.05
+  },
+  "is_final": true
+}

@@ -1,0 +1,156 @@
+{
+  "metric": "normalized_exact_match",
+  "normalization": "Unicode NFKC, lowercase, punctuation-to-spaces, remove articles a/an/the, collapse whitespace",
+  "tasks": [
+    "vqa",
+    "ocr"
+  ],
+  "total_groups": 16,
+  "results": [
+    {
+      "task": "ocr",
+      "prompt_template": "concise",
+      "resolution": "512",
+      "decoding_mode": "greedy",
+      "sample_size": 5,
+      "correct": 4,
+      "normalized_exact_match": 0.8
+    },
+    {
+      "task": "ocr",
+      "prompt_template": "concise",
+      "resolution": "512",
+      "decoding_mode": "sampling",
+      "sample_size": 5,
+      "correct": 4,
+      "normalized_exact_match": 0.8
+    },
+    {
+      "task": "ocr",
+      "prompt_template": "concise",
+      "resolution": "original",
+      "decoding_mode": "greedy",
+      "sample_size": 5,
+      "correct": 4,
+      "normalized_exact_match": 0.8
+    },
+    {
+      "task": "ocr",
+      "prompt_template": "concise",
+      "resolution": "original",
+      "decoding_mode": "sampling",
+      "sample_size": 5,
+      "correct": 4,
+      "normalized_exact_match": 0.8
+    },
+    {
+      "task": "ocr",
+      "prompt_template": "direct",
+      "resolution": "512",
+      "decoding_mode": "greedy",
+      "sample_size": 5,
+      "correct": 0,
+      "normalized_exact_match": 0.0
+    },
+    {
+      "task": "ocr",
+      "prompt_template": "direct",
+      "resolution": "512",
+      "decoding_mode": "sampling",
+      "sample_size": 5,
+      "correct": 0,
+      "normalized_exact_match": 0.0
+    },
+    {
+      "task": "ocr",
+      "prompt_template": "direct",
+      "resolution": "original",
+      "decoding_mode": "greedy",
+      "sample_size": 5,
+      "correct": 0,
+      "normalized_exact_match": 0.0
+    },
+    {
+      "task": "ocr",
+      "prompt_template": "direct",
+      "resolution": "original",
+      "decoding_mode": "sampling",
+      "sample_size": 5,
+      "correct": 0,
+      "normalized_exact_match": 0.0
+    },
+    {
+      "task": "vqa",
+      "prompt_template": "concise",
+      "resolution": "512",
+      "decoding_mode": "greedy",
+      "sample_size": 5,
+      "correct": 0,
+      "normalized_exact_match": 0.0
+    },
+    {
+      "task": "vqa",
+      "prompt_template": "concise",
+      "resolution": "512",
+      "decoding_mode": "sampling",
+      "sample_size": 5,
+      "correct": 0,
+      "normalized_exact_match": 0.0
+    },
+    {
+      "task": "vqa",
+      "prompt_template": "concise",
+      "resolution": "original",
+      "decoding_mode": "greedy",
+      "sample_size": 5,
+      "correct": 0,
+      "normalized_exact_match": 0.0
+    },
+    {
+      "task": "vqa",
+      "prompt_template": "concise",
+      "resolution": "original",
+      "decoding_mode": "sampling",
+      "sample_size": 5,
+      "correct": 0,
+      "normalized_exact_match": 0.0
+    },
+    {
+      "task": "vqa",
+      "prompt_template": "direct",
+      "resolution": "512",
+      "decoding_mode": "greedy",
+      "sample_size": 5,
+      "correct": 0,
+      "normalized_exact_match": 0.0
+    },
+    {
+      "task": "vqa",
+      "prompt_template": "direct",
+      "resolution": "512",
+      "decoding_mode": "sampling",
+      "sample_size": 5,
+      "correct": 0,
+      "normalized_exact_match": 0.0
+    },
+    {
+      "task": "vqa",
+      "prompt_template": "direct",
+      "resolution": "original",
+      "decoding_mode": "greedy",
+      "sample_size": 5,
+      "correct": 0,
+      "normalized_exact_match": 0.0
+    },
+    {
+      "task": "vqa",
+      "prompt_template": "direct",
+      "resolution": "original",
+      "decoding_mode": "sampling",
+      "sample_size": 5,
+      "correct": 0,
+      "normalized_exact_match": 0.0
+    }
+  ],
+  "note": "FAST_DEV_RUN results are smoke-test results, not final quality estimates."
+}

@@ -5,3 +5,4 @@ lab2/data/
 */data/
 *.npz
 *.joblib
+*/__pycache__/

@@ -1,0 +1,21 @@
+{
+  "captioning": {
+    "metric": "ROUGE-L",
+    "count": 5,
+    "mean_rouge_l": 0.1902955601172271,
+    "CIDEr": 0.008781889940243396
+  },
+  "ocr": {
+    "count": 5,
+    "CER": 5.436893203883495,
+    "WER": 5.235294117647059
+  },
+  "structured": {
+    "count": 5,
+    "valid_json_pairs": 5,
+    "field_accuracy": 0.9,
+    "micro_precision": 0.9,
+    "micro_recall": 0.9,
+    "micro_f1": 0.9
+  }
+}

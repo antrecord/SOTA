@@ -1,0 +1,149 @@
+{
+  "metric": "normalized_exact_match",
+  "normalization": [
+    "Unicode NFKC",
+    "lowercase",
+    "remove punctuation",
+    "remove English articles a/an/the",
+    "collapse whitespace"
+  ],
+  "evaluated_tasks": [
+    "ocr",
+    "vqa"
+  ],
+  "excluded_tasks": [
+    "captioning",
+    "structured"
+  ],
+  "total_evaluated": 10,
+  "correct": 0,
+  "exact_match": 0.0,
+  "groups": {
+    "category": {
+      "document_qa": {
+        "count": 5,
+        "correct": 0,
+        "exact_match": 0.0
+      },
+      "open_vqa": {
+        "count": 5,
+        "correct": 0,
+        "exact_match": 0.0
+      }
+    },
+    "task": {
+      "ocr": {
+        "count": 5,
+        "correct": 0,
+        "exact_match": 0.0
+      },
+      "vqa": {
+        "count": 5,
+        "correct": 0,
+        "exact_match": 0.0
+      }
+    }
+  },
+  "per_example": [
+    {
+      "id": "vqa:train:0",
+      "task": "vqa",
+      "category": "open_vqa",
+      "reference": "This is a vintage-style popcorn cart. It features a red body, glass front, and gold lettering. The cart is on wheels, making it mobile and perfect for events like carnivals, fairs, or movie theaters. It combines functionality with a charming 1950s aesthetic, ideal for making and displaying fresh popcorn.",
+      "prediction": "This is a popcorn machine, specifically a popcorn cart. It's a portable, commercial-grade machine used to make popcorn, often found in movie theaters, food stands, or at events. The cart design allows it to be easily moved and is typically used for serving popcorn to customers.",
+      "normalized_reference": "this is vintagestyle popcorn cart it features red body glass front and gold lettering cart is on wheels making it mobile and perfect for events like carnivals fairs or movie theaters it combines functionality with charming 1950s aesthetic ideal for making and displaying fresh popcorn",
+      "normalized_prediction": "this is popcorn machine specifically popcorn cart its portable commercialgrade machine used to make popcorn often found in movie theaters food stands or at events cart design allows it to be easily moved and is typically used for serving popcorn to customers",
+      "exact_match": false
+    },
+    {
+      "id": "vqa:train:3",
+      "task": "vqa",
+      "category": "open_vqa",
+      "reference": "The aircraft in this image is a NASA Super Guppy. It's a specialized transport plane with a distinctive bulbous fuselage, used by NASA to carry oversized cargo like spacecraft components. The Super Guppy has a hinged nose for loading large items and four turboprop engines. Its unique design makes it one of the most recognizable aircraft in NASA's fleet.",
+      "prediction": "The aircraft in the image is the NASA C-17 Globemaster III, a large, four-engine, high-wing, transport aircraft. It is a modified version of the C-130 Hercules, designed for long-range transport and cargo missions. The C-17 is known for its ability to carry a wide range of payloads, including troops, vehicles, and supplies, and is used by the U.S. Air Force and other military branches.",
+      "normalized_reference": "aircraft in this image is nasa super guppy its specialized transport plane with distinctive bulbous fuselage used by nasa to carry oversized cargo like spacecraft components super guppy has hinged nose for loading large items and four turboprop engines its unique design makes it one of most recognizable aircraft in nasas fleet",
+      "normalized_prediction": "aircraft in image is nasa c17 globemaster iii large fourengine highwing transport aircraft it is modified version of c130 hercules designed for longrange transport and cargo missions c17 is known for its ability to carry wide range of payloads including troops vehicles and supplies and is used by us air force and other military branches",
+      "exact_match": false
+    },
+    {
+      "id": "vqa:train:6",
+      "task": "vqa",
+      "category": "open_vqa",
+      "reference": "There are three vertical bars of rebar visible on the right side panel of this structure. These rebar rods can be clearly seen protruding from the top of the concrete block, providing reinforcement for the structure. The vertical orientation of these bars suggests they are integral to the structural integrity of the right side panel.",
+      "prediction": "Based on the provided image, we can analyze the structure to determine the number of vertical rebar bars on the right side panel.\n\n- The image shows a concrete column that is in the process of being constructed.\n- The rebar (reinforcing steel) is wrapped around the column, forming a cage-like structure.\n- The rebar is arranged in a grid pattern, with vertical bars running up and down the column.\n- The right side panel of the structure is the one on the right edge of the image, which is the side of the rebar cage.\n\nLooking closely at the rebar cage on the right side of the column",
+      "normalized_reference": "there are three vertical bars of rebar visible on right side panel of this structure these rebar rods can be clearly seen protruding from top of concrete block providing reinforcement for structure vertical orientation of these bars suggests they are integral to structural integrity of right side panel",
+      "normalized_prediction": "based on provided image we can analyze structure to determine number of vertical rebar bars on right side panel image shows concrete column that is in process of being constructed rebar reinforcing steel is wrapped around column forming cagelike structure rebar is arranged in grid pattern with vertical bars running up and down column right side panel of structure is one on right edge of image which is side of rebar cage looking closely at rebar cage on right side of column",
+      "exact_match": false
+    },
+    {
+      "id": "vqa:train:7",
+      "task": "vqa",
+      "category": "open_vqa",
+      "reference": "The frilly orange thing in the image is a feather duster worm. These fascinating marine creatures are a type of tube-dwelling polychaete worm. They get their name from their distinctive feather-like tentacles that extend from their tubular homes. These tentacles are usually brightly colored, often in shades of orange, pink, or yellow, and they fan out in a circular pattern, resembling a feather duster or a colorful flower. \n\nFeather duster worms use their tentacles to filter feed, catching small particles and microorganisms from the water. When disturbed, they can quickly retract these tentacles into their protective tubes. These animals are commonly found in tropical and subtropical marine environments, often attached to coral reefs or rocky surfaces.\n\nIn underwater scenes, feather duster worms add a vibrant splash of color and movement, contributing to the rich biodiversity of coral reef ecosystems.",
+      "prediction": "Based on the image provided, the frilly orange thing is a type of marine worm known as a **sea anemone** or more specifically, a **sea fan worm**.\n\nHowever, the most accurate identification is that it is a **sea anemone**. The image shows a close-up of a sea anemone, which is a type of marine invertebrate that lives in the ocean. The frilly, orange, and white tentacles are the oral arms of the sea anemone, which are used for capturing food and for defense. The central part of the anemone is the mouth, which is",
+      "normalized_reference": "frilly orange thing in image is feather duster worm these fascinating marine creatures are type of tubedwelling polychaete worm they get their name from their distinctive featherlike tentacles that extend from their tubular homes these tentacles are usually brightly colored often in shades of orange pink or yellow and they fan out in circular pattern resembling feather duster or colorful flower feather duster worms use their tentacles to filter feed catching small particles and microorganisms from water when disturbed they can quickly retract these tentacles into their protective tubes these animals are commonly found in tropical and subtropical marine environments often attached to coral reefs or rocky surfaces in underwater scenes feather duster worms add vibrant splash of color and movement contributing to rich biodiversity of coral reef ecosystems",
+      "normalized_prediction": "based on image provided frilly orange thing is type of marine worm known as sea anemone or more specifically sea fan worm however most accurate identification is that it is sea anemone image shows closeup of sea anemone which is type of marine invertebrate that lives in ocean frilly orange and white tentacles are oral arms of sea anemone which are used for capturing food and for defense central part of anemone is mouth which is",
+      "exact_match": false
+    },
+    {
+      "id": "vqa:train:8",
+      "task": "vqa",
+      "category": "open_vqa",
+      "reference": "The stripey little fish in the image is a tiger barb. Tiger barbs are known for their distinctive striped pattern, which typically consists of several dark vertical stripes on a silver or golden body. These small, active fish are popular in aquariums due to their vibrant appearance and lively behavior. Tiger barbs are native to Southeast Asia and are members of the Cyprinidae family, which includes many other popular aquarium fish species.",
+      "prediction": "Based on the visual characteristics in the image, the \"stripey little dude\" is a **tiger barb**.\n\nHere's a breakdown of the identification:\n\n-   **Coloration:** The fish has a distinct pattern of bold, black vertical stripes on a yellowish or white background. This is the classic \"tiger\" pattern.\n-   **Body Shape:** It has a slender, elongated body, which is typical for this species.\n-   **Size:** The fish appears to be a small to medium-sized aquarium fish.\n-   **Common Name:** This specific pattern is known as the \"tiger barb\"",
+      "normalized_reference": "stripey little fish in image is tiger barb tiger barbs are known for their distinctive striped pattern which typically consists of several dark vertical stripes on silver or golden body these small active fish are popular in aquariums due to their vibrant appearance and lively behavior tiger barbs are native to southeast asia and are members of cyprinidae family which includes many other popular aquarium fish species",
+      "normalized_prediction": "based on visual characteristics in image stripey little dude is tiger barb heres breakdown of identification coloration fish has distinct pattern of bold black vertical stripes on yellowish or white background this is classic tiger pattern body shape it has slender elongated body which is typical for this species size fish appears to be small to mediumsized aquarium fish common name this specific pattern is known as tiger barb",
+      "exact_match": false
+    },
+    {
+      "id": "ocr:validation:0",
+      "task": "ocr",
+      "category": "document_qa",
+      "reference": "$2,500",
+      "prediction": "Based on the provided report, the total estimated cost is $2,500.",
+      "normalized_reference": "$2500",
+      "normalized_prediction": "based on provided report total estimated cost is $2500",
+      "exact_match": false
+    },
+    {
+      "id": "ocr:validation:1",
+      "task": "ocr",
+      "category": "document_qa",
+      "reference": "Expertise in Niche Market, Community Trust",
+      "prediction": "Based on the SWOT analysis provided in the image, the strengths are:\n\n- Expertise in Niche Market: Specialized knowledge in stock car tuning attracts racing enthusiasts.\n- Community Trust: Strong local relationships foster customer loyalty and word-of-mouth promotion.",
+      "normalized_reference": "expertise in niche market community trust",
+      "normalized_prediction": "based on swot analysis provided in image strengths are expertise in niche market specialized knowledge in stock car tuning attracts racing enthusiasts community trust strong local relationships foster customer loyalty and wordofmouth promotion",
+      "exact_match": false
+    },
+    {
+      "id": "ocr:validation:2",
+      "task": "ocr",
+      "category": "document_qa",
+      "reference": "30",
+      "prediction": "Based on the \"Personal Details\" section of the Preconception Health Record, Øystein's age is 30.",
+      "normalized_reference": "30",
+      "normalized_prediction": "based on personal details section of preconception health record øysteins age is 30",
+      "exact_match": false
+    },
+    {
+      "id": "ocr:validation:3",
+      "task": "ocr",
+      "category": "document_qa",
+      "reference": "Centrifugal force-based system",
+      "prediction": "The key technology used for the artificial gravity system is a centrifugal force-based system.",
+      "normalized_reference": "centrifugal forcebased system",
+      "normalized_prediction": "key technology used for artificial gravity system is centrifugal forcebased system",
+      "exact_match": false
+    },
+    {
+      "id": "ocr:validation:4",
+      "task": "ocr",
+      "category": "document_qa",
+      "reference": "The Golden Nugget Grill",
+      "prediction": "Based on the menu provided, the name of the restaurant is **The Golden Nugget Grill**. This is displayed prominently at the top of the menu.",
+      "normalized_reference": "golden nugget grill",
+      "normalized_prediction": "based on menu provided name of restaurant is golden nugget grill this is displayed prominently at top of menu",
+      "exact_match": false
+    }
+  ]
+}

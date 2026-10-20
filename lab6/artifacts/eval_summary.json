@@ -1,0 +1,244 @@
+{
+  "num_images": 20,
+  "num_base_predictions": 20,
+  "num_ablation_predictions": 160,
+  "latency_by_configuration": [
+    {
+      "prompt_template": "concise",
+      "resolution": "512",
+      "decoding_mode": "greedy",
+      "n_predictions": 20,
+      "median_seconds": 12.6768,
+      "p95_seconds": 38.0398
+    },
+    {
+      "prompt_template": "concise",
+      "resolution": "512",
+      "decoding_mode": "sampling",
+      "n_predictions": 20,
+      "median_seconds": 12.0526,
+      "p95_seconds": 41.1293
+    },
+    {
+      "prompt_template": "concise",
+      "resolution": "original",
+      "decoding_mode": "greedy",
+      "n_predictions": 20,
+      "median_seconds": 57.3505,
+      "p95_seconds": 222.2809
+    },
+    {
+      "prompt_template": "concise",
+      "resolution": "original",
+      "decoding_mode": "sampling",
+      "n_predictions": 20,
+      "median_seconds": 55.5143,
+      "p95_seconds": 231.4837
+    },
+    {
+      "prompt_template": "direct",
+      "resolution": "512",
+      "decoding_mode": "greedy",
+      "n_predictions": 20,
+      "median_seconds": 24.4596,
+      "p95_seconds": 55.4068
+    },
+    {
+      "prompt_template": "direct",
+      "resolution": "512",
+      "decoding_mode": "sampling",
+      "n_predictions": 20,
+      "median_seconds": 26.3765,
+      "p95_seconds": 54.7259
+    },
+    {
+      "prompt_template": "direct",
+      "resolution": "original",
+      "decoding_mode": "greedy",
+      "n_predictions": 20,
+      "median_seconds": 82.5071,
+      "p95_seconds": 298.6401
+    },
+    {
+      "prompt_template": "direct",
+      "resolution": "original",
+      "decoding_mode": "sampling",
+      "n_predictions": 20,
+      "median_seconds": 83.9265,
+      "p95_seconds": 299.4572
+    }
+  ],
+  "quality": [
+    {
+      "task": "ocr",
+      "prompt_template": "concise",
+      "resolution": "512",
+      "decoding_mode": "greedy",
+      "sample_size": 5,
+      "correct": 4,
+      "normalized_exact_match": 0.8
+    },
+    {
+      "task": "ocr",
+      "prompt_template": "concise",
+      "resolution": "512",
+      "decoding_mode": "sampling",
+      "sample_size": 5,
+      "correct": 4,
+      "normalized_exact_match": 0.8
+    },
+    {
+      "task": "ocr",
+      "prompt_template": "concise",
+      "resolution": "original",
+      "decoding_mode": "greedy",
+      "sample_size": 5,
+      "correct": 4,
+      "normalized_exact_match": 0.8
+    },
+    {
+      "task": "ocr",
+      "prompt_template": "concise",
+      "resolution": "original",
+      "decoding_mode": "sampling",
+      "sample_size": 5,
+      "correct": 4,
+      "normalized_exact_match": 0.8
+    },
+    {
+      "task": "ocr",
+      "prompt_template": "direct",
+      "resolution": "512",
+      "decoding_mode": "greedy",
+      "sample_size": 5,
+      "correct": 0,
+      "normalized_exact_match": 0.0
+    },
+    {
+      "task": "ocr",
+      "prompt_template": "direct",
+      "resolution": "512",
+      "decoding_mode": "sampling",
+      "sample_size": 5,
+      "correct": 0,
+      "normalized_exact_match": 0.0
+    },
+    {
+      "task": "ocr",
+      "prompt_template": "direct",
+      "resolution": "original",
+      "decoding_mode": "greedy",
+      "sample_size": 5,
+      "correct": 0,
+      "normalized_exact_match": 0.0
+    },
+    {
+      "task": "ocr",
+      "prompt_template": "direct",
+      "resolution": "original",
+      "decoding_mode": "sampling",
+      "sample_size": 5,
+      "correct": 0,
+      "normalized_exact_match": 0.0
+    },
+    {
+      "task": "vqa",
+      "prompt_template": "concise",
+      "resolution": "512",
+      "decoding_mode": "greedy",
+      "sample_size": 5,
+      "correct": 0,
+      "normalized_exact_match": 0.0
+    },
+    {
+      "task": "vqa",
+      "prompt_template": "concise",
+      "resolution": "512",
+      "decoding_mode": "sampling",
+      "sample_size": 5,
+      "correct": 0,
+      "normalized_exact_match": 0.0
+    },
+    {
+      "task": "vqa",
+      "prompt_template": "concise",
+      "resolution": "original",
+      "decoding_mode": "greedy",
+      "sample_size": 5,
+      "correct": 0,
+      "normalized_exact_match": 0.0
+    },
+    {
+      "task": "vqa",
+      "prompt_template": "concise",
+      "resolution": "original",
+      "decoding_mode": "sampling",
+      "sample_size": 5,
+      "correct": 0,
+      "normalized_exact_match": 0.0
+    },
+    {
+      "task": "vqa",
+      "prompt_template": "direct",
+      "resolution": "512",
+      "decoding_mode": "greedy",
+      "sample_size": 5,
+      "correct": 0,
+      "normalized_exact_match": 0.0
+    },
+    {
+      "task": "vqa",
+      "prompt_template": "direct",
+      "resolution": "512",
+      "decoding_mode": "sampling",
+      "sample_size": 5,
+      "correct": 0,
+      "normalized_exact_match": 0.0
+    },
+    {
+      "task": "vqa",
+      "prompt_template": "direct",
+      "resolution": "original",
+      "decoding_mode": "greedy",
+      "sample_size": 5,
+      "correct": 0,
+      "normalized_exact_match": 0.0
+    },
+    {
+      "task": "vqa",
+      "prompt_template": "direct",
+      "resolution": "original",
+      "decoding_mode": "sampling",
+      "sample_size": 5,
+      "correct": 0,
+      "normalized_exact_match": 0.0
+    }
+  ],
+  "manual_error_summary": {
+    "total_examples": 20,
+    "reviewed_examples": 20,
+    "pending_examples": 0,
+    "error_counts": {
+      "missing_information": 3,
+      "attribute": 1,
+      "object_or_entity": 2,
+      "counting": 1
+    },
+    "error_rates": {
+      "missing_information": 0.15,
+      "attribute": 0.05,
+      "object_or_entity": 0.1,
+      "counting": 0.05
+    },
+    "is_final": true
+  },
+  "budget": {
+    "model_id": "Qwen/Qwen3-VL-2B-Instruct",
+    "device": "cpu",
+    "precision": "torch.float32",
+    "quantization": "none",
+    "total_inference_seconds": 11795.6503
+  },
+  "fast_dev_run": false,
+  "note": "Сводка рассчитана по сохранённым предсказаниям. Latency включает только измеренные инференсы из ablation.jsonl. Проверь FAST_DEV_RUN в настройках ноутбука перед сдачей."
+}

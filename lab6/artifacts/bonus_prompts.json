@@ -1,0 +1,22 @@
+[
+  {
+    "example_id": "captioning:train:0",
+    "task": "captioning",
+    "image": "C:\\Anton\\16 триместр\\SOTA\\lab6\\data\\lab06\\pixmo-cap-default-train-0.jpg",
+    "original_question": "Describe the image.",
+    "alternative_question": "Внимательно изучи изображение и ответь кратко и конкретно: Describe the image.",
+    "original_answer": "This is a close-up photograph of a single bird perched on a light blue, weathered concrete ledge. The bird is the central focus, captured in profile as it looks towards the right of the frame.\n\n- **Bird's Appearance**: The bird is predominantly black, with a glossy, iridescent sheen on its back and wings that reflects a deep, rich blue-purple. It has a long, slender, pointed beak that is dark and slightly curved. Its eyes are a striking, bright yellow, and its legs and feet are a dark greyish-black, with sharp, curved claws gripping the ledge.\n\n- **Posture",
+    "alternative_answer": "A black bird with iridescent blue-green feathers on its back and wings, a long tail, and a sharp, pointed beak is perched on a light blue concrete ledge. The bird has a yellow eye and is facing to the right. The background is a blurred green foliage.",
+    "qualitative_comment": "Альтернативный промпт дал более краткое и связное описание птицы. Основные визуальные признаки сохранены, при этом исчезла структура с заголовками и списками."
+  },
+  {
+    "example_id": "captioning:train:2",
+    "task": "captioning",
+    "image": "C:\\Anton\\16 триместр\\SOTA\\lab6\\data\\lab06\\pixmo-cap-default-train-2.jpg",
+    "original_question": "Describe the image.",
+    "alternative_question": "Внимательно изучи изображение и ответь кратко и конкретно: Describe the image.",
+    "original_answer": "This is a digital advertisement for four different character illustrations, presented in a grid format on a light blue background with a purple border. The image is designed to be a \"for sale\" or \"for hire\" listing, with the artist's name, \"SamS\", visible on each artwork.\n\nThe four illustrations are arranged in a 2x2 grid:\n\n- **Top-left:** A purple and white anthropomorphic character with a large, black, glowing mask. The character has a pink, spiky mane, a white and purple outfit, and a long, purple tail. The price is listed as $40.\n- **",
+    "alternative_answer": "This is a digital art advertisement for four different character illustrations, likely for sale on a platform like Etsy or a personal website. The image is a collage of four panels, each featuring a unique anthropomorphic character with distinct designs and prices.\n\n- **Top-left panel**: A purple and white anthropomorphic character with a large, glowing black mask and a pink mohawk. The price is $40.\n- **Top-right panel**: A grey, cat-like character with white hair and green eyes, wearing a white lab coat and a black tie. The price is $30.\n- **Bottom-left panel**: A yellow and pink anthrop",
+    "qualitative_comment": "Альтернативный ответ сохраняет описание коллажа и отдельных персонажей, но остаётся достаточно подробным. Также исходный ответ обрывается на первом персонаже, а краткий ответ только на третьем."
+  }
+]
