@@ -1,0 +1,39 @@
+{
+  "source_files": [
+    "artifacts/learning_curves.json",
+    "artifacts/budget_auc.json"
+  ],
+  "dataset": "sklearn.datasets.load_digits",
+  "seed": 45,
+  "fast_dev_run": false,
+  "metric": "trapezoidal_integral_of_accuracy_over_labeled_budget",
+  "strategies": {
+    "random": {
+      "auc": 142.30555555555554,
+      "normalized_auc": 0.8894097222222221,
+      "final_accuracy": 0.9111111111111111,
+      "initial_budget": 50,
+      "final_budget": 210,
+      "n_points": 9
+    },
+    "entropy": {
+      "auc": 143.83333333333331,
+      "normalized_auc": 0.8989583333333332,
+      "final_accuracy": 0.9583333333333334,
+      "initial_budget": 50,
+      "final_budget": 210,
+      "n_points": 9
+    },
+    "kcenter": {
+      "auc": 145.63888888888889,
+      "normalized_auc": 0.9102430555555555,
+      "final_accuracy": 0.9333333333333333,
+      "initial_budget": 50,
+      "final_budget": 210,
+      "n_points": 9
+    }
+  },
+  "best_by_auc": "kcenter",
+  "best_by_normalized_auc": "kcenter",
+  "best_by_final_accuracy": "entropy"
+}
