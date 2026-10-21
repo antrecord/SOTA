@@ -1,0 +1,28 @@
+{
+  "schema": {
+    "additionalProperties": false,
+    "properties": {
+      "class_name": {
+        "title": "Class Name",
+        "type": "string"
+      },
+      "caption": {
+        "minLength": 1,
+        "title": "Caption",
+        "type": "string"
+      },
+      "uncertain": {
+        "title": "Uncertain",
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "class_name",
+      "caption",
+      "uncertain"
+    ],
+    "title": "VLMAnnotation",
+    "type": "object"
+  },
+  "prompt": "Analyze the image and return only one valid JSON object with these fields:\n- class_name: exactly one of ['airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck']\n- caption: a concise description of visible image content\n- uncertain: true if the classification or description is uncertain,\n  otherwise false\n\nDo not include Markdown or any text outside the JSON object.\nDo not guess details that are not visible."
+}

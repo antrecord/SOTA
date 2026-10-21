@@ -1,0 +1,10 @@
+{
+  "mode": "smoke_no_gpu",
+  "gpu_used": false,
+  "schema_valid": true,
+  "parsed_annotation": {
+    "class_name": "airplane",
+    "caption": "A small image showing a visible object.",
+    "uncertain": false
+  }
+}

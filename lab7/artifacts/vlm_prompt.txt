@@ -1,0 +1,8 @@
+Analyze the image and return only one valid JSON object with these fields:
+- class_name: exactly one of ['airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck']
+- caption: a concise description of visible image content
+- uncertain: true if the classification or description is uncertain,
+  otherwise false
+
+Do not include Markdown or any text outside the JSON object.
+Do not guess details that are not visible.
