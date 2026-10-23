@@ -6,3 +6,6 @@ lab2/data/
 *.npz
 *.joblib
 */__pycache__/
+*/artifacts/checkpoints/
+*/artifacts/lab9_adapter/
+*.log

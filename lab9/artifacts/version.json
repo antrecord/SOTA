@@ -1,0 +1,24 @@
+{
+  "status": "success",
+  "full_experiment": true,
+  "fast_dev_run": false,
+  "command": [
+    "/usr/local/bin/llamafactory-cli",
+    "train",
+    "/content/artifacts/sft.yaml"
+  ],
+  "returncode": 0,
+  "requested_max_steps": 100,
+  "actual_global_step": 100,
+  "elapsed_seconds": 4812.29,
+  "output_dir": "/content/artifacts/lab9_adapter",
+  "adapter_model": "/content/artifacts/lab9_adapter/adapter_model.safetensors",
+  "trainer_state": "/content/artifacts/lab9_adapter/trainer_state.json",
+  "train_log": "/content/artifacts/train.log",
+  "resume_from_checkpoint": null,
+  "python_version": "3.13.15 (main, Aug  6 2026, 11:06:22) [GCC 13.3.0]",
+  "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+  "torch_version": "2.11.0+cu130",
+  "cuda_available": true,
+  "transformers_version": "5.6.0"
+}

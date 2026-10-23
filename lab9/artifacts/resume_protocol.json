@@ -1,0 +1,8 @@
+{
+  "mode": "new_run",
+  "selected_checkpoint": null,
+  "global_step": null,
+  "config_fingerprint": "e4e557284c87264859c723b6a0bf0884b7a732ed106e6a1e192a19f60bec81e7",
+  "max_steps": 100,
+  "reason": "Checkpoint не найдены; начинается новый запуск."
+}
