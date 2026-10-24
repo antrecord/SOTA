@@ -1,0 +1,177 @@
+﻿id,Тип изображения,Модель,Эталон,Предсказание,Верно
+scienceqa-test-10,Рисунки,Base,C,C,True
+scienceqa-test-104,Рисунки,Base,B,B,True
+scienceqa-test-107,Рисунки,Base,A,A,True
+scienceqa-test-110,Рисунки,Base,C,C,True
+scienceqa-test-136,Рисунки,Base,A,A,True
+scienceqa-test-148,Рисунки,Base,A,A,True
+scienceqa-test-154,Рисунки,Base,C,C,True
+scienceqa-test-157,Рисунки,Base,B,B,True
+scienceqa-test-167,Рисунки,Base,C,C,True
+scienceqa-test-17,Рисунки,Base,B,B,True
+scienceqa-test-172,Рисунки,Base,B,B.,False
+scienceqa-test-180,Рисунки,Base,B,B,True
+scienceqa-test-194,Рисунки,Base,B,A.,False
+scienceqa-test-236,Рисунки,Base,B,B,True
+scienceqa-test-243,Рисунки,Base,B,B,True
+scienceqa-test-247,Рисунки,Base,B,A,False
+scienceqa-test-249,Рисунки,Base,B,B,True
+scienceqa-test-253,Рисунки,Base,C,C,True
+scienceqa-test-257,Рисунки,Base,B,B,True
+scienceqa-test-263,Рисунки,Base,A,A,True
+scienceqa-test-80,Рисунки,Base,B,A,False
+scienceqa-test-94,Рисунки,Base,B,B,True
+scienceqa-test-116,Фотографии,Base,A,A,True
+scienceqa-test-123,Фотографии,Base,B,B,True
+scienceqa-test-150,Фотографии,Base,A,A,True
+scienceqa-test-161,Фотографии,Base,A,B.,False
+scienceqa-test-168,Фотографии,Base,B,B,True
+scienceqa-test-177,Фотографии,Base,A,A,True
+scienceqa-test-18,Фотографии,Base,A,A,True
+scienceqa-test-185,Фотографии,Base,B,B,True
+scienceqa-test-207,Фотографии,Base,A,A,True
+scienceqa-test-219,Фотографии,Base,A,A,True
+scienceqa-test-241,Фотографии,Base,A,A,True
+scienceqa-test-256,Фотографии,Base,A,A,True
+scienceqa-test-272,Фотографии,Base,A,A,True
+scienceqa-test-349,Фотографии,Base,C,A,False
+scienceqa-test-36,Фотографии,Base,B,C,False
+scienceqa-test-382,Фотографии,Base,B,B.,False
+scienceqa-test-397,Фотографии,Base,C,C,True
+scienceqa-test-398,Фотографии,Base,B,B.,False
+scienceqa-test-400,Фотографии,Base,A,A,True
+scienceqa-test-402,Фотографии,Base,A,A,True
+scienceqa-test-49,Фотографии,Base,A,B.,False
+scienceqa-test-78,Фотографии,Base,B,B,True
+scienceqa-test-10,Рисунки,SFT,C,C,True
+scienceqa-test-104,Рисунки,SFT,B,A,False
+scienceqa-test-107,Рисунки,SFT,A,A,True
+scienceqa-test-110,Рисунки,SFT,C,C,True
+scienceqa-test-136,Рисунки,SFT,A,A,True
+scienceqa-test-148,Рисунки,SFT,A,A,True
+scienceqa-test-154,Рисунки,SFT,C,C,True
+scienceqa-test-157,Рисунки,SFT,B,B,True
+scienceqa-test-167,Рисунки,SFT,C,C,True
+scienceqa-test-17,Рисунки,SFT,B,A,False
+scienceqa-test-172,Рисунки,SFT,B,B,True
+scienceqa-test-180,Рисунки,SFT,B,B,True
+scienceqa-test-194,Рисунки,SFT,B,B,True
+scienceqa-test-236,Рисунки,SFT,B,B,True
+scienceqa-test-243,Рисунки,SFT,B,B,True
+scienceqa-test-247,Рисунки,SFT,B,A,False
+scienceqa-test-249,Рисунки,SFT,B,B,True
+scienceqa-test-253,Рисунки,SFT,C,C,True
+scienceqa-test-257,Рисунки,SFT,B,B,True
+scienceqa-test-263,Рисунки,SFT,A,A,True
+scienceqa-test-80,Рисунки,SFT,B,A,False
+scienceqa-test-94,Рисунки,SFT,B,B,True
+scienceqa-test-116,Фотографии,SFT,A,A,True
+scienceqa-test-123,Фотографии,SFT,B,B,True
+scienceqa-test-150,Фотографии,SFT,A,A,True
+scienceqa-test-161,Фотографии,SFT,A,A,True
+scienceqa-test-168,Фотографии,SFT,B,B,True
+scienceqa-test-177,Фотографии,SFT,A,A,True
+scienceqa-test-18,Фотографии,SFT,A,A,True
+scienceqa-test-185,Фотографии,SFT,B,B,True
+scienceqa-test-207,Фотографии,SFT,A,A,True
+scienceqa-test-219,Фотографии,SFT,A,A,True
+scienceqa-test-241,Фотографии,SFT,A,A,True
+scienceqa-test-256,Фотографии,SFT,A,B,False
+scienceqa-test-272,Фотографии,SFT,A,A,True
+scienceqa-test-349,Фотографии,SFT,C,B,False
+scienceqa-test-36,Фотографии,SFT,B,B,True
+scienceqa-test-382,Фотографии,SFT,B,B,True
+scienceqa-test-397,Фотографии,SFT,C,C,True
+scienceqa-test-398,Фотографии,SFT,B,B,True
+scienceqa-test-400,Фотографии,SFT,A,A,True
+scienceqa-test-402,Фотографии,SFT,A,A,True
+scienceqa-test-49,Фотографии,SFT,A,B,False
+scienceqa-test-78,Фотографии,SFT,B,B,True
+scienceqa-test-10,Рисунки,Unsloth r8,C,C,True
+scienceqa-test-104,Рисунки,Unsloth r8,B,C,False
+scienceqa-test-107,Рисунки,Unsloth r8,A,A,True
+scienceqa-test-110,Рисунки,Unsloth r8,C,C,True
+scienceqa-test-136,Рисунки,Unsloth r8,A,A,True
+scienceqa-test-148,Рисунки,Unsloth r8,A,B,False
+scienceqa-test-154,Рисунки,Unsloth r8,C,C,True
+scienceqa-test-157,Рисунки,Unsloth r8,B,B,True
+scienceqa-test-167,Рисунки,Unsloth r8,C,C,True
+scienceqa-test-17,Рисунки,Unsloth r8,B,B,True
+scienceqa-test-172,Рисунки,Unsloth r8,B,B,True
+scienceqa-test-180,Рисунки,Unsloth r8,B,B,True
+scienceqa-test-194,Рисунки,Unsloth r8,B,B,True
+scienceqa-test-236,Рисунки,Unsloth r8,B,B,True
+scienceqa-test-243,Рисунки,Unsloth r8,B,B,True
+scienceqa-test-247,Рисунки,Unsloth r8,B,B,True
+scienceqa-test-249,Рисунки,Unsloth r8,B,B,True
+scienceqa-test-253,Рисунки,Unsloth r8,C,C,True
+scienceqa-test-257,Рисунки,Unsloth r8,B,B,True
+scienceqa-test-263,Рисунки,Unsloth r8,A,A,True
+scienceqa-test-80,Рисунки,Unsloth r8,B,B,True
+scienceqa-test-94,Рисунки,Unsloth r8,B,B,True
+scienceqa-test-116,Фотографии,Unsloth r8,A,A,True
+scienceqa-test-123,Фотографии,Unsloth r8,B,B,True
+scienceqa-test-150,Фотографии,Unsloth r8,A,A,True
+scienceqa-test-161,Фотографии,Unsloth r8,A,A,True
+scienceqa-test-168,Фотографии,Unsloth r8,B,B,True
+scienceqa-test-177,Фотографии,Unsloth r8,A,A,True
+scienceqa-test-18,Фотографии,Unsloth r8,A,A,True
+scienceqa-test-185,Фотографии,Unsloth r8,B,B,True
+scienceqa-test-207,Фотографии,Unsloth r8,A,B,False
+scienceqa-test-219,Фотографии,Unsloth r8,A,A,True
+scienceqa-test-241,Фотографии,Unsloth r8,A,A,True
+scienceqa-test-256,Фотографии,Unsloth r8,A,B,False
+scienceqa-test-272,Фотографии,Unsloth r8,A,A,True
+scienceqa-test-349,Фотографии,Unsloth r8,C,B,False
+scienceqa-test-36,Фотографии,Unsloth r8,B,B,True
+scienceqa-test-382,Фотографии,Unsloth r8,B,B,True
+scienceqa-test-397,Фотографии,Unsloth r8,C,C,True
+scienceqa-test-398,Фотографии,Unsloth r8,B,B,True
+scienceqa-test-400,Фотографии,Unsloth r8,A,A,True
+scienceqa-test-402,Фотографии,Unsloth r8,A,A,True
+scienceqa-test-49,Фотографии,Unsloth r8,A,B,False
+scienceqa-test-78,Фотографии,Unsloth r8,B,B,True
+scienceqa-test-10,Рисунки,Unsloth r16,C,C,True
+scienceqa-test-104,Рисунки,Unsloth r16,B,C,False
+scienceqa-test-107,Рисунки,Unsloth r16,A,A,True
+scienceqa-test-110,Рисунки,Unsloth r16,C,C,True
+scienceqa-test-136,Рисунки,Unsloth r16,A,A,True
+scienceqa-test-148,Рисунки,Unsloth r16,A,B,False
+scienceqa-test-154,Рисунки,Unsloth r16,C,C,True
+scienceqa-test-157,Рисунки,Unsloth r16,B,B,True
+scienceqa-test-167,Рисунки,Unsloth r16,C,C,True
+scienceqa-test-17,Рисунки,Unsloth r16,B,B,True
+scienceqa-test-172,Рисунки,Unsloth r16,B,B,True
+scienceqa-test-180,Рисунки,Unsloth r16,B,B,True
+scienceqa-test-194,Рисунки,Unsloth r16,B,B,True
+scienceqa-test-236,Рисунки,Unsloth r16,B,B,True
+scienceqa-test-243,Рисунки,Unsloth r16,B,B,True
+scienceqa-test-247,Рисунки,Unsloth r16,B,B,True
+scienceqa-test-249,Рисунки,Unsloth r16,B,B,True
+scienceqa-test-253,Рисунки,Unsloth r16,C,C,True
+scienceqa-test-257,Рисунки,Unsloth r16,B,B,True
+scienceqa-test-263,Рисунки,Unsloth r16,A,A,True
+scienceqa-test-80,Рисунки,Unsloth r16,B,B,True
+scienceqa-test-94,Рисунки,Unsloth r16,B,B,True
+scienceqa-test-116,Фотографии,Unsloth r16,A,A,True
+scienceqa-test-123,Фотографии,Unsloth r16,B,B,True
+scienceqa-test-150,Фотографии,Unsloth r16,A,A,True
+scienceqa-test-161,Фотографии,Unsloth r16,A,A,True
+scienceqa-test-168,Фотографии,Unsloth r16,B,B,True
+scienceqa-test-177,Фотографии,Unsloth r16,A,A,True
+scienceqa-test-18,Фотографии,Unsloth r16,A,A,True
+scienceqa-test-185,Фотографии,Unsloth r16,B,B,True
+scienceqa-test-207,Фотографии,Unsloth r16,A,B,False
+scienceqa-test-219,Фотографии,Unsloth r16,A,A,True
+scienceqa-test-241,Фотографии,Unsloth r16,A,A,True
+scienceqa-test-256,Фотографии,Unsloth r16,A,B,False
+scienceqa-test-272,Фотографии,Unsloth r16,A,A,True
+scienceqa-test-349,Фотографии,Unsloth r16,C,B,False
+scienceqa-test-36,Фотографии,Unsloth r16,B,B,True
+scienceqa-test-382,Фотографии,Unsloth r16,B,B,True
+scienceqa-test-397,Фотографии,Unsloth r16,C,C,True
+scienceqa-test-398,Фотографии,Unsloth r16,B,B,True
+scienceqa-test-400,Фотографии,Unsloth r16,A,A,True
+scienceqa-test-402,Фотографии,Unsloth r16,A,A,True
+scienceqa-test-49,Фотографии,Unsloth r16,A,B,False
+scienceqa-test-78,Фотографии,Unsloth r16,B,B,True

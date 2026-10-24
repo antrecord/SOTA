@@ -9,3 +9,6 @@ lab2/data/
 */artifacts/checkpoints/
 */artifacts/lab9_adapter/
 *.log
+*/unsloth_r8_a16/
+*/unsloth_r16_a16/
+*.zip

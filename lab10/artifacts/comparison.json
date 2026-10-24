@@ -1,0 +1,115 @@
+{
+  "model": "Qwen/Qwen2.5-VL-3B-Instruct",
+  "seed": 66,
+  "evaluation": {
+    "metric": "exact_match",
+    "unsloth": {
+      "id_test": {
+        "r8_a16": {
+          "n": 64,
+          "exact_match_correct": 53,
+          "exact_match": 0.828125,
+          "format_valid": 64,
+          "format_rate": 1.0
+        },
+        "r16_a32": {
+          "n": 64,
+          "exact_match_correct": 54,
+          "exact_match": 0.84375,
+          "format_valid": 64,
+          "format_rate": 1.0
+        }
+      },
+      "ood_test": {
+        "r8_a16": {
+          "n": 64,
+          "exact_match_correct": 39,
+          "exact_match": 0.609375,
+          "format_valid": 64,
+          "format_rate": 1.0
+        },
+        "r16_a32": {
+          "n": 64,
+          "exact_match_correct": 45,
+          "exact_match": 0.703125,
+          "format_valid": 64,
+          "format_rate": 1.0
+        }
+      }
+    },
+    "llama_factory_lab09": {
+      "source": "artifacts/evaluation09.json",
+      "metric_definition": "Предсказание считается правильным, только если после удаления пробелов по краям и приведения к верхнему регистру оно в точности совпадает с эталонной буквой. Ответы с дополнительным текстом считаются ошибками формата и остаются в знаменателе.",
+      "n_total": 192,
+      "results": {
+        "id_test": {
+          "n": 64,
+          "base": {
+            "correct": 53,
+            "exact_match": 0.828125
+          },
+          "sft": {
+            "correct": 56,
+            "exact_match": 0.875
+          },
+          "delta_correct": 3,
+          "delta_exact_match": 0.046875,
+          "delta_percentage_points": 4.6875
+        },
+        "ood_test": {
+          "n": 64,
+          "base": {
+            "correct": 36,
+            "exact_match": 0.5625
+          },
+          "sft": {
+            "correct": 44,
+            "exact_match": 0.6875
+          },
+          "delta_correct": 8,
+          "delta_exact_match": 0.125,
+          "delta_percentage_points": 12.5
+        },
+        "general_test": {
+          "n": 64,
+          "base": {
+            "correct": 56,
+            "exact_match": 0.875
+          },
+          "sft": {
+            "correct": 57,
+            "exact_match": 0.890625
+          },
+          "delta_correct": 1,
+          "delta_exact_match": 0.015625,
+          "delta_percentage_points": 1.5625
+        }
+      }
+    }
+  },
+  "training": {
+    "unsloth_r8_a16": {
+      "rank": 8,
+      "alpha": 16,
+      "steps": 100,
+      "elapsed_seconds": 1319.577214624,
+      "peak_cuda_memory_gb": 8.028652667999268
+    },
+    "unsloth_r16_a32": {
+      "rank": 16,
+      "alpha": 32,
+      "steps": 100,
+      "elapsed_seconds": 1254.3199350359996,
+      "peak_cuda_memory_gb": 8.350664615631104
+    }
+  },
+  "speed_comparison": {
+    "status": "not_claimed",
+    "reason": "Скорость Unsloth и LLaMA-Factory не сравнивается: для корректного вывода необходимо подтвердить одинаковые GPU, число шагов, effective batch size и обучаемые модули."
+  },
+  "metric_compatibility": {
+    "lab09": "Удаление пробелов по краям и приведение к верхнему регистру; ответ с дополнительным текстом считается ошибкой.",
+    "unsloth": "Строгий формат одной заглавной буквы A-Z; ответы с лишним текстом не засчитываются.",
+    "direct_comparison_caveat": "Перед прямым сравнением EM необходимо убедиться, что нормализация и тестовые примеры одинаковы."
+  }
+}

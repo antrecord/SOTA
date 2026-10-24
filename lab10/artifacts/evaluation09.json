@@ -1,0 +1,66 @@
+{
+  "metric": "exact_match",
+  "metric_definition": "Предсказание считается правильным, только если после удаления пробелов по краям и приведения к верхнему регистру оно в точности совпадает с эталонной буквой. Ответы с дополнительным текстом считаются ошибками формата и остаются в знаменателе.",
+  "n_total": 192,
+  "results": {
+    "id_test": {
+      "n": 64,
+      "base": {
+        "correct": 53,
+        "exact_match": 0.828125
+      },
+      "sft": {
+        "correct": 56,
+        "exact_match": 0.875
+      },
+      "delta_correct": 3,
+      "delta_exact_match": 0.046875,
+      "delta_percentage_points": 4.6875
+    },
+    "ood_test": {
+      "n": 64,
+      "base": {
+        "correct": 36,
+        "exact_match": 0.5625
+      },
+      "sft": {
+        "correct": 44,
+        "exact_match": 0.6875
+      },
+      "delta_correct": 8,
+      "delta_exact_match": 0.125,
+      "delta_percentage_points": 12.5
+    },
+    "general_test": {
+      "n": 64,
+      "base": {
+        "correct": 56,
+        "exact_match": 0.875
+      },
+      "sft": {
+        "correct": 57,
+        "exact_match": 0.890625
+      },
+      "delta_correct": 1,
+      "delta_exact_match": 0.015625,
+      "delta_percentage_points": 1.5625
+    }
+  },
+  "conclusions": [
+    {
+      "split": "id_test",
+      "description": "ID (распределение, близкое к обучающему)",
+      "finding": "качество выросло на 4.69 п.п."
+    },
+    {
+      "split": "ood_test",
+      "description": "OOD (естественные науки, старшие классы)",
+      "finding": "качество выросло на 12.50 п.п."
+    },
+    {
+      "split": "general_test",
+      "description": "General (другие предметы)",
+      "finding": "качество выросло на 1.56 п.п."
+    }
+  ]
+}

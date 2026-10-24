@@ -1,0 +1,13 @@
+﻿Модель,Split,N,Правильных,"EM, %","Формат A–Z, %","Время, мин","VRAM, GB"
+Base,id_test,64,53,82.81,,,
+SFT,id_test,64,56,87.5,,,
+Unsloth r8 a16,id_test,64,53,82.81,100.0,21.99,8.03
+Unsloth r16 a32,id_test,64,54,84.38,100.0,20.91,8.35
+Base,ood_test,64,36,56.25,,,
+SFT,ood_test,64,44,68.75,,,
+Unsloth r8 a16,ood_test,64,39,60.94,100.0,21.99,8.03
+Unsloth r16 a32,ood_test,64,45,70.31,100.0,20.91,8.35
+Base,general_test,64,56,87.5,,,
+SFT,general_test,64,57,89.06,,,
+Unsloth r8 a16,general_test,64,56,87.5,100.0,21.99,8.03
+Unsloth r16 a32,general_test,64,55,85.94,100.0,20.91,8.35
