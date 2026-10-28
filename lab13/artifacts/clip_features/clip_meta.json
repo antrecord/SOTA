@@ -1,0 +1,1641 @@
+{
+  "model": "openai/clip-vit-base-patch32",
+  "device": "cuda",
+  "embed_dim": 512,
+  "normalize": "L2, F.normalize(dim=-1)",
+  "held_out_prompts": [
+    "a butterfly on a white daisy, macro photography",
+    "a monarch butterfly with orange wings resting on a leaf",
+    "a blue morpho butterfly in a tropical forest",
+    "a yellow butterfly flying over green grass",
+    "a butterfly on a purple lavender flower, shallow depth of field",
+    "a close-up of a butterfly wing pattern",
+    "a butterfly on a human hand in a garden",
+    "a white butterfly on a red flower, natural light",
+    "a butterfly resting on a stone near water",
+    "a black and orange butterfly on a sunflower",
+    "a small butterfly on a dandelion in spring",
+    "a butterfly with spread wings on a wooden surface"
+  ],
+  "held_out_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "train_captions": [
+    "a photo of sks butterfly, 20230130-butterfly",
+    "a photo of sks butterfly, a beautiful black butterfly",
+    "a photo of sks butterfly, a butterfly eating papaya, location- lakhimpur, assam",
+    "a photo of sks butterfly, a butterfly on a purple flower",
+    "a photo of sks butterfly, black and white butterfly near shirahama",
+    "a photo of sks butterfly, butterfly 51",
+    "a photo of sks butterfly, butterfly iguazu falls",
+    "a photo of sks butterfly, butterfly the insect",
+    "a photo of sks butterfly, butterfly at jonanjima",
+    "a photo of sks butterfly, butterfly at wingham wildlife park kent uk",
+    "a photo of sks butterfly, butterfly by the water",
+    "a photo of sks butterfly, butterfly enjoying with nature",
+    "a photo of sks butterfly, butterfly from butterfly garden-lucknow zoo",
+    "a photo of sks butterfly, butterfly hanging on leaf",
+    "a photo of sks butterfly, butterfly in armenia",
+    "a photo of sks butterfly, butterfly orange",
+    "a photo of sks butterfly, common jezebel delias eucharis by kadavoor 3",
+    "a photo of sks butterfly, common pierrot butterfly at anamangad, malappuram, kerala",
+    "a photo of sks butterfly, common cerulean butterfly at sooranad north",
+    "a photo of sks butterfly, dark cerulean butterfly female",
+    "a photo of sks butterfly, elymnias hypermnestra male by kadavoor",
+    "a photo of sks butterfly, marbled white butterfly (melanargia galathea)",
+    "a photo of sks butterfly, monarch butterfly on butterfly bush flower",
+    "a photo of sks butterfly, red pierrot butterfly at jakkur, bangalore",
+    "a photo of sks butterfly, red admiral butterfly with wings closed",
+    "a photo of sks butterfly, swallowtail butterfly up close",
+    "a photo of sks butterfly, white butterfly upside down on leaf",
+    "a photo of sks butterfly, yellow and black butterfly on ground"
+  ],
+  "train_image_files": [
+    "/content/drive/MyDrive/lab13/data/commons_00.jpg",
+    "/content/drive/MyDrive/lab13/data/commons_01.jpg",
+    "/content/drive/MyDrive/lab13/data/commons_02.jpg",
+    "/content/drive/MyDrive/lab13/data/commons_03.jpg",
+    "/content/drive/MyDrive/lab13/data/commons_04.jpg",
+    "/content/drive/MyDrive/lab13/data/commons_05.jpg",
+    "/content/drive/MyDrive/lab13/data/commons_06.jpg",
+    "/content/drive/MyDrive/lab13/data/commons_07.jpg",
+    "/content/drive/MyDrive/lab13/data/commons_08.jpg",
+    "/content/drive/MyDrive/lab13/data/commons_09.jpg",
+    "/content/drive/MyDrive/lab13/data/commons_10.jpg",
+    "/content/drive/MyDrive/lab13/data/commons_11.jpg",
+    "/content/drive/MyDrive/lab13/data/commons_12.jpg",
+    "/content/drive/MyDrive/lab13/data/commons_13.jpg",
+    "/content/drive/MyDrive/lab13/data/commons_14.jpg",
+    "/content/drive/MyDrive/lab13/data/commons_15.jpg",
+    "/content/drive/MyDrive/lab13/data/commons_16.jpg",
+    "/content/drive/MyDrive/lab13/data/commons_17.jpg",
+    "/content/drive/MyDrive/lab13/data/commons_18.jpg",
+    "/content/drive/MyDrive/lab13/data/commons_19.jpg",
+    "/content/drive/MyDrive/lab13/data/commons_20.jpg",
+    "/content/drive/MyDrive/lab13/data/commons_21.jpg",
+    "/content/drive/MyDrive/lab13/data/commons_22.jpg",
+    "/content/drive/MyDrive/lab13/data/commons_23.jpg",
+    "/content/drive/MyDrive/lab13/data/commons_24.jpg",
+    "/content/drive/MyDrive/lab13/data/commons_25.jpg",
+    "/content/drive/MyDrive/lab13/data/commons_26.jpg",
+    "/content/drive/MyDrive/lab13/data/commons_27.jpg"
+  ],
+  "baseline_image_files": [
+    "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p001_s0.png",
+    "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p002_s1.png",
+    "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p003_s2.png",
+    "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p004_s3.png",
+    "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p005_s4.png",
+    "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p006_s0.png",
+    "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p007_s1.png",
+    "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p008_s2.png",
+    "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p009_s3.png",
+    "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p010_s4.png",
+    "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p011_s0.png",
+    "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p012_s1.png",
+    "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p013_s2.png",
+    "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p014_s3.png",
+    "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p015_s4.png",
+    "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p016_s0.png",
+    "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p017_s1.png",
+    "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p018_s2.png",
+    "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p019_s3.png",
+    "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p020_s4.png",
+    "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p021_s0.png",
+    "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p022_s1.png",
+    "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p023_s2.png",
+    "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p024_s3.png",
+    "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p025_s4.png",
+    "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p026_s0.png",
+    "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p027_s1.png",
+    "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p028_s2.png",
+    "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p029_s3.png",
+    "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p030_s4.png",
+    "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p031_s0.png",
+    "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p032_s1.png",
+    "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p033_s2.png",
+    "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p034_s3.png",
+    "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p035_s4.png",
+    "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p036_s0.png",
+    "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p037_s1.png",
+    "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p038_s2.png",
+    "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p039_s3.png",
+    "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p040_s4.png",
+    "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p041_s0.png",
+    "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p042_s1.png",
+    "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p043_s2.png",
+    "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p044_s3.png",
+    "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p045_s4.png",
+    "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p046_s0.png",
+    "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p047_s1.png",
+    "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p048_s2.png",
+    "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p049_s3.png",
+    "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p050_s4.png",
+    "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p051_s0.png",
+    "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p052_s1.png",
+    "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p053_s2.png",
+    "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p054_s3.png",
+    "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p055_s4.png",
+    "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p056_s0.png",
+    "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p057_s1.png",
+    "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p058_s2.png",
+    "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p059_s3.png",
+    "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p060_s4.png"
+  ],
+  "baseline_pair_keys": [
+    {
+      "prompt_idx": 1,
+      "seed": 0,
+      "file": "baseline_p001_s0.png"
+    },
+    {
+      "prompt_idx": 2,
+      "seed": 1,
+      "file": "baseline_p002_s1.png"
+    },
+    {
+      "prompt_idx": 3,
+      "seed": 2,
+      "file": "baseline_p003_s2.png"
+    },
+    {
+      "prompt_idx": 4,
+      "seed": 3,
+      "file": "baseline_p004_s3.png"
+    },
+    {
+      "prompt_idx": 5,
+      "seed": 4,
+      "file": "baseline_p005_s4.png"
+    },
+    {
+      "prompt_idx": 6,
+      "seed": 0,
+      "file": "baseline_p006_s0.png"
+    },
+    {
+      "prompt_idx": 7,
+      "seed": 1,
+      "file": "baseline_p007_s1.png"
+    },
+    {
+      "prompt_idx": 8,
+      "seed": 2,
+      "file": "baseline_p008_s2.png"
+    },
+    {
+      "prompt_idx": 9,
+      "seed": 3,
+      "file": "baseline_p009_s3.png"
+    },
+    {
+      "prompt_idx": 10,
+      "seed": 4,
+      "file": "baseline_p010_s4.png"
+    },
+    {
+      "prompt_idx": 11,
+      "seed": 0,
+      "file": "baseline_p011_s0.png"
+    },
+    {
+      "prompt_idx": 12,
+      "seed": 1,
+      "file": "baseline_p012_s1.png"
+    },
+    {
+      "prompt_idx": 13,
+      "seed": 2,
+      "file": "baseline_p013_s2.png"
+    },
+    {
+      "prompt_idx": 14,
+      "seed": 3,
+      "file": "baseline_p014_s3.png"
+    },
+    {
+      "prompt_idx": 15,
+      "seed": 4,
+      "file": "baseline_p015_s4.png"
+    },
+    {
+      "prompt_idx": 16,
+      "seed": 0,
+      "file": "baseline_p016_s0.png"
+    },
+    {
+      "prompt_idx": 17,
+      "seed": 1,
+      "file": "baseline_p017_s1.png"
+    },
+    {
+      "prompt_idx": 18,
+      "seed": 2,
+      "file": "baseline_p018_s2.png"
+    },
+    {
+      "prompt_idx": 19,
+      "seed": 3,
+      "file": "baseline_p019_s3.png"
+    },
+    {
+      "prompt_idx": 20,
+      "seed": 4,
+      "file": "baseline_p020_s4.png"
+    },
+    {
+      "prompt_idx": 21,
+      "seed": 0,
+      "file": "baseline_p021_s0.png"
+    },
+    {
+      "prompt_idx": 22,
+      "seed": 1,
+      "file": "baseline_p022_s1.png"
+    },
+    {
+      "prompt_idx": 23,
+      "seed": 2,
+      "file": "baseline_p023_s2.png"
+    },
+    {
+      "prompt_idx": 24,
+      "seed": 3,
+      "file": "baseline_p024_s3.png"
+    },
+    {
+      "prompt_idx": 25,
+      "seed": 4,
+      "file": "baseline_p025_s4.png"
+    },
+    {
+      "prompt_idx": 26,
+      "seed": 0,
+      "file": "baseline_p026_s0.png"
+    },
+    {
+      "prompt_idx": 27,
+      "seed": 1,
+      "file": "baseline_p027_s1.png"
+    },
+    {
+      "prompt_idx": 28,
+      "seed": 2,
+      "file": "baseline_p028_s2.png"
+    },
+    {
+      "prompt_idx": 29,
+      "seed": 3,
+      "file": "baseline_p029_s3.png"
+    },
+    {
+      "prompt_idx": 30,
+      "seed": 4,
+      "file": "baseline_p030_s4.png"
+    },
+    {
+      "prompt_idx": 31,
+      "seed": 0,
+      "file": "baseline_p031_s0.png"
+    },
+    {
+      "prompt_idx": 32,
+      "seed": 1,
+      "file": "baseline_p032_s1.png"
+    },
+    {
+      "prompt_idx": 33,
+      "seed": 2,
+      "file": "baseline_p033_s2.png"
+    },
+    {
+      "prompt_idx": 34,
+      "seed": 3,
+      "file": "baseline_p034_s3.png"
+    },
+    {
+      "prompt_idx": 35,
+      "seed": 4,
+      "file": "baseline_p035_s4.png"
+    },
+    {
+      "prompt_idx": 36,
+      "seed": 0,
+      "file": "baseline_p036_s0.png"
+    },
+    {
+      "prompt_idx": 37,
+      "seed": 1,
+      "file": "baseline_p037_s1.png"
+    },
+    {
+      "prompt_idx": 38,
+      "seed": 2,
+      "file": "baseline_p038_s2.png"
+    },
+    {
+      "prompt_idx": 39,
+      "seed": 3,
+      "file": "baseline_p039_s3.png"
+    },
+    {
+      "prompt_idx": 40,
+      "seed": 4,
+      "file": "baseline_p040_s4.png"
+    },
+    {
+      "prompt_idx": 41,
+      "seed": 0,
+      "file": "baseline_p041_s0.png"
+    },
+    {
+      "prompt_idx": 42,
+      "seed": 1,
+      "file": "baseline_p042_s1.png"
+    },
+    {
+      "prompt_idx": 43,
+      "seed": 2,
+      "file": "baseline_p043_s2.png"
+    },
+    {
+      "prompt_idx": 44,
+      "seed": 3,
+      "file": "baseline_p044_s3.png"
+    },
+    {
+      "prompt_idx": 45,
+      "seed": 4,
+      "file": "baseline_p045_s4.png"
+    },
+    {
+      "prompt_idx": 46,
+      "seed": 0,
+      "file": "baseline_p046_s0.png"
+    },
+    {
+      "prompt_idx": 47,
+      "seed": 1,
+      "file": "baseline_p047_s1.png"
+    },
+    {
+      "prompt_idx": 48,
+      "seed": 2,
+      "file": "baseline_p048_s2.png"
+    },
+    {
+      "prompt_idx": 49,
+      "seed": 3,
+      "file": "baseline_p049_s3.png"
+    },
+    {
+      "prompt_idx": 50,
+      "seed": 4,
+      "file": "baseline_p050_s4.png"
+    },
+    {
+      "prompt_idx": 51,
+      "seed": 0,
+      "file": "baseline_p051_s0.png"
+    },
+    {
+      "prompt_idx": 52,
+      "seed": 1,
+      "file": "baseline_p052_s1.png"
+    },
+    {
+      "prompt_idx": 53,
+      "seed": 2,
+      "file": "baseline_p053_s2.png"
+    },
+    {
+      "prompt_idx": 54,
+      "seed": 3,
+      "file": "baseline_p054_s3.png"
+    },
+    {
+      "prompt_idx": 55,
+      "seed": 4,
+      "file": "baseline_p055_s4.png"
+    },
+    {
+      "prompt_idx": 56,
+      "seed": 0,
+      "file": "baseline_p056_s0.png"
+    },
+    {
+      "prompt_idx": 57,
+      "seed": 1,
+      "file": "baseline_p057_s1.png"
+    },
+    {
+      "prompt_idx": 58,
+      "seed": 2,
+      "file": "baseline_p058_s2.png"
+    },
+    {
+      "prompt_idx": 59,
+      "seed": 3,
+      "file": "baseline_p059_s3.png"
+    },
+    {
+      "prompt_idx": 60,
+      "seed": 4,
+      "file": "baseline_p060_s4.png"
+    }
+  ],
+  "lora_sets": {
+    "r4_lr1e-4_step0400": {
+      "name": "r4_lr1e-4",
+      "step": "step0400",
+      "n_images": 60,
+      "image_files": [
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r4_lr1e-4/step0400/r4_lr1e-4_step0400_p001_s0.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r4_lr1e-4/step0400/r4_lr1e-4_step0400_p002_s1.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r4_lr1e-4/step0400/r4_lr1e-4_step0400_p003_s2.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r4_lr1e-4/step0400/r4_lr1e-4_step0400_p004_s3.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r4_lr1e-4/step0400/r4_lr1e-4_step0400_p005_s4.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r4_lr1e-4/step0400/r4_lr1e-4_step0400_p006_s0.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r4_lr1e-4/step0400/r4_lr1e-4_step0400_p007_s1.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r4_lr1e-4/step0400/r4_lr1e-4_step0400_p008_s2.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r4_lr1e-4/step0400/r4_lr1e-4_step0400_p009_s3.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r4_lr1e-4/step0400/r4_lr1e-4_step0400_p010_s4.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r4_lr1e-4/step0400/r4_lr1e-4_step0400_p011_s0.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r4_lr1e-4/step0400/r4_lr1e-4_step0400_p012_s1.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r4_lr1e-4/step0400/r4_lr1e-4_step0400_p013_s2.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r4_lr1e-4/step0400/r4_lr1e-4_step0400_p014_s3.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r4_lr1e-4/step0400/r4_lr1e-4_step0400_p015_s4.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r4_lr1e-4/step0400/r4_lr1e-4_step0400_p016_s0.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r4_lr1e-4/step0400/r4_lr1e-4_step0400_p017_s1.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r4_lr1e-4/step0400/r4_lr1e-4_step0400_p018_s2.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r4_lr1e-4/step0400/r4_lr1e-4_step0400_p019_s3.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r4_lr1e-4/step0400/r4_lr1e-4_step0400_p020_s4.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r4_lr1e-4/step0400/r4_lr1e-4_step0400_p021_s0.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r4_lr1e-4/step0400/r4_lr1e-4_step0400_p022_s1.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r4_lr1e-4/step0400/r4_lr1e-4_step0400_p023_s2.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r4_lr1e-4/step0400/r4_lr1e-4_step0400_p024_s3.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r4_lr1e-4/step0400/r4_lr1e-4_step0400_p025_s4.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r4_lr1e-4/step0400/r4_lr1e-4_step0400_p026_s0.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r4_lr1e-4/step0400/r4_lr1e-4_step0400_p027_s1.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r4_lr1e-4/step0400/r4_lr1e-4_step0400_p028_s2.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r4_lr1e-4/step0400/r4_lr1e-4_step0400_p029_s3.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r4_lr1e-4/step0400/r4_lr1e-4_step0400_p030_s4.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r4_lr1e-4/step0400/r4_lr1e-4_step0400_p031_s0.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r4_lr1e-4/step0400/r4_lr1e-4_step0400_p032_s1.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r4_lr1e-4/step0400/r4_lr1e-4_step0400_p033_s2.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r4_lr1e-4/step0400/r4_lr1e-4_step0400_p034_s3.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r4_lr1e-4/step0400/r4_lr1e-4_step0400_p035_s4.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r4_lr1e-4/step0400/r4_lr1e-4_step0400_p036_s0.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r4_lr1e-4/step0400/r4_lr1e-4_step0400_p037_s1.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r4_lr1e-4/step0400/r4_lr1e-4_step0400_p038_s2.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r4_lr1e-4/step0400/r4_lr1e-4_step0400_p039_s3.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r4_lr1e-4/step0400/r4_lr1e-4_step0400_p040_s4.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r4_lr1e-4/step0400/r4_lr1e-4_step0400_p041_s0.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r4_lr1e-4/step0400/r4_lr1e-4_step0400_p042_s1.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r4_lr1e-4/step0400/r4_lr1e-4_step0400_p043_s2.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r4_lr1e-4/step0400/r4_lr1e-4_step0400_p044_s3.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r4_lr1e-4/step0400/r4_lr1e-4_step0400_p045_s4.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r4_lr1e-4/step0400/r4_lr1e-4_step0400_p046_s0.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r4_lr1e-4/step0400/r4_lr1e-4_step0400_p047_s1.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r4_lr1e-4/step0400/r4_lr1e-4_step0400_p048_s2.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r4_lr1e-4/step0400/r4_lr1e-4_step0400_p049_s3.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r4_lr1e-4/step0400/r4_lr1e-4_step0400_p050_s4.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r4_lr1e-4/step0400/r4_lr1e-4_step0400_p051_s0.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r4_lr1e-4/step0400/r4_lr1e-4_step0400_p052_s1.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r4_lr1e-4/step0400/r4_lr1e-4_step0400_p053_s2.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r4_lr1e-4/step0400/r4_lr1e-4_step0400_p054_s3.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r4_lr1e-4/step0400/r4_lr1e-4_step0400_p055_s4.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r4_lr1e-4/step0400/r4_lr1e-4_step0400_p056_s0.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r4_lr1e-4/step0400/r4_lr1e-4_step0400_p057_s1.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r4_lr1e-4/step0400/r4_lr1e-4_step0400_p058_s2.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r4_lr1e-4/step0400/r4_lr1e-4_step0400_p059_s3.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r4_lr1e-4/step0400/r4_lr1e-4_step0400_p060_s4.png"
+      ],
+      "pair_keys": [
+        {
+          "prompt_idx": 1,
+          "seed": 0,
+          "file": "r4_lr1e-4_step0400_p001_s0.png"
+        },
+        {
+          "prompt_idx": 2,
+          "seed": 1,
+          "file": "r4_lr1e-4_step0400_p002_s1.png"
+        },
+        {
+          "prompt_idx": 3,
+          "seed": 2,
+          "file": "r4_lr1e-4_step0400_p003_s2.png"
+        },
+        {
+          "prompt_idx": 4,
+          "seed": 3,
+          "file": "r4_lr1e-4_step0400_p004_s3.png"
+        },
+        {
+          "prompt_idx": 5,
+          "seed": 4,
+          "file": "r4_lr1e-4_step0400_p005_s4.png"
+        },
+        {
+          "prompt_idx": 6,
+          "seed": 0,
+          "file": "r4_lr1e-4_step0400_p006_s0.png"
+        },
+        {
+          "prompt_idx": 7,
+          "seed": 1,
+          "file": "r4_lr1e-4_step0400_p007_s1.png"
+        },
+        {
+          "prompt_idx": 8,
+          "seed": 2,
+          "file": "r4_lr1e-4_step0400_p008_s2.png"
+        },
+        {
+          "prompt_idx": 9,
+          "seed": 3,
+          "file": "r4_lr1e-4_step0400_p009_s3.png"
+        },
+        {
+          "prompt_idx": 10,
+          "seed": 4,
+          "file": "r4_lr1e-4_step0400_p010_s4.png"
+        },
+        {
+          "prompt_idx": 11,
+          "seed": 0,
+          "file": "r4_lr1e-4_step0400_p011_s0.png"
+        },
+        {
+          "prompt_idx": 12,
+          "seed": 1,
+          "file": "r4_lr1e-4_step0400_p012_s1.png"
+        },
+        {
+          "prompt_idx": 13,
+          "seed": 2,
+          "file": "r4_lr1e-4_step0400_p013_s2.png"
+        },
+        {
+          "prompt_idx": 14,
+          "seed": 3,
+          "file": "r4_lr1e-4_step0400_p014_s3.png"
+        },
+        {
+          "prompt_idx": 15,
+          "seed": 4,
+          "file": "r4_lr1e-4_step0400_p015_s4.png"
+        },
+        {
+          "prompt_idx": 16,
+          "seed": 0,
+          "file": "r4_lr1e-4_step0400_p016_s0.png"
+        },
+        {
+          "prompt_idx": 17,
+          "seed": 1,
+          "file": "r4_lr1e-4_step0400_p017_s1.png"
+        },
+        {
+          "prompt_idx": 18,
+          "seed": 2,
+          "file": "r4_lr1e-4_step0400_p018_s2.png"
+        },
+        {
+          "prompt_idx": 19,
+          "seed": 3,
+          "file": "r4_lr1e-4_step0400_p019_s3.png"
+        },
+        {
+          "prompt_idx": 20,
+          "seed": 4,
+          "file": "r4_lr1e-4_step0400_p020_s4.png"
+        },
+        {
+          "prompt_idx": 21,
+          "seed": 0,
+          "file": "r4_lr1e-4_step0400_p021_s0.png"
+        },
+        {
+          "prompt_idx": 22,
+          "seed": 1,
+          "file": "r4_lr1e-4_step0400_p022_s1.png"
+        },
+        {
+          "prompt_idx": 23,
+          "seed": 2,
+          "file": "r4_lr1e-4_step0400_p023_s2.png"
+        },
+        {
+          "prompt_idx": 24,
+          "seed": 3,
+          "file": "r4_lr1e-4_step0400_p024_s3.png"
+        },
+        {
+          "prompt_idx": 25,
+          "seed": 4,
+          "file": "r4_lr1e-4_step0400_p025_s4.png"
+        },
+        {
+          "prompt_idx": 26,
+          "seed": 0,
+          "file": "r4_lr1e-4_step0400_p026_s0.png"
+        },
+        {
+          "prompt_idx": 27,
+          "seed": 1,
+          "file": "r4_lr1e-4_step0400_p027_s1.png"
+        },
+        {
+          "prompt_idx": 28,
+          "seed": 2,
+          "file": "r4_lr1e-4_step0400_p028_s2.png"
+        },
+        {
+          "prompt_idx": 29,
+          "seed": 3,
+          "file": "r4_lr1e-4_step0400_p029_s3.png"
+        },
+        {
+          "prompt_idx": 30,
+          "seed": 4,
+          "file": "r4_lr1e-4_step0400_p030_s4.png"
+        },
+        {
+          "prompt_idx": 31,
+          "seed": 0,
+          "file": "r4_lr1e-4_step0400_p031_s0.png"
+        },
+        {
+          "prompt_idx": 32,
+          "seed": 1,
+          "file": "r4_lr1e-4_step0400_p032_s1.png"
+        },
+        {
+          "prompt_idx": 33,
+          "seed": 2,
+          "file": "r4_lr1e-4_step0400_p033_s2.png"
+        },
+        {
+          "prompt_idx": 34,
+          "seed": 3,
+          "file": "r4_lr1e-4_step0400_p034_s3.png"
+        },
+        {
+          "prompt_idx": 35,
+          "seed": 4,
+          "file": "r4_lr1e-4_step0400_p035_s4.png"
+        },
+        {
+          "prompt_idx": 36,
+          "seed": 0,
+          "file": "r4_lr1e-4_step0400_p036_s0.png"
+        },
+        {
+          "prompt_idx": 37,
+          "seed": 1,
+          "file": "r4_lr1e-4_step0400_p037_s1.png"
+        },
+        {
+          "prompt_idx": 38,
+          "seed": 2,
+          "file": "r4_lr1e-4_step0400_p038_s2.png"
+        },
+        {
+          "prompt_idx": 39,
+          "seed": 3,
+          "file": "r4_lr1e-4_step0400_p039_s3.png"
+        },
+        {
+          "prompt_idx": 40,
+          "seed": 4,
+          "file": "r4_lr1e-4_step0400_p040_s4.png"
+        },
+        {
+          "prompt_idx": 41,
+          "seed": 0,
+          "file": "r4_lr1e-4_step0400_p041_s0.png"
+        },
+        {
+          "prompt_idx": 42,
+          "seed": 1,
+          "file": "r4_lr1e-4_step0400_p042_s1.png"
+        },
+        {
+          "prompt_idx": 43,
+          "seed": 2,
+          "file": "r4_lr1e-4_step0400_p043_s2.png"
+        },
+        {
+          "prompt_idx": 44,
+          "seed": 3,
+          "file": "r4_lr1e-4_step0400_p044_s3.png"
+        },
+        {
+          "prompt_idx": 45,
+          "seed": 4,
+          "file": "r4_lr1e-4_step0400_p045_s4.png"
+        },
+        {
+          "prompt_idx": 46,
+          "seed": 0,
+          "file": "r4_lr1e-4_step0400_p046_s0.png"
+        },
+        {
+          "prompt_idx": 47,
+          "seed": 1,
+          "file": "r4_lr1e-4_step0400_p047_s1.png"
+        },
+        {
+          "prompt_idx": 48,
+          "seed": 2,
+          "file": "r4_lr1e-4_step0400_p048_s2.png"
+        },
+        {
+          "prompt_idx": 49,
+          "seed": 3,
+          "file": "r4_lr1e-4_step0400_p049_s3.png"
+        },
+        {
+          "prompt_idx": 50,
+          "seed": 4,
+          "file": "r4_lr1e-4_step0400_p050_s4.png"
+        },
+        {
+          "prompt_idx": 51,
+          "seed": 0,
+          "file": "r4_lr1e-4_step0400_p051_s0.png"
+        },
+        {
+          "prompt_idx": 52,
+          "seed": 1,
+          "file": "r4_lr1e-4_step0400_p052_s1.png"
+        },
+        {
+          "prompt_idx": 53,
+          "seed": 2,
+          "file": "r4_lr1e-4_step0400_p053_s2.png"
+        },
+        {
+          "prompt_idx": 54,
+          "seed": 3,
+          "file": "r4_lr1e-4_step0400_p054_s3.png"
+        },
+        {
+          "prompt_idx": 55,
+          "seed": 4,
+          "file": "r4_lr1e-4_step0400_p055_s4.png"
+        },
+        {
+          "prompt_idx": 56,
+          "seed": 0,
+          "file": "r4_lr1e-4_step0400_p056_s0.png"
+        },
+        {
+          "prompt_idx": 57,
+          "seed": 1,
+          "file": "r4_lr1e-4_step0400_p057_s1.png"
+        },
+        {
+          "prompt_idx": 58,
+          "seed": 2,
+          "file": "r4_lr1e-4_step0400_p058_s2.png"
+        },
+        {
+          "prompt_idx": 59,
+          "seed": 3,
+          "file": "r4_lr1e-4_step0400_p059_s3.png"
+        },
+        {
+          "prompt_idx": 60,
+          "seed": 4,
+          "file": "r4_lr1e-4_step0400_p060_s4.png"
+        }
+      ],
+      "gen_meta": {
+        "model": "runwayml/stable-diffusion-v1-5",
+        "adapter": "r4_lr1e-4_step0400",
+        "lora_dir": "/content/drive/MyDrive/lab13/artifacts/lora_checkpoints/r4_lr1e-4/step0400/lora",
+        "lora_weights_file": "/content/drive/MyDrive/lab13/artifacts/lora_checkpoints/r4_lr1e-4/step0400/lora/adapter_model.safetensors",
+        "rank": 4,
+        "lr": 0.0001,
+        "inference_protocol": {
+          "num_inference_steps": 30,
+          "guidance_scale": 7.5,
+          "height": 512,
+          "width": 512
+        },
+        "global_seed": 64,
+        "load_time_sec": 0.03,
+        "total_time_sec": 344.0
+      }
+    },
+    "r8_lr1e-4_step0400": {
+      "name": "r8_lr1e-4",
+      "step": "step0400",
+      "n_images": 60,
+      "image_files": [
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr1e-4/step0400/r8_lr1e-4_step0400_p001_s0.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr1e-4/step0400/r8_lr1e-4_step0400_p002_s1.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr1e-4/step0400/r8_lr1e-4_step0400_p003_s2.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr1e-4/step0400/r8_lr1e-4_step0400_p004_s3.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr1e-4/step0400/r8_lr1e-4_step0400_p005_s4.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr1e-4/step0400/r8_lr1e-4_step0400_p006_s0.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr1e-4/step0400/r8_lr1e-4_step0400_p007_s1.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr1e-4/step0400/r8_lr1e-4_step0400_p008_s2.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr1e-4/step0400/r8_lr1e-4_step0400_p009_s3.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr1e-4/step0400/r8_lr1e-4_step0400_p010_s4.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr1e-4/step0400/r8_lr1e-4_step0400_p011_s0.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr1e-4/step0400/r8_lr1e-4_step0400_p012_s1.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr1e-4/step0400/r8_lr1e-4_step0400_p013_s2.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr1e-4/step0400/r8_lr1e-4_step0400_p014_s3.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr1e-4/step0400/r8_lr1e-4_step0400_p015_s4.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr1e-4/step0400/r8_lr1e-4_step0400_p016_s0.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr1e-4/step0400/r8_lr1e-4_step0400_p017_s1.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr1e-4/step0400/r8_lr1e-4_step0400_p018_s2.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr1e-4/step0400/r8_lr1e-4_step0400_p019_s3.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr1e-4/step0400/r8_lr1e-4_step0400_p020_s4.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr1e-4/step0400/r8_lr1e-4_step0400_p021_s0.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr1e-4/step0400/r8_lr1e-4_step0400_p022_s1.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr1e-4/step0400/r8_lr1e-4_step0400_p023_s2.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr1e-4/step0400/r8_lr1e-4_step0400_p024_s3.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr1e-4/step0400/r8_lr1e-4_step0400_p025_s4.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr1e-4/step0400/r8_lr1e-4_step0400_p026_s0.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr1e-4/step0400/r8_lr1e-4_step0400_p027_s1.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr1e-4/step0400/r8_lr1e-4_step0400_p028_s2.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr1e-4/step0400/r8_lr1e-4_step0400_p029_s3.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr1e-4/step0400/r8_lr1e-4_step0400_p030_s4.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr1e-4/step0400/r8_lr1e-4_step0400_p031_s0.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr1e-4/step0400/r8_lr1e-4_step0400_p032_s1.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr1e-4/step0400/r8_lr1e-4_step0400_p033_s2.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr1e-4/step0400/r8_lr1e-4_step0400_p034_s3.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr1e-4/step0400/r8_lr1e-4_step0400_p035_s4.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr1e-4/step0400/r8_lr1e-4_step0400_p036_s0.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr1e-4/step0400/r8_lr1e-4_step0400_p037_s1.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr1e-4/step0400/r8_lr1e-4_step0400_p038_s2.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr1e-4/step0400/r8_lr1e-4_step0400_p039_s3.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr1e-4/step0400/r8_lr1e-4_step0400_p040_s4.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr1e-4/step0400/r8_lr1e-4_step0400_p041_s0.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr1e-4/step0400/r8_lr1e-4_step0400_p042_s1.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr1e-4/step0400/r8_lr1e-4_step0400_p043_s2.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr1e-4/step0400/r8_lr1e-4_step0400_p044_s3.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr1e-4/step0400/r8_lr1e-4_step0400_p045_s4.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr1e-4/step0400/r8_lr1e-4_step0400_p046_s0.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr1e-4/step0400/r8_lr1e-4_step0400_p047_s1.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr1e-4/step0400/r8_lr1e-4_step0400_p048_s2.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr1e-4/step0400/r8_lr1e-4_step0400_p049_s3.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr1e-4/step0400/r8_lr1e-4_step0400_p050_s4.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr1e-4/step0400/r8_lr1e-4_step0400_p051_s0.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr1e-4/step0400/r8_lr1e-4_step0400_p052_s1.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr1e-4/step0400/r8_lr1e-4_step0400_p053_s2.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr1e-4/step0400/r8_lr1e-4_step0400_p054_s3.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr1e-4/step0400/r8_lr1e-4_step0400_p055_s4.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr1e-4/step0400/r8_lr1e-4_step0400_p056_s0.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr1e-4/step0400/r8_lr1e-4_step0400_p057_s1.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr1e-4/step0400/r8_lr1e-4_step0400_p058_s2.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr1e-4/step0400/r8_lr1e-4_step0400_p059_s3.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr1e-4/step0400/r8_lr1e-4_step0400_p060_s4.png"
+      ],
+      "pair_keys": [
+        {
+          "prompt_idx": 1,
+          "seed": 0,
+          "file": "r8_lr1e-4_step0400_p001_s0.png"
+        },
+        {
+          "prompt_idx": 2,
+          "seed": 1,
+          "file": "r8_lr1e-4_step0400_p002_s1.png"
+        },
+        {
+          "prompt_idx": 3,
+          "seed": 2,
+          "file": "r8_lr1e-4_step0400_p003_s2.png"
+        },
+        {
+          "prompt_idx": 4,
+          "seed": 3,
+          "file": "r8_lr1e-4_step0400_p004_s3.png"
+        },
+        {
+          "prompt_idx": 5,
+          "seed": 4,
+          "file": "r8_lr1e-4_step0400_p005_s4.png"
+        },
+        {
+          "prompt_idx": 6,
+          "seed": 0,
+          "file": "r8_lr1e-4_step0400_p006_s0.png"
+        },
+        {
+          "prompt_idx": 7,
+          "seed": 1,
+          "file": "r8_lr1e-4_step0400_p007_s1.png"
+        },
+        {
+          "prompt_idx": 8,
+          "seed": 2,
+          "file": "r8_lr1e-4_step0400_p008_s2.png"
+        },
+        {
+          "prompt_idx": 9,
+          "seed": 3,
+          "file": "r8_lr1e-4_step0400_p009_s3.png"
+        },
+        {
+          "prompt_idx": 10,
+          "seed": 4,
+          "file": "r8_lr1e-4_step0400_p010_s4.png"
+        },
+        {
+          "prompt_idx": 11,
+          "seed": 0,
+          "file": "r8_lr1e-4_step0400_p011_s0.png"
+        },
+        {
+          "prompt_idx": 12,
+          "seed": 1,
+          "file": "r8_lr1e-4_step0400_p012_s1.png"
+        },
+        {
+          "prompt_idx": 13,
+          "seed": 2,
+          "file": "r8_lr1e-4_step0400_p013_s2.png"
+        },
+        {
+          "prompt_idx": 14,
+          "seed": 3,
+          "file": "r8_lr1e-4_step0400_p014_s3.png"
+        },
+        {
+          "prompt_idx": 15,
+          "seed": 4,
+          "file": "r8_lr1e-4_step0400_p015_s4.png"
+        },
+        {
+          "prompt_idx": 16,
+          "seed": 0,
+          "file": "r8_lr1e-4_step0400_p016_s0.png"
+        },
+        {
+          "prompt_idx": 17,
+          "seed": 1,
+          "file": "r8_lr1e-4_step0400_p017_s1.png"
+        },
+        {
+          "prompt_idx": 18,
+          "seed": 2,
+          "file": "r8_lr1e-4_step0400_p018_s2.png"
+        },
+        {
+          "prompt_idx": 19,
+          "seed": 3,
+          "file": "r8_lr1e-4_step0400_p019_s3.png"
+        },
+        {
+          "prompt_idx": 20,
+          "seed": 4,
+          "file": "r8_lr1e-4_step0400_p020_s4.png"
+        },
+        {
+          "prompt_idx": 21,
+          "seed": 0,
+          "file": "r8_lr1e-4_step0400_p021_s0.png"
+        },
+        {
+          "prompt_idx": 22,
+          "seed": 1,
+          "file": "r8_lr1e-4_step0400_p022_s1.png"
+        },
+        {
+          "prompt_idx": 23,
+          "seed": 2,
+          "file": "r8_lr1e-4_step0400_p023_s2.png"
+        },
+        {
+          "prompt_idx": 24,
+          "seed": 3,
+          "file": "r8_lr1e-4_step0400_p024_s3.png"
+        },
+        {
+          "prompt_idx": 25,
+          "seed": 4,
+          "file": "r8_lr1e-4_step0400_p025_s4.png"
+        },
+        {
+          "prompt_idx": 26,
+          "seed": 0,
+          "file": "r8_lr1e-4_step0400_p026_s0.png"
+        },
+        {
+          "prompt_idx": 27,
+          "seed": 1,
+          "file": "r8_lr1e-4_step0400_p027_s1.png"
+        },
+        {
+          "prompt_idx": 28,
+          "seed": 2,
+          "file": "r8_lr1e-4_step0400_p028_s2.png"
+        },
+        {
+          "prompt_idx": 29,
+          "seed": 3,
+          "file": "r8_lr1e-4_step0400_p029_s3.png"
+        },
+        {
+          "prompt_idx": 30,
+          "seed": 4,
+          "file": "r8_lr1e-4_step0400_p030_s4.png"
+        },
+        {
+          "prompt_idx": 31,
+          "seed": 0,
+          "file": "r8_lr1e-4_step0400_p031_s0.png"
+        },
+        {
+          "prompt_idx": 32,
+          "seed": 1,
+          "file": "r8_lr1e-4_step0400_p032_s1.png"
+        },
+        {
+          "prompt_idx": 33,
+          "seed": 2,
+          "file": "r8_lr1e-4_step0400_p033_s2.png"
+        },
+        {
+          "prompt_idx": 34,
+          "seed": 3,
+          "file": "r8_lr1e-4_step0400_p034_s3.png"
+        },
+        {
+          "prompt_idx": 35,
+          "seed": 4,
+          "file": "r8_lr1e-4_step0400_p035_s4.png"
+        },
+        {
+          "prompt_idx": 36,
+          "seed": 0,
+          "file": "r8_lr1e-4_step0400_p036_s0.png"
+        },
+        {
+          "prompt_idx": 37,
+          "seed": 1,
+          "file": "r8_lr1e-4_step0400_p037_s1.png"
+        },
+        {
+          "prompt_idx": 38,
+          "seed": 2,
+          "file": "r8_lr1e-4_step0400_p038_s2.png"
+        },
+        {
+          "prompt_idx": 39,
+          "seed": 3,
+          "file": "r8_lr1e-4_step0400_p039_s3.png"
+        },
+        {
+          "prompt_idx": 40,
+          "seed": 4,
+          "file": "r8_lr1e-4_step0400_p040_s4.png"
+        },
+        {
+          "prompt_idx": 41,
+          "seed": 0,
+          "file": "r8_lr1e-4_step0400_p041_s0.png"
+        },
+        {
+          "prompt_idx": 42,
+          "seed": 1,
+          "file": "r8_lr1e-4_step0400_p042_s1.png"
+        },
+        {
+          "prompt_idx": 43,
+          "seed": 2,
+          "file": "r8_lr1e-4_step0400_p043_s2.png"
+        },
+        {
+          "prompt_idx": 44,
+          "seed": 3,
+          "file": "r8_lr1e-4_step0400_p044_s3.png"
+        },
+        {
+          "prompt_idx": 45,
+          "seed": 4,
+          "file": "r8_lr1e-4_step0400_p045_s4.png"
+        },
+        {
+          "prompt_idx": 46,
+          "seed": 0,
+          "file": "r8_lr1e-4_step0400_p046_s0.png"
+        },
+        {
+          "prompt_idx": 47,
+          "seed": 1,
+          "file": "r8_lr1e-4_step0400_p047_s1.png"
+        },
+        {
+          "prompt_idx": 48,
+          "seed": 2,
+          "file": "r8_lr1e-4_step0400_p048_s2.png"
+        },
+        {
+          "prompt_idx": 49,
+          "seed": 3,
+          "file": "r8_lr1e-4_step0400_p049_s3.png"
+        },
+        {
+          "prompt_idx": 50,
+          "seed": 4,
+          "file": "r8_lr1e-4_step0400_p050_s4.png"
+        },
+        {
+          "prompt_idx": 51,
+          "seed": 0,
+          "file": "r8_lr1e-4_step0400_p051_s0.png"
+        },
+        {
+          "prompt_idx": 52,
+          "seed": 1,
+          "file": "r8_lr1e-4_step0400_p052_s1.png"
+        },
+        {
+          "prompt_idx": 53,
+          "seed": 2,
+          "file": "r8_lr1e-4_step0400_p053_s2.png"
+        },
+        {
+          "prompt_idx": 54,
+          "seed": 3,
+          "file": "r8_lr1e-4_step0400_p054_s3.png"
+        },
+        {
+          "prompt_idx": 55,
+          "seed": 4,
+          "file": "r8_lr1e-4_step0400_p055_s4.png"
+        },
+        {
+          "prompt_idx": 56,
+          "seed": 0,
+          "file": "r8_lr1e-4_step0400_p056_s0.png"
+        },
+        {
+          "prompt_idx": 57,
+          "seed": 1,
+          "file": "r8_lr1e-4_step0400_p057_s1.png"
+        },
+        {
+          "prompt_idx": 58,
+          "seed": 2,
+          "file": "r8_lr1e-4_step0400_p058_s2.png"
+        },
+        {
+          "prompt_idx": 59,
+          "seed": 3,
+          "file": "r8_lr1e-4_step0400_p059_s3.png"
+        },
+        {
+          "prompt_idx": 60,
+          "seed": 4,
+          "file": "r8_lr1e-4_step0400_p060_s4.png"
+        }
+      ],
+      "gen_meta": {
+        "model": "runwayml/stable-diffusion-v1-5",
+        "adapter": "r8_lr1e-4_step0400",
+        "lora_dir": "/content/drive/MyDrive/lab13/artifacts/lora_checkpoints/r8_lr1e-4/step0400/lora",
+        "lora_weights_file": "/content/drive/MyDrive/lab13/artifacts/lora_checkpoints/r8_lr1e-4/step0400/lora/adapter_model.safetensors",
+        "rank": 8,
+        "lr": 0.0001,
+        "inference_protocol": {
+          "num_inference_steps": 30,
+          "guidance_scale": 7.5,
+          "height": 512,
+          "width": 512
+        },
+        "global_seed": 64,
+        "load_time_sec": 0.07,
+        "total_time_sec": 343.2
+      }
+    },
+    "r8_lr5e-5_step0400": {
+      "name": "r8_lr5e-5",
+      "step": "step0400",
+      "n_images": 60,
+      "image_files": [
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr5e-5/step0400/r8_lr5e-5_step0400_p001_s0.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr5e-5/step0400/r8_lr5e-5_step0400_p002_s1.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr5e-5/step0400/r8_lr5e-5_step0400_p003_s2.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr5e-5/step0400/r8_lr5e-5_step0400_p004_s3.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr5e-5/step0400/r8_lr5e-5_step0400_p005_s4.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr5e-5/step0400/r8_lr5e-5_step0400_p006_s0.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr5e-5/step0400/r8_lr5e-5_step0400_p007_s1.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr5e-5/step0400/r8_lr5e-5_step0400_p008_s2.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr5e-5/step0400/r8_lr5e-5_step0400_p009_s3.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr5e-5/step0400/r8_lr5e-5_step0400_p010_s4.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr5e-5/step0400/r8_lr5e-5_step0400_p011_s0.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr5e-5/step0400/r8_lr5e-5_step0400_p012_s1.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr5e-5/step0400/r8_lr5e-5_step0400_p013_s2.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr5e-5/step0400/r8_lr5e-5_step0400_p014_s3.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr5e-5/step0400/r8_lr5e-5_step0400_p015_s4.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr5e-5/step0400/r8_lr5e-5_step0400_p016_s0.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr5e-5/step0400/r8_lr5e-5_step0400_p017_s1.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr5e-5/step0400/r8_lr5e-5_step0400_p018_s2.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr5e-5/step0400/r8_lr5e-5_step0400_p019_s3.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr5e-5/step0400/r8_lr5e-5_step0400_p020_s4.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr5e-5/step0400/r8_lr5e-5_step0400_p021_s0.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr5e-5/step0400/r8_lr5e-5_step0400_p022_s1.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr5e-5/step0400/r8_lr5e-5_step0400_p023_s2.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr5e-5/step0400/r8_lr5e-5_step0400_p024_s3.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr5e-5/step0400/r8_lr5e-5_step0400_p025_s4.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr5e-5/step0400/r8_lr5e-5_step0400_p026_s0.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr5e-5/step0400/r8_lr5e-5_step0400_p027_s1.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr5e-5/step0400/r8_lr5e-5_step0400_p028_s2.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr5e-5/step0400/r8_lr5e-5_step0400_p029_s3.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr5e-5/step0400/r8_lr5e-5_step0400_p030_s4.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr5e-5/step0400/r8_lr5e-5_step0400_p031_s0.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr5e-5/step0400/r8_lr5e-5_step0400_p032_s1.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr5e-5/step0400/r8_lr5e-5_step0400_p033_s2.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr5e-5/step0400/r8_lr5e-5_step0400_p034_s3.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr5e-5/step0400/r8_lr5e-5_step0400_p035_s4.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr5e-5/step0400/r8_lr5e-5_step0400_p036_s0.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr5e-5/step0400/r8_lr5e-5_step0400_p037_s1.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr5e-5/step0400/r8_lr5e-5_step0400_p038_s2.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr5e-5/step0400/r8_lr5e-5_step0400_p039_s3.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr5e-5/step0400/r8_lr5e-5_step0400_p040_s4.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr5e-5/step0400/r8_lr5e-5_step0400_p041_s0.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr5e-5/step0400/r8_lr5e-5_step0400_p042_s1.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr5e-5/step0400/r8_lr5e-5_step0400_p043_s2.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr5e-5/step0400/r8_lr5e-5_step0400_p044_s3.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr5e-5/step0400/r8_lr5e-5_step0400_p045_s4.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr5e-5/step0400/r8_lr5e-5_step0400_p046_s0.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr5e-5/step0400/r8_lr5e-5_step0400_p047_s1.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr5e-5/step0400/r8_lr5e-5_step0400_p048_s2.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr5e-5/step0400/r8_lr5e-5_step0400_p049_s3.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr5e-5/step0400/r8_lr5e-5_step0400_p050_s4.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr5e-5/step0400/r8_lr5e-5_step0400_p051_s0.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr5e-5/step0400/r8_lr5e-5_step0400_p052_s1.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr5e-5/step0400/r8_lr5e-5_step0400_p053_s2.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr5e-5/step0400/r8_lr5e-5_step0400_p054_s3.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr5e-5/step0400/r8_lr5e-5_step0400_p055_s4.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr5e-5/step0400/r8_lr5e-5_step0400_p056_s0.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr5e-5/step0400/r8_lr5e-5_step0400_p057_s1.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr5e-5/step0400/r8_lr5e-5_step0400_p058_s2.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr5e-5/step0400/r8_lr5e-5_step0400_p059_s3.png",
+        "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr5e-5/step0400/r8_lr5e-5_step0400_p060_s4.png"
+      ],
+      "pair_keys": [
+        {
+          "prompt_idx": 1,
+          "seed": 0,
+          "file": "r8_lr5e-5_step0400_p001_s0.png"
+        },
+        {
+          "prompt_idx": 2,
+          "seed": 1,
+          "file": "r8_lr5e-5_step0400_p002_s1.png"
+        },
+        {
+          "prompt_idx": 3,
+          "seed": 2,
+          "file": "r8_lr5e-5_step0400_p003_s2.png"
+        },
+        {
+          "prompt_idx": 4,
+          "seed": 3,
+          "file": "r8_lr5e-5_step0400_p004_s3.png"
+        },
+        {
+          "prompt_idx": 5,
+          "seed": 4,
+          "file": "r8_lr5e-5_step0400_p005_s4.png"
+        },
+        {
+          "prompt_idx": 6,
+          "seed": 0,
+          "file": "r8_lr5e-5_step0400_p006_s0.png"
+        },
+        {
+          "prompt_idx": 7,
+          "seed": 1,
+          "file": "r8_lr5e-5_step0400_p007_s1.png"
+        },
+        {
+          "prompt_idx": 8,
+          "seed": 2,
+          "file": "r8_lr5e-5_step0400_p008_s2.png"
+        },
+        {
+          "prompt_idx": 9,
+          "seed": 3,
+          "file": "r8_lr5e-5_step0400_p009_s3.png"
+        },
+        {
+          "prompt_idx": 10,
+          "seed": 4,
+          "file": "r8_lr5e-5_step0400_p010_s4.png"
+        },
+        {
+          "prompt_idx": 11,
+          "seed": 0,
+          "file": "r8_lr5e-5_step0400_p011_s0.png"
+        },
+        {
+          "prompt_idx": 12,
+          "seed": 1,
+          "file": "r8_lr5e-5_step0400_p012_s1.png"
+        },
+        {
+          "prompt_idx": 13,
+          "seed": 2,
+          "file": "r8_lr5e-5_step0400_p013_s2.png"
+        },
+        {
+          "prompt_idx": 14,
+          "seed": 3,
+          "file": "r8_lr5e-5_step0400_p014_s3.png"
+        },
+        {
+          "prompt_idx": 15,
+          "seed": 4,
+          "file": "r8_lr5e-5_step0400_p015_s4.png"
+        },
+        {
+          "prompt_idx": 16,
+          "seed": 0,
+          "file": "r8_lr5e-5_step0400_p016_s0.png"
+        },
+        {
+          "prompt_idx": 17,
+          "seed": 1,
+          "file": "r8_lr5e-5_step0400_p017_s1.png"
+        },
+        {
+          "prompt_idx": 18,
+          "seed": 2,
+          "file": "r8_lr5e-5_step0400_p018_s2.png"
+        },
+        {
+          "prompt_idx": 19,
+          "seed": 3,
+          "file": "r8_lr5e-5_step0400_p019_s3.png"
+        },
+        {
+          "prompt_idx": 20,
+          "seed": 4,
+          "file": "r8_lr5e-5_step0400_p020_s4.png"
+        },
+        {
+          "prompt_idx": 21,
+          "seed": 0,
+          "file": "r8_lr5e-5_step0400_p021_s0.png"
+        },
+        {
+          "prompt_idx": 22,
+          "seed": 1,
+          "file": "r8_lr5e-5_step0400_p022_s1.png"
+        },
+        {
+          "prompt_idx": 23,
+          "seed": 2,
+          "file": "r8_lr5e-5_step0400_p023_s2.png"
+        },
+        {
+          "prompt_idx": 24,
+          "seed": 3,
+          "file": "r8_lr5e-5_step0400_p024_s3.png"
+        },
+        {
+          "prompt_idx": 25,
+          "seed": 4,
+          "file": "r8_lr5e-5_step0400_p025_s4.png"
+        },
+        {
+          "prompt_idx": 26,
+          "seed": 0,
+          "file": "r8_lr5e-5_step0400_p026_s0.png"
+        },
+        {
+          "prompt_idx": 27,
+          "seed": 1,
+          "file": "r8_lr5e-5_step0400_p027_s1.png"
+        },
+        {
+          "prompt_idx": 28,
+          "seed": 2,
+          "file": "r8_lr5e-5_step0400_p028_s2.png"
+        },
+        {
+          "prompt_idx": 29,
+          "seed": 3,
+          "file": "r8_lr5e-5_step0400_p029_s3.png"
+        },
+        {
+          "prompt_idx": 30,
+          "seed": 4,
+          "file": "r8_lr5e-5_step0400_p030_s4.png"
+        },
+        {
+          "prompt_idx": 31,
+          "seed": 0,
+          "file": "r8_lr5e-5_step0400_p031_s0.png"
+        },
+        {
+          "prompt_idx": 32,
+          "seed": 1,
+          "file": "r8_lr5e-5_step0400_p032_s1.png"
+        },
+        {
+          "prompt_idx": 33,
+          "seed": 2,
+          "file": "r8_lr5e-5_step0400_p033_s2.png"
+        },
+        {
+          "prompt_idx": 34,
+          "seed": 3,
+          "file": "r8_lr5e-5_step0400_p034_s3.png"
+        },
+        {
+          "prompt_idx": 35,
+          "seed": 4,
+          "file": "r8_lr5e-5_step0400_p035_s4.png"
+        },
+        {
+          "prompt_idx": 36,
+          "seed": 0,
+          "file": "r8_lr5e-5_step0400_p036_s0.png"
+        },
+        {
+          "prompt_idx": 37,
+          "seed": 1,
+          "file": "r8_lr5e-5_step0400_p037_s1.png"
+        },
+        {
+          "prompt_idx": 38,
+          "seed": 2,
+          "file": "r8_lr5e-5_step0400_p038_s2.png"
+        },
+        {
+          "prompt_idx": 39,
+          "seed": 3,
+          "file": "r8_lr5e-5_step0400_p039_s3.png"
+        },
+        {
+          "prompt_idx": 40,
+          "seed": 4,
+          "file": "r8_lr5e-5_step0400_p040_s4.png"
+        },
+        {
+          "prompt_idx": 41,
+          "seed": 0,
+          "file": "r8_lr5e-5_step0400_p041_s0.png"
+        },
+        {
+          "prompt_idx": 42,
+          "seed": 1,
+          "file": "r8_lr5e-5_step0400_p042_s1.png"
+        },
+        {
+          "prompt_idx": 43,
+          "seed": 2,
+          "file": "r8_lr5e-5_step0400_p043_s2.png"
+        },
+        {
+          "prompt_idx": 44,
+          "seed": 3,
+          "file": "r8_lr5e-5_step0400_p044_s3.png"
+        },
+        {
+          "prompt_idx": 45,
+          "seed": 4,
+          "file": "r8_lr5e-5_step0400_p045_s4.png"
+        },
+        {
+          "prompt_idx": 46,
+          "seed": 0,
+          "file": "r8_lr5e-5_step0400_p046_s0.png"
+        },
+        {
+          "prompt_idx": 47,
+          "seed": 1,
+          "file": "r8_lr5e-5_step0400_p047_s1.png"
+        },
+        {
+          "prompt_idx": 48,
+          "seed": 2,
+          "file": "r8_lr5e-5_step0400_p048_s2.png"
+        },
+        {
+          "prompt_idx": 49,
+          "seed": 3,
+          "file": "r8_lr5e-5_step0400_p049_s3.png"
+        },
+        {
+          "prompt_idx": 50,
+          "seed": 4,
+          "file": "r8_lr5e-5_step0400_p050_s4.png"
+        },
+        {
+          "prompt_idx": 51,
+          "seed": 0,
+          "file": "r8_lr5e-5_step0400_p051_s0.png"
+        },
+        {
+          "prompt_idx": 52,
+          "seed": 1,
+          "file": "r8_lr5e-5_step0400_p052_s1.png"
+        },
+        {
+          "prompt_idx": 53,
+          "seed": 2,
+          "file": "r8_lr5e-5_step0400_p053_s2.png"
+        },
+        {
+          "prompt_idx": 54,
+          "seed": 3,
+          "file": "r8_lr5e-5_step0400_p054_s3.png"
+        },
+        {
+          "prompt_idx": 55,
+          "seed": 4,
+          "file": "r8_lr5e-5_step0400_p055_s4.png"
+        },
+        {
+          "prompt_idx": 56,
+          "seed": 0,
+          "file": "r8_lr5e-5_step0400_p056_s0.png"
+        },
+        {
+          "prompt_idx": 57,
+          "seed": 1,
+          "file": "r8_lr5e-5_step0400_p057_s1.png"
+        },
+        {
+          "prompt_idx": 58,
+          "seed": 2,
+          "file": "r8_lr5e-5_step0400_p058_s2.png"
+        },
+        {
+          "prompt_idx": 59,
+          "seed": 3,
+          "file": "r8_lr5e-5_step0400_p059_s3.png"
+        },
+        {
+          "prompt_idx": 60,
+          "seed": 4,
+          "file": "r8_lr5e-5_step0400_p060_s4.png"
+        }
+      ],
+      "gen_meta": {
+        "model": "runwayml/stable-diffusion-v1-5",
+        "adapter": "r8_lr5e-5_step0400",
+        "lora_dir": "/content/drive/MyDrive/lab13/artifacts/lora_checkpoints/r8_lr5e-5/step0400/lora",
+        "lora_weights_file": "/content/drive/MyDrive/lab13/artifacts/lora_checkpoints/r8_lr5e-5/step0400/lora/adapter_model.safetensors",
+        "rank": 8,
+        "lr": 5e-05,
+        "inference_protocol": {
+          "num_inference_steps": 30,
+          "guidance_scale": 7.5,
+          "height": 512,
+          "width": 512
+        },
+        "global_seed": 64,
+        "load_time_sec": 0.04,
+        "total_time_sec": 343.8
+      }
+    }
+  },
+  "shapes": {
+    "held_text": [
+      12,
+      512
+    ],
+    "train_text": [
+      28,
+      512
+    ],
+    "train_image": [
+      28,
+      512
+    ],
+    "baseline_image": [
+      60,
+      512
+    ],
+    "r4_lr1e-4_step0400_image": [
+      60,
+      512
+    ],
+    "r8_lr1e-4_step0400_image": [
+      60,
+      512
+    ],
+    "r8_lr5e-5_step0400_image": [
+      60,
+      512
+    ]
+  }
+}

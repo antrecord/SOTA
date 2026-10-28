@@ -1,0 +1,857 @@
+{
+  "model": "runwayml/stable-diffusion-v1-5",
+  "adapter": null,
+  "device": "cuda:0",
+  "torch_dtype": "float16",
+  "inference_protocol": {
+    "num_inference_steps": 30,
+    "guidance_scale": 7.5,
+    "height": 512,
+    "width": 512
+  },
+  "global_seed": 64,
+  "n_generated": 60,
+  "total_time_sec": 339.3,
+  "results": [
+    {
+      "index": 1,
+      "prompt": "a butterfly on a white daisy, macro photography",
+      "seed": 0,
+      "file_name": "baseline_p001_s0.png",
+      "file_path": "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p001_s0.png",
+      "gen_time_sec": 8.89,
+      "num_inference_steps": 30,
+      "guidance_scale": 7.5,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "index": 2,
+      "prompt": "a butterfly on a white daisy, macro photography",
+      "seed": 1,
+      "file_name": "baseline_p002_s1.png",
+      "file_path": "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p002_s1.png",
+      "gen_time_sec": 4.53,
+      "num_inference_steps": 30,
+      "guidance_scale": 7.5,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "index": 3,
+      "prompt": "a butterfly on a white daisy, macro photography",
+      "seed": 2,
+      "file_name": "baseline_p003_s2.png",
+      "file_path": "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p003_s2.png",
+      "gen_time_sec": 4.56,
+      "num_inference_steps": 30,
+      "guidance_scale": 7.5,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "index": 4,
+      "prompt": "a butterfly on a white daisy, macro photography",
+      "seed": 3,
+      "file_name": "baseline_p004_s3.png",
+      "file_path": "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p004_s3.png",
+      "gen_time_sec": 4.6,
+      "num_inference_steps": 30,
+      "guidance_scale": 7.5,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "index": 5,
+      "prompt": "a butterfly on a white daisy, macro photography",
+      "seed": 4,
+      "file_name": "baseline_p005_s4.png",
+      "file_path": "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p005_s4.png",
+      "gen_time_sec": 4.63,
+      "num_inference_steps": 30,
+      "guidance_scale": 7.5,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "index": 6,
+      "prompt": "a monarch butterfly with orange wings resting on a leaf",
+      "seed": 0,
+      "file_name": "baseline_p006_s0.png",
+      "file_path": "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p006_s0.png",
+      "gen_time_sec": 4.7,
+      "num_inference_steps": 30,
+      "guidance_scale": 7.5,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "index": 7,
+      "prompt": "a monarch butterfly with orange wings resting on a leaf",
+      "seed": 1,
+      "file_name": "baseline_p007_s1.png",
+      "file_path": "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p007_s1.png",
+      "gen_time_sec": 4.76,
+      "num_inference_steps": 30,
+      "guidance_scale": 7.5,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "index": 8,
+      "prompt": "a monarch butterfly with orange wings resting on a leaf",
+      "seed": 2,
+      "file_name": "baseline_p008_s2.png",
+      "file_path": "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p008_s2.png",
+      "gen_time_sec": 4.78,
+      "num_inference_steps": 30,
+      "guidance_scale": 7.5,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "index": 9,
+      "prompt": "a monarch butterfly with orange wings resting on a leaf",
+      "seed": 3,
+      "file_name": "baseline_p009_s3.png",
+      "file_path": "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p009_s3.png",
+      "gen_time_sec": 4.84,
+      "num_inference_steps": 30,
+      "guidance_scale": 7.5,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "index": 10,
+      "prompt": "a monarch butterfly with orange wings resting on a leaf",
+      "seed": 4,
+      "file_name": "baseline_p010_s4.png",
+      "file_path": "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p010_s4.png",
+      "gen_time_sec": 4.89,
+      "num_inference_steps": 30,
+      "guidance_scale": 7.5,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "index": 11,
+      "prompt": "a blue morpho butterfly in a tropical forest",
+      "seed": 0,
+      "file_name": "baseline_p011_s0.png",
+      "file_path": "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p011_s0.png",
+      "gen_time_sec": 4.98,
+      "num_inference_steps": 30,
+      "guidance_scale": 7.5,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "index": 12,
+      "prompt": "a blue morpho butterfly in a tropical forest",
+      "seed": 1,
+      "file_name": "baseline_p012_s1.png",
+      "file_path": "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p012_s1.png",
+      "gen_time_sec": 5.01,
+      "num_inference_steps": 30,
+      "guidance_scale": 7.5,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "index": 13,
+      "prompt": "a blue morpho butterfly in a tropical forest",
+      "seed": 2,
+      "file_name": "baseline_p013_s2.png",
+      "file_path": "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p013_s2.png",
+      "gen_time_sec": 5.32,
+      "num_inference_steps": 30,
+      "guidance_scale": 7.5,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "index": 14,
+      "prompt": "a blue morpho butterfly in a tropical forest",
+      "seed": 3,
+      "file_name": "baseline_p014_s3.png",
+      "file_path": "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p014_s3.png",
+      "gen_time_sec": 5.4,
+      "num_inference_steps": 30,
+      "guidance_scale": 7.5,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "index": 15,
+      "prompt": "a blue morpho butterfly in a tropical forest",
+      "seed": 4,
+      "file_name": "baseline_p015_s4.png",
+      "file_path": "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p015_s4.png",
+      "gen_time_sec": 5.47,
+      "num_inference_steps": 30,
+      "guidance_scale": 7.5,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "index": 16,
+      "prompt": "a yellow butterfly flying over green grass",
+      "seed": 0,
+      "file_name": "baseline_p016_s0.png",
+      "file_path": "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p016_s0.png",
+      "gen_time_sec": 5.34,
+      "num_inference_steps": 30,
+      "guidance_scale": 7.5,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "index": 17,
+      "prompt": "a yellow butterfly flying over green grass",
+      "seed": 1,
+      "file_name": "baseline_p017_s1.png",
+      "file_path": "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p017_s1.png",
+      "gen_time_sec": 5.49,
+      "num_inference_steps": 30,
+      "guidance_scale": 7.5,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "index": 18,
+      "prompt": "a yellow butterfly flying over green grass",
+      "seed": 2,
+      "file_name": "baseline_p018_s2.png",
+      "file_path": "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p018_s2.png",
+      "gen_time_sec": 6.18,
+      "num_inference_steps": 30,
+      "guidance_scale": 7.5,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "index": 19,
+      "prompt": "a yellow butterfly flying over green grass",
+      "seed": 3,
+      "file_name": "baseline_p019_s3.png",
+      "file_path": "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p019_s3.png",
+      "gen_time_sec": 5.71,
+      "num_inference_steps": 30,
+      "guidance_scale": 7.5,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "index": 20,
+      "prompt": "a yellow butterfly flying over green grass",
+      "seed": 4,
+      "file_name": "baseline_p020_s4.png",
+      "file_path": "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p020_s4.png",
+      "gen_time_sec": 6.23,
+      "num_inference_steps": 30,
+      "guidance_scale": 7.5,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "index": 21,
+      "prompt": "a butterfly on a purple lavender flower, shallow depth of field",
+      "seed": 0,
+      "file_name": "baseline_p021_s0.png",
+      "file_path": "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p021_s0.png",
+      "gen_time_sec": 5.86,
+      "num_inference_steps": 30,
+      "guidance_scale": 7.5,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "index": 22,
+      "prompt": "a butterfly on a purple lavender flower, shallow depth of field",
+      "seed": 1,
+      "file_name": "baseline_p022_s1.png",
+      "file_path": "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p022_s1.png",
+      "gen_time_sec": 5.89,
+      "num_inference_steps": 30,
+      "guidance_scale": 7.5,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "index": 23,
+      "prompt": "a butterfly on a purple lavender flower, shallow depth of field",
+      "seed": 2,
+      "file_name": "baseline_p023_s2.png",
+      "file_path": "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p023_s2.png",
+      "gen_time_sec": 5.87,
+      "num_inference_steps": 30,
+      "guidance_scale": 7.5,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "index": 24,
+      "prompt": "a butterfly on a purple lavender flower, shallow depth of field",
+      "seed": 3,
+      "file_name": "baseline_p024_s3.png",
+      "file_path": "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p024_s3.png",
+      "gen_time_sec": 5.74,
+      "num_inference_steps": 30,
+      "guidance_scale": 7.5,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "index": 25,
+      "prompt": "a butterfly on a purple lavender flower, shallow depth of field",
+      "seed": 4,
+      "file_name": "baseline_p025_s4.png",
+      "file_path": "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p025_s4.png",
+      "gen_time_sec": 5.64,
+      "num_inference_steps": 30,
+      "guidance_scale": 7.5,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "index": 26,
+      "prompt": "a close-up of a butterfly wing pattern",
+      "seed": 0,
+      "file_name": "baseline_p026_s0.png",
+      "file_path": "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p026_s0.png",
+      "gen_time_sec": 5.59,
+      "num_inference_steps": 30,
+      "guidance_scale": 7.5,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "index": 27,
+      "prompt": "a close-up of a butterfly wing pattern",
+      "seed": 1,
+      "file_name": "baseline_p027_s1.png",
+      "file_path": "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p027_s1.png",
+      "gen_time_sec": 5.55,
+      "num_inference_steps": 30,
+      "guidance_scale": 7.5,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "index": 28,
+      "prompt": "a close-up of a butterfly wing pattern",
+      "seed": 2,
+      "file_name": "baseline_p028_s2.png",
+      "file_path": "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p028_s2.png",
+      "gen_time_sec": 5.52,
+      "num_inference_steps": 30,
+      "guidance_scale": 7.5,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "index": 29,
+      "prompt": "a close-up of a butterfly wing pattern",
+      "seed": 3,
+      "file_name": "baseline_p029_s3.png",
+      "file_path": "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p029_s3.png",
+      "gen_time_sec": 5.51,
+      "num_inference_steps": 30,
+      "guidance_scale": 7.5,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "index": 30,
+      "prompt": "a close-up of a butterfly wing pattern",
+      "seed": 4,
+      "file_name": "baseline_p030_s4.png",
+      "file_path": "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p030_s4.png",
+      "gen_time_sec": 5.53,
+      "num_inference_steps": 30,
+      "guidance_scale": 7.5,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "index": 31,
+      "prompt": "a butterfly on a human hand in a garden",
+      "seed": 0,
+      "file_name": "baseline_p031_s0.png",
+      "file_path": "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p031_s0.png",
+      "gen_time_sec": 5.55,
+      "num_inference_steps": 30,
+      "guidance_scale": 7.5,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "index": 32,
+      "prompt": "a butterfly on a human hand in a garden",
+      "seed": 1,
+      "file_name": "baseline_p032_s1.png",
+      "file_path": "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p032_s1.png",
+      "gen_time_sec": 5.58,
+      "num_inference_steps": 30,
+      "guidance_scale": 7.5,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "index": 33,
+      "prompt": "a butterfly on a human hand in a garden",
+      "seed": 2,
+      "file_name": "baseline_p033_s2.png",
+      "file_path": "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p033_s2.png",
+      "gen_time_sec": 5.59,
+      "num_inference_steps": 30,
+      "guidance_scale": 7.5,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "index": 34,
+      "prompt": "a butterfly on a human hand in a garden",
+      "seed": 3,
+      "file_name": "baseline_p034_s3.png",
+      "file_path": "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p034_s3.png",
+      "gen_time_sec": 5.65,
+      "num_inference_steps": 30,
+      "guidance_scale": 7.5,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "index": 35,
+      "prompt": "a butterfly on a human hand in a garden",
+      "seed": 4,
+      "file_name": "baseline_p035_s4.png",
+      "file_path": "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p035_s4.png",
+      "gen_time_sec": 5.65,
+      "num_inference_steps": 30,
+      "guidance_scale": 7.5,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "index": 36,
+      "prompt": "a white butterfly on a red flower, natural light",
+      "seed": 0,
+      "file_name": "baseline_p036_s0.png",
+      "file_path": "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p036_s0.png",
+      "gen_time_sec": 5.66,
+      "num_inference_steps": 30,
+      "guidance_scale": 7.5,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "index": 37,
+      "prompt": "a white butterfly on a red flower, natural light",
+      "seed": 1,
+      "file_name": "baseline_p037_s1.png",
+      "file_path": "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p037_s1.png",
+      "gen_time_sec": 5.67,
+      "num_inference_steps": 30,
+      "guidance_scale": 7.5,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "index": 38,
+      "prompt": "a white butterfly on a red flower, natural light",
+      "seed": 2,
+      "file_name": "baseline_p038_s2.png",
+      "file_path": "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p038_s2.png",
+      "gen_time_sec": 5.91,
+      "num_inference_steps": 30,
+      "guidance_scale": 7.5,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "index": 39,
+      "prompt": "a white butterfly on a red flower, natural light",
+      "seed": 3,
+      "file_name": "baseline_p039_s3.png",
+      "file_path": "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p039_s3.png",
+      "gen_time_sec": 5.79,
+      "num_inference_steps": 30,
+      "guidance_scale": 7.5,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "index": 40,
+      "prompt": "a white butterfly on a red flower, natural light",
+      "seed": 4,
+      "file_name": "baseline_p040_s4.png",
+      "file_path": "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p040_s4.png",
+      "gen_time_sec": 5.6,
+      "num_inference_steps": 30,
+      "guidance_scale": 7.5,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "index": 41,
+      "prompt": "a butterfly resting on a stone near water",
+      "seed": 0,
+      "file_name": "baseline_p041_s0.png",
+      "file_path": "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p041_s0.png",
+      "gen_time_sec": 5.58,
+      "num_inference_steps": 30,
+      "guidance_scale": 7.5,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "index": 42,
+      "prompt": "a butterfly resting on a stone near water",
+      "seed": 1,
+      "file_name": "baseline_p042_s1.png",
+      "file_path": "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p042_s1.png",
+      "gen_time_sec": 5.57,
+      "num_inference_steps": 30,
+      "guidance_scale": 7.5,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "index": 43,
+      "prompt": "a butterfly resting on a stone near water",
+      "seed": 2,
+      "file_name": "baseline_p043_s2.png",
+      "file_path": "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p043_s2.png",
+      "gen_time_sec": 6.06,
+      "num_inference_steps": 30,
+      "guidance_scale": 7.5,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "index": 44,
+      "prompt": "a butterfly resting on a stone near water",
+      "seed": 3,
+      "file_name": "baseline_p044_s3.png",
+      "file_path": "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p044_s3.png",
+      "gen_time_sec": 5.57,
+      "num_inference_steps": 30,
+      "guidance_scale": 7.5,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "index": 45,
+      "prompt": "a butterfly resting on a stone near water",
+      "seed": 4,
+      "file_name": "baseline_p045_s4.png",
+      "file_path": "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p045_s4.png",
+      "gen_time_sec": 5.58,
+      "num_inference_steps": 30,
+      "guidance_scale": 7.5,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "index": 46,
+      "prompt": "a black and orange butterfly on a sunflower",
+      "seed": 0,
+      "file_name": "baseline_p046_s0.png",
+      "file_path": "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p046_s0.png",
+      "gen_time_sec": 5.57,
+      "num_inference_steps": 30,
+      "guidance_scale": 7.5,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "index": 47,
+      "prompt": "a black and orange butterfly on a sunflower",
+      "seed": 1,
+      "file_name": "baseline_p047_s1.png",
+      "file_path": "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p047_s1.png",
+      "gen_time_sec": 5.58,
+      "num_inference_steps": 30,
+      "guidance_scale": 7.5,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "index": 48,
+      "prompt": "a black and orange butterfly on a sunflower",
+      "seed": 2,
+      "file_name": "baseline_p048_s2.png",
+      "file_path": "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p048_s2.png",
+      "gen_time_sec": 5.58,
+      "num_inference_steps": 30,
+      "guidance_scale": 7.5,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "index": 49,
+      "prompt": "a black and orange butterfly on a sunflower",
+      "seed": 3,
+      "file_name": "baseline_p049_s3.png",
+      "file_path": "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p049_s3.png",
+      "gen_time_sec": 5.59,
+      "num_inference_steps": 30,
+      "guidance_scale": 7.5,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "index": 50,
+      "prompt": "a black and orange butterfly on a sunflower",
+      "seed": 4,
+      "file_name": "baseline_p050_s4.png",
+      "file_path": "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p050_s4.png",
+      "gen_time_sec": 5.58,
+      "num_inference_steps": 30,
+      "guidance_scale": 7.5,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "index": 51,
+      "prompt": "a small butterfly on a dandelion in spring",
+      "seed": 0,
+      "file_name": "baseline_p051_s0.png",
+      "file_path": "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p051_s0.png",
+      "gen_time_sec": 5.57,
+      "num_inference_steps": 30,
+      "guidance_scale": 7.5,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "index": 52,
+      "prompt": "a small butterfly on a dandelion in spring",
+      "seed": 1,
+      "file_name": "baseline_p052_s1.png",
+      "file_path": "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p052_s1.png",
+      "gen_time_sec": 5.58,
+      "num_inference_steps": 30,
+      "guidance_scale": 7.5,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "index": 53,
+      "prompt": "a small butterfly on a dandelion in spring",
+      "seed": 2,
+      "file_name": "baseline_p053_s2.png",
+      "file_path": "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p053_s2.png",
+      "gen_time_sec": 5.59,
+      "num_inference_steps": 30,
+      "guidance_scale": 7.5,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "index": 54,
+      "prompt": "a small butterfly on a dandelion in spring",
+      "seed": 3,
+      "file_name": "baseline_p054_s3.png",
+      "file_path": "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p054_s3.png",
+      "gen_time_sec": 5.57,
+      "num_inference_steps": 30,
+      "guidance_scale": 7.5,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "index": 55,
+      "prompt": "a small butterfly on a dandelion in spring",
+      "seed": 4,
+      "file_name": "baseline_p055_s4.png",
+      "file_path": "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p055_s4.png",
+      "gen_time_sec": 5.58,
+      "num_inference_steps": 30,
+      "guidance_scale": 7.5,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "index": 56,
+      "prompt": "a butterfly with spread wings on a wooden surface",
+      "seed": 0,
+      "file_name": "baseline_p056_s0.png",
+      "file_path": "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p056_s0.png",
+      "gen_time_sec": 5.61,
+      "num_inference_steps": 30,
+      "guidance_scale": 7.5,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "index": 57,
+      "prompt": "a butterfly with spread wings on a wooden surface",
+      "seed": 1,
+      "file_name": "baseline_p057_s1.png",
+      "file_path": "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p057_s1.png",
+      "gen_time_sec": 5.6,
+      "num_inference_steps": 30,
+      "guidance_scale": 7.5,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "index": 58,
+      "prompt": "a butterfly with spread wings on a wooden surface",
+      "seed": 2,
+      "file_name": "baseline_p058_s2.png",
+      "file_path": "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p058_s2.png",
+      "gen_time_sec": 5.58,
+      "num_inference_steps": 30,
+      "guidance_scale": 7.5,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "index": 59,
+      "prompt": "a butterfly with spread wings on a wooden surface",
+      "seed": 3,
+      "file_name": "baseline_p059_s3.png",
+      "file_path": "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p059_s3.png",
+      "gen_time_sec": 5.61,
+      "num_inference_steps": 30,
+      "guidance_scale": 7.5,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "index": 60,
+      "prompt": "a butterfly with spread wings on a wooden surface",
+      "seed": 4,
+      "file_name": "baseline_p060_s4.png",
+      "file_path": "/content/drive/MyDrive/lab13/artifacts/baseline_sd15/baseline_p060_s4.png",
+      "gen_time_sec": 5.59,
+      "num_inference_steps": 30,
+      "guidance_scale": 7.5,
+      "size": [
+        512,
+        512
+      ]
+    }
+  ]
+}

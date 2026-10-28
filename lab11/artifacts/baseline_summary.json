@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen2.5-VL-3B-Instruct",
+  "foundation": "base_instruction_tuned",
+  "reference": "lab9_sft_adapter",
+  "same_initial_policies": false,
+  "sft_adapter_available": true,
+  "dpo_training_used": false,
+  "splits": {
+    "id_test": {
+      "samples": 64,
+      "file": "baseline_answers_id_test.json"
+    },
+    "ood_test": {
+      "samples": 64,
+      "file": "baseline_answers_ood_test.json"
+    },
+    "general_test": {
+      "samples": 64,
+      "file": "baseline_answers_general_test.json"
+    }
+  },
+  "total_samples": 192
+}

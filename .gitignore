@@ -12,3 +12,14 @@ lab2/data/
 */unsloth_r8_a16/
 */unsloth_r16_a16/
 *.zip
+*.rar
+*/artifacts/dpo_adapter_init/
+*/artifacts/aligned_adapter/
+*/artifacts/lora_checkpoints/
+*/artifacts/lora_generations/
+*/artifacts/task5_adapter_optimization/
+*/artifacts/baseline_sd15/
+*/artifacts/bonus_ablation_F
+*/.vscode/
+*/artifacts/bonus_data/
+*/artifacts/resnet18_features/

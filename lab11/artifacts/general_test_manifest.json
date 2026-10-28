@@ -1,0 +1,1280 @@
+[
+  {
+    "id": "scienceqa-test-2",
+    "split": "general_test",
+    "image": "/content/data/lab9/4d926c6d04a42d85cb33d5d9cee091fbd9cfcf82ff2ae058c3091fe6e25d6311.png",
+    "question": "What is the name of the colony shown?\nA. Maryland\nB. New Hampshire\nC. Rhode Island\nD. Vermont\nReturn only the letter of the correct option.",
+    "answer": "B",
+    "choices": [
+      "Maryland",
+      "New Hampshire",
+      "Rhode Island",
+      "Vermont"
+    ],
+    "answer_index": 1,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "social science",
+    "grade": "grade5",
+    "image_sha256": "4d926c6d04a42d85cb33d5d9cee091fbd9cfcf82ff2ae058c3091fe6e25d6311"
+  },
+  {
+    "id": "scienceqa-test-14",
+    "split": "general_test",
+    "image": "/content/data/lab9/04034027f148eff197c9c02d749bdfa600bbc90bddc01ff38ab4f734c47c89aa.png",
+    "question": "What is the capital of Wyoming?\nA. Phoenix\nB. Baton Rouge\nC. Honolulu\nD. Cheyenne\nReturn only the letter of the correct option.",
+    "answer": "D",
+    "choices": [
+      "Phoenix",
+      "Baton Rouge",
+      "Honolulu",
+      "Cheyenne"
+    ],
+    "answer_index": 3,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "social science",
+    "grade": "grade4",
+    "image_sha256": "04034027f148eff197c9c02d749bdfa600bbc90bddc01ff38ab4f734c47c89aa"
+  },
+  {
+    "id": "scienceqa-test-19",
+    "split": "general_test",
+    "image": "/content/data/lab9/0eb527de7f358b3f1c6545d3be0e9d2fffa16a0060d3564895c341346cc932d0.png",
+    "question": "What is the capital of Delaware?\nA. Montpelier\nB. Trenton\nC. Dover\nD. Georgetown\nReturn only the letter of the correct option.",
+    "answer": "C",
+    "choices": [
+      "Montpelier",
+      "Trenton",
+      "Dover",
+      "Georgetown"
+    ],
+    "answer_index": 2,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "social science",
+    "grade": "grade3",
+    "image_sha256": "0eb527de7f358b3f1c6545d3be0e9d2fffa16a0060d3564895c341346cc932d0"
+  },
+  {
+    "id": "scienceqa-test-21",
+    "split": "general_test",
+    "image": "/content/data/lab9/c09fe274a96f17dcdb9fa81af16d8ae770a55ee23ed6c878a377160a353c6b1f.png",
+    "question": "Which of these states is farthest north?\nA. Maine\nB. South Carolina\nC. Kansas\nD. Delaware\nReturn only the letter of the correct option.",
+    "answer": "A",
+    "choices": [
+      "Maine",
+      "South Carolina",
+      "Kansas",
+      "Delaware"
+    ],
+    "answer_index": 0,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "social science",
+    "grade": "grade3",
+    "image_sha256": "c09fe274a96f17dcdb9fa81af16d8ae770a55ee23ed6c878a377160a353c6b1f"
+  },
+  {
+    "id": "scienceqa-test-23",
+    "split": "general_test",
+    "image": "/content/data/lab9/549ca29f3841c88496bfc3bb35dc36d915e102475b5dae585c6bbb3bc6c129fa.png",
+    "question": "What can Greta and Allie trade to each get what they want?\nA. Greta can trade her tomatoes for Allie's sandwich.\nB. Allie can trade her broccoli for Greta's oranges.\nC. Allie can trade her almonds for Greta's tomatoes.\nD. Greta can trade her tomatoes for Allie's broccoli.\nReturn only the letter of the correct option.",
+    "answer": "D",
+    "choices": [
+      "Greta can trade her tomatoes for Allie's sandwich.",
+      "Allie can trade her broccoli for Greta's oranges.",
+      "Allie can trade her almonds for Greta's tomatoes.",
+      "Greta can trade her tomatoes for Allie's broccoli."
+    ],
+    "answer_index": 3,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "social science",
+    "grade": "grade6",
+    "image_sha256": "549ca29f3841c88496bfc3bb35dc36d915e102475b5dae585c6bbb3bc6c129fa"
+  },
+  {
+    "id": "scienceqa-test-24",
+    "split": "general_test",
+    "image": "/content/data/lab9/93c05910c83ae2c3c37f3fb8690bc5b9f9477619d29ea3f54d202dc5d2bb5758.png",
+    "question": "What is the capital of Colorado?\nA. Boulder\nB. Phoenix\nC. Colorado Springs\nD. Denver\nReturn only the letter of the correct option.",
+    "answer": "D",
+    "choices": [
+      "Boulder",
+      "Phoenix",
+      "Colorado Springs",
+      "Denver"
+    ],
+    "answer_index": 3,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "social science",
+    "grade": "grade5",
+    "image_sha256": "93c05910c83ae2c3c37f3fb8690bc5b9f9477619d29ea3f54d202dc5d2bb5758"
+  },
+  {
+    "id": "scienceqa-test-29",
+    "split": "general_test",
+    "image": "/content/data/lab9/4f56fedaaadc792df3becf8c8ef03c9c5a4c20dbf46715d07eb1d60cb171a50a.png",
+    "question": "Which continent is highlighted?\nA. Africa\nB. North America\nC. South America\nD. Asia\nReturn only the letter of the correct option.",
+    "answer": "D",
+    "choices": [
+      "Africa",
+      "North America",
+      "South America",
+      "Asia"
+    ],
+    "answer_index": 3,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "social science",
+    "grade": "grade5",
+    "image_sha256": "4f56fedaaadc792df3becf8c8ef03c9c5a4c20dbf46715d07eb1d60cb171a50a"
+  },
+  {
+    "id": "scienceqa-test-43",
+    "split": "general_test",
+    "image": "/content/data/lab9/388e8165af761d8a8f6edc7702fd3f1b2d82d2e8a766e681bfb131724513e3ea.png",
+    "question": "What is the capital of Mississippi?\nA. Detroit\nB. Jackson\nC. Biloxi\nD. Topeka\nReturn only the letter of the correct option.",
+    "answer": "B",
+    "choices": [
+      "Detroit",
+      "Jackson",
+      "Biloxi",
+      "Topeka"
+    ],
+    "answer_index": 1,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "social science",
+    "grade": "grade4",
+    "image_sha256": "388e8165af761d8a8f6edc7702fd3f1b2d82d2e8a766e681bfb131724513e3ea"
+  },
+  {
+    "id": "scienceqa-test-59",
+    "split": "general_test",
+    "image": "/content/data/lab9/f0a30fd4fb214dd4fad18f5f4d9a100b17120f0212937b65904a6cdb60063c5f.png",
+    "question": "What is the capital of Connecticut?\nA. Hartford\nB. Annapolis\nC. New Haven\nD. Dover\nReturn only the letter of the correct option.",
+    "answer": "A",
+    "choices": [
+      "Hartford",
+      "Annapolis",
+      "New Haven",
+      "Dover"
+    ],
+    "answer_index": 0,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "social science",
+    "grade": "grade5",
+    "image_sha256": "f0a30fd4fb214dd4fad18f5f4d9a100b17120f0212937b65904a6cdb60063c5f"
+  },
+  {
+    "id": "scienceqa-test-63",
+    "split": "general_test",
+    "image": "/content/data/lab9/8da23078277a2ce343df5dcac098643c76eea2ab7fce1288e519235f8353b6d9.png",
+    "question": "Which ocean is highlighted?\nA. the Indian Ocean\nB. the Atlantic Ocean\nC. the Pacific Ocean\nD. the Southern Ocean\nReturn only the letter of the correct option.",
+    "answer": "A",
+    "choices": [
+      "the Indian Ocean",
+      "the Atlantic Ocean",
+      "the Pacific Ocean",
+      "the Southern Ocean"
+    ],
+    "answer_index": 0,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "social science",
+    "grade": "grade8",
+    "image_sha256": "8da23078277a2ce343df5dcac098643c76eea2ab7fce1288e519235f8353b6d9"
+  },
+  {
+    "id": "scienceqa-test-70",
+    "split": "general_test",
+    "image": "/content/data/lab9/416628a07d40627c402149168b8906eed75814027a03987cf3fe4dcb003c6d9a.png",
+    "question": "What is the capital of North Dakota?\nA. Des Moines\nB. Bismarck\nC. Madison\nD. Fargo\nReturn only the letter of the correct option.",
+    "answer": "B",
+    "choices": [
+      "Des Moines",
+      "Bismarck",
+      "Madison",
+      "Fargo"
+    ],
+    "answer_index": 1,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "social science",
+    "grade": "grade5",
+    "image_sha256": "416628a07d40627c402149168b8906eed75814027a03987cf3fe4dcb003c6d9a"
+  },
+  {
+    "id": "scienceqa-test-75",
+    "split": "general_test",
+    "image": "/content/data/lab9/18690347d7fccaa8e838ad217fba53613f11aec5f67fc21e4f21d9625f30565c.png",
+    "question": "What is the capital of Massachusetts?\nA. Cambridge\nB. Plymouth\nC. Boston\nD. Dover\nReturn only the letter of the correct option.",
+    "answer": "C",
+    "choices": [
+      "Cambridge",
+      "Plymouth",
+      "Boston",
+      "Dover"
+    ],
+    "answer_index": 2,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "social science",
+    "grade": "grade5",
+    "image_sha256": "18690347d7fccaa8e838ad217fba53613f11aec5f67fc21e4f21d9625f30565c"
+  },
+  {
+    "id": "scienceqa-test-79",
+    "split": "general_test",
+    "image": "/content/data/lab9/d6407c812ec7a235bf9b14a7ee95209c2c43513a4ed1b1988c71e9373c9f7afb.png",
+    "question": "Which country is highlighted?\nA. Barbados\nB. the Dominican Republic\nC. Saint Lucia\nD. Saint Vincent and the Grenadines\nReturn only the letter of the correct option.",
+    "answer": "C",
+    "choices": [
+      "Barbados",
+      "the Dominican Republic",
+      "Saint Lucia",
+      "Saint Vincent and the Grenadines"
+    ],
+    "answer_index": 2,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "social science",
+    "grade": "grade7",
+    "image_sha256": "d6407c812ec7a235bf9b14a7ee95209c2c43513a4ed1b1988c71e9373c9f7afb"
+  },
+  {
+    "id": "scienceqa-test-87",
+    "split": "general_test",
+    "image": "/content/data/lab9/ae6e2fd2c9bc29bab05039d9a068473c4574b51cad7c744a84937fa5cfb95a62.png",
+    "question": "Which country is highlighted?\nA. Vanuatu\nB. Tonga\nC. the Marshall Islands\nD. Nauru\nReturn only the letter of the correct option.",
+    "answer": "D",
+    "choices": [
+      "Vanuatu",
+      "Tonga",
+      "the Marshall Islands",
+      "Nauru"
+    ],
+    "answer_index": 3,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "social science",
+    "grade": "grade8",
+    "image_sha256": "ae6e2fd2c9bc29bab05039d9a068473c4574b51cad7c744a84937fa5cfb95a62"
+  },
+  {
+    "id": "scienceqa-test-88",
+    "split": "general_test",
+    "image": "/content/data/lab9/cd511c94f1a24f60be88d609bb8622b59f76299dd02cd956ec02ed7b7cfa2e8e.png",
+    "question": "Which rhetorical appeal is primarily used in this ad?\nA. logos (reason)\nB. pathos (emotion)\nC. ethos (character)\nReturn only the letter of the correct option.",
+    "answer": "B",
+    "choices": [
+      "logos (reason)",
+      "pathos (emotion)",
+      "ethos (character)"
+    ],
+    "answer_index": 1,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "language science",
+    "grade": "grade12",
+    "image_sha256": "cd511c94f1a24f60be88d609bb8622b59f76299dd02cd956ec02ed7b7cfa2e8e"
+  },
+  {
+    "id": "scienceqa-test-97",
+    "split": "general_test",
+    "image": "/content/data/lab9/682a629e2e98225a6867b702ff8732ff944b732de3154aab4a0fa8478f12d94c.png",
+    "question": "What is the capital of Washington?\nA. Olympia\nB. Burlington\nC. Seattle\nD. Spokane\nReturn only the letter of the correct option.",
+    "answer": "A",
+    "choices": [
+      "Olympia",
+      "Burlington",
+      "Seattle",
+      "Spokane"
+    ],
+    "answer_index": 0,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "social science",
+    "grade": "grade5",
+    "image_sha256": "682a629e2e98225a6867b702ff8732ff944b732de3154aab4a0fa8478f12d94c"
+  },
+  {
+    "id": "scienceqa-test-108",
+    "split": "general_test",
+    "image": "/content/data/lab9/9c0f1875b2306cfbe0e23809a2cfcc86eecd3eddd6f758764db7dcc43e275057.png",
+    "question": "Which continent is highlighted?\nA. North America\nB. Africa\nC. Asia\nReturn only the letter of the correct option.",
+    "answer": "C",
+    "choices": [
+      "North America",
+      "Africa",
+      "Asia"
+    ],
+    "answer_index": 2,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "social science",
+    "grade": "grade2",
+    "image_sha256": "9c0f1875b2306cfbe0e23809a2cfcc86eecd3eddd6f758764db7dcc43e275057"
+  },
+  {
+    "id": "scienceqa-test-109",
+    "split": "general_test",
+    "image": "/content/data/lab9/791a1a70afa5fffac141c8762fb451a124cace0648934e8b1bd62b65d922eb73.png",
+    "question": "Which of these states is farthest north?\nA. Florida\nB. Illinois\nC. Ohio\nD. New Hampshire\nReturn only the letter of the correct option.",
+    "answer": "D",
+    "choices": [
+      "Florida",
+      "Illinois",
+      "Ohio",
+      "New Hampshire"
+    ],
+    "answer_index": 3,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "social science",
+    "grade": "grade4",
+    "image_sha256": "791a1a70afa5fffac141c8762fb451a124cace0648934e8b1bd62b65d922eb73"
+  },
+  {
+    "id": "scienceqa-test-124",
+    "split": "general_test",
+    "image": "/content/data/lab9/ff99e086e16a72351abd309376c7cf134e8f1f1b9944076d74d2fbb9f526d9be.png",
+    "question": "What is the capital of Hawaii?\nA. Portland\nB. Bismarck\nC. Honolulu\nD. Juneau\nReturn only the letter of the correct option.",
+    "answer": "C",
+    "choices": [
+      "Portland",
+      "Bismarck",
+      "Honolulu",
+      "Juneau"
+    ],
+    "answer_index": 2,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "social science",
+    "grade": "grade4",
+    "image_sha256": "ff99e086e16a72351abd309376c7cf134e8f1f1b9944076d74d2fbb9f526d9be"
+  },
+  {
+    "id": "scienceqa-test-125",
+    "split": "general_test",
+    "image": "/content/data/lab9/6f178f546f61cee63fc313391ab54aeaddcc551f09ffd4080e13ca0b65dec74f.png",
+    "question": "What is the capital of Washington?\nA. Santa Fe\nB. Lansing\nC. Olympia\nD. Seattle\nReturn only the letter of the correct option.",
+    "answer": "C",
+    "choices": [
+      "Santa Fe",
+      "Lansing",
+      "Olympia",
+      "Seattle"
+    ],
+    "answer_index": 2,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "social science",
+    "grade": "grade3",
+    "image_sha256": "6f178f546f61cee63fc313391ab54aeaddcc551f09ffd4080e13ca0b65dec74f"
+  },
+  {
+    "id": "scienceqa-test-129",
+    "split": "general_test",
+    "image": "/content/data/lab9/b91322fe7862b1bded3b81e8ff9199b424e6cc8271bb348523e0073b3c4eff3f.png",
+    "question": "What is the capital of Oklahoma?\nA. Boise\nB. Oklahoma City\nC. Little Rock\nD. Birmingham\nReturn only the letter of the correct option.",
+    "answer": "B",
+    "choices": [
+      "Boise",
+      "Oklahoma City",
+      "Little Rock",
+      "Birmingham"
+    ],
+    "answer_index": 1,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "social science",
+    "grade": "grade4",
+    "image_sha256": "b91322fe7862b1bded3b81e8ff9199b424e6cc8271bb348523e0073b3c4eff3f"
+  },
+  {
+    "id": "scienceqa-test-137",
+    "split": "general_test",
+    "image": "/content/data/lab9/24429b38d2e4448feed695195b8d0c0f1e2a1bedb761043545c69c28d4169f03.png",
+    "question": "What is the name of the colony shown?\nA. New Jersey\nB. South Carolina\nC. West Virginia\nD. Rhode Island\nReturn only the letter of the correct option.",
+    "answer": "B",
+    "choices": [
+      "New Jersey",
+      "South Carolina",
+      "West Virginia",
+      "Rhode Island"
+    ],
+    "answer_index": 1,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "social science",
+    "grade": "grade8",
+    "image_sha256": "24429b38d2e4448feed695195b8d0c0f1e2a1bedb761043545c69c28d4169f03"
+  },
+  {
+    "id": "scienceqa-test-138",
+    "split": "general_test",
+    "image": "/content/data/lab9/a6fc553fcdc958dc8786ed94924508291766b30b4f3fd86c2583c4ed1430bdac.png",
+    "question": "What is the capital of Kansas?\nA. Des Moines\nB. Wichita\nC. Topeka\nD. Lincoln\nReturn only the letter of the correct option.",
+    "answer": "C",
+    "choices": [
+      "Des Moines",
+      "Wichita",
+      "Topeka",
+      "Lincoln"
+    ],
+    "answer_index": 2,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "social science",
+    "grade": "grade3",
+    "image_sha256": "a6fc553fcdc958dc8786ed94924508291766b30b4f3fd86c2583c4ed1430bdac"
+  },
+  {
+    "id": "scienceqa-test-140",
+    "split": "general_test",
+    "image": "/content/data/lab9/3f1e0c2da4c9c28462534fd8af7142222f1fedc56bbbf8f2d1fa80185e115414.png",
+    "question": "Which continent is highlighted?\nA. North America\nB. Africa\nC. Asia\nD. South America\nReturn only the letter of the correct option.",
+    "answer": "B",
+    "choices": [
+      "North America",
+      "Africa",
+      "Asia",
+      "South America"
+    ],
+    "answer_index": 1,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "social science",
+    "grade": "grade5",
+    "image_sha256": "3f1e0c2da4c9c28462534fd8af7142222f1fedc56bbbf8f2d1fa80185e115414"
+  },
+  {
+    "id": "scienceqa-test-142",
+    "split": "general_test",
+    "image": "/content/data/lab9/b0eacbe36ccd3aa420eccbb200fb004b2bb07d31f428c33a16dab9343e16ba34.png",
+    "question": "What is the capital of Nevada?\nA. Sacramento\nB. Las Vegas\nC. Carson City\nD. Jefferson City\nReturn only the letter of the correct option.",
+    "answer": "C",
+    "choices": [
+      "Sacramento",
+      "Las Vegas",
+      "Carson City",
+      "Jefferson City"
+    ],
+    "answer_index": 2,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "social science",
+    "grade": "grade3",
+    "image_sha256": "b0eacbe36ccd3aa420eccbb200fb004b2bb07d31f428c33a16dab9343e16ba34"
+  },
+  {
+    "id": "scienceqa-test-144",
+    "split": "general_test",
+    "image": "/content/data/lab9/f92504a07099d89d7b90b7dfce2a1e3cc7a61afa1234c7c5676b2b6c7a8e4bc3.png",
+    "question": "What is the name of the colony shown?\nA. Maine\nB. Maryland\nC. New Hampshire\nD. North Carolina\nReturn only the letter of the correct option.",
+    "answer": "B",
+    "choices": [
+      "Maine",
+      "Maryland",
+      "New Hampshire",
+      "North Carolina"
+    ],
+    "answer_index": 1,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "social science",
+    "grade": "grade7",
+    "image_sha256": "f92504a07099d89d7b90b7dfce2a1e3cc7a61afa1234c7c5676b2b6c7a8e4bc3"
+  },
+  {
+    "id": "scienceqa-test-145",
+    "split": "general_test",
+    "image": "/content/data/lab9/7326472d59d0def60a5342d663e3579b5db5bc996b3cd24e30741622d0b55f5f.png",
+    "question": "What is the capital of New Mexico?\nA. Albuquerque\nB. Santa Fe\nC. Honolulu\nD. Boston\nReturn only the letter of the correct option.",
+    "answer": "B",
+    "choices": [
+      "Albuquerque",
+      "Santa Fe",
+      "Honolulu",
+      "Boston"
+    ],
+    "answer_index": 1,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "social science",
+    "grade": "grade3",
+    "image_sha256": "7326472d59d0def60a5342d663e3579b5db5bc996b3cd24e30741622d0b55f5f"
+  },
+  {
+    "id": "scienceqa-test-147",
+    "split": "general_test",
+    "image": "/content/data/lab9/3b79de9cdb71df964bed60c24e01150cf37e7a03046f64604aaa14b26aac2eb2.png",
+    "question": "Which continent is highlighted?\nA. Europe\nB. Asia\nC. South America\nD. Australia\nReturn only the letter of the correct option.",
+    "answer": "C",
+    "choices": [
+      "Europe",
+      "Asia",
+      "South America",
+      "Australia"
+    ],
+    "answer_index": 2,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "social science",
+    "grade": "grade8",
+    "image_sha256": "3b79de9cdb71df964bed60c24e01150cf37e7a03046f64604aaa14b26aac2eb2"
+  },
+  {
+    "id": "scienceqa-test-153",
+    "split": "general_test",
+    "image": "/content/data/lab9/e07470b5ae623ae882f33763810d157e1686401ed5eb45b21fc19751d5674c3a.png",
+    "question": "What is the capital of California?\nA. San Francisco\nB. Sacramento\nC. Jefferson City\nD. Lansing\nReturn only the letter of the correct option.",
+    "answer": "B",
+    "choices": [
+      "San Francisco",
+      "Sacramento",
+      "Jefferson City",
+      "Lansing"
+    ],
+    "answer_index": 1,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "social science",
+    "grade": "grade3",
+    "image_sha256": "e07470b5ae623ae882f33763810d157e1686401ed5eb45b21fc19751d5674c3a"
+  },
+  {
+    "id": "scienceqa-test-160",
+    "split": "general_test",
+    "image": "/content/data/lab9/5e4e991f0d55c54495536d6b64a13345a1147971a6ee9a4096b460ecec768636.png",
+    "question": "What is the capital of Rhode Island?\nA. Fayetteville\nB. Huntington\nC. Providence\nD. Newport\nReturn only the letter of the correct option.",
+    "answer": "C",
+    "choices": [
+      "Fayetteville",
+      "Huntington",
+      "Providence",
+      "Newport"
+    ],
+    "answer_index": 2,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "social science",
+    "grade": "grade5",
+    "image_sha256": "5e4e991f0d55c54495536d6b64a13345a1147971a6ee9a4096b460ecec768636"
+  },
+  {
+    "id": "scienceqa-test-162",
+    "split": "general_test",
+    "image": "/content/data/lab9/2d2be2008300f1ecbbc18337964fb93ed0846475d80757eed28d3a308d4ae339.png",
+    "question": "Which of these states is farthest west?\nA. Missouri\nB. Florida\nC. Montana\nD. Oregon\nReturn only the letter of the correct option.",
+    "answer": "D",
+    "choices": [
+      "Missouri",
+      "Florida",
+      "Montana",
+      "Oregon"
+    ],
+    "answer_index": 3,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "social science",
+    "grade": "grade4",
+    "image_sha256": "2d2be2008300f1ecbbc18337964fb93ed0846475d80757eed28d3a308d4ae339"
+  },
+  {
+    "id": "scienceqa-test-174",
+    "split": "general_test",
+    "image": "/content/data/lab9/036d455b22222af1c4745ecfa169825613335d90b38525b6181a0a1ca7be6804.png",
+    "question": "What is the name of the colony shown?\nA. New Hampshire\nB. Vermont\nC. New York\nD. Delaware\nReturn only the letter of the correct option.",
+    "answer": "C",
+    "choices": [
+      "New Hampshire",
+      "Vermont",
+      "New York",
+      "Delaware"
+    ],
+    "answer_index": 2,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "social science",
+    "grade": "grade7",
+    "image_sha256": "036d455b22222af1c4745ecfa169825613335d90b38525b6181a0a1ca7be6804"
+  },
+  {
+    "id": "scienceqa-test-181",
+    "split": "general_test",
+    "image": "/content/data/lab9/2455ecf32712ca5bfb35103d655c81982e7df1045b11b5ac9c67f926cd97d170.png",
+    "question": "What is the capital of Connecticut?\nA. Columbia\nB. Bridgeport\nC. New Haven\nD. Hartford\nReturn only the letter of the correct option.",
+    "answer": "D",
+    "choices": [
+      "Columbia",
+      "Bridgeport",
+      "New Haven",
+      "Hartford"
+    ],
+    "answer_index": 3,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "social science",
+    "grade": "grade4",
+    "image_sha256": "2455ecf32712ca5bfb35103d655c81982e7df1045b11b5ac9c67f926cd97d170"
+  },
+  {
+    "id": "scienceqa-test-182",
+    "split": "general_test",
+    "image": "/content/data/lab9/a36ad40a65ef98e0f0fe241a818cdf34fc72be8a0c8323b654174c77c01d8f1d.png",
+    "question": "What is the capital of Ohio?\nA. Wilmington\nB. Reno\nC. Cleveland\nD. Columbus\nReturn only the letter of the correct option.",
+    "answer": "D",
+    "choices": [
+      "Wilmington",
+      "Reno",
+      "Cleveland",
+      "Columbus"
+    ],
+    "answer_index": 3,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "social science",
+    "grade": "grade3",
+    "image_sha256": "a36ad40a65ef98e0f0fe241a818cdf34fc72be8a0c8323b654174c77c01d8f1d"
+  },
+  {
+    "id": "scienceqa-test-192",
+    "split": "general_test",
+    "image": "/content/data/lab9/a1cad433722fb56cf5f877f8567f992d5606d7fe645073ce9ae3b4c64aad867e.png",
+    "question": "What can Austen and Naomi trade to each get what they want?\nA. Naomi can trade her broccoli for Austen's oranges.\nB. Austen can trade his tomatoes for Naomi's broccoli.\nC. Austen can trade his tomatoes for Naomi's sandwich.\nD. Naomi can trade her almonds for Austen's tomatoes.\nReturn only the letter of the correct option.",
+    "answer": "B",
+    "choices": [
+      "Naomi can trade her broccoli for Austen's oranges.",
+      "Austen can trade his tomatoes for Naomi's broccoli.",
+      "Austen can trade his tomatoes for Naomi's sandwich.",
+      "Naomi can trade her almonds for Austen's tomatoes."
+    ],
+    "answer_index": 1,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "social science",
+    "grade": "grade6",
+    "image_sha256": "a1cad433722fb56cf5f877f8567f992d5606d7fe645073ce9ae3b4c64aad867e"
+  },
+  {
+    "id": "scienceqa-test-208",
+    "split": "general_test",
+    "image": "/content/data/lab9/2fd2a45820426c51ce65fd77a1156666c5299f034edf0fadf27304512ea777e5.png",
+    "question": "Which country is highlighted?\nA. Haiti\nB. Trinidad and Tobago\nC. Cuba\nD. the Dominican Republic\nReturn only the letter of the correct option.",
+    "answer": "A",
+    "choices": [
+      "Haiti",
+      "Trinidad and Tobago",
+      "Cuba",
+      "the Dominican Republic"
+    ],
+    "answer_index": 0,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "social science",
+    "grade": "grade6",
+    "image_sha256": "2fd2a45820426c51ce65fd77a1156666c5299f034edf0fadf27304512ea777e5"
+  },
+  {
+    "id": "scienceqa-test-212",
+    "split": "general_test",
+    "image": "/content/data/lab9/6b46d1fd7e1f81ae70edfd69613175d2a07f32c73c37fab81edfff442d00fbd9.png",
+    "question": "What is the name of the colony shown?\nA. Pennsylvania\nB. Vermont\nC. Tennessee\nD. Michigan\nReturn only the letter of the correct option.",
+    "answer": "A",
+    "choices": [
+      "Pennsylvania",
+      "Vermont",
+      "Tennessee",
+      "Michigan"
+    ],
+    "answer_index": 0,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "social science",
+    "grade": "grade5",
+    "image_sha256": "6b46d1fd7e1f81ae70edfd69613175d2a07f32c73c37fab81edfff442d00fbd9"
+  },
+  {
+    "id": "scienceqa-test-213",
+    "split": "general_test",
+    "image": "/content/data/lab9/69e556e0c9cedb377b755453e8680dd0a3df513ea021a14d159ab72c23c48b58.png",
+    "question": "What is the capital of Hawaii?\nA. Hilo\nB. Carson City\nC. Honolulu\nD. Juneau\nReturn only the letter of the correct option.",
+    "answer": "C",
+    "choices": [
+      "Hilo",
+      "Carson City",
+      "Honolulu",
+      "Juneau"
+    ],
+    "answer_index": 2,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "social science",
+    "grade": "grade3",
+    "image_sha256": "69e556e0c9cedb377b755453e8680dd0a3df513ea021a14d159ab72c23c48b58"
+  },
+  {
+    "id": "scienceqa-test-216",
+    "split": "general_test",
+    "image": "/content/data/lab9/b379e1c698998cb40f3fa98d72dee36ebf02657449382157800595ee0bf2005c.png",
+    "question": "What is the capital of Kentucky?\nA. Lexington\nB. Frankfort\nC. Anchorage\nD. Baton Rouge\nReturn only the letter of the correct option.",
+    "answer": "B",
+    "choices": [
+      "Lexington",
+      "Frankfort",
+      "Anchorage",
+      "Baton Rouge"
+    ],
+    "answer_index": 1,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "social science",
+    "grade": "grade5",
+    "image_sha256": "b379e1c698998cb40f3fa98d72dee36ebf02657449382157800595ee0bf2005c"
+  },
+  {
+    "id": "scienceqa-test-238",
+    "split": "general_test",
+    "image": "/content/data/lab9/d02cef3169636a2b21ff3a1fce2789d177a5530298a45edb9ee45fc63fca0452.png",
+    "question": "What is the capital of Massachusetts?\nA. Dover\nB. Boston\nC. Salem\nD. Augusta\nReturn only the letter of the correct option.",
+    "answer": "B",
+    "choices": [
+      "Dover",
+      "Boston",
+      "Salem",
+      "Augusta"
+    ],
+    "answer_index": 1,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "social science",
+    "grade": "grade4",
+    "image_sha256": "d02cef3169636a2b21ff3a1fce2789d177a5530298a45edb9ee45fc63fca0452"
+  },
+  {
+    "id": "scienceqa-test-248",
+    "split": "general_test",
+    "image": "/content/data/lab9/a66f8c60d0e922485ffaea69b5ea2d69c925ce79e1c9f7b80e8aa7caab549bf6.png",
+    "question": "What is the capital of Kansas?\nA. Wichita\nB. Pierre\nC. Springfield\nD. Topeka\nReturn only the letter of the correct option.",
+    "answer": "D",
+    "choices": [
+      "Wichita",
+      "Pierre",
+      "Springfield",
+      "Topeka"
+    ],
+    "answer_index": 3,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "social science",
+    "grade": "grade5",
+    "image_sha256": "a66f8c60d0e922485ffaea69b5ea2d69c925ce79e1c9f7b80e8aa7caab549bf6"
+  },
+  {
+    "id": "scienceqa-test-250",
+    "split": "general_test",
+    "image": "/content/data/lab9/98be5fd015cdee014398fb0c993f432efba85f14d85b3ccf5b43dacf99e19098.png",
+    "question": "What can Turner and Mona trade to each get what they want?\nA. Turner can trade his tomatoes for Mona's broccoli.\nB. Turner can trade his tomatoes for Mona's carrots.\nC. Mona can trade her broccoli for Turner's oranges.\nD. Mona can trade her almonds for Turner's tomatoes.\nReturn only the letter of the correct option.",
+    "answer": "A",
+    "choices": [
+      "Turner can trade his tomatoes for Mona's broccoli.",
+      "Turner can trade his tomatoes for Mona's carrots.",
+      "Mona can trade her broccoli for Turner's oranges.",
+      "Mona can trade her almonds for Turner's tomatoes."
+    ],
+    "answer_index": 0,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "social science",
+    "grade": "grade8",
+    "image_sha256": "98be5fd015cdee014398fb0c993f432efba85f14d85b3ccf5b43dacf99e19098"
+  },
+  {
+    "id": "scienceqa-test-252",
+    "split": "general_test",
+    "image": "/content/data/lab9/705cf61dbc41f967067b3101b29462008fb4b070b28ba7aaff9b4edc2865e32c.png",
+    "question": "Which country is highlighted?\nA. Tuvalu\nB. Australia\nC. New Zealand\nD. Papua New Guinea\nReturn only the letter of the correct option.",
+    "answer": "B",
+    "choices": [
+      "Tuvalu",
+      "Australia",
+      "New Zealand",
+      "Papua New Guinea"
+    ],
+    "answer_index": 1,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "social science",
+    "grade": "grade7",
+    "image_sha256": "705cf61dbc41f967067b3101b29462008fb4b070b28ba7aaff9b4edc2865e32c"
+  },
+  {
+    "id": "scienceqa-test-258",
+    "split": "general_test",
+    "image": "/content/data/lab9/c32fff70c7d9ac0fc070917712b7e2f996c87790a2dfdf8701b1fcb84d19fc13.png",
+    "question": "What is the capital of Florida?\nA. Tampa\nB. Little Rock\nC. Laramie\nD. Tallahassee\nReturn only the letter of the correct option.",
+    "answer": "D",
+    "choices": [
+      "Tampa",
+      "Little Rock",
+      "Laramie",
+      "Tallahassee"
+    ],
+    "answer_index": 3,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "social science",
+    "grade": "grade3",
+    "image_sha256": "c32fff70c7d9ac0fc070917712b7e2f996c87790a2dfdf8701b1fcb84d19fc13"
+  },
+  {
+    "id": "scienceqa-test-261",
+    "split": "general_test",
+    "image": "/content/data/lab9/c93b8d185425e24295a6010a5ec14a9120b03dfeea35fc94e88b3738476c69c6.png",
+    "question": "Which country is highlighted?\nA. the Federated States of Micronesia\nB. New Zealand\nC. Tuvalu\nD. Tonga\nReturn only the letter of the correct option.",
+    "answer": "C",
+    "choices": [
+      "the Federated States of Micronesia",
+      "New Zealand",
+      "Tuvalu",
+      "Tonga"
+    ],
+    "answer_index": 2,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "social science",
+    "grade": "grade6",
+    "image_sha256": "c93b8d185425e24295a6010a5ec14a9120b03dfeea35fc94e88b3738476c69c6"
+  },
+  {
+    "id": "scienceqa-test-264",
+    "split": "general_test",
+    "image": "/content/data/lab9/7e594881116f936d12d91cd6482c8d67641312e793c2fa3172d7935f8c43a0a2.png",
+    "question": "What is the name of the colony shown?\nA. Maryland\nB. Virginia\nC. Washington, D.C.\nD. Rhode Island\nReturn only the letter of the correct option.",
+    "answer": "A",
+    "choices": [
+      "Maryland",
+      "Virginia",
+      "Washington, D.C.",
+      "Rhode Island"
+    ],
+    "answer_index": 0,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "social science",
+    "grade": "grade4",
+    "image_sha256": "7e594881116f936d12d91cd6482c8d67641312e793c2fa3172d7935f8c43a0a2"
+  },
+  {
+    "id": "scienceqa-test-267",
+    "split": "general_test",
+    "image": "/content/data/lab9/07a066ab7e1f3998d615e57931bee33c1217151cc7375f03c75fcee3353a11a0.png",
+    "question": "Which of these states is farthest east?\nA. Nebraska\nB. Louisiana\nC. Idaho\nD. Arizona\nReturn only the letter of the correct option.",
+    "answer": "B",
+    "choices": [
+      "Nebraska",
+      "Louisiana",
+      "Idaho",
+      "Arizona"
+    ],
+    "answer_index": 1,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "social science",
+    "grade": "grade3",
+    "image_sha256": "07a066ab7e1f3998d615e57931bee33c1217151cc7375f03c75fcee3353a11a0"
+  },
+  {
+    "id": "scienceqa-test-268",
+    "split": "general_test",
+    "image": "/content/data/lab9/ec61065612b1c1d861e5fc01f31909d9fbd45c7c7313c1a1844ce78af8d928d1.png",
+    "question": "Which country is highlighted?\nA. The Bahamas\nB. Cuba\nC. Jamaica\nD. Haiti\nReturn only the letter of the correct option.",
+    "answer": "B",
+    "choices": [
+      "The Bahamas",
+      "Cuba",
+      "Jamaica",
+      "Haiti"
+    ],
+    "answer_index": 1,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "social science",
+    "grade": "grade6",
+    "image_sha256": "ec61065612b1c1d861e5fc01f31909d9fbd45c7c7313c1a1844ce78af8d928d1"
+  },
+  {
+    "id": "scienceqa-test-270",
+    "split": "general_test",
+    "image": "/content/data/lab9/f44fd6aedd10f06611e530759238d9c4dda8808a444c762114b81a6a92a8d5e7.png",
+    "question": "What is the name of the colony shown?\nA. New York\nB. Rhode Island\nC. North Carolina\nD. New Jersey\nReturn only the letter of the correct option.",
+    "answer": "B",
+    "choices": [
+      "New York",
+      "Rhode Island",
+      "North Carolina",
+      "New Jersey"
+    ],
+    "answer_index": 1,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "social science",
+    "grade": "grade4",
+    "image_sha256": "f44fd6aedd10f06611e530759238d9c4dda8808a444c762114b81a6a92a8d5e7"
+  },
+  {
+    "id": "scienceqa-test-279",
+    "split": "general_test",
+    "image": "/content/data/lab9/efc17491b3d82a7d7a81eca4f10bd7fd25fa00fe437a49b516d2be6ad1110c9b.png",
+    "question": "What is the capital of Maryland?\nA. Juneau\nB. Augusta\nC. Annapolis\nD. Providence\nReturn only the letter of the correct option.",
+    "answer": "C",
+    "choices": [
+      "Juneau",
+      "Augusta",
+      "Annapolis",
+      "Providence"
+    ],
+    "answer_index": 2,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "social science",
+    "grade": "grade5",
+    "image_sha256": "efc17491b3d82a7d7a81eca4f10bd7fd25fa00fe437a49b516d2be6ad1110c9b"
+  },
+  {
+    "id": "scienceqa-test-283",
+    "split": "general_test",
+    "image": "/content/data/lab9/ecaf8fba287c5d826a85a35c8f2794511d61f3f1bd7e6b0eb9f9cf41fec27ecc.png",
+    "question": "Which country is highlighted?\nA. Palau\nB. Nauru\nC. the Federated States of Micronesia\nD. New Zealand\nReturn only the letter of the correct option.",
+    "answer": "A",
+    "choices": [
+      "Palau",
+      "Nauru",
+      "the Federated States of Micronesia",
+      "New Zealand"
+    ],
+    "answer_index": 0,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "social science",
+    "grade": "grade7",
+    "image_sha256": "ecaf8fba287c5d826a85a35c8f2794511d61f3f1bd7e6b0eb9f9cf41fec27ecc"
+  },
+  {
+    "id": "scienceqa-test-284",
+    "split": "general_test",
+    "image": "/content/data/lab9/196ffbe5e4bbf04382f4282d1e155e12e14ee78762cdecd3dd8d8d43951a6b89.png",
+    "question": "What is the capital of Utah?\nA. Helena\nB. Albany\nC. Salt Lake City\nD. Provo\nReturn only the letter of the correct option.",
+    "answer": "C",
+    "choices": [
+      "Helena",
+      "Albany",
+      "Salt Lake City",
+      "Provo"
+    ],
+    "answer_index": 2,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "social science",
+    "grade": "grade4",
+    "image_sha256": "196ffbe5e4bbf04382f4282d1e155e12e14ee78762cdecd3dd8d8d43951a6b89"
+  },
+  {
+    "id": "scienceqa-test-285",
+    "split": "general_test",
+    "image": "/content/data/lab9/2baff8c9c509a4d5e8c8513813b41d55b675a0eafd6e135d6d54c1812857836d.png",
+    "question": "What is the capital of New Jersey?\nA. Newark\nB. Montpelier\nC. Jersey City\nD. Trenton\nReturn only the letter of the correct option.",
+    "answer": "D",
+    "choices": [
+      "Newark",
+      "Montpelier",
+      "Jersey City",
+      "Trenton"
+    ],
+    "answer_index": 3,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "social science",
+    "grade": "grade3",
+    "image_sha256": "2baff8c9c509a4d5e8c8513813b41d55b675a0eafd6e135d6d54c1812857836d"
+  },
+  {
+    "id": "scienceqa-test-293",
+    "split": "general_test",
+    "image": "/content/data/lab9/4928f5d81ef0ac4d4bb313b6dde34d17ebdb0487dbd48f816237eb83252b94e1.png",
+    "question": "Which ocean is highlighted?\nA. the Indian Ocean\nB. the Atlantic Ocean\nC. the Pacific Ocean\nD. the Southern Ocean\nReturn only the letter of the correct option.",
+    "answer": "B",
+    "choices": [
+      "the Indian Ocean",
+      "the Atlantic Ocean",
+      "the Pacific Ocean",
+      "the Southern Ocean"
+    ],
+    "answer_index": 1,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "social science",
+    "grade": "grade7",
+    "image_sha256": "4928f5d81ef0ac4d4bb313b6dde34d17ebdb0487dbd48f816237eb83252b94e1"
+  },
+  {
+    "id": "scienceqa-test-305",
+    "split": "general_test",
+    "image": "/content/data/lab9/8634b231293d567f433cf790cb4c88bfb219dfd68bc3808c4226da51acf5d4c0.png",
+    "question": "Which of these states is farthest east?\nA. Georgia\nB. Delaware\nC. North Dakota\nD. Colorado\nReturn only the letter of the correct option.",
+    "answer": "B",
+    "choices": [
+      "Georgia",
+      "Delaware",
+      "North Dakota",
+      "Colorado"
+    ],
+    "answer_index": 1,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "social science",
+    "grade": "grade4",
+    "image_sha256": "8634b231293d567f433cf790cb4c88bfb219dfd68bc3808c4226da51acf5d4c0"
+  },
+  {
+    "id": "scienceqa-test-315",
+    "split": "general_test",
+    "image": "/content/data/lab9/4bfc342d8e51ac91b6d870374d93a8307450f81bf26f653b8b35fb989380a661.png",
+    "question": "Which ocean is highlighted?\nA. the Southern Ocean\nB. the Pacific Ocean\nC. the Atlantic Ocean\nD. the Indian Ocean\nReturn only the letter of the correct option.",
+    "answer": "A",
+    "choices": [
+      "the Southern Ocean",
+      "the Pacific Ocean",
+      "the Atlantic Ocean",
+      "the Indian Ocean"
+    ],
+    "answer_index": 0,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "social science",
+    "grade": "grade7",
+    "image_sha256": "4bfc342d8e51ac91b6d870374d93a8307450f81bf26f653b8b35fb989380a661"
+  },
+  {
+    "id": "scienceqa-test-316",
+    "split": "general_test",
+    "image": "/content/data/lab9/e9ec4eaf5aaec7210a8892572452013df4051446dc900f6b073f47a92bffe2f3.png",
+    "question": "What is the capital of Colorado?\nA. Olympia\nB. Denver\nC. Carson City\nD. Louisville\nReturn only the letter of the correct option.",
+    "answer": "B",
+    "choices": [
+      "Olympia",
+      "Denver",
+      "Carson City",
+      "Louisville"
+    ],
+    "answer_index": 1,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "social science",
+    "grade": "grade4",
+    "image_sha256": "e9ec4eaf5aaec7210a8892572452013df4051446dc900f6b073f47a92bffe2f3"
+  },
+  {
+    "id": "scienceqa-test-319",
+    "split": "general_test",
+    "image": "/content/data/lab9/35eaeb1688030981d265103b6ea3be39e814723be1103b621c3df5ab06bab502.png",
+    "question": "Which country is highlighted?\nA. Australia\nB. the Marshall Islands\nC. New Zealand\nD. Papua New Guinea\nReturn only the letter of the correct option.",
+    "answer": "C",
+    "choices": [
+      "Australia",
+      "the Marshall Islands",
+      "New Zealand",
+      "Papua New Guinea"
+    ],
+    "answer_index": 2,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "social science",
+    "grade": "grade6",
+    "image_sha256": "35eaeb1688030981d265103b6ea3be39e814723be1103b621c3df5ab06bab502"
+  },
+  {
+    "id": "scienceqa-test-321",
+    "split": "general_test",
+    "image": "/content/data/lab9/90c02fe1f6a472962b62a5e92e9d2fb8be114cca3bc13a4ef44ae740ce365bc6.png",
+    "question": "Which of these states is farthest south?\nA. Missouri\nB. Michigan\nC. Maine\nD. Oregon\nReturn only the letter of the correct option.",
+    "answer": "A",
+    "choices": [
+      "Missouri",
+      "Michigan",
+      "Maine",
+      "Oregon"
+    ],
+    "answer_index": 0,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "social science",
+    "grade": "grade4",
+    "image_sha256": "90c02fe1f6a472962b62a5e92e9d2fb8be114cca3bc13a4ef44ae740ce365bc6"
+  },
+  {
+    "id": "scienceqa-test-322",
+    "split": "general_test",
+    "image": "/content/data/lab9/215f95cde2913cc4aa4c0fddb8d4b0872bdb82b2a81457cf9d8f2d96fab3e413.png",
+    "question": "Which of these cities is marked on the map?\nA. Miami\nB. Atlanta\nC. Nashville\nD. Oklahoma City\nReturn only the letter of the correct option.",
+    "answer": "B",
+    "choices": [
+      "Miami",
+      "Atlanta",
+      "Nashville",
+      "Oklahoma City"
+    ],
+    "answer_index": 1,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "social science",
+    "grade": "grade4",
+    "image_sha256": "215f95cde2913cc4aa4c0fddb8d4b0872bdb82b2a81457cf9d8f2d96fab3e413"
+  },
+  {
+    "id": "scienceqa-test-337",
+    "split": "general_test",
+    "image": "/content/data/lab9/b70653939d9087510ab6d3182b8cb5b3afacbb260abc4a56a4275ace624adc6f.png",
+    "question": "What is the capital of California?\nA. Sacramento\nB. Reno\nC. Los Angeles\nD. San Francisco\nReturn only the letter of the correct option.",
+    "answer": "A",
+    "choices": [
+      "Sacramento",
+      "Reno",
+      "Los Angeles",
+      "San Francisco"
+    ],
+    "answer_index": 0,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "social science",
+    "grade": "grade3",
+    "image_sha256": "b70653939d9087510ab6d3182b8cb5b3afacbb260abc4a56a4275ace624adc6f"
+  },
+  {
+    "id": "scienceqa-test-340",
+    "split": "general_test",
+    "image": "/content/data/lab9/887df0302137d15a99ded8a37bb7be5f6b500c30d850ebfd2e622bf8a6f417b3.png",
+    "question": "Which continent is highlighted?\nA. Australia\nB. Africa\nC. South America\nD. Europe\nReturn only the letter of the correct option.",
+    "answer": "C",
+    "choices": [
+      "Australia",
+      "Africa",
+      "South America",
+      "Europe"
+    ],
+    "answer_index": 2,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "social science",
+    "grade": "grade4",
+    "image_sha256": "887df0302137d15a99ded8a37bb7be5f6b500c30d850ebfd2e622bf8a6f417b3"
+  },
+  {
+    "id": "scienceqa-test-343",
+    "split": "general_test",
+    "image": "/content/data/lab9/5ceb9d508c02b78807469655fef65af7ffb8e5fc174cef4be1b3e5f098ef8929.png",
+    "question": "What is the capital of Colorado?\nA. Denver\nB. Concord\nC. Columbia\nD. Charlotte\nReturn only the letter of the correct option.",
+    "answer": "A",
+    "choices": [
+      "Denver",
+      "Concord",
+      "Columbia",
+      "Charlotte"
+    ],
+    "answer_index": 0,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "social science",
+    "grade": "grade5",
+    "image_sha256": "5ceb9d508c02b78807469655fef65af7ffb8e5fc174cef4be1b3e5f098ef8929"
+  },
+  {
+    "id": "scienceqa-test-354",
+    "split": "general_test",
+    "image": "/content/data/lab9/44618185979844c6ff1d2f712f126948ccdae42a62c804c1d227220c2dbe695c.png",
+    "question": "What can Clara and Harry trade to each get what they want?\nA. Harry can trade his almonds for Clara's tomatoes.\nB. Clara can trade her tomatoes for Harry's carrots.\nC. Harry can trade his broccoli for Clara's oranges.\nD. Clara can trade her tomatoes for Harry's broccoli.\nReturn only the letter of the correct option.",
+    "answer": "D",
+    "choices": [
+      "Harry can trade his almonds for Clara's tomatoes.",
+      "Clara can trade her tomatoes for Harry's carrots.",
+      "Harry can trade his broccoli for Clara's oranges.",
+      "Clara can trade her tomatoes for Harry's broccoli."
+    ],
+    "answer_index": 3,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "social science",
+    "grade": "grade8",
+    "image_sha256": "44618185979844c6ff1d2f712f126948ccdae42a62c804c1d227220c2dbe695c"
+  }
+]

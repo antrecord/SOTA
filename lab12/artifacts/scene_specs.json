@@ -1,0 +1,5086 @@
+[
+  {
+    "scene_id": "scene_0000",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "orange"
+      },
+      {
+        "shape": "square",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0001",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "orange"
+      },
+      {
+        "shape": "circle",
+        "color": "orange"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0002",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "yellow"
+      },
+      {
+        "shape": "circle",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0003",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "blue"
+      },
+      {
+        "shape": "triangle",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0004",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "blue"
+      },
+      {
+        "shape": "triangle",
+        "color": "orange"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0005",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "yellow"
+      },
+      {
+        "shape": "triangle",
+        "color": "green"
+      },
+      {
+        "shape": "circle",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0006",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "green"
+      },
+      {
+        "shape": "circle",
+        "color": "blue"
+      },
+      {
+        "shape": "square",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0007",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "red"
+      },
+      {
+        "shape": "square",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0008",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "orange"
+      },
+      {
+        "shape": "square",
+        "color": "purple"
+      },
+      {
+        "shape": "circle",
+        "color": "yellow"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0009",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "green"
+      },
+      {
+        "shape": "triangle",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0010",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "blue"
+      },
+      {
+        "shape": "triangle",
+        "color": "red"
+      },
+      {
+        "shape": "circle",
+        "color": "orange"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0011",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "red"
+      },
+      {
+        "shape": "circle",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0012",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "yellow"
+      },
+      {
+        "shape": "triangle",
+        "color": "green"
+      },
+      {
+        "shape": "circle",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0013",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "orange"
+      },
+      {
+        "shape": "square",
+        "color": "orange"
+      },
+      {
+        "shape": "triangle",
+        "color": "orange"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0014",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "orange"
+      },
+      {
+        "shape": "circle",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0015",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "yellow"
+      },
+      {
+        "shape": "square",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0016",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "green"
+      },
+      {
+        "shape": "circle",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0017",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "yellow"
+      },
+      {
+        "shape": "square",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0018",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "orange"
+      },
+      {
+        "shape": "square",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0019",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "orange"
+      },
+      {
+        "shape": "square",
+        "color": "blue"
+      },
+      {
+        "shape": "square",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0020",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "purple"
+      },
+      {
+        "shape": "triangle",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0021",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "yellow"
+      },
+      {
+        "shape": "square",
+        "color": "blue"
+      },
+      {
+        "shape": "circle",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0022",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "red"
+      },
+      {
+        "shape": "circle",
+        "color": "blue"
+      },
+      {
+        "shape": "triangle",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0023",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "red"
+      },
+      {
+        "shape": "square",
+        "color": "yellow"
+      },
+      {
+        "shape": "triangle",
+        "color": "yellow"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0024",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "red"
+      },
+      {
+        "shape": "triangle",
+        "color": "orange"
+      },
+      {
+        "shape": "circle",
+        "color": "orange"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0025",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "green"
+      },
+      {
+        "shape": "circle",
+        "color": "green"
+      },
+      {
+        "shape": "square",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0026",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "orange"
+      },
+      {
+        "shape": "triangle",
+        "color": "green"
+      },
+      {
+        "shape": "triangle",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0027",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "green"
+      },
+      {
+        "shape": "triangle",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0028",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "green"
+      },
+      {
+        "shape": "circle",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0029",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "green"
+      },
+      {
+        "shape": "square",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0030",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "green"
+      },
+      {
+        "shape": "circle",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0031",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "red"
+      },
+      {
+        "shape": "circle",
+        "color": "orange"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0032",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "purple"
+      },
+      {
+        "shape": "circle",
+        "color": "blue"
+      },
+      {
+        "shape": "triangle",
+        "color": "yellow"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0033",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "purple"
+      },
+      {
+        "shape": "triangle",
+        "color": "yellow"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0034",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "orange"
+      },
+      {
+        "shape": "triangle",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0035",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "orange"
+      },
+      {
+        "shape": "triangle",
+        "color": "green"
+      },
+      {
+        "shape": "square",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0036",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "blue"
+      },
+      {
+        "shape": "circle",
+        "color": "red"
+      },
+      {
+        "shape": "square",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0037",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "blue"
+      },
+      {
+        "shape": "circle",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0038",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "red"
+      },
+      {
+        "shape": "circle",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0039",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "blue"
+      },
+      {
+        "shape": "square",
+        "color": "orange"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0040",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "purple"
+      },
+      {
+        "shape": "circle",
+        "color": "orange"
+      },
+      {
+        "shape": "triangle",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0041",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "yellow"
+      },
+      {
+        "shape": "square",
+        "color": "blue"
+      },
+      {
+        "shape": "circle",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0042",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "yellow"
+      },
+      {
+        "shape": "square",
+        "color": "yellow"
+      },
+      {
+        "shape": "triangle",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0043",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "yellow"
+      },
+      {
+        "shape": "triangle",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0044",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "blue"
+      },
+      {
+        "shape": "circle",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0045",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "yellow"
+      },
+      {
+        "shape": "circle",
+        "color": "green"
+      },
+      {
+        "shape": "square",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0046",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "purple"
+      },
+      {
+        "shape": "circle",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0047",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "blue"
+      },
+      {
+        "shape": "circle",
+        "color": "yellow"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0048",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "blue"
+      },
+      {
+        "shape": "square",
+        "color": "red"
+      },
+      {
+        "shape": "circle",
+        "color": "yellow"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0049",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "green"
+      },
+      {
+        "shape": "square",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0050",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "orange"
+      },
+      {
+        "shape": "triangle",
+        "color": "orange"
+      },
+      {
+        "shape": "triangle",
+        "color": "yellow"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0051",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "green"
+      },
+      {
+        "shape": "circle",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0052",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "green"
+      },
+      {
+        "shape": "circle",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0053",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "purple"
+      },
+      {
+        "shape": "circle",
+        "color": "red"
+      },
+      {
+        "shape": "triangle",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0054",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "purple"
+      },
+      {
+        "shape": "circle",
+        "color": "orange"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0055",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "red"
+      },
+      {
+        "shape": "triangle",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0056",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "red"
+      },
+      {
+        "shape": "square",
+        "color": "orange"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0057",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "blue"
+      },
+      {
+        "shape": "triangle",
+        "color": "orange"
+      },
+      {
+        "shape": "square",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0058",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "blue"
+      },
+      {
+        "shape": "triangle",
+        "color": "orange"
+      },
+      {
+        "shape": "square",
+        "color": "yellow"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0059",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "red"
+      },
+      {
+        "shape": "square",
+        "color": "purple"
+      },
+      {
+        "shape": "triangle",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0060",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "blue"
+      },
+      {
+        "shape": "triangle",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0061",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "red"
+      },
+      {
+        "shape": "circle",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0062",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "yellow"
+      },
+      {
+        "shape": "triangle",
+        "color": "orange"
+      },
+      {
+        "shape": "square",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0063",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "purple"
+      },
+      {
+        "shape": "square",
+        "color": "orange"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0064",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "green"
+      },
+      {
+        "shape": "circle",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0065",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "green"
+      },
+      {
+        "shape": "triangle",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0066",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "orange"
+      },
+      {
+        "shape": "triangle",
+        "color": "green"
+      },
+      {
+        "shape": "triangle",
+        "color": "yellow"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0067",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "red"
+      },
+      {
+        "shape": "triangle",
+        "color": "yellow"
+      },
+      {
+        "shape": "square",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0068",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "blue"
+      },
+      {
+        "shape": "triangle",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0069",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "yellow"
+      },
+      {
+        "shape": "triangle",
+        "color": "orange"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0070",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "red"
+      },
+      {
+        "shape": "circle",
+        "color": "red"
+      },
+      {
+        "shape": "triangle",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0071",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "purple"
+      },
+      {
+        "shape": "triangle",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0072",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "red"
+      },
+      {
+        "shape": "square",
+        "color": "green"
+      },
+      {
+        "shape": "circle",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0073",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "blue"
+      },
+      {
+        "shape": "triangle",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0074",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "yellow"
+      },
+      {
+        "shape": "triangle",
+        "color": "orange"
+      },
+      {
+        "shape": "circle",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0075",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "yellow"
+      },
+      {
+        "shape": "circle",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0076",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "orange"
+      },
+      {
+        "shape": "triangle",
+        "color": "blue"
+      },
+      {
+        "shape": "square",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0077",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "red"
+      },
+      {
+        "shape": "square",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0078",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "green"
+      },
+      {
+        "shape": "square",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0079",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "orange"
+      },
+      {
+        "shape": "circle",
+        "color": "yellow"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0080",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "red"
+      },
+      {
+        "shape": "square",
+        "color": "green"
+      },
+      {
+        "shape": "triangle",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0081",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "purple"
+      },
+      {
+        "shape": "square",
+        "color": "red"
+      },
+      {
+        "shape": "circle",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0082",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "green"
+      },
+      {
+        "shape": "circle",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0083",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "orange"
+      },
+      {
+        "shape": "square",
+        "color": "yellow"
+      },
+      {
+        "shape": "triangle",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0084",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "purple"
+      },
+      {
+        "shape": "circle",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0085",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "yellow"
+      },
+      {
+        "shape": "circle",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0086",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "yellow"
+      },
+      {
+        "shape": "circle",
+        "color": "orange"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0087",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "green"
+      },
+      {
+        "shape": "triangle",
+        "color": "red"
+      },
+      {
+        "shape": "triangle",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0088",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "yellow"
+      },
+      {
+        "shape": "square",
+        "color": "yellow"
+      },
+      {
+        "shape": "triangle",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0089",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "yellow"
+      },
+      {
+        "shape": "triangle",
+        "color": "yellow"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0090",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "purple"
+      },
+      {
+        "shape": "square",
+        "color": "yellow"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0091",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "green"
+      },
+      {
+        "shape": "circle",
+        "color": "yellow"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0092",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "yellow"
+      },
+      {
+        "shape": "square",
+        "color": "orange"
+      },
+      {
+        "shape": "circle",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0093",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "blue"
+      },
+      {
+        "shape": "triangle",
+        "color": "red"
+      },
+      {
+        "shape": "square",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0094",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "blue"
+      },
+      {
+        "shape": "triangle",
+        "color": "green"
+      },
+      {
+        "shape": "circle",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0095",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "red"
+      },
+      {
+        "shape": "circle",
+        "color": "yellow"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0096",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "yellow"
+      },
+      {
+        "shape": "triangle",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0097",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "orange"
+      },
+      {
+        "shape": "square",
+        "color": "yellow"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0098",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "blue"
+      },
+      {
+        "shape": "triangle",
+        "color": "orange"
+      },
+      {
+        "shape": "circle",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0099",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "blue"
+      },
+      {
+        "shape": "triangle",
+        "color": "purple"
+      },
+      {
+        "shape": "square",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0100",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "yellow"
+      },
+      {
+        "shape": "circle",
+        "color": "yellow"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0101",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "purple"
+      },
+      {
+        "shape": "triangle",
+        "color": "purple"
+      },
+      {
+        "shape": "square",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0102",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "orange"
+      },
+      {
+        "shape": "square",
+        "color": "yellow"
+      },
+      {
+        "shape": "square",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0103",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "yellow"
+      },
+      {
+        "shape": "triangle",
+        "color": "blue"
+      },
+      {
+        "shape": "square",
+        "color": "yellow"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0104",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "green"
+      },
+      {
+        "shape": "circle",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0105",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "purple"
+      },
+      {
+        "shape": "circle",
+        "color": "blue"
+      },
+      {
+        "shape": "circle",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0106",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "blue"
+      },
+      {
+        "shape": "triangle",
+        "color": "blue"
+      },
+      {
+        "shape": "circle",
+        "color": "yellow"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0107",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "purple"
+      },
+      {
+        "shape": "square",
+        "color": "yellow"
+      },
+      {
+        "shape": "circle",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0108",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "purple"
+      },
+      {
+        "shape": "triangle",
+        "color": "red"
+      },
+      {
+        "shape": "triangle",
+        "color": "yellow"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0109",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "green"
+      },
+      {
+        "shape": "square",
+        "color": "yellow"
+      },
+      {
+        "shape": "square",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0110",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "blue"
+      },
+      {
+        "shape": "square",
+        "color": "yellow"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0111",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "yellow"
+      },
+      {
+        "shape": "square",
+        "color": "orange"
+      },
+      {
+        "shape": "triangle",
+        "color": "yellow"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0112",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "blue"
+      },
+      {
+        "shape": "triangle",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0113",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "purple"
+      },
+      {
+        "shape": "triangle",
+        "color": "orange"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0114",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "orange"
+      },
+      {
+        "shape": "square",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0115",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "red"
+      },
+      {
+        "shape": "square",
+        "color": "yellow"
+      },
+      {
+        "shape": "square",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0116",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "green"
+      },
+      {
+        "shape": "square",
+        "color": "green"
+      },
+      {
+        "shape": "square",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0117",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "red"
+      },
+      {
+        "shape": "triangle",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0118",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "blue"
+      },
+      {
+        "shape": "triangle",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0119",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "blue"
+      },
+      {
+        "shape": "circle",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0120",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "blue"
+      },
+      {
+        "shape": "square",
+        "color": "orange"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0121",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "blue"
+      },
+      {
+        "shape": "square",
+        "color": "orange"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0122",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "blue"
+      },
+      {
+        "shape": "triangle",
+        "color": "purple"
+      },
+      {
+        "shape": "triangle",
+        "color": "orange"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0123",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "green"
+      },
+      {
+        "shape": "circle",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0124",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "purple"
+      },
+      {
+        "shape": "triangle",
+        "color": "yellow"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0125",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "blue"
+      },
+      {
+        "shape": "circle",
+        "color": "purple"
+      },
+      {
+        "shape": "triangle",
+        "color": "orange"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0126",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "orange"
+      },
+      {
+        "shape": "square",
+        "color": "orange"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0127",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "red"
+      },
+      {
+        "shape": "square",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0128",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "green"
+      },
+      {
+        "shape": "circle",
+        "color": "purple"
+      },
+      {
+        "shape": "triangle",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0129",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "yellow"
+      },
+      {
+        "shape": "circle",
+        "color": "yellow"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0130",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "yellow"
+      },
+      {
+        "shape": "triangle",
+        "color": "blue"
+      },
+      {
+        "shape": "square",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0131",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "purple"
+      },
+      {
+        "shape": "square",
+        "color": "yellow"
+      },
+      {
+        "shape": "square",
+        "color": "orange"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0132",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "blue"
+      },
+      {
+        "shape": "circle",
+        "color": "green"
+      },
+      {
+        "shape": "square",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0133",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "purple"
+      },
+      {
+        "shape": "triangle",
+        "color": "yellow"
+      },
+      {
+        "shape": "square",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0134",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "blue"
+      },
+      {
+        "shape": "square",
+        "color": "blue"
+      },
+      {
+        "shape": "square",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0135",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "purple"
+      },
+      {
+        "shape": "triangle",
+        "color": "green"
+      },
+      {
+        "shape": "triangle",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0136",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "blue"
+      },
+      {
+        "shape": "triangle",
+        "color": "yellow"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0137",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "blue"
+      },
+      {
+        "shape": "triangle",
+        "color": "yellow"
+      },
+      {
+        "shape": "triangle",
+        "color": "orange"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0138",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "red"
+      },
+      {
+        "shape": "circle",
+        "color": "green"
+      },
+      {
+        "shape": "circle",
+        "color": "yellow"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0139",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "orange"
+      },
+      {
+        "shape": "triangle",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0140",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "purple"
+      },
+      {
+        "shape": "square",
+        "color": "yellow"
+      },
+      {
+        "shape": "triangle",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0141",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "orange"
+      },
+      {
+        "shape": "square",
+        "color": "green"
+      },
+      {
+        "shape": "square",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0142",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "orange"
+      },
+      {
+        "shape": "circle",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0143",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "purple"
+      },
+      {
+        "shape": "triangle",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0144",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "orange"
+      },
+      {
+        "shape": "square",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0145",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "blue"
+      },
+      {
+        "shape": "square",
+        "color": "blue"
+      },
+      {
+        "shape": "square",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0146",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "orange"
+      },
+      {
+        "shape": "triangle",
+        "color": "blue"
+      },
+      {
+        "shape": "square",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0147",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "green"
+      },
+      {
+        "shape": "triangle",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0148",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "red"
+      },
+      {
+        "shape": "triangle",
+        "color": "green"
+      },
+      {
+        "shape": "square",
+        "color": "yellow"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0149",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "blue"
+      },
+      {
+        "shape": "circle",
+        "color": "green"
+      },
+      {
+        "shape": "square",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0150",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "yellow"
+      },
+      {
+        "shape": "circle",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0151",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "blue"
+      },
+      {
+        "shape": "triangle",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0152",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "red"
+      },
+      {
+        "shape": "triangle",
+        "color": "yellow"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0153",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "yellow"
+      },
+      {
+        "shape": "square",
+        "color": "yellow"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0154",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "yellow"
+      },
+      {
+        "shape": "square",
+        "color": "purple"
+      },
+      {
+        "shape": "triangle",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0155",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "orange"
+      },
+      {
+        "shape": "circle",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0156",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "blue"
+      },
+      {
+        "shape": "circle",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0157",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "red"
+      },
+      {
+        "shape": "square",
+        "color": "yellow"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0158",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "red"
+      },
+      {
+        "shape": "circle",
+        "color": "green"
+      },
+      {
+        "shape": "triangle",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0159",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "orange"
+      },
+      {
+        "shape": "circle",
+        "color": "green"
+      },
+      {
+        "shape": "triangle",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0160",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "red"
+      },
+      {
+        "shape": "triangle",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0161",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "blue"
+      },
+      {
+        "shape": "circle",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0162",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "purple"
+      },
+      {
+        "shape": "triangle",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0163",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "red"
+      },
+      {
+        "shape": "square",
+        "color": "orange"
+      },
+      {
+        "shape": "square",
+        "color": "orange"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0164",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "purple"
+      },
+      {
+        "shape": "triangle",
+        "color": "yellow"
+      },
+      {
+        "shape": "square",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0165",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "orange"
+      },
+      {
+        "shape": "square",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0166",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "red"
+      },
+      {
+        "shape": "circle",
+        "color": "orange"
+      },
+      {
+        "shape": "triangle",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0167",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "green"
+      },
+      {
+        "shape": "triangle",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0168",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "purple"
+      },
+      {
+        "shape": "triangle",
+        "color": "yellow"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0169",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "purple"
+      },
+      {
+        "shape": "square",
+        "color": "orange"
+      },
+      {
+        "shape": "square",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0170",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "yellow"
+      },
+      {
+        "shape": "square",
+        "color": "green"
+      },
+      {
+        "shape": "triangle",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0171",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "yellow"
+      },
+      {
+        "shape": "triangle",
+        "color": "yellow"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0172",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "yellow"
+      },
+      {
+        "shape": "triangle",
+        "color": "red"
+      },
+      {
+        "shape": "square",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0173",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "green"
+      },
+      {
+        "shape": "circle",
+        "color": "yellow"
+      },
+      {
+        "shape": "triangle",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0174",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "red"
+      },
+      {
+        "shape": "circle",
+        "color": "purple"
+      },
+      {
+        "shape": "square",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0175",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "yellow"
+      },
+      {
+        "shape": "circle",
+        "color": "blue"
+      },
+      {
+        "shape": "square",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0176",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "yellow"
+      },
+      {
+        "shape": "triangle",
+        "color": "yellow"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0177",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "orange"
+      },
+      {
+        "shape": "triangle",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0178",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "purple"
+      },
+      {
+        "shape": "circle",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0179",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "blue"
+      },
+      {
+        "shape": "circle",
+        "color": "yellow"
+      },
+      {
+        "shape": "circle",
+        "color": "orange"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0180",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "orange"
+      },
+      {
+        "shape": "square",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0181",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "yellow"
+      },
+      {
+        "shape": "square",
+        "color": "blue"
+      },
+      {
+        "shape": "square",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0182",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "blue"
+      },
+      {
+        "shape": "triangle",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0183",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "green"
+      },
+      {
+        "shape": "square",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0184",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "green"
+      },
+      {
+        "shape": "triangle",
+        "color": "green"
+      },
+      {
+        "shape": "triangle",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0185",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "yellow"
+      },
+      {
+        "shape": "triangle",
+        "color": "yellow"
+      },
+      {
+        "shape": "square",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0186",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "green"
+      },
+      {
+        "shape": "circle",
+        "color": "orange"
+      },
+      {
+        "shape": "circle",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0187",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "yellow"
+      },
+      {
+        "shape": "circle",
+        "color": "green"
+      },
+      {
+        "shape": "triangle",
+        "color": "yellow"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0188",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "orange"
+      },
+      {
+        "shape": "triangle",
+        "color": "blue"
+      },
+      {
+        "shape": "square",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0189",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "purple"
+      },
+      {
+        "shape": "square",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0190",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "purple"
+      },
+      {
+        "shape": "square",
+        "color": "red"
+      },
+      {
+        "shape": "triangle",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0191",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "blue"
+      },
+      {
+        "shape": "circle",
+        "color": "yellow"
+      },
+      {
+        "shape": "square",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0192",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "red"
+      },
+      {
+        "shape": "square",
+        "color": "orange"
+      },
+      {
+        "shape": "triangle",
+        "color": "yellow"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0193",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "orange"
+      },
+      {
+        "shape": "square",
+        "color": "purple"
+      },
+      {
+        "shape": "circle",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0194",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "orange"
+      },
+      {
+        "shape": "triangle",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0195",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "red"
+      },
+      {
+        "shape": "square",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0196",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "blue"
+      },
+      {
+        "shape": "triangle",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0197",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "green"
+      },
+      {
+        "shape": "circle",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0198",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "yellow"
+      },
+      {
+        "shape": "circle",
+        "color": "blue"
+      },
+      {
+        "shape": "triangle",
+        "color": "yellow"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0199",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "blue"
+      },
+      {
+        "shape": "circle",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0200",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "orange"
+      },
+      {
+        "shape": "circle",
+        "color": "yellow"
+      },
+      {
+        "shape": "triangle",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0201",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "orange"
+      },
+      {
+        "shape": "square",
+        "color": "yellow"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0202",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "red"
+      },
+      {
+        "shape": "square",
+        "color": "green"
+      },
+      {
+        "shape": "triangle",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0203",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "yellow"
+      },
+      {
+        "shape": "square",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0204",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "yellow"
+      },
+      {
+        "shape": "triangle",
+        "color": "green"
+      },
+      {
+        "shape": "square",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0205",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "yellow"
+      },
+      {
+        "shape": "circle",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0206",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "green"
+      },
+      {
+        "shape": "triangle",
+        "color": "green"
+      },
+      {
+        "shape": "triangle",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0207",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "yellow"
+      },
+      {
+        "shape": "square",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0208",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "orange"
+      },
+      {
+        "shape": "square",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0209",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "green"
+      },
+      {
+        "shape": "circle",
+        "color": "orange"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0210",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "green"
+      },
+      {
+        "shape": "triangle",
+        "color": "orange"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0211",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "red"
+      },
+      {
+        "shape": "triangle",
+        "color": "orange"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0212",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "yellow"
+      },
+      {
+        "shape": "circle",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0213",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "blue"
+      },
+      {
+        "shape": "circle",
+        "color": "green"
+      },
+      {
+        "shape": "square",
+        "color": "orange"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0214",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "blue"
+      },
+      {
+        "shape": "circle",
+        "color": "purple"
+      },
+      {
+        "shape": "square",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0215",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "green"
+      },
+      {
+        "shape": "square",
+        "color": "green"
+      },
+      {
+        "shape": "triangle",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0216",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "red"
+      },
+      {
+        "shape": "circle",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0217",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "green"
+      },
+      {
+        "shape": "circle",
+        "color": "yellow"
+      },
+      {
+        "shape": "circle",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0218",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "green"
+      },
+      {
+        "shape": "triangle",
+        "color": "orange"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0219",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "yellow"
+      },
+      {
+        "shape": "triangle",
+        "color": "green"
+      },
+      {
+        "shape": "circle",
+        "color": "orange"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0220",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "red"
+      },
+      {
+        "shape": "triangle",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0221",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "blue"
+      },
+      {
+        "shape": "triangle",
+        "color": "red"
+      },
+      {
+        "shape": "triangle",
+        "color": "yellow"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0222",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "yellow"
+      },
+      {
+        "shape": "circle",
+        "color": "blue"
+      },
+      {
+        "shape": "circle",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0223",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "red"
+      },
+      {
+        "shape": "circle",
+        "color": "blue"
+      },
+      {
+        "shape": "triangle",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0224",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "green"
+      },
+      {
+        "shape": "triangle",
+        "color": "orange"
+      },
+      {
+        "shape": "triangle",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0225",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "orange"
+      },
+      {
+        "shape": "triangle",
+        "color": "blue"
+      },
+      {
+        "shape": "square",
+        "color": "orange"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0226",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "purple"
+      },
+      {
+        "shape": "square",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0227",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "green"
+      },
+      {
+        "shape": "circle",
+        "color": "yellow"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0228",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "green"
+      },
+      {
+        "shape": "circle",
+        "color": "orange"
+      },
+      {
+        "shape": "square",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0229",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "yellow"
+      },
+      {
+        "shape": "square",
+        "color": "blue"
+      },
+      {
+        "shape": "circle",
+        "color": "yellow"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0230",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "blue"
+      },
+      {
+        "shape": "triangle",
+        "color": "orange"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0231",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "green"
+      },
+      {
+        "shape": "circle",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0232",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "purple"
+      },
+      {
+        "shape": "circle",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0233",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "green"
+      },
+      {
+        "shape": "circle",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0234",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "blue"
+      },
+      {
+        "shape": "circle",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0235",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "red"
+      },
+      {
+        "shape": "triangle",
+        "color": "red"
+      },
+      {
+        "shape": "circle",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0236",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "purple"
+      },
+      {
+        "shape": "square",
+        "color": "red"
+      },
+      {
+        "shape": "circle",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0237",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "orange"
+      },
+      {
+        "shape": "square",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0238",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "red"
+      },
+      {
+        "shape": "square",
+        "color": "yellow"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0239",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "purple"
+      },
+      {
+        "shape": "circle",
+        "color": "yellow"
+      },
+      {
+        "shape": "triangle",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0240",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "orange"
+      },
+      {
+        "shape": "triangle",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0241",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "red"
+      },
+      {
+        "shape": "circle",
+        "color": "yellow"
+      },
+      {
+        "shape": "square",
+        "color": "yellow"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0242",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "orange"
+      },
+      {
+        "shape": "square",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0243",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "purple"
+      },
+      {
+        "shape": "circle",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0244",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "purple"
+      },
+      {
+        "shape": "triangle",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0245",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "purple"
+      },
+      {
+        "shape": "triangle",
+        "color": "green"
+      },
+      {
+        "shape": "square",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0246",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "orange"
+      },
+      {
+        "shape": "circle",
+        "color": "orange"
+      },
+      {
+        "shape": "triangle",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0247",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "yellow"
+      },
+      {
+        "shape": "circle",
+        "color": "yellow"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0248",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "yellow"
+      },
+      {
+        "shape": "square",
+        "color": "orange"
+      },
+      {
+        "shape": "circle",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0249",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "orange"
+      },
+      {
+        "shape": "square",
+        "color": "green"
+      },
+      {
+        "shape": "circle",
+        "color": "orange"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0250",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "red"
+      },
+      {
+        "shape": "circle",
+        "color": "red"
+      },
+      {
+        "shape": "square",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0251",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "purple"
+      },
+      {
+        "shape": "circle",
+        "color": "purple"
+      },
+      {
+        "shape": "triangle",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0252",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "red"
+      },
+      {
+        "shape": "square",
+        "color": "green"
+      },
+      {
+        "shape": "triangle",
+        "color": "yellow"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0253",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "purple"
+      },
+      {
+        "shape": "square",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0254",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "purple"
+      },
+      {
+        "shape": "circle",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0255",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "red"
+      },
+      {
+        "shape": "square",
+        "color": "purple"
+      },
+      {
+        "shape": "square",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0256",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "blue"
+      },
+      {
+        "shape": "square",
+        "color": "purple"
+      },
+      {
+        "shape": "triangle",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0257",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "orange"
+      },
+      {
+        "shape": "triangle",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0258",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "green"
+      },
+      {
+        "shape": "triangle",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0259",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "red"
+      },
+      {
+        "shape": "circle",
+        "color": "blue"
+      },
+      {
+        "shape": "triangle",
+        "color": "orange"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0260",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "blue"
+      },
+      {
+        "shape": "triangle",
+        "color": "orange"
+      },
+      {
+        "shape": "circle",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0261",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "yellow"
+      },
+      {
+        "shape": "square",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0262",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "green"
+      },
+      {
+        "shape": "triangle",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0263",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "blue"
+      },
+      {
+        "shape": "circle",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0264",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "red"
+      },
+      {
+        "shape": "square",
+        "color": "yellow"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0265",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "purple"
+      },
+      {
+        "shape": "square",
+        "color": "yellow"
+      },
+      {
+        "shape": "square",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0266",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "yellow"
+      },
+      {
+        "shape": "circle",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0267",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "orange"
+      },
+      {
+        "shape": "square",
+        "color": "red"
+      },
+      {
+        "shape": "circle",
+        "color": "yellow"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0268",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "blue"
+      },
+      {
+        "shape": "square",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0269",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "green"
+      },
+      {
+        "shape": "square",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0270",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "orange"
+      },
+      {
+        "shape": "square",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0271",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "purple"
+      },
+      {
+        "shape": "triangle",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0272",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "yellow"
+      },
+      {
+        "shape": "triangle",
+        "color": "red"
+      },
+      {
+        "shape": "square",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0273",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "green"
+      },
+      {
+        "shape": "triangle",
+        "color": "yellow"
+      },
+      {
+        "shape": "triangle",
+        "color": "yellow"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0274",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "red"
+      },
+      {
+        "shape": "square",
+        "color": "red"
+      },
+      {
+        "shape": "square",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0275",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "green"
+      },
+      {
+        "shape": "circle",
+        "color": "yellow"
+      },
+      {
+        "shape": "circle",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0276",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "yellow"
+      },
+      {
+        "shape": "triangle",
+        "color": "red"
+      },
+      {
+        "shape": "square",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0277",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "green"
+      },
+      {
+        "shape": "circle",
+        "color": "red"
+      },
+      {
+        "shape": "triangle",
+        "color": "orange"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0278",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "purple"
+      },
+      {
+        "shape": "circle",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0279",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "orange"
+      },
+      {
+        "shape": "circle",
+        "color": "blue"
+      },
+      {
+        "shape": "circle",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0280",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "blue"
+      },
+      {
+        "shape": "triangle",
+        "color": "blue"
+      },
+      {
+        "shape": "triangle",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0281",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "yellow"
+      },
+      {
+        "shape": "square",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0282",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "purple"
+      },
+      {
+        "shape": "triangle",
+        "color": "orange"
+      },
+      {
+        "shape": "triangle",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0283",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "yellow"
+      },
+      {
+        "shape": "circle",
+        "color": "yellow"
+      },
+      {
+        "shape": "square",
+        "color": "orange"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0284",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "purple"
+      },
+      {
+        "shape": "circle",
+        "color": "green"
+      },
+      {
+        "shape": "triangle",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0285",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "yellow"
+      },
+      {
+        "shape": "circle",
+        "color": "red"
+      },
+      {
+        "shape": "square",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0286",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "red"
+      },
+      {
+        "shape": "triangle",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0287",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "purple"
+      },
+      {
+        "shape": "triangle",
+        "color": "orange"
+      },
+      {
+        "shape": "circle",
+        "color": "yellow"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0288",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "purple"
+      },
+      {
+        "shape": "square",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0289",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "yellow"
+      },
+      {
+        "shape": "circle",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0290",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "orange"
+      },
+      {
+        "shape": "circle",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0291",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "yellow"
+      },
+      {
+        "shape": "square",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0292",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "green"
+      },
+      {
+        "shape": "square",
+        "color": "yellow"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0293",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "orange"
+      },
+      {
+        "shape": "triangle",
+        "color": "red"
+      },
+      {
+        "shape": "triangle",
+        "color": "orange"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0294",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "green"
+      },
+      {
+        "shape": "circle",
+        "color": "purple"
+      },
+      {
+        "shape": "triangle",
+        "color": "yellow"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0295",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "orange"
+      },
+      {
+        "shape": "triangle",
+        "color": "purple"
+      },
+      {
+        "shape": "circle",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0296",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "orange"
+      },
+      {
+        "shape": "circle",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0297",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "triangle",
+        "color": "orange"
+      },
+      {
+        "shape": "triangle",
+        "color": "yellow"
+      },
+      {
+        "shape": "circle",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0298",
+    "seed": 42,
+    "num_objects": 2,
+    "objects": [
+      {
+        "shape": "square",
+        "color": "purple"
+      },
+      {
+        "shape": "square",
+        "color": "orange"
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_0299",
+    "seed": 42,
+    "num_objects": 3,
+    "objects": [
+      {
+        "shape": "circle",
+        "color": "orange"
+      },
+      {
+        "shape": "triangle",
+        "color": "orange"
+      },
+      {
+        "shape": "triangle",
+        "color": "purple"
+      }
+    ]
+  }
+]

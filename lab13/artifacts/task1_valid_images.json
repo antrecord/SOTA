@@ -1,0 +1,422 @@
+[
+  {
+    "file_name": "commons_00.jpg",
+    "file_path": "/content/drive/MyDrive/lab13/data/commons_00.jpg",
+    "caption": "a photo of sks butterfly, 20230130-butterfly",
+    "license": "CC0-1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source_page": "https://commons.wikimedia.org/wiki/File:20230130-butterfly.jpg",
+    "source_title": "File:20230130-butterfly.jpg",
+    "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Jethro_Busby&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Jethro Busby (page does not exist)\">Jethro Busby</a>",
+    "sha256": "a06b441377efdd2284dd93d2c71f8232ac5a043d02313998a9f907d9c8f07956",
+    "size": [
+      960,
+      720
+    ]
+  },
+  {
+    "file_name": "commons_01.jpg",
+    "file_path": "/content/drive/MyDrive/lab13/data/commons_01.jpg",
+    "caption": "a photo of sks butterfly, a beautiful black butterfly",
+    "license": "CC0-1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source_page": "https://commons.wikimedia.org/wiki/File:A_Beautiful_Black_Butterfly.jpg",
+    "source_title": "File:A Beautiful Black Butterfly.jpg",
+    "author": "<a href=\"//commons.wikimedia.org/wiki/User:SreeramKalyan\" title=\"User:SreeramKalyan\">SreeramKalyan</a>",
+    "sha256": "31aef01c2a443cc7ca103c4f152d8460672a19af26844e08a43145ce3a0228f8",
+    "size": [
+      960,
+      540
+    ]
+  },
+  {
+    "file_name": "commons_02.jpg",
+    "file_path": "/content/drive/MyDrive/lab13/data/commons_02.jpg",
+    "caption": "a photo of sks butterfly, a butterfly eating papaya, location- lakhimpur, assam",
+    "license": "CC0-1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source_page": "https://commons.wikimedia.org/wiki/File:A_butterfly_eating_papaya,_Location-_Lakhimpur,_Assam.jpg",
+    "source_title": "File:A butterfly eating papaya, Location- Lakhimpur, Assam.jpg",
+    "author": "<a href=\"//commons.wikimedia.org/wiki/User:BhuyanBhaskar\" title=\"User:BhuyanBhaskar\">BhuyanBhaskar</a>",
+    "sha256": "0c50cab0978ba3e4364caee684fbd19f1ec9e0171efab35f9bd43156d1fcdd74",
+    "size": [
+      960,
+      540
+    ]
+  },
+  {
+    "file_name": "commons_03.jpg",
+    "file_path": "/content/drive/MyDrive/lab13/data/commons_03.jpg",
+    "caption": "a photo of sks butterfly, a butterfly on a purple flower",
+    "license": "CC0-1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source_page": "https://commons.wikimedia.org/wiki/File:A_butterfly_on_a_purple_flower.jpg",
+    "source_title": "File:A butterfly on a purple flower.jpg",
+    "author": "SpessiG",
+    "sha256": "3d0dd918099f3f3328793c3442dcc78c8c2fa3764ed793049f6d2352e63e4def",
+    "size": [
+      960,
+      640
+    ]
+  },
+  {
+    "file_name": "commons_04.jpg",
+    "file_path": "/content/drive/MyDrive/lab13/data/commons_04.jpg",
+    "caption": "a photo of sks butterfly, black and white butterfly near shirahama",
+    "license": "CC0-1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Black_and_white_butterfly_near_Shirahama.jpg",
+    "source_title": "File:Black and white butterfly near Shirahama.jpg",
+    "author": "<a href=\"//commons.wikimedia.org/wiki/User:Syced\" title=\"User:Syced\">Syced</a>",
+    "sha256": "7c387b7c0ed0a64f7cf360fa8ad4ef43e2708eb96551d3c910fe0587b88731ca",
+    "size": [
+      960,
+      720
+    ]
+  },
+  {
+    "file_name": "commons_05.jpg",
+    "file_path": "/content/drive/MyDrive/lab13/data/commons_05.jpg",
+    "caption": "a photo of sks butterfly, butterfly 51",
+    "license": "CC0-1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Butterfly_51.jpg",
+    "source_title": "File:Butterfly 51.jpg",
+    "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Kottairajcs&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Kottairajcs (page does not exist)\">Kottairajcs</a>",
+    "sha256": "eb084efff7811690d31f9950e9abbc73c1f38422ed2da2b7ac77273d41fda235",
+    "size": [
+      960,
+      1171
+    ]
+  },
+  {
+    "file_name": "commons_06.jpg",
+    "file_path": "/content/drive/MyDrive/lab13/data/commons_06.jpg",
+    "caption": "a photo of sks butterfly, butterfly iguazu falls",
+    "license": "CC0-1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Butterfly_Iguazu_Falls.jpg",
+    "source_title": "File:Butterfly Iguazu Falls.jpg",
+    "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Alex98&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Alex98 (page does not exist)\">Alex98</a>",
+    "sha256": "d3c0aba6ee25c48af1e6c558241d51c8c070bf6037e4db37b3a8296f4e5e65e8",
+    "size": [
+      960,
+      1281
+    ]
+  },
+  {
+    "file_name": "commons_07.jpg",
+    "file_path": "/content/drive/MyDrive/lab13/data/commons_07.jpg",
+    "caption": "a photo of sks butterfly, butterfly the insect",
+    "license": "CC0-1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Butterfly_The_Insect.jpg",
+    "source_title": "File:Butterfly The Insect.jpg",
+    "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Suriya11js&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Suriya11js (page does not exist)\">Suriya11js</a>",
+    "sha256": "334fad254b1558259ab17f6e3b0df3de03c594bfcbb7ed030862b1611ad68b15",
+    "size": [
+      960,
+      1200
+    ]
+  },
+  {
+    "file_name": "commons_08.jpg",
+    "file_path": "/content/drive/MyDrive/lab13/data/commons_08.jpg",
+    "caption": "a photo of sks butterfly, butterfly at jonanjima",
+    "license": "CC0-1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Butterfly_at_Jonanjima.jpg",
+    "source_title": "File:Butterfly at Jonanjima.jpg",
+    "author": "<a href=\"//commons.wikimedia.org/wiki/User:Syced\" title=\"User:Syced\">Syced</a>",
+    "sha256": "7ca84d8e348a2d8bc9559630a3cd0a40da14989ed8b5cdf94c33b815aa415578",
+    "size": [
+      960,
+      720
+    ]
+  },
+  {
+    "file_name": "commons_09.jpg",
+    "file_path": "/content/drive/MyDrive/lab13/data/commons_09.jpg",
+    "caption": "a photo of sks butterfly, butterfly at wingham wildlife park kent uk",
+    "license": "CC0-1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Butterfly_at_Wingham_Wildlife_Park_Kent_UK.jpg",
+    "source_title": "File:Butterfly at Wingham Wildlife Park Kent UK.jpg",
+    "author": "<a href=\"//commons.wikimedia.org/wiki/User:Salwa_Farwaneh\" title=\"User:Salwa Farwaneh\">Salwa Farwaneh</a>",
+    "sha256": "e819d3cda802f669c5cdbf3a2ebcbac7e7dbcef4b9826cdb8c428a6048ddae7c",
+    "size": [
+      960,
+      720
+    ]
+  },
+  {
+    "file_name": "commons_10.jpg",
+    "file_path": "/content/drive/MyDrive/lab13/data/commons_10.jpg",
+    "caption": "a photo of sks butterfly, butterfly by the water",
+    "license": "CC0-1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Butterfly_by_the_water.jpg",
+    "source_title": "File:Butterfly by the water.jpg",
+    "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:AdvaitaMakaranda&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:AdvaitaMakaranda (page does not exist)\">AdvaitaMakaranda</a>",
+    "sha256": "270f232b0e03a81a272b0257b7948c2fdbb929ede7480f11e4523f8e3fc43c1e",
+    "size": [
+      960,
+      720
+    ]
+  },
+  {
+    "file_name": "commons_11.jpg",
+    "file_path": "/content/drive/MyDrive/lab13/data/commons_11.jpg",
+    "caption": "a photo of sks butterfly, butterfly enjoying with nature",
+    "license": "CC0-1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Butterfly_enjoying_with_nature.jpg",
+    "source_title": "File:Butterfly enjoying with nature.jpg",
+    "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Photography_gautam&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Photography gautam (page does not exist)\">Photography gautam</a>",
+    "sha256": "7a3097c67d10a1ec16bba3e0c8bf5f06514d898e28a2fd8cbca2b298479162b5",
+    "size": [
+      960,
+      640
+    ]
+  },
+  {
+    "file_name": "commons_12.jpg",
+    "file_path": "/content/drive/MyDrive/lab13/data/commons_12.jpg",
+    "caption": "a photo of sks butterfly, butterfly from butterfly garden-lucknow zoo",
+    "license": "CC0-1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Butterfly_from_butterfly_garden-lucknow_zoo.jpg",
+    "source_title": "File:Butterfly from butterfly garden-lucknow zoo.jpg",
+    "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:ThrillPill03&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:ThrillPill03 (page does not exist)\">ThrillPill03</a>",
+    "sha256": "b08d62a310d54a8fb15d231fa1a69daa039c97be7e90e41c88d3ef4ed50ce025",
+    "size": [
+      960,
+      1180
+    ]
+  },
+  {
+    "file_name": "commons_13.jpg",
+    "file_path": "/content/drive/MyDrive/lab13/data/commons_13.jpg",
+    "caption": "a photo of sks butterfly, butterfly hanging on leaf",
+    "license": "CC0-1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Butterfly_hanging_on_leaf.jpg",
+    "source_title": "File:Butterfly hanging on leaf.jpg",
+    "author": "<a href=\"//commons.wikimedia.org/wiki/User:Geodeakgol\" title=\"User:Geodeakgol\">Geodeakgol</a>",
+    "sha256": "6185b07014f7e81825c9c7b2ca0c88dd82629e92d01d36a95afb969f1cada8af",
+    "size": [
+      960,
+      720
+    ]
+  },
+  {
+    "file_name": "commons_14.jpg",
+    "file_path": "/content/drive/MyDrive/lab13/data/commons_14.jpg",
+    "caption": "a photo of sks butterfly, butterfly in armenia",
+    "license": "CC0-1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Butterfly_in_Armenia.jpg",
+    "source_title": "File:Butterfly in Armenia.jpg",
+    "author": "<a href=\"//commons.wikimedia.org/wiki/User:Maximden\" title=\"User:Maximden\">Maximden</a>",
+    "sha256": "f65801fcb77140803806ce8c4f81644550fa27cd282d664226c63a4e93df8089",
+    "size": [
+      960,
+      723
+    ]
+  },
+  {
+    "file_name": "commons_15.jpg",
+    "file_path": "/content/drive/MyDrive/lab13/data/commons_15.jpg",
+    "caption": "a photo of sks butterfly, butterfly orange",
+    "license": "CC0-1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Butterfly_orange.jpg",
+    "source_title": "File:Butterfly orange.jpg",
+    "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:L1GH7MA5T3R&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:L1GH7MA5T3R (page does not exist)\">L1GH7MA5T3R</a>",
+    "sha256": "0e537da85692276bdbc4e9a2e681b3b2ce1daeda133709d8d206b514a677d408",
+    "size": [
+      960,
+      970
+    ]
+  },
+  {
+    "file_name": "commons_16.jpg",
+    "file_path": "/content/drive/MyDrive/lab13/data/commons_16.jpg",
+    "caption": "a photo of sks butterfly, common jezebel delias eucharis by kadavoor 3",
+    "license": "CC0-1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Common_Jezebel_Delias_eucharis_by_kadavoor_3.jpg",
+    "source_title": "File:Common Jezebel Delias eucharis by kadavoor 3.jpg",
+    "author": "<a href=\"//commons.wikimedia.org/wiki/User:Jkadavoor\" title=\"User:Jkadavoor\">Jeevan Jose, Kerala, India</a>",
+    "sha256": "f2fa929b185fa5ae8722d037e2b0e58db59203d89ee2153d4d63cff213c374a9",
+    "size": [
+      960,
+      682
+    ]
+  },
+  {
+    "file_name": "commons_17.jpg",
+    "file_path": "/content/drive/MyDrive/lab13/data/commons_17.jpg",
+    "caption": "a photo of sks butterfly, common pierrot butterfly at anamangad, malappuram, kerala",
+    "license": "CC0-1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Common_Pierrot_butterfly_at_Anamangad,_Malappuram,_Kerala.jpg",
+    "source_title": "File:Common Pierrot butterfly at Anamangad, Malappuram, Kerala.jpg",
+    "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:M_S_SOORYA&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:M S SOORYA (page does not exist)\">M S SOORYA</a>",
+    "sha256": "2b5c90fa77aff59278620dbbb81b9ca5bc33d8de6d2cf1e12dcd4930ef0fdcd5",
+    "size": [
+      960,
+      1280
+    ]
+  },
+  {
+    "file_name": "commons_18.jpg",
+    "file_path": "/content/drive/MyDrive/lab13/data/commons_18.jpg",
+    "caption": "a photo of sks butterfly, common cerulean butterfly at sooranad north",
+    "license": "CC0-1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Common_cerulean_butterfly_at_Sooranad_North.jpg",
+    "source_title": "File:Common cerulean butterfly at Sooranad North.jpg",
+    "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:M_S_SOORYA&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:M S SOORYA (page does not exist)\">M S SOORYA</a>",
+    "sha256": "f8aa5519a64ebf0b6a983c51fbc3195bbf5518e97944f677129db08139e54c27",
+    "size": [
+      960,
+      960
+    ]
+  },
+  {
+    "file_name": "commons_19.jpg",
+    "file_path": "/content/drive/MyDrive/lab13/data/commons_19.jpg",
+    "caption": "a photo of sks butterfly, dark cerulean butterfly female",
+    "license": "CC0-1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Dark_Cerulean_Butterfly_Female.jpg",
+    "source_title": "File:Dark Cerulean Butterfly Female.jpg",
+    "author": "<a href=\"//commons.wikimedia.org/wiki/User:Sourav_Dey_BYS\" title=\"User:Sourav Dey BYS\">Sourav Dey BYS</a>",
+    "sha256": "32307183337661bff0571ca9802a0f0accbc7e37386fd9f4fb3a1f824da7fbc7",
+    "size": [
+      960,
+      640
+    ]
+  },
+  {
+    "file_name": "commons_20.jpg",
+    "file_path": "/content/drive/MyDrive/lab13/data/commons_20.jpg",
+    "caption": "a photo of sks butterfly, elymnias hypermnestra male by kadavoor",
+    "license": "CC0-1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Elymnias_hypermnestra_male_by_kadavoor.jpg",
+    "source_title": "File:Elymnias hypermnestra male by kadavoor.jpg",
+    "author": "<a href=\"//commons.wikimedia.org/wiki/User:Jkadavoor\" title=\"User:Jkadavoor\">Jeevan Jose, Kerala, India</a>",
+    "sha256": "11607d59e85b19d43f6519c0d948ee31455a23ae623b124e54a60465b26e50f3",
+    "size": [
+      960,
+      720
+    ]
+  },
+  {
+    "file_name": "commons_21.jpg",
+    "file_path": "/content/drive/MyDrive/lab13/data/commons_21.jpg",
+    "caption": "a photo of sks butterfly, marbled white butterfly (melanargia galathea)",
+    "license": "CC0-1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Marbled_White_Butterfly_(Melanargia_galathea).jpg",
+    "source_title": "File:Marbled White Butterfly (Melanargia galathea).jpg",
+    "author": "<a href=\"//commons.wikimedia.org/wiki/User:Paulclee\" title=\"User:Paulclee\">Paulclee</a>",
+    "sha256": "1710d53288457d8a9a22bdedffd8480ff687a9eabe3e6e30f1a212b449547b14",
+    "size": [
+      960,
+      960
+    ]
+  },
+  {
+    "file_name": "commons_22.jpg",
+    "file_path": "/content/drive/MyDrive/lab13/data/commons_22.jpg",
+    "caption": "a photo of sks butterfly, monarch butterfly on butterfly bush flower",
+    "license": "CC0-1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Monarch_butterfly_on_butterfly_bush_flower.jpg",
+    "source_title": "File:Monarch butterfly on butterfly bush flower.jpg",
+    "author": "<a href=\"//commons.wikimedia.org/wiki/User:Shocksingularity\" title=\"User:Shocksingularity\">Shocksingularity</a>",
+    "sha256": "4291fec92b4fa83567f30af879aed0dca0bee9b15d55e76e9a63f39445867536",
+    "size": [
+      960,
+      640
+    ]
+  },
+  {
+    "file_name": "commons_23.jpg",
+    "file_path": "/content/drive/MyDrive/lab13/data/commons_23.jpg",
+    "caption": "a photo of sks butterfly, red pierrot butterfly at jakkur, bangalore",
+    "license": "CC0-1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Red_Pierrot_Butterfly_at_Jakkur,_Bangalore.jpg",
+    "source_title": "File:Red Pierrot Butterfly at Jakkur, Bangalore.jpg",
+    "author": "Venkat Mangudi",
+    "sha256": "5d9717d1500a96a2915e03ee4a3b54ed2a9407812d902ada5ccec05f80520d8d",
+    "size": [
+      960,
+      769
+    ]
+  },
+  {
+    "file_name": "commons_24.jpg",
+    "file_path": "/content/drive/MyDrive/lab13/data/commons_24.jpg",
+    "caption": "a photo of sks butterfly, red admiral butterfly with wings closed",
+    "license": "CC0-1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Red_admiral_butterfly_with_wings_closed.jpg",
+    "source_title": "File:Red admiral butterfly with wings closed.jpg",
+    "author": "<a href=\"//commons.wikimedia.org/wiki/User:Shocksingularity\" title=\"User:Shocksingularity\">Shocksingularity</a>",
+    "sha256": "775b5f6bda2c38d751464caa9e9a229b0c9c8f40f935a636493fdc02b66fcfc9",
+    "size": [
+      960,
+      1280
+    ]
+  },
+  {
+    "file_name": "commons_25.jpg",
+    "file_path": "/content/drive/MyDrive/lab13/data/commons_25.jpg",
+    "caption": "a photo of sks butterfly, swallowtail butterfly up close",
+    "license": "CC0-1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Swallowtail_butterfly_up_close.jpg",
+    "source_title": "File:Swallowtail butterfly up close.jpg",
+    "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Joselodos&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Joselodos (page does not exist)\">Joselodos</a>",
+    "sha256": "6d845d7f2bde17b2fc63beee4401113eddde4be26484e9211265579de9df1f66",
+    "size": [
+      960,
+      640
+    ]
+  },
+  {
+    "file_name": "commons_26.jpg",
+    "file_path": "/content/drive/MyDrive/lab13/data/commons_26.jpg",
+    "caption": "a photo of sks butterfly, white butterfly upside down on leaf",
+    "license": "CC0-1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source_page": "https://commons.wikimedia.org/wiki/File:White_butterfly_upside_down_on_leaf.jpg",
+    "source_title": "File:White butterfly upside down on leaf.jpg",
+    "author": "<a href=\"//commons.wikimedia.org/wiki/User:999real\" title=\"User:999real\">999real</a>",
+    "sha256": "54546f94ffb663827c49f76ecf89975d294e79bdc81036b6e3587f38783ef0d4",
+    "size": [
+      960,
+      1280
+    ]
+  },
+  {
+    "file_name": "commons_27.jpg",
+    "file_path": "/content/drive/MyDrive/lab13/data/commons_27.jpg",
+    "caption": "a photo of sks butterfly, yellow and black butterfly on ground",
+    "license": "CC0-1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Yellow_and_black_butterfly_on_ground.jpg",
+    "source_title": "File:Yellow and black butterfly on ground.jpg",
+    "author": "<a href=\"//commons.wikimedia.org/wiki/User:999real\" title=\"User:999real\">999real</a>",
+    "sha256": "3f2c788a0afe9baa08b09203f4a6fd6673e0a856f4af9f7e4024f003c127455c",
+    "size": [
+      960,
+      924
+    ]
+  }
+]

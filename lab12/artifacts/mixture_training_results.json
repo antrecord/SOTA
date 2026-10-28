@@ -1,0 +1,50 @@
+[
+  {
+    "synthetic_fraction": 0.0,
+    "real_fraction": 1.0,
+    "train_budget": 118,
+    "n_real_train": 118,
+    "n_synthetic_train": 0,
+    "train_accuracy": 1.0,
+    "model_path": "artifacts/mixture_models/model_fraction_0.00.joblib",
+    "classifier": "StandardScaler + LogisticRegression",
+    "feature_extractor": "Frozen ResNet18 ImageNet",
+    "seed": 42
+  },
+  {
+    "synthetic_fraction": 0.25,
+    "real_fraction": 0.75,
+    "train_budget": 118,
+    "n_real_train": 88,
+    "n_synthetic_train": 30,
+    "train_accuracy": 1.0,
+    "model_path": "artifacts/mixture_models/model_fraction_0.25.joblib",
+    "classifier": "StandardScaler + LogisticRegression",
+    "feature_extractor": "Frozen ResNet18 ImageNet",
+    "seed": 42
+  },
+  {
+    "synthetic_fraction": 0.5,
+    "real_fraction": 0.5,
+    "train_budget": 118,
+    "n_real_train": 59,
+    "n_synthetic_train": 59,
+    "train_accuracy": 1.0,
+    "model_path": "artifacts/mixture_models/model_fraction_0.50.joblib",
+    "classifier": "StandardScaler + LogisticRegression",
+    "feature_extractor": "Frozen ResNet18 ImageNet",
+    "seed": 42
+  },
+  {
+    "synthetic_fraction": 0.75,
+    "real_fraction": 0.25,
+    "train_budget": 118,
+    "n_real_train": 30,
+    "n_synthetic_train": 88,
+    "train_accuracy": 1.0,
+    "model_path": "artifacts/mixture_models/model_fraction_0.75.joblib",
+    "classifier": "StandardScaler + LogisticRegression",
+    "feature_extractor": "Frozen ResNet18 ImageNet",
+    "seed": 42
+  }
+]

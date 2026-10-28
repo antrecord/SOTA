@@ -1,0 +1,280 @@
+{
+  "test_splits": {
+    "id_test": {
+      "examples": 64,
+      "objective_em": {
+        "foundation": 0.875,
+        "reference": 0.875,
+        "aligned": 0.859375
+      },
+      "objective_correct_counts": {
+        "foundation": {
+          "correct": 56,
+          "total": 64
+        },
+        "reference": {
+          "correct": 56,
+          "total": 64
+        },
+        "aligned": {
+          "correct": 55,
+          "total": 64
+        }
+      },
+      "human_evaluation": {
+        "total_records": 64,
+        "completed_preferences": 0,
+        "decisive_preferences": 0,
+        "ties": 0,
+        "pending_preferences": 64,
+        "wins": {
+          "foundation": 0,
+          "reference": 0,
+          "aligned": 0
+        },
+        "win_rates": {
+          "foundation": null,
+          "reference": null,
+          "aligned": null
+        },
+        "hallucination_rates": {
+          "foundation": {
+            "rate": null,
+            "count": 0
+          },
+          "reference": {
+            "rate": null,
+            "count": 0
+          },
+          "aligned": {
+            "rate": null,
+            "count": 0
+          }
+        },
+        "format_rates": {
+          "foundation": {
+            "rate": null,
+            "count": 0
+          },
+          "reference": {
+            "rate": null,
+            "count": 0
+          },
+          "aligned": {
+            "rate": null,
+            "count": 0
+          }
+        }
+      }
+    },
+    "ood_test": {
+      "examples": 64,
+      "objective_em": {
+        "foundation": 0.578125,
+        "reference": 0.6875,
+        "aligned": 0.6875
+      },
+      "objective_correct_counts": {
+        "foundation": {
+          "correct": 37,
+          "total": 64
+        },
+        "reference": {
+          "correct": 44,
+          "total": 64
+        },
+        "aligned": {
+          "correct": 44,
+          "total": 64
+        }
+      },
+      "human_evaluation": {
+        "total_records": 64,
+        "completed_preferences": 0,
+        "decisive_preferences": 0,
+        "ties": 0,
+        "pending_preferences": 64,
+        "wins": {
+          "foundation": 0,
+          "reference": 0,
+          "aligned": 0
+        },
+        "win_rates": {
+          "foundation": null,
+          "reference": null,
+          "aligned": null
+        },
+        "hallucination_rates": {
+          "foundation": {
+            "rate": null,
+            "count": 0
+          },
+          "reference": {
+            "rate": null,
+            "count": 0
+          },
+          "aligned": {
+            "rate": null,
+            "count": 0
+          }
+        },
+        "format_rates": {
+          "foundation": {
+            "rate": null,
+            "count": 0
+          },
+          "reference": {
+            "rate": null,
+            "count": 0
+          },
+          "aligned": {
+            "rate": null,
+            "count": 0
+          }
+        }
+      }
+    },
+    "general_test": {
+      "examples": 64,
+      "objective_em": {
+        "foundation": 0.890625,
+        "reference": 0.890625,
+        "aligned": 0.890625
+      },
+      "objective_correct_counts": {
+        "foundation": {
+          "correct": 57,
+          "total": 64
+        },
+        "reference": {
+          "correct": 57,
+          "total": 64
+        },
+        "aligned": {
+          "correct": 57,
+          "total": 64
+        }
+      },
+      "human_evaluation": {
+        "total_records": 64,
+        "completed_preferences": 0,
+        "decisive_preferences": 0,
+        "ties": 0,
+        "pending_preferences": 64,
+        "wins": {
+          "foundation": 0,
+          "reference": 0,
+          "aligned": 0
+        },
+        "win_rates": {
+          "foundation": null,
+          "reference": null,
+          "aligned": null
+        },
+        "hallucination_rates": {
+          "foundation": {
+            "rate": null,
+            "count": 0
+          },
+          "reference": {
+            "rate": null,
+            "count": 0
+          },
+          "aligned": {
+            "rate": null,
+            "count": 0
+          }
+        },
+        "format_rates": {
+          "foundation": {
+            "rate": null,
+            "count": 0
+          },
+          "reference": {
+            "rate": null,
+            "count": 0
+          },
+          "aligned": {
+            "rate": null,
+            "count": 0
+          }
+        }
+      }
+    },
+    "ALL": {
+      "examples": 192,
+      "objective_em": {
+        "foundation": 0.78125,
+        "reference": 0.8177083333333334,
+        "aligned": 0.8125
+      },
+      "objective_correct_counts": {
+        "foundation": {
+          "correct": 150,
+          "total": 192
+        },
+        "reference": {
+          "correct": 157,
+          "total": 192
+        },
+        "aligned": {
+          "correct": 156,
+          "total": 192
+        }
+      },
+      "human_evaluation": {
+        "total_records": 192,
+        "completed_preferences": 0,
+        "decisive_preferences": 0,
+        "ties": 0,
+        "pending_preferences": 192,
+        "wins": {
+          "foundation": 0,
+          "reference": 0,
+          "aligned": 0
+        },
+        "win_rates": {
+          "foundation": null,
+          "reference": null,
+          "aligned": null
+        },
+        "hallucination_rates": {
+          "foundation": {
+            "rate": null,
+            "count": 0
+          },
+          "reference": {
+            "rate": null,
+            "count": 0
+          },
+          "aligned": {
+            "rate": null,
+            "count": 0
+          }
+        },
+        "format_rates": {
+          "foundation": {
+            "rate": null,
+            "count": 0
+          },
+          "reference": {
+            "rate": null,
+            "count": 0
+          },
+          "aligned": {
+            "rate": null,
+            "count": 0
+          }
+        }
+      }
+    }
+  },
+  "limitations": [
+    "Preference pairs were derived from dataset labels, not human comparisons.",
+    "Choosing the correct answer letter does not establish safety or universal helpfulness.",
+    "EM measures exact-match answer accuracy, not human preference.",
+    "Pending judgements are excluded from manual metrics.",
+    "Win rates are calculated only from decisive preferences; ties are excluded.",
+    "Human evaluation metrics depend on the number of manually completed judgements."
+  ]
+}

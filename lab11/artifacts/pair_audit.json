@@ -1,0 +1,50 @@
+{
+  "dataset": "lab9",
+  "preference_source": "ground_truth_labels_not_expert_judgments",
+  "train_count": 512,
+  "test_counts": {
+    "validation": 64,
+    "id_test": 64,
+    "ood_test": 64,
+    "general_test": 64
+  },
+  "preference_pairs_count": 512,
+  "overlap_checks": {
+    "validation": {
+      "id_overlap_count": 0,
+      "image_hash_overlap_count": 0,
+      "id_overlap": [],
+      "image_hash_overlap": []
+    },
+    "id_test": {
+      "id_overlap_count": 0,
+      "image_hash_overlap_count": 0,
+      "id_overlap": [],
+      "image_hash_overlap": []
+    },
+    "ood_test": {
+      "id_overlap_count": 0,
+      "image_hash_overlap_count": 0,
+      "id_overlap": [],
+      "image_hash_overlap": []
+    },
+    "general_test": {
+      "id_overlap_count": 0,
+      "image_hash_overlap_count": 0,
+      "id_overlap": [],
+      "image_hash_overlap": []
+    }
+  },
+  "rejected_option_distribution": {
+    "B": 209,
+    "A": 232,
+    "C": 68,
+    "D": 3
+  },
+  "chosen_longer_count": 0,
+  "rejected_longer_count": 0,
+  "equal_length_count": 512,
+  "chosen_longer_fraction": 0.0,
+  "length_shortcut": false,
+  "length_interpretation": "Ответы представлены буквами одинакового формата; длина не используется для назначения предпочтения."
+}

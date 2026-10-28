@@ -1,0 +1,20 @@
+{
+  "hypothesis": "Object overlap reduces counting accuracy",
+  "model": "model_fraction_0.50.joblib",
+  "n_evaluated": 50,
+  "n_no_overlap": 36,
+  "n_overlap": 14,
+  "correct_no_overlap": 17,
+  "correct_overlap": 6,
+  "accuracy_no_overlap": 0.4722222222222222,
+  "accuracy_overlap": 0.42857142857142855,
+  "accuracy_difference_no_overlap_minus_overlap": 0.04365079365079366,
+  "bootstrap_95ci": [
+    -0.2658730158730158,
+    0.34523809523809523
+  ],
+  "permutation_p_one_sided": 0.5163741812909355,
+  "bootstrap_iterations": 10000,
+  "permutation_iterations": 20000,
+  "interpretation": "Observational association; not proof that overlap causes lower accuracy."
+}

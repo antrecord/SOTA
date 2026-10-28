@@ -1,0 +1,267 @@
+{
+  "seed": 64,
+  "trigger_token": "sks",
+  "prompts": [
+    "a butterfly on a white daisy, macro photography",
+    "a monarch butterfly with orange wings resting on a leaf",
+    "a blue morpho butterfly in a tropical forest",
+    "a yellow butterfly flying over green grass",
+    "a butterfly on a purple lavender flower, shallow depth of field",
+    "a close-up of a butterfly wing pattern",
+    "a butterfly on a human hand in a garden",
+    "a white butterfly on a red flower, natural light",
+    "a butterfly resting on a stone near water",
+    "a black and orange butterfly on a sunflower",
+    "a small butterfly on a dandelion in spring",
+    "a butterfly with spread wings on a wooden surface"
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "pairs": [
+    {
+      "prompt": "a butterfly on a white daisy, macro photography",
+      "seed": 0
+    },
+    {
+      "prompt": "a butterfly on a white daisy, macro photography",
+      "seed": 1
+    },
+    {
+      "prompt": "a butterfly on a white daisy, macro photography",
+      "seed": 2
+    },
+    {
+      "prompt": "a butterfly on a white daisy, macro photography",
+      "seed": 3
+    },
+    {
+      "prompt": "a butterfly on a white daisy, macro photography",
+      "seed": 4
+    },
+    {
+      "prompt": "a monarch butterfly with orange wings resting on a leaf",
+      "seed": 0
+    },
+    {
+      "prompt": "a monarch butterfly with orange wings resting on a leaf",
+      "seed": 1
+    },
+    {
+      "prompt": "a monarch butterfly with orange wings resting on a leaf",
+      "seed": 2
+    },
+    {
+      "prompt": "a monarch butterfly with orange wings resting on a leaf",
+      "seed": 3
+    },
+    {
+      "prompt": "a monarch butterfly with orange wings resting on a leaf",
+      "seed": 4
+    },
+    {
+      "prompt": "a blue morpho butterfly in a tropical forest",
+      "seed": 0
+    },
+    {
+      "prompt": "a blue morpho butterfly in a tropical forest",
+      "seed": 1
+    },
+    {
+      "prompt": "a blue morpho butterfly in a tropical forest",
+      "seed": 2
+    },
+    {
+      "prompt": "a blue morpho butterfly in a tropical forest",
+      "seed": 3
+    },
+    {
+      "prompt": "a blue morpho butterfly in a tropical forest",
+      "seed": 4
+    },
+    {
+      "prompt": "a yellow butterfly flying over green grass",
+      "seed": 0
+    },
+    {
+      "prompt": "a yellow butterfly flying over green grass",
+      "seed": 1
+    },
+    {
+      "prompt": "a yellow butterfly flying over green grass",
+      "seed": 2
+    },
+    {
+      "prompt": "a yellow butterfly flying over green grass",
+      "seed": 3
+    },
+    {
+      "prompt": "a yellow butterfly flying over green grass",
+      "seed": 4
+    },
+    {
+      "prompt": "a butterfly on a purple lavender flower, shallow depth of field",
+      "seed": 0
+    },
+    {
+      "prompt": "a butterfly on a purple lavender flower, shallow depth of field",
+      "seed": 1
+    },
+    {
+      "prompt": "a butterfly on a purple lavender flower, shallow depth of field",
+      "seed": 2
+    },
+    {
+      "prompt": "a butterfly on a purple lavender flower, shallow depth of field",
+      "seed": 3
+    },
+    {
+      "prompt": "a butterfly on a purple lavender flower, shallow depth of field",
+      "seed": 4
+    },
+    {
+      "prompt": "a close-up of a butterfly wing pattern",
+      "seed": 0
+    },
+    {
+      "prompt": "a close-up of a butterfly wing pattern",
+      "seed": 1
+    },
+    {
+      "prompt": "a close-up of a butterfly wing pattern",
+      "seed": 2
+    },
+    {
+      "prompt": "a close-up of a butterfly wing pattern",
+      "seed": 3
+    },
+    {
+      "prompt": "a close-up of a butterfly wing pattern",
+      "seed": 4
+    },
+    {
+      "prompt": "a butterfly on a human hand in a garden",
+      "seed": 0
+    },
+    {
+      "prompt": "a butterfly on a human hand in a garden",
+      "seed": 1
+    },
+    {
+      "prompt": "a butterfly on a human hand in a garden",
+      "seed": 2
+    },
+    {
+      "prompt": "a butterfly on a human hand in a garden",
+      "seed": 3
+    },
+    {
+      "prompt": "a butterfly on a human hand in a garden",
+      "seed": 4
+    },
+    {
+      "prompt": "a white butterfly on a red flower, natural light",
+      "seed": 0
+    },
+    {
+      "prompt": "a white butterfly on a red flower, natural light",
+      "seed": 1
+    },
+    {
+      "prompt": "a white butterfly on a red flower, natural light",
+      "seed": 2
+    },
+    {
+      "prompt": "a white butterfly on a red flower, natural light",
+      "seed": 3
+    },
+    {
+      "prompt": "a white butterfly on a red flower, natural light",
+      "seed": 4
+    },
+    {
+      "prompt": "a butterfly resting on a stone near water",
+      "seed": 0
+    },
+    {
+      "prompt": "a butterfly resting on a stone near water",
+      "seed": 1
+    },
+    {
+      "prompt": "a butterfly resting on a stone near water",
+      "seed": 2
+    },
+    {
+      "prompt": "a butterfly resting on a stone near water",
+      "seed": 3
+    },
+    {
+      "prompt": "a butterfly resting on a stone near water",
+      "seed": 4
+    },
+    {
+      "prompt": "a black and orange butterfly on a sunflower",
+      "seed": 0
+    },
+    {
+      "prompt": "a black and orange butterfly on a sunflower",
+      "seed": 1
+    },
+    {
+      "prompt": "a black and orange butterfly on a sunflower",
+      "seed": 2
+    },
+    {
+      "prompt": "a black and orange butterfly on a sunflower",
+      "seed": 3
+    },
+    {
+      "prompt": "a black and orange butterfly on a sunflower",
+      "seed": 4
+    },
+    {
+      "prompt": "a small butterfly on a dandelion in spring",
+      "seed": 0
+    },
+    {
+      "prompt": "a small butterfly on a dandelion in spring",
+      "seed": 1
+    },
+    {
+      "prompt": "a small butterfly on a dandelion in spring",
+      "seed": 2
+    },
+    {
+      "prompt": "a small butterfly on a dandelion in spring",
+      "seed": 3
+    },
+    {
+      "prompt": "a small butterfly on a dandelion in spring",
+      "seed": 4
+    },
+    {
+      "prompt": "a butterfly with spread wings on a wooden surface",
+      "seed": 0
+    },
+    {
+      "prompt": "a butterfly with spread wings on a wooden surface",
+      "seed": 1
+    },
+    {
+      "prompt": "a butterfly with spread wings on a wooden surface",
+      "seed": 2
+    },
+    {
+      "prompt": "a butterfly with spread wings on a wooden surface",
+      "seed": 3
+    },
+    {
+      "prompt": "a butterfly with spread wings on a wooden surface",
+      "seed": 4
+    }
+  ]
+}

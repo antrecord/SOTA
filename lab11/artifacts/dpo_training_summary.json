@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "fast_dev_run": false,
+  "full_experiment": true,
+  "optimizer_steps_completed": 40,
+  "requested_optimizer_steps": 40,
+  "gradient_accumulation_steps": 8,
+  "training_examples_processed": 320,
+  "beta": 0.1,
+  "learning_rate": 5e-06,
+  "elapsed_seconds": 2136.8,
+  "final_loss": 0.6122195571660995,
+  "final_policy_margin": 6.602450296282768,
+  "final_reference_margin": 4.89062612503767,
+  "adapter_path": "artifacts/aligned_adapter/train"
+}

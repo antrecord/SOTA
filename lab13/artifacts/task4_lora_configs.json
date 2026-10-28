@@ -1,0 +1,126 @@
+{
+  "base_model": "runwayml/stable-diffusion-v1-5",
+  "device": "cuda",
+  "torch_dtype": "float16",
+  "freeze": {
+    "vae": {
+      "total": 83653863,
+      "trainable": 0
+    },
+    "text_encoder": {
+      "total": 123060480,
+      "trainable": 0
+    },
+    "base_unet": {
+      "total": 859520964,
+      "trainable": 0
+    }
+  },
+  "schedule": {
+    "max_train_steps": 400,
+    "checkpoint_steps": [
+      200,
+      400
+    ],
+    "batch_size": 1,
+    "gradient_accumulation_steps": 1,
+    "optimizer": "adamw",
+    "adam_beta1": 0.9,
+    "adam_beta2": 0.999,
+    "adam_weight_decay": 0.01,
+    "adam_epsilon": 1e-08,
+    "lr_scheduler": "constant",
+    "lr_warmup_steps": 0,
+    "max_grad_norm": 1.0,
+    "mixed_precision": "fp16",
+    "resolution": 512,
+    "seed": 64
+  },
+  "lora_configs": [
+    {
+      "name": "r4_lr1e-4",
+      "rank": 4,
+      "lr": 0.0001
+    },
+    {
+      "name": "r8_lr1e-4",
+      "rank": 8,
+      "lr": 0.0001
+    },
+    {
+      "name": "r8_lr5e-5",
+      "rank": 8,
+      "lr": 5e-05
+    }
+  ],
+  "lora_details": [
+    {
+      "config": {
+        "name": "r4_lr1e-4",
+        "rank": 4,
+        "lr": 0.0001
+      },
+      "unet_total_params": 860318148,
+      "unet_trainable_params": 797184,
+      "lora_trainable_fraction": 0.000927,
+      "n_lora_tensors": 256,
+      "n_frozen_tensors": 686,
+      "non_lora_trainable": [],
+      "target_modules": [
+        "to_q",
+        "to_k",
+        "to_v",
+        "to_out.0"
+      ],
+      "lora_alpha": 4,
+      "lora_dropout": 0.0,
+      "init": "gaussian (A~N(0,1/r), B=0)"
+    },
+    {
+      "config": {
+        "name": "r8_lr1e-4",
+        "rank": 8,
+        "lr": 0.0001
+      },
+      "unet_total_params": 861115332,
+      "unet_trainable_params": 1594368,
+      "lora_trainable_fraction": 0.001852,
+      "n_lora_tensors": 256,
+      "n_frozen_tensors": 686,
+      "non_lora_trainable": [],
+      "target_modules": [
+        "to_q",
+        "to_k",
+        "to_v",
+        "to_out.0"
+      ],
+      "lora_alpha": 8,
+      "lora_dropout": 0.0,
+      "init": "gaussian (A~N(0,1/r), B=0)"
+    },
+    {
+      "config": {
+        "name": "r8_lr5e-5",
+        "rank": 8,
+        "lr": 5e-05
+      },
+      "unet_total_params": 861115332,
+      "unet_trainable_params": 1594368,
+      "lora_trainable_fraction": 0.001852,
+      "n_lora_tensors": 256,
+      "n_frozen_tensors": 686,
+      "non_lora_trainable": [],
+      "target_modules": [
+        "to_q",
+        "to_k",
+        "to_v",
+        "to_out.0"
+      ],
+      "lora_alpha": 8,
+      "lora_dropout": 0.0,
+      "init": "gaussian (A~N(0,1/r), B=0)"
+    }
+  ],
+  "errors": [],
+  "all_ok": true
+}

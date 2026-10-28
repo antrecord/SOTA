@@ -1,0 +1,46 @@
+{
+  "schedule": {
+    "max_train_steps": 400,
+    "checkpoint_steps": [
+      200,
+      400
+    ],
+    "batch_size": 1,
+    "gradient_accumulation_steps": 1,
+    "optimizer": "adamw",
+    "adam_beta1": 0.9,
+    "adam_beta2": 0.999,
+    "adam_weight_decay": 0.01,
+    "adam_epsilon": 1e-08,
+    "lr_scheduler": "constant",
+    "lr_warmup_steps": 0,
+    "max_grad_norm": 1.0,
+    "mixed_precision": "fp16",
+    "resolution": 512,
+    "seed": 64
+  },
+  "configs": [
+    {
+      "name": "r4_lr1e-4",
+      "rank": 4,
+      "lr": 0.0001
+    },
+    {
+      "name": "r8_lr1e-4",
+      "rank": 8,
+      "lr": 0.0001
+    },
+    {
+      "name": "r8_lr5e-5",
+      "rank": 8,
+      "lr": 5e-05
+    }
+  ],
+  "base_model": "runwayml/stable-diffusion-v1-5",
+  "target_modules": [
+    "to_q",
+    "to_k",
+    "to_v",
+    "to_out.0"
+  ]
+}

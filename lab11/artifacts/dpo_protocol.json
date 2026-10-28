@@ -1,0 +1,16 @@
+{
+  "model": "Qwen/Qwen2.5-VL-3B-Instruct",
+  "initialization_source": "lab9_sft_adapter",
+  "beta": 0.1,
+  "optimizer": "AdamW",
+  "learning_rate": 5e-06,
+  "gradient_accumulation_steps": 8,
+  "optimizer_steps": 40,
+  "full_budget": 40,
+  "smoke_budget": 2,
+  "reference_frozen": true,
+  "optimizer_parameters": "trainable_adapter_only",
+  "loss": "negative_logsigmoid(beta * (policy_margin - reference_margin))",
+  "fast_dev_run": false,
+  "trainable_parameters": 14966784
+}

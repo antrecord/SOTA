@@ -1,0 +1,94 @@
+{
+  "foundation": {
+    "exact_match": 0.78125,
+    "correct": 150,
+    "total": 192,
+    "valid_format": 0.953125,
+    "valid_format_count": 183
+  },
+  "reference": {
+    "exact_match": 0.8177083333333334,
+    "correct": 157,
+    "total": 192,
+    "valid_format": 1.0,
+    "valid_format_count": 192
+  },
+  "aligned": {
+    "exact_match": 0.8125,
+    "correct": 156,
+    "total": 192,
+    "valid_format": 1.0,
+    "valid_format_count": 192
+  },
+  "by_split": {
+    "id_test": {
+      "foundation": {
+        "exact_match": 0.875,
+        "correct": 56,
+        "total": 64,
+        "valid_format": 0.890625,
+        "valid_format_count": 57
+      },
+      "reference": {
+        "exact_match": 0.875,
+        "correct": 56,
+        "total": 64,
+        "valid_format": 1.0,
+        "valid_format_count": 64
+      },
+      "aligned": {
+        "exact_match": 0.859375,
+        "correct": 55,
+        "total": 64,
+        "valid_format": 1.0,
+        "valid_format_count": 64
+      }
+    },
+    "ood_test": {
+      "foundation": {
+        "exact_match": 0.578125,
+        "correct": 37,
+        "total": 64,
+        "valid_format": 0.96875,
+        "valid_format_count": 62
+      },
+      "reference": {
+        "exact_match": 0.6875,
+        "correct": 44,
+        "total": 64,
+        "valid_format": 1.0,
+        "valid_format_count": 64
+      },
+      "aligned": {
+        "exact_match": 0.6875,
+        "correct": 44,
+        "total": 64,
+        "valid_format": 1.0,
+        "valid_format_count": 64
+      }
+    },
+    "general_test": {
+      "foundation": {
+        "exact_match": 0.890625,
+        "correct": 57,
+        "total": 64,
+        "valid_format": 1.0,
+        "valid_format_count": 64
+      },
+      "reference": {
+        "exact_match": 0.890625,
+        "correct": 57,
+        "total": 64,
+        "valid_format": 1.0,
+        "valid_format_count": 64
+      },
+      "aligned": {
+        "exact_match": 0.890625,
+        "correct": 57,
+        "total": 64,
+        "valid_format": 1.0,
+        "valid_format_count": 64
+      }
+    }
+  }
+}

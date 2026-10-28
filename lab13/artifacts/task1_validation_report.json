@@ -1,0 +1,18 @@
+{
+  "required_license": "CC0-1.0",
+  "n_records": 28,
+  "n_files_exist": 28,
+  "n_sha256_matches": 28,
+  "n_rgb_ok": 28,
+  "n_license_ok": 28,
+  "n_license_url_present": 28,
+  "n_source_page_present": 28,
+  "license_counts": {
+    "CC0-1.0": 28
+  },
+  "duplicates_by_sha256": {},
+  "duplicates_by_file_name": {},
+  "duplicates_by_caption": {},
+  "errors": [],
+  "all_ok": true
+}

@@ -1,0 +1,36 @@
+{
+  "baseline": {
+    "label": "baseline (SD 1.5, no LoRA)",
+    "gen_json": "/content/drive/MyDrive/lab13/artifacts/task3_baseline.json",
+    "img_emb": "/content/drive/MyDrive/lab13/artifacts/clip_features/baseline_image_emb.pt",
+    "n_images": 60
+  },
+  "lora": [
+    {
+      "key": "r4_lr1e-4_step0400",
+      "adapter": "r4_lr1e-4",
+      "step": "step0400",
+      "gen_json": "/content/drive/MyDrive/lab13/artifacts/lora_generations/r4_lr1e-4/step0400/generations.json",
+      "img_emb": "/content/drive/MyDrive/lab13/artifacts/clip_features/r4_lr1e-4_step0400_image_emb.pt",
+      "n_images": 60
+    },
+    {
+      "key": "r8_lr1e-4_step0400",
+      "adapter": "r8_lr1e-4",
+      "step": "step0400",
+      "gen_json": "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr1e-4/step0400/generations.json",
+      "img_emb": "/content/drive/MyDrive/lab13/artifacts/clip_features/r8_lr1e-4_step0400_image_emb.pt",
+      "n_images": 60
+    },
+    {
+      "key": "r8_lr5e-5_step0400",
+      "adapter": "r8_lr5e-5",
+      "step": "step0400",
+      "gen_json": "/content/drive/MyDrive/lab13/artifacts/lora_generations/r8_lr5e-5/step0400/generations.json",
+      "img_emb": "/content/drive/MyDrive/lab13/artifacts/clip_features/r8_lr5e-5_step0400_image_emb.pt",
+      "n_images": 60
+    }
+  ],
+  "train_image_emb": "/content/drive/MyDrive/lab13/artifacts/clip_features/train_image_emb_task7.pt",
+  "clip_model": "openai/clip-vit-base-patch32"
+}

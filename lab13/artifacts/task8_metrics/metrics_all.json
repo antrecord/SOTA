@@ -1,0 +1,3869 @@
+{
+  "clip_model": "openai/clip-vit-base-patch32",
+  "prompts": [
+    "a butterfly on a white daisy, macro photography",
+    "a monarch butterfly with orange wings resting on a leaf",
+    "a blue morpho butterfly in a tropical forest",
+    "a yellow butterfly flying over green grass",
+    "a butterfly on a purple lavender flower, shallow depth of field",
+    "a close-up of a butterfly wing pattern",
+    "a butterfly on a human hand in a garden",
+    "a white butterfly on a red flower, natural light",
+    "a butterfly resting on a stone near water",
+    "a black and orange butterfly on a sunflower",
+    "a small butterfly on a dandelion in spring",
+    "a butterfly with spread wings on a wooden surface"
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "n_pairs": 60,
+  "baseline_is_lora": false,
+  "pairs_match_across_datasets": true,
+  "train_background": {
+    "mean": 0.6929194927215576,
+    "median": 0.7303299307823181,
+    "p90": 0.8210938572883606,
+    "max": 0.8898414373397827
+  },
+  "datasets": {
+    "baseline": {
+      "n_images": 60,
+      "text_sim": {
+        "mean": 0.3250808800260226,
+        "std": 0.023706967795252235,
+        "median": 0.3266574889421463,
+        "min": 0.26970237493515015,
+        "max": 0.38282084465026855,
+        "per_prompt": {
+          "p1": 0.2961201846599579,
+          "p2": 0.3274439752101898,
+          "p3": 0.33932804465293886,
+          "p4": 0.35102519392967224,
+          "p5": 0.32606372237205505,
+          "p6": 0.31384573578834535,
+          "p7": 0.3195858061313629,
+          "p8": 0.35016306638717654,
+          "p9": 0.3319653570652008,
+          "p10": 0.33071577548980713,
+          "p11": 0.302919065952301,
+          "p12": 0.31179463267326357
+        }
+      },
+      "diversity": {
+        "mean": 0.10114807883898418,
+        "std": 0.03763345144176521,
+        "per_prompt": {
+          "p1": 0.09959632158279419,
+          "p2": 0.05510234832763672,
+          "p3": 0.09232074022293091,
+          "p4": 0.08958041667938232,
+          "p5": 0.10008001327514648,
+          "p6": 0.21615314483642578,
+          "p7": 0.09481638669967651,
+          "p8": 0.11875683069229126,
+          "p9": 0.0764474868774414,
+          "p10": 0.08374601602554321,
+          "p11": 0.08828467130661011,
+          "p12": 0.09889256954193115
+        },
+        "n_prompts": 12
+      },
+      "nearest_train": {
+        "mean": 0.8607972860336304,
+        "std": 0.058263979852199554,
+        "min": 0.6341835260391235,
+        "max": 0.9407385587692261,
+        "p90": 0.9116484522819519,
+        "n_ge_0_8": 55,
+        "n_ge_0_9": 16,
+        "per_image": [
+          {
+            "gen_file": "baseline_p001_s0.png",
+            "prompt_idx": 0,
+            "seed": 0,
+            "nearest_cos": 0.8008034229278564,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "baseline_p002_s1.png",
+            "prompt_idx": 0,
+            "seed": 1,
+            "nearest_cos": 0.9082204699516296,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "baseline_p003_s2.png",
+            "prompt_idx": 0,
+            "seed": 2,
+            "nearest_cos": 0.8780908584594727,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "baseline_p004_s3.png",
+            "prompt_idx": 0,
+            "seed": 3,
+            "nearest_cos": 0.9407385587692261,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "baseline_p005_s4.png",
+            "prompt_idx": 0,
+            "seed": 4,
+            "nearest_cos": 0.8785096406936646,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "baseline_p006_s0.png",
+            "prompt_idx": 1,
+            "seed": 0,
+            "nearest_cos": 0.8990435600280762,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "baseline_p007_s1.png",
+            "prompt_idx": 1,
+            "seed": 1,
+            "nearest_cos": 0.9081544876098633,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "baseline_p008_s2.png",
+            "prompt_idx": 1,
+            "seed": 2,
+            "nearest_cos": 0.8635112643241882,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "baseline_p009_s3.png",
+            "prompt_idx": 1,
+            "seed": 3,
+            "nearest_cos": 0.9122171401977539,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "baseline_p010_s4.png",
+            "prompt_idx": 1,
+            "seed": 4,
+            "nearest_cos": 0.901901364326477,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "baseline_p011_s0.png",
+            "prompt_idx": 2,
+            "seed": 0,
+            "nearest_cos": 0.8804113864898682,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "baseline_p012_s1.png",
+            "prompt_idx": 2,
+            "seed": 1,
+            "nearest_cos": 0.8391094207763672,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_04.jpg"
+          },
+          {
+            "gen_file": "baseline_p013_s2.png",
+            "prompt_idx": 2,
+            "seed": 2,
+            "nearest_cos": 0.8570129871368408,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "baseline_p014_s3.png",
+            "prompt_idx": 2,
+            "seed": 3,
+            "nearest_cos": 0.9004914164543152,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "baseline_p015_s4.png",
+            "prompt_idx": 2,
+            "seed": 4,
+            "nearest_cos": 0.9172146916389465,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "baseline_p016_s0.png",
+            "prompt_idx": 3,
+            "seed": 0,
+            "nearest_cos": 0.8581719398498535,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "baseline_p017_s1.png",
+            "prompt_idx": 3,
+            "seed": 1,
+            "nearest_cos": 0.8336448669433594,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "baseline_p018_s2.png",
+            "prompt_idx": 3,
+            "seed": 2,
+            "nearest_cos": 0.8326076865196228,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "baseline_p019_s3.png",
+            "prompt_idx": 3,
+            "seed": 3,
+            "nearest_cos": 0.8201835751533508,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "baseline_p020_s4.png",
+            "prompt_idx": 3,
+            "seed": 4,
+            "nearest_cos": 0.878176748752594,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "baseline_p021_s0.png",
+            "prompt_idx": 4,
+            "seed": 0,
+            "nearest_cos": 0.8815895318984985,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "baseline_p022_s1.png",
+            "prompt_idx": 4,
+            "seed": 1,
+            "nearest_cos": 0.8467630743980408,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_00.jpg"
+          },
+          {
+            "gen_file": "baseline_p023_s2.png",
+            "prompt_idx": 4,
+            "seed": 2,
+            "nearest_cos": 0.878710150718689,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_03.jpg"
+          },
+          {
+            "gen_file": "baseline_p024_s3.png",
+            "prompt_idx": 4,
+            "seed": 3,
+            "nearest_cos": 0.8374797105789185,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "baseline_p025_s4.png",
+            "prompt_idx": 4,
+            "seed": 4,
+            "nearest_cos": 0.7322957515716553,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_03.jpg"
+          },
+          {
+            "gen_file": "baseline_p026_s0.png",
+            "prompt_idx": 5,
+            "seed": 0,
+            "nearest_cos": 0.9095849394798279,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "baseline_p027_s1.png",
+            "prompt_idx": 5,
+            "seed": 1,
+            "nearest_cos": 0.7986294627189636,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "baseline_p028_s2.png",
+            "prompt_idx": 5,
+            "seed": 2,
+            "nearest_cos": 0.6384798884391785,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_18.jpg"
+          },
+          {
+            "gen_file": "baseline_p029_s3.png",
+            "prompt_idx": 5,
+            "seed": 3,
+            "nearest_cos": 0.6341835260391235,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_18.jpg"
+          },
+          {
+            "gen_file": "baseline_p030_s4.png",
+            "prompt_idx": 5,
+            "seed": 4,
+            "nearest_cos": 0.7518351674079895,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_00.jpg"
+          },
+          {
+            "gen_file": "baseline_p031_s0.png",
+            "prompt_idx": 6,
+            "seed": 0,
+            "nearest_cos": 0.910770058631897,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "baseline_p032_s1.png",
+            "prompt_idx": 6,
+            "seed": 1,
+            "nearest_cos": 0.8514704704284668,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "baseline_p033_s2.png",
+            "prompt_idx": 6,
+            "seed": 2,
+            "nearest_cos": 0.8207470774650574,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "baseline_p034_s3.png",
+            "prompt_idx": 6,
+            "seed": 3,
+            "nearest_cos": 0.8907957673072815,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "baseline_p035_s4.png",
+            "prompt_idx": 6,
+            "seed": 4,
+            "nearest_cos": 0.8319045901298523,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_11.jpg"
+          },
+          {
+            "gen_file": "baseline_p036_s0.png",
+            "prompt_idx": 7,
+            "seed": 0,
+            "nearest_cos": 0.8664632439613342,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_11.jpg"
+          },
+          {
+            "gen_file": "baseline_p037_s1.png",
+            "prompt_idx": 7,
+            "seed": 1,
+            "nearest_cos": 0.9041404128074646,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "baseline_p038_s2.png",
+            "prompt_idx": 7,
+            "seed": 2,
+            "nearest_cos": 0.8071497082710266,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_00.jpg"
+          },
+          {
+            "gen_file": "baseline_p039_s3.png",
+            "prompt_idx": 7,
+            "seed": 3,
+            "nearest_cos": 0.8725733757019043,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_00.jpg"
+          },
+          {
+            "gen_file": "baseline_p040_s4.png",
+            "prompt_idx": 7,
+            "seed": 4,
+            "nearest_cos": 0.8681970834732056,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_00.jpg"
+          },
+          {
+            "gen_file": "baseline_p041_s0.png",
+            "prompt_idx": 8,
+            "seed": 0,
+            "nearest_cos": 0.8864163160324097,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "baseline_p042_s1.png",
+            "prompt_idx": 8,
+            "seed": 1,
+            "nearest_cos": 0.8716464042663574,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "baseline_p043_s2.png",
+            "prompt_idx": 8,
+            "seed": 2,
+            "nearest_cos": 0.8650000691413879,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "baseline_p044_s3.png",
+            "prompt_idx": 8,
+            "seed": 3,
+            "nearest_cos": 0.8640273809432983,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "baseline_p045_s4.png",
+            "prompt_idx": 8,
+            "seed": 4,
+            "nearest_cos": 0.8867295384407043,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "baseline_p046_s0.png",
+            "prompt_idx": 9,
+            "seed": 0,
+            "nearest_cos": 0.9119621515274048,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "baseline_p047_s1.png",
+            "prompt_idx": 9,
+            "seed": 1,
+            "nearest_cos": 0.9039585590362549,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "baseline_p048_s2.png",
+            "prompt_idx": 9,
+            "seed": 2,
+            "nearest_cos": 0.8329270482063293,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_12.jpg"
+          },
+          {
+            "gen_file": "baseline_p049_s3.png",
+            "prompt_idx": 9,
+            "seed": 3,
+            "nearest_cos": 0.9143193960189819,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "baseline_p050_s4.png",
+            "prompt_idx": 9,
+            "seed": 4,
+            "nearest_cos": 0.9116135835647583,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "baseline_p051_s0.png",
+            "prompt_idx": 10,
+            "seed": 0,
+            "nearest_cos": 0.8959150314331055,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "baseline_p052_s1.png",
+            "prompt_idx": 10,
+            "seed": 1,
+            "nearest_cos": 0.8958373665809631,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "baseline_p053_s2.png",
+            "prompt_idx": 10,
+            "seed": 2,
+            "nearest_cos": 0.879351794719696,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_05.jpg"
+          },
+          {
+            "gen_file": "baseline_p054_s3.png",
+            "prompt_idx": 10,
+            "seed": 3,
+            "nearest_cos": 0.9254666566848755,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "baseline_p055_s4.png",
+            "prompt_idx": 10,
+            "seed": 4,
+            "nearest_cos": 0.9026368260383606,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "baseline_p056_s0.png",
+            "prompt_idx": 11,
+            "seed": 0,
+            "nearest_cos": 0.8743972182273865,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "baseline_p057_s1.png",
+            "prompt_idx": 11,
+            "seed": 1,
+            "nearest_cos": 0.8394079804420471,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "baseline_p058_s2.png",
+            "prompt_idx": 11,
+            "seed": 2,
+            "nearest_cos": 0.83478182554245,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "baseline_p059_s3.png",
+            "prompt_idx": 11,
+            "seed": 3,
+            "nearest_cos": 0.8634594082832336,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "baseline_p060_s4.png",
+            "prompt_idx": 11,
+            "seed": 4,
+            "nearest_cos": 0.846004843711853,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          }
+        ]
+      },
+      "label": "baseline (SD 1.5, no LoRA)",
+      "is_lora": false
+    },
+    "r4_lr1e-4_step0400": {
+      "n_images": 60,
+      "text_sim": {
+        "mean": 0.3250808800260226,
+        "std": 0.023706967795252235,
+        "median": 0.3266574889421463,
+        "min": 0.26970237493515015,
+        "max": 0.38282084465026855,
+        "per_prompt": {
+          "p1": 0.2961201846599579,
+          "p2": 0.3274439752101898,
+          "p3": 0.33932804465293886,
+          "p4": 0.35102519392967224,
+          "p5": 0.32606372237205505,
+          "p6": 0.31384573578834535,
+          "p7": 0.3195858061313629,
+          "p8": 0.35016306638717654,
+          "p9": 0.3319653570652008,
+          "p10": 0.33071577548980713,
+          "p11": 0.302919065952301,
+          "p12": 0.31179463267326357
+        }
+      },
+      "diversity": {
+        "mean": 0.10114807883898418,
+        "std": 0.03763345144176521,
+        "per_prompt": {
+          "p1": 0.09959632158279419,
+          "p2": 0.05510234832763672,
+          "p3": 0.09232074022293091,
+          "p4": 0.08958041667938232,
+          "p5": 0.10008001327514648,
+          "p6": 0.21615314483642578,
+          "p7": 0.09481638669967651,
+          "p8": 0.11875683069229126,
+          "p9": 0.0764474868774414,
+          "p10": 0.08374601602554321,
+          "p11": 0.08828467130661011,
+          "p12": 0.09889256954193115
+        },
+        "n_prompts": 12
+      },
+      "nearest_train": {
+        "mean": 0.8607972860336304,
+        "std": 0.058263979852199554,
+        "min": 0.6341835260391235,
+        "max": 0.9407385587692261,
+        "p90": 0.9116484522819519,
+        "n_ge_0_8": 55,
+        "n_ge_0_9": 16,
+        "per_image": [
+          {
+            "gen_file": "r4_lr1e-4_step0400_p001_s0.png",
+            "prompt_idx": 0,
+            "seed": 0,
+            "nearest_cos": 0.8008034229278564,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r4_lr1e-4_step0400_p002_s1.png",
+            "prompt_idx": 0,
+            "seed": 1,
+            "nearest_cos": 0.9082204699516296,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r4_lr1e-4_step0400_p003_s2.png",
+            "prompt_idx": 0,
+            "seed": 2,
+            "nearest_cos": 0.8780908584594727,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r4_lr1e-4_step0400_p004_s3.png",
+            "prompt_idx": 0,
+            "seed": 3,
+            "nearest_cos": 0.9407385587692261,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r4_lr1e-4_step0400_p005_s4.png",
+            "prompt_idx": 0,
+            "seed": 4,
+            "nearest_cos": 0.8785096406936646,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r4_lr1e-4_step0400_p006_s0.png",
+            "prompt_idx": 1,
+            "seed": 0,
+            "nearest_cos": 0.8990435600280762,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r4_lr1e-4_step0400_p007_s1.png",
+            "prompt_idx": 1,
+            "seed": 1,
+            "nearest_cos": 0.9081544876098633,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r4_lr1e-4_step0400_p008_s2.png",
+            "prompt_idx": 1,
+            "seed": 2,
+            "nearest_cos": 0.8635112643241882,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r4_lr1e-4_step0400_p009_s3.png",
+            "prompt_idx": 1,
+            "seed": 3,
+            "nearest_cos": 0.9122171401977539,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r4_lr1e-4_step0400_p010_s4.png",
+            "prompt_idx": 1,
+            "seed": 4,
+            "nearest_cos": 0.901901364326477,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r4_lr1e-4_step0400_p011_s0.png",
+            "prompt_idx": 2,
+            "seed": 0,
+            "nearest_cos": 0.8804113864898682,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r4_lr1e-4_step0400_p012_s1.png",
+            "prompt_idx": 2,
+            "seed": 1,
+            "nearest_cos": 0.8391094207763672,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_04.jpg"
+          },
+          {
+            "gen_file": "r4_lr1e-4_step0400_p013_s2.png",
+            "prompt_idx": 2,
+            "seed": 2,
+            "nearest_cos": 0.8570129871368408,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r4_lr1e-4_step0400_p014_s3.png",
+            "prompt_idx": 2,
+            "seed": 3,
+            "nearest_cos": 0.9004914164543152,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r4_lr1e-4_step0400_p015_s4.png",
+            "prompt_idx": 2,
+            "seed": 4,
+            "nearest_cos": 0.9172146916389465,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r4_lr1e-4_step0400_p016_s0.png",
+            "prompt_idx": 3,
+            "seed": 0,
+            "nearest_cos": 0.8581719398498535,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r4_lr1e-4_step0400_p017_s1.png",
+            "prompt_idx": 3,
+            "seed": 1,
+            "nearest_cos": 0.8336448669433594,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r4_lr1e-4_step0400_p018_s2.png",
+            "prompt_idx": 3,
+            "seed": 2,
+            "nearest_cos": 0.8326076865196228,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r4_lr1e-4_step0400_p019_s3.png",
+            "prompt_idx": 3,
+            "seed": 3,
+            "nearest_cos": 0.8201835751533508,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r4_lr1e-4_step0400_p020_s4.png",
+            "prompt_idx": 3,
+            "seed": 4,
+            "nearest_cos": 0.878176748752594,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r4_lr1e-4_step0400_p021_s0.png",
+            "prompt_idx": 4,
+            "seed": 0,
+            "nearest_cos": 0.8815895318984985,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r4_lr1e-4_step0400_p022_s1.png",
+            "prompt_idx": 4,
+            "seed": 1,
+            "nearest_cos": 0.8467630743980408,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_00.jpg"
+          },
+          {
+            "gen_file": "r4_lr1e-4_step0400_p023_s2.png",
+            "prompt_idx": 4,
+            "seed": 2,
+            "nearest_cos": 0.878710150718689,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_03.jpg"
+          },
+          {
+            "gen_file": "r4_lr1e-4_step0400_p024_s3.png",
+            "prompt_idx": 4,
+            "seed": 3,
+            "nearest_cos": 0.8374797105789185,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r4_lr1e-4_step0400_p025_s4.png",
+            "prompt_idx": 4,
+            "seed": 4,
+            "nearest_cos": 0.7322957515716553,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_03.jpg"
+          },
+          {
+            "gen_file": "r4_lr1e-4_step0400_p026_s0.png",
+            "prompt_idx": 5,
+            "seed": 0,
+            "nearest_cos": 0.9095849394798279,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r4_lr1e-4_step0400_p027_s1.png",
+            "prompt_idx": 5,
+            "seed": 1,
+            "nearest_cos": 0.7986294627189636,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r4_lr1e-4_step0400_p028_s2.png",
+            "prompt_idx": 5,
+            "seed": 2,
+            "nearest_cos": 0.6384798884391785,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_18.jpg"
+          },
+          {
+            "gen_file": "r4_lr1e-4_step0400_p029_s3.png",
+            "prompt_idx": 5,
+            "seed": 3,
+            "nearest_cos": 0.6341835260391235,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_18.jpg"
+          },
+          {
+            "gen_file": "r4_lr1e-4_step0400_p030_s4.png",
+            "prompt_idx": 5,
+            "seed": 4,
+            "nearest_cos": 0.7518351674079895,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_00.jpg"
+          },
+          {
+            "gen_file": "r4_lr1e-4_step0400_p031_s0.png",
+            "prompt_idx": 6,
+            "seed": 0,
+            "nearest_cos": 0.910770058631897,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r4_lr1e-4_step0400_p032_s1.png",
+            "prompt_idx": 6,
+            "seed": 1,
+            "nearest_cos": 0.8514704704284668,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r4_lr1e-4_step0400_p033_s2.png",
+            "prompt_idx": 6,
+            "seed": 2,
+            "nearest_cos": 0.8207470774650574,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r4_lr1e-4_step0400_p034_s3.png",
+            "prompt_idx": 6,
+            "seed": 3,
+            "nearest_cos": 0.8907957673072815,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r4_lr1e-4_step0400_p035_s4.png",
+            "prompt_idx": 6,
+            "seed": 4,
+            "nearest_cos": 0.8319045901298523,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_11.jpg"
+          },
+          {
+            "gen_file": "r4_lr1e-4_step0400_p036_s0.png",
+            "prompt_idx": 7,
+            "seed": 0,
+            "nearest_cos": 0.8664632439613342,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_11.jpg"
+          },
+          {
+            "gen_file": "r4_lr1e-4_step0400_p037_s1.png",
+            "prompt_idx": 7,
+            "seed": 1,
+            "nearest_cos": 0.9041404128074646,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r4_lr1e-4_step0400_p038_s2.png",
+            "prompt_idx": 7,
+            "seed": 2,
+            "nearest_cos": 0.8071497082710266,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_00.jpg"
+          },
+          {
+            "gen_file": "r4_lr1e-4_step0400_p039_s3.png",
+            "prompt_idx": 7,
+            "seed": 3,
+            "nearest_cos": 0.8725733757019043,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_00.jpg"
+          },
+          {
+            "gen_file": "r4_lr1e-4_step0400_p040_s4.png",
+            "prompt_idx": 7,
+            "seed": 4,
+            "nearest_cos": 0.8681970834732056,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_00.jpg"
+          },
+          {
+            "gen_file": "r4_lr1e-4_step0400_p041_s0.png",
+            "prompt_idx": 8,
+            "seed": 0,
+            "nearest_cos": 0.8864163160324097,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r4_lr1e-4_step0400_p042_s1.png",
+            "prompt_idx": 8,
+            "seed": 1,
+            "nearest_cos": 0.8716464042663574,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r4_lr1e-4_step0400_p043_s2.png",
+            "prompt_idx": 8,
+            "seed": 2,
+            "nearest_cos": 0.8650000691413879,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r4_lr1e-4_step0400_p044_s3.png",
+            "prompt_idx": 8,
+            "seed": 3,
+            "nearest_cos": 0.8640273809432983,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r4_lr1e-4_step0400_p045_s4.png",
+            "prompt_idx": 8,
+            "seed": 4,
+            "nearest_cos": 0.8867295384407043,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r4_lr1e-4_step0400_p046_s0.png",
+            "prompt_idx": 9,
+            "seed": 0,
+            "nearest_cos": 0.9119621515274048,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r4_lr1e-4_step0400_p047_s1.png",
+            "prompt_idx": 9,
+            "seed": 1,
+            "nearest_cos": 0.9039585590362549,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r4_lr1e-4_step0400_p048_s2.png",
+            "prompt_idx": 9,
+            "seed": 2,
+            "nearest_cos": 0.8329270482063293,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_12.jpg"
+          },
+          {
+            "gen_file": "r4_lr1e-4_step0400_p049_s3.png",
+            "prompt_idx": 9,
+            "seed": 3,
+            "nearest_cos": 0.9143193960189819,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r4_lr1e-4_step0400_p050_s4.png",
+            "prompt_idx": 9,
+            "seed": 4,
+            "nearest_cos": 0.9116135835647583,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r4_lr1e-4_step0400_p051_s0.png",
+            "prompt_idx": 10,
+            "seed": 0,
+            "nearest_cos": 0.8959150314331055,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r4_lr1e-4_step0400_p052_s1.png",
+            "prompt_idx": 10,
+            "seed": 1,
+            "nearest_cos": 0.8958373665809631,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r4_lr1e-4_step0400_p053_s2.png",
+            "prompt_idx": 10,
+            "seed": 2,
+            "nearest_cos": 0.879351794719696,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_05.jpg"
+          },
+          {
+            "gen_file": "r4_lr1e-4_step0400_p054_s3.png",
+            "prompt_idx": 10,
+            "seed": 3,
+            "nearest_cos": 0.9254666566848755,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r4_lr1e-4_step0400_p055_s4.png",
+            "prompt_idx": 10,
+            "seed": 4,
+            "nearest_cos": 0.9026368260383606,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r4_lr1e-4_step0400_p056_s0.png",
+            "prompt_idx": 11,
+            "seed": 0,
+            "nearest_cos": 0.8743972182273865,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r4_lr1e-4_step0400_p057_s1.png",
+            "prompt_idx": 11,
+            "seed": 1,
+            "nearest_cos": 0.8394079804420471,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r4_lr1e-4_step0400_p058_s2.png",
+            "prompt_idx": 11,
+            "seed": 2,
+            "nearest_cos": 0.83478182554245,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r4_lr1e-4_step0400_p059_s3.png",
+            "prompt_idx": 11,
+            "seed": 3,
+            "nearest_cos": 0.8634594082832336,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r4_lr1e-4_step0400_p060_s4.png",
+            "prompt_idx": 11,
+            "seed": 4,
+            "nearest_cos": 0.846004843711853,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          }
+        ]
+      },
+      "label": "r4_lr1e-4_step0400",
+      "is_lora": true
+    },
+    "r8_lr1e-4_step0400": {
+      "n_images": 60,
+      "text_sim": {
+        "mean": 0.3250808800260226,
+        "std": 0.023706967795252235,
+        "median": 0.3266574889421463,
+        "min": 0.26970237493515015,
+        "max": 0.38282084465026855,
+        "per_prompt": {
+          "p1": 0.2961201846599579,
+          "p2": 0.3274439752101898,
+          "p3": 0.33932804465293886,
+          "p4": 0.35102519392967224,
+          "p5": 0.32606372237205505,
+          "p6": 0.31384573578834535,
+          "p7": 0.3195858061313629,
+          "p8": 0.35016306638717654,
+          "p9": 0.3319653570652008,
+          "p10": 0.33071577548980713,
+          "p11": 0.302919065952301,
+          "p12": 0.31179463267326357
+        }
+      },
+      "diversity": {
+        "mean": 0.10114807883898418,
+        "std": 0.03763345144176521,
+        "per_prompt": {
+          "p1": 0.09959632158279419,
+          "p2": 0.05510234832763672,
+          "p3": 0.09232074022293091,
+          "p4": 0.08958041667938232,
+          "p5": 0.10008001327514648,
+          "p6": 0.21615314483642578,
+          "p7": 0.09481638669967651,
+          "p8": 0.11875683069229126,
+          "p9": 0.0764474868774414,
+          "p10": 0.08374601602554321,
+          "p11": 0.08828467130661011,
+          "p12": 0.09889256954193115
+        },
+        "n_prompts": 12
+      },
+      "nearest_train": {
+        "mean": 0.8607972860336304,
+        "std": 0.058263979852199554,
+        "min": 0.6341835260391235,
+        "max": 0.9407385587692261,
+        "p90": 0.9116484522819519,
+        "n_ge_0_8": 55,
+        "n_ge_0_9": 16,
+        "per_image": [
+          {
+            "gen_file": "r8_lr1e-4_step0400_p001_s0.png",
+            "prompt_idx": 0,
+            "seed": 0,
+            "nearest_cos": 0.8008034229278564,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr1e-4_step0400_p002_s1.png",
+            "prompt_idx": 0,
+            "seed": 1,
+            "nearest_cos": 0.9082204699516296,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr1e-4_step0400_p003_s2.png",
+            "prompt_idx": 0,
+            "seed": 2,
+            "nearest_cos": 0.8780908584594727,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr1e-4_step0400_p004_s3.png",
+            "prompt_idx": 0,
+            "seed": 3,
+            "nearest_cos": 0.9407385587692261,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr1e-4_step0400_p005_s4.png",
+            "prompt_idx": 0,
+            "seed": 4,
+            "nearest_cos": 0.8785096406936646,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr1e-4_step0400_p006_s0.png",
+            "prompt_idx": 1,
+            "seed": 0,
+            "nearest_cos": 0.8990435600280762,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr1e-4_step0400_p007_s1.png",
+            "prompt_idx": 1,
+            "seed": 1,
+            "nearest_cos": 0.9081544876098633,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr1e-4_step0400_p008_s2.png",
+            "prompt_idx": 1,
+            "seed": 2,
+            "nearest_cos": 0.8635112643241882,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr1e-4_step0400_p009_s3.png",
+            "prompt_idx": 1,
+            "seed": 3,
+            "nearest_cos": 0.9122171401977539,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr1e-4_step0400_p010_s4.png",
+            "prompt_idx": 1,
+            "seed": 4,
+            "nearest_cos": 0.901901364326477,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr1e-4_step0400_p011_s0.png",
+            "prompt_idx": 2,
+            "seed": 0,
+            "nearest_cos": 0.8804113864898682,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr1e-4_step0400_p012_s1.png",
+            "prompt_idx": 2,
+            "seed": 1,
+            "nearest_cos": 0.8391094207763672,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_04.jpg"
+          },
+          {
+            "gen_file": "r8_lr1e-4_step0400_p013_s2.png",
+            "prompt_idx": 2,
+            "seed": 2,
+            "nearest_cos": 0.8570129871368408,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr1e-4_step0400_p014_s3.png",
+            "prompt_idx": 2,
+            "seed": 3,
+            "nearest_cos": 0.9004914164543152,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr1e-4_step0400_p015_s4.png",
+            "prompt_idx": 2,
+            "seed": 4,
+            "nearest_cos": 0.9172146916389465,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr1e-4_step0400_p016_s0.png",
+            "prompt_idx": 3,
+            "seed": 0,
+            "nearest_cos": 0.8581719398498535,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr1e-4_step0400_p017_s1.png",
+            "prompt_idx": 3,
+            "seed": 1,
+            "nearest_cos": 0.8336448669433594,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr1e-4_step0400_p018_s2.png",
+            "prompt_idx": 3,
+            "seed": 2,
+            "nearest_cos": 0.8326076865196228,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr1e-4_step0400_p019_s3.png",
+            "prompt_idx": 3,
+            "seed": 3,
+            "nearest_cos": 0.8201835751533508,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr1e-4_step0400_p020_s4.png",
+            "prompt_idx": 3,
+            "seed": 4,
+            "nearest_cos": 0.878176748752594,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr1e-4_step0400_p021_s0.png",
+            "prompt_idx": 4,
+            "seed": 0,
+            "nearest_cos": 0.8815895318984985,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr1e-4_step0400_p022_s1.png",
+            "prompt_idx": 4,
+            "seed": 1,
+            "nearest_cos": 0.8467630743980408,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_00.jpg"
+          },
+          {
+            "gen_file": "r8_lr1e-4_step0400_p023_s2.png",
+            "prompt_idx": 4,
+            "seed": 2,
+            "nearest_cos": 0.878710150718689,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_03.jpg"
+          },
+          {
+            "gen_file": "r8_lr1e-4_step0400_p024_s3.png",
+            "prompt_idx": 4,
+            "seed": 3,
+            "nearest_cos": 0.8374797105789185,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr1e-4_step0400_p025_s4.png",
+            "prompt_idx": 4,
+            "seed": 4,
+            "nearest_cos": 0.7322957515716553,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_03.jpg"
+          },
+          {
+            "gen_file": "r8_lr1e-4_step0400_p026_s0.png",
+            "prompt_idx": 5,
+            "seed": 0,
+            "nearest_cos": 0.9095849394798279,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr1e-4_step0400_p027_s1.png",
+            "prompt_idx": 5,
+            "seed": 1,
+            "nearest_cos": 0.7986294627189636,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr1e-4_step0400_p028_s2.png",
+            "prompt_idx": 5,
+            "seed": 2,
+            "nearest_cos": 0.6384798884391785,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_18.jpg"
+          },
+          {
+            "gen_file": "r8_lr1e-4_step0400_p029_s3.png",
+            "prompt_idx": 5,
+            "seed": 3,
+            "nearest_cos": 0.6341835260391235,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_18.jpg"
+          },
+          {
+            "gen_file": "r8_lr1e-4_step0400_p030_s4.png",
+            "prompt_idx": 5,
+            "seed": 4,
+            "nearest_cos": 0.7518351674079895,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_00.jpg"
+          },
+          {
+            "gen_file": "r8_lr1e-4_step0400_p031_s0.png",
+            "prompt_idx": 6,
+            "seed": 0,
+            "nearest_cos": 0.910770058631897,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr1e-4_step0400_p032_s1.png",
+            "prompt_idx": 6,
+            "seed": 1,
+            "nearest_cos": 0.8514704704284668,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr1e-4_step0400_p033_s2.png",
+            "prompt_idx": 6,
+            "seed": 2,
+            "nearest_cos": 0.8207470774650574,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr1e-4_step0400_p034_s3.png",
+            "prompt_idx": 6,
+            "seed": 3,
+            "nearest_cos": 0.8907957673072815,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr1e-4_step0400_p035_s4.png",
+            "prompt_idx": 6,
+            "seed": 4,
+            "nearest_cos": 0.8319045901298523,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_11.jpg"
+          },
+          {
+            "gen_file": "r8_lr1e-4_step0400_p036_s0.png",
+            "prompt_idx": 7,
+            "seed": 0,
+            "nearest_cos": 0.8664632439613342,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_11.jpg"
+          },
+          {
+            "gen_file": "r8_lr1e-4_step0400_p037_s1.png",
+            "prompt_idx": 7,
+            "seed": 1,
+            "nearest_cos": 0.9041404128074646,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr1e-4_step0400_p038_s2.png",
+            "prompt_idx": 7,
+            "seed": 2,
+            "nearest_cos": 0.8071497082710266,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_00.jpg"
+          },
+          {
+            "gen_file": "r8_lr1e-4_step0400_p039_s3.png",
+            "prompt_idx": 7,
+            "seed": 3,
+            "nearest_cos": 0.8725733757019043,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_00.jpg"
+          },
+          {
+            "gen_file": "r8_lr1e-4_step0400_p040_s4.png",
+            "prompt_idx": 7,
+            "seed": 4,
+            "nearest_cos": 0.8681970834732056,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_00.jpg"
+          },
+          {
+            "gen_file": "r8_lr1e-4_step0400_p041_s0.png",
+            "prompt_idx": 8,
+            "seed": 0,
+            "nearest_cos": 0.8864163160324097,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr1e-4_step0400_p042_s1.png",
+            "prompt_idx": 8,
+            "seed": 1,
+            "nearest_cos": 0.8716464042663574,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr1e-4_step0400_p043_s2.png",
+            "prompt_idx": 8,
+            "seed": 2,
+            "nearest_cos": 0.8650000691413879,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr1e-4_step0400_p044_s3.png",
+            "prompt_idx": 8,
+            "seed": 3,
+            "nearest_cos": 0.8640273809432983,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr1e-4_step0400_p045_s4.png",
+            "prompt_idx": 8,
+            "seed": 4,
+            "nearest_cos": 0.8867295384407043,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr1e-4_step0400_p046_s0.png",
+            "prompt_idx": 9,
+            "seed": 0,
+            "nearest_cos": 0.9119621515274048,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr1e-4_step0400_p047_s1.png",
+            "prompt_idx": 9,
+            "seed": 1,
+            "nearest_cos": 0.9039585590362549,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr1e-4_step0400_p048_s2.png",
+            "prompt_idx": 9,
+            "seed": 2,
+            "nearest_cos": 0.8329270482063293,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_12.jpg"
+          },
+          {
+            "gen_file": "r8_lr1e-4_step0400_p049_s3.png",
+            "prompt_idx": 9,
+            "seed": 3,
+            "nearest_cos": 0.9143193960189819,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr1e-4_step0400_p050_s4.png",
+            "prompt_idx": 9,
+            "seed": 4,
+            "nearest_cos": 0.9116135835647583,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr1e-4_step0400_p051_s0.png",
+            "prompt_idx": 10,
+            "seed": 0,
+            "nearest_cos": 0.8959150314331055,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr1e-4_step0400_p052_s1.png",
+            "prompt_idx": 10,
+            "seed": 1,
+            "nearest_cos": 0.8958373665809631,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr1e-4_step0400_p053_s2.png",
+            "prompt_idx": 10,
+            "seed": 2,
+            "nearest_cos": 0.879351794719696,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_05.jpg"
+          },
+          {
+            "gen_file": "r8_lr1e-4_step0400_p054_s3.png",
+            "prompt_idx": 10,
+            "seed": 3,
+            "nearest_cos": 0.9254666566848755,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr1e-4_step0400_p055_s4.png",
+            "prompt_idx": 10,
+            "seed": 4,
+            "nearest_cos": 0.9026368260383606,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr1e-4_step0400_p056_s0.png",
+            "prompt_idx": 11,
+            "seed": 0,
+            "nearest_cos": 0.8743972182273865,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr1e-4_step0400_p057_s1.png",
+            "prompt_idx": 11,
+            "seed": 1,
+            "nearest_cos": 0.8394079804420471,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr1e-4_step0400_p058_s2.png",
+            "prompt_idx": 11,
+            "seed": 2,
+            "nearest_cos": 0.83478182554245,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr1e-4_step0400_p059_s3.png",
+            "prompt_idx": 11,
+            "seed": 3,
+            "nearest_cos": 0.8634594082832336,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr1e-4_step0400_p060_s4.png",
+            "prompt_idx": 11,
+            "seed": 4,
+            "nearest_cos": 0.846004843711853,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          }
+        ]
+      },
+      "label": "r8_lr1e-4_step0400",
+      "is_lora": true
+    },
+    "r8_lr5e-5_step0400": {
+      "n_images": 60,
+      "text_sim": {
+        "mean": 0.3250808800260226,
+        "std": 0.023706967795252235,
+        "median": 0.3266574889421463,
+        "min": 0.26970237493515015,
+        "max": 0.38282084465026855,
+        "per_prompt": {
+          "p1": 0.2961201846599579,
+          "p2": 0.3274439752101898,
+          "p3": 0.33932804465293886,
+          "p4": 0.35102519392967224,
+          "p5": 0.32606372237205505,
+          "p6": 0.31384573578834535,
+          "p7": 0.3195858061313629,
+          "p8": 0.35016306638717654,
+          "p9": 0.3319653570652008,
+          "p10": 0.33071577548980713,
+          "p11": 0.302919065952301,
+          "p12": 0.31179463267326357
+        }
+      },
+      "diversity": {
+        "mean": 0.10114807883898418,
+        "std": 0.03763345144176521,
+        "per_prompt": {
+          "p1": 0.09959632158279419,
+          "p2": 0.05510234832763672,
+          "p3": 0.09232074022293091,
+          "p4": 0.08958041667938232,
+          "p5": 0.10008001327514648,
+          "p6": 0.21615314483642578,
+          "p7": 0.09481638669967651,
+          "p8": 0.11875683069229126,
+          "p9": 0.0764474868774414,
+          "p10": 0.08374601602554321,
+          "p11": 0.08828467130661011,
+          "p12": 0.09889256954193115
+        },
+        "n_prompts": 12
+      },
+      "nearest_train": {
+        "mean": 0.8607972860336304,
+        "std": 0.058263979852199554,
+        "min": 0.6341835260391235,
+        "max": 0.9407385587692261,
+        "p90": 0.9116484522819519,
+        "n_ge_0_8": 55,
+        "n_ge_0_9": 16,
+        "per_image": [
+          {
+            "gen_file": "r8_lr5e-5_step0400_p001_s0.png",
+            "prompt_idx": 0,
+            "seed": 0,
+            "nearest_cos": 0.8008034229278564,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr5e-5_step0400_p002_s1.png",
+            "prompt_idx": 0,
+            "seed": 1,
+            "nearest_cos": 0.9082204699516296,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr5e-5_step0400_p003_s2.png",
+            "prompt_idx": 0,
+            "seed": 2,
+            "nearest_cos": 0.8780908584594727,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr5e-5_step0400_p004_s3.png",
+            "prompt_idx": 0,
+            "seed": 3,
+            "nearest_cos": 0.9407385587692261,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr5e-5_step0400_p005_s4.png",
+            "prompt_idx": 0,
+            "seed": 4,
+            "nearest_cos": 0.8785096406936646,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr5e-5_step0400_p006_s0.png",
+            "prompt_idx": 1,
+            "seed": 0,
+            "nearest_cos": 0.8990435600280762,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr5e-5_step0400_p007_s1.png",
+            "prompt_idx": 1,
+            "seed": 1,
+            "nearest_cos": 0.9081544876098633,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr5e-5_step0400_p008_s2.png",
+            "prompt_idx": 1,
+            "seed": 2,
+            "nearest_cos": 0.8635112643241882,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr5e-5_step0400_p009_s3.png",
+            "prompt_idx": 1,
+            "seed": 3,
+            "nearest_cos": 0.9122171401977539,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr5e-5_step0400_p010_s4.png",
+            "prompt_idx": 1,
+            "seed": 4,
+            "nearest_cos": 0.901901364326477,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr5e-5_step0400_p011_s0.png",
+            "prompt_idx": 2,
+            "seed": 0,
+            "nearest_cos": 0.8804113864898682,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr5e-5_step0400_p012_s1.png",
+            "prompt_idx": 2,
+            "seed": 1,
+            "nearest_cos": 0.8391094207763672,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_04.jpg"
+          },
+          {
+            "gen_file": "r8_lr5e-5_step0400_p013_s2.png",
+            "prompt_idx": 2,
+            "seed": 2,
+            "nearest_cos": 0.8570129871368408,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr5e-5_step0400_p014_s3.png",
+            "prompt_idx": 2,
+            "seed": 3,
+            "nearest_cos": 0.9004914164543152,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr5e-5_step0400_p015_s4.png",
+            "prompt_idx": 2,
+            "seed": 4,
+            "nearest_cos": 0.9172146916389465,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr5e-5_step0400_p016_s0.png",
+            "prompt_idx": 3,
+            "seed": 0,
+            "nearest_cos": 0.8581719398498535,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr5e-5_step0400_p017_s1.png",
+            "prompt_idx": 3,
+            "seed": 1,
+            "nearest_cos": 0.8336448669433594,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr5e-5_step0400_p018_s2.png",
+            "prompt_idx": 3,
+            "seed": 2,
+            "nearest_cos": 0.8326076865196228,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr5e-5_step0400_p019_s3.png",
+            "prompt_idx": 3,
+            "seed": 3,
+            "nearest_cos": 0.8201835751533508,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr5e-5_step0400_p020_s4.png",
+            "prompt_idx": 3,
+            "seed": 4,
+            "nearest_cos": 0.878176748752594,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr5e-5_step0400_p021_s0.png",
+            "prompt_idx": 4,
+            "seed": 0,
+            "nearest_cos": 0.8815895318984985,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr5e-5_step0400_p022_s1.png",
+            "prompt_idx": 4,
+            "seed": 1,
+            "nearest_cos": 0.8467630743980408,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_00.jpg"
+          },
+          {
+            "gen_file": "r8_lr5e-5_step0400_p023_s2.png",
+            "prompt_idx": 4,
+            "seed": 2,
+            "nearest_cos": 0.878710150718689,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_03.jpg"
+          },
+          {
+            "gen_file": "r8_lr5e-5_step0400_p024_s3.png",
+            "prompt_idx": 4,
+            "seed": 3,
+            "nearest_cos": 0.8374797105789185,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr5e-5_step0400_p025_s4.png",
+            "prompt_idx": 4,
+            "seed": 4,
+            "nearest_cos": 0.7322957515716553,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_03.jpg"
+          },
+          {
+            "gen_file": "r8_lr5e-5_step0400_p026_s0.png",
+            "prompt_idx": 5,
+            "seed": 0,
+            "nearest_cos": 0.9095849394798279,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr5e-5_step0400_p027_s1.png",
+            "prompt_idx": 5,
+            "seed": 1,
+            "nearest_cos": 0.7986294627189636,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr5e-5_step0400_p028_s2.png",
+            "prompt_idx": 5,
+            "seed": 2,
+            "nearest_cos": 0.6384798884391785,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_18.jpg"
+          },
+          {
+            "gen_file": "r8_lr5e-5_step0400_p029_s3.png",
+            "prompt_idx": 5,
+            "seed": 3,
+            "nearest_cos": 0.6341835260391235,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_18.jpg"
+          },
+          {
+            "gen_file": "r8_lr5e-5_step0400_p030_s4.png",
+            "prompt_idx": 5,
+            "seed": 4,
+            "nearest_cos": 0.7518351674079895,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_00.jpg"
+          },
+          {
+            "gen_file": "r8_lr5e-5_step0400_p031_s0.png",
+            "prompt_idx": 6,
+            "seed": 0,
+            "nearest_cos": 0.910770058631897,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr5e-5_step0400_p032_s1.png",
+            "prompt_idx": 6,
+            "seed": 1,
+            "nearest_cos": 0.8514704704284668,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr5e-5_step0400_p033_s2.png",
+            "prompt_idx": 6,
+            "seed": 2,
+            "nearest_cos": 0.8207470774650574,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr5e-5_step0400_p034_s3.png",
+            "prompt_idx": 6,
+            "seed": 3,
+            "nearest_cos": 0.8907957673072815,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr5e-5_step0400_p035_s4.png",
+            "prompt_idx": 6,
+            "seed": 4,
+            "nearest_cos": 0.8319045901298523,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_11.jpg"
+          },
+          {
+            "gen_file": "r8_lr5e-5_step0400_p036_s0.png",
+            "prompt_idx": 7,
+            "seed": 0,
+            "nearest_cos": 0.8664632439613342,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_11.jpg"
+          },
+          {
+            "gen_file": "r8_lr5e-5_step0400_p037_s1.png",
+            "prompt_idx": 7,
+            "seed": 1,
+            "nearest_cos": 0.9041404128074646,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr5e-5_step0400_p038_s2.png",
+            "prompt_idx": 7,
+            "seed": 2,
+            "nearest_cos": 0.8071497082710266,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_00.jpg"
+          },
+          {
+            "gen_file": "r8_lr5e-5_step0400_p039_s3.png",
+            "prompt_idx": 7,
+            "seed": 3,
+            "nearest_cos": 0.8725733757019043,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_00.jpg"
+          },
+          {
+            "gen_file": "r8_lr5e-5_step0400_p040_s4.png",
+            "prompt_idx": 7,
+            "seed": 4,
+            "nearest_cos": 0.8681970834732056,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_00.jpg"
+          },
+          {
+            "gen_file": "r8_lr5e-5_step0400_p041_s0.png",
+            "prompt_idx": 8,
+            "seed": 0,
+            "nearest_cos": 0.8864163160324097,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr5e-5_step0400_p042_s1.png",
+            "prompt_idx": 8,
+            "seed": 1,
+            "nearest_cos": 0.8716464042663574,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr5e-5_step0400_p043_s2.png",
+            "prompt_idx": 8,
+            "seed": 2,
+            "nearest_cos": 0.8650000691413879,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr5e-5_step0400_p044_s3.png",
+            "prompt_idx": 8,
+            "seed": 3,
+            "nearest_cos": 0.8640273809432983,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr5e-5_step0400_p045_s4.png",
+            "prompt_idx": 8,
+            "seed": 4,
+            "nearest_cos": 0.8867295384407043,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr5e-5_step0400_p046_s0.png",
+            "prompt_idx": 9,
+            "seed": 0,
+            "nearest_cos": 0.9119621515274048,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr5e-5_step0400_p047_s1.png",
+            "prompt_idx": 9,
+            "seed": 1,
+            "nearest_cos": 0.9039585590362549,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr5e-5_step0400_p048_s2.png",
+            "prompt_idx": 9,
+            "seed": 2,
+            "nearest_cos": 0.8329270482063293,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_12.jpg"
+          },
+          {
+            "gen_file": "r8_lr5e-5_step0400_p049_s3.png",
+            "prompt_idx": 9,
+            "seed": 3,
+            "nearest_cos": 0.9143193960189819,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr5e-5_step0400_p050_s4.png",
+            "prompt_idx": 9,
+            "seed": 4,
+            "nearest_cos": 0.9116135835647583,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr5e-5_step0400_p051_s0.png",
+            "prompt_idx": 10,
+            "seed": 0,
+            "nearest_cos": 0.8959150314331055,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr5e-5_step0400_p052_s1.png",
+            "prompt_idx": 10,
+            "seed": 1,
+            "nearest_cos": 0.8958373665809631,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr5e-5_step0400_p053_s2.png",
+            "prompt_idx": 10,
+            "seed": 2,
+            "nearest_cos": 0.879351794719696,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_05.jpg"
+          },
+          {
+            "gen_file": "r8_lr5e-5_step0400_p054_s3.png",
+            "prompt_idx": 10,
+            "seed": 3,
+            "nearest_cos": 0.9254666566848755,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr5e-5_step0400_p055_s4.png",
+            "prompt_idx": 10,
+            "seed": 4,
+            "nearest_cos": 0.9026368260383606,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr5e-5_step0400_p056_s0.png",
+            "prompt_idx": 11,
+            "seed": 0,
+            "nearest_cos": 0.8743972182273865,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr5e-5_step0400_p057_s1.png",
+            "prompt_idx": 11,
+            "seed": 1,
+            "nearest_cos": 0.8394079804420471,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr5e-5_step0400_p058_s2.png",
+            "prompt_idx": 11,
+            "seed": 2,
+            "nearest_cos": 0.83478182554245,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr5e-5_step0400_p059_s3.png",
+            "prompt_idx": 11,
+            "seed": 3,
+            "nearest_cos": 0.8634594082832336,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          },
+          {
+            "gen_file": "r8_lr5e-5_step0400_p060_s4.png",
+            "prompt_idx": 11,
+            "seed": 4,
+            "nearest_cos": 0.846004843711853,
+            "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+          }
+        ]
+      },
+      "label": "r8_lr5e-5_step0400",
+      "is_lora": true
+    }
+  },
+  "per_pair": {
+    "baseline": [
+      {
+        "prompt_idx": 0,
+        "seed": 0,
+        "gen_file": "baseline_p001_s0.png",
+        "text_sim": 0.2931745648384094,
+        "nearest_train_cos": 0.8008034229278564,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 0,
+        "seed": 1,
+        "gen_file": "baseline_p002_s1.png",
+        "text_sim": 0.31235864758491516,
+        "nearest_train_cos": 0.9082204699516296,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 0,
+        "seed": 2,
+        "gen_file": "baseline_p003_s2.png",
+        "text_sim": 0.28987377882003784,
+        "nearest_train_cos": 0.8780908584594727,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 0,
+        "seed": 3,
+        "gen_file": "baseline_p004_s3.png",
+        "text_sim": 0.26970237493515015,
+        "nearest_train_cos": 0.9407385587692261,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 0,
+        "seed": 4,
+        "gen_file": "baseline_p005_s4.png",
+        "text_sim": 0.31549155712127686,
+        "nearest_train_cos": 0.8785096406936646,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 1,
+        "seed": 0,
+        "gen_file": "baseline_p006_s0.png",
+        "text_sim": 0.320115864276886,
+        "nearest_train_cos": 0.8990435600280762,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 1,
+        "seed": 1,
+        "gen_file": "baseline_p007_s1.png",
+        "text_sim": 0.3254271149635315,
+        "nearest_train_cos": 0.9081544876098633,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 1,
+        "seed": 2,
+        "gen_file": "baseline_p008_s2.png",
+        "text_sim": 0.3120499551296234,
+        "nearest_train_cos": 0.8635112643241882,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 1,
+        "seed": 3,
+        "gen_file": "baseline_p009_s3.png",
+        "text_sim": 0.3332672715187073,
+        "nearest_train_cos": 0.9122171401977539,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 1,
+        "seed": 4,
+        "gen_file": "baseline_p010_s4.png",
+        "text_sim": 0.3463596701622009,
+        "nearest_train_cos": 0.901901364326477,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 2,
+        "seed": 0,
+        "gen_file": "baseline_p011_s0.png",
+        "text_sim": 0.3425362706184387,
+        "nearest_train_cos": 0.8804113864898682,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 2,
+        "seed": 1,
+        "gen_file": "baseline_p012_s1.png",
+        "text_sim": 0.35805973410606384,
+        "nearest_train_cos": 0.8391094207763672,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_04.jpg"
+      },
+      {
+        "prompt_idx": 2,
+        "seed": 2,
+        "gen_file": "baseline_p013_s2.png",
+        "text_sim": 0.3522038459777832,
+        "nearest_train_cos": 0.8570129871368408,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 2,
+        "seed": 3,
+        "gen_file": "baseline_p014_s3.png",
+        "text_sim": 0.2940722107887268,
+        "nearest_train_cos": 0.9004914164543152,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 2,
+        "seed": 4,
+        "gen_file": "baseline_p015_s4.png",
+        "text_sim": 0.34976816177368164,
+        "nearest_train_cos": 0.9172146916389465,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 3,
+        "seed": 0,
+        "gen_file": "baseline_p016_s0.png",
+        "text_sim": 0.3372434377670288,
+        "nearest_train_cos": 0.8581719398498535,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 3,
+        "seed": 1,
+        "gen_file": "baseline_p017_s1.png",
+        "text_sim": 0.359915554523468,
+        "nearest_train_cos": 0.8336448669433594,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 3,
+        "seed": 2,
+        "gen_file": "baseline_p018_s2.png",
+        "text_sim": 0.3631063997745514,
+        "nearest_train_cos": 0.8326076865196228,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 3,
+        "seed": 3,
+        "gen_file": "baseline_p019_s3.png",
+        "text_sim": 0.3460938632488251,
+        "nearest_train_cos": 0.8201835751533508,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 3,
+        "seed": 4,
+        "gen_file": "baseline_p020_s4.png",
+        "text_sim": 0.3487667143344879,
+        "nearest_train_cos": 0.878176748752594,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 4,
+        "seed": 0,
+        "gen_file": "baseline_p021_s0.png",
+        "text_sim": 0.3348481357097626,
+        "nearest_train_cos": 0.8815895318984985,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 4,
+        "seed": 1,
+        "gen_file": "baseline_p022_s1.png",
+        "text_sim": 0.33298325538635254,
+        "nearest_train_cos": 0.8467630743980408,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_00.jpg"
+      },
+      {
+        "prompt_idx": 4,
+        "seed": 2,
+        "gen_file": "baseline_p023_s2.png",
+        "text_sim": 0.3474140465259552,
+        "nearest_train_cos": 0.878710150718689,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_03.jpg"
+      },
+      {
+        "prompt_idx": 4,
+        "seed": 3,
+        "gen_file": "baseline_p024_s3.png",
+        "text_sim": 0.338500052690506,
+        "nearest_train_cos": 0.8374797105789185,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 4,
+        "seed": 4,
+        "gen_file": "baseline_p025_s4.png",
+        "text_sim": 0.276573121547699,
+        "nearest_train_cos": 0.7322957515716553,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_03.jpg"
+      },
+      {
+        "prompt_idx": 5,
+        "seed": 0,
+        "gen_file": "baseline_p026_s0.png",
+        "text_sim": 0.30992591381073,
+        "nearest_train_cos": 0.9095849394798279,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 5,
+        "seed": 1,
+        "gen_file": "baseline_p027_s1.png",
+        "text_sim": 0.3293491005897522,
+        "nearest_train_cos": 0.7986294627189636,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 5,
+        "seed": 2,
+        "gen_file": "baseline_p028_s2.png",
+        "text_sim": 0.3076006770133972,
+        "nearest_train_cos": 0.6384798884391785,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_18.jpg"
+      },
+      {
+        "prompt_idx": 5,
+        "seed": 3,
+        "gen_file": "baseline_p029_s3.png",
+        "text_sim": 0.3231513500213623,
+        "nearest_train_cos": 0.6341835260391235,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_18.jpg"
+      },
+      {
+        "prompt_idx": 5,
+        "seed": 4,
+        "gen_file": "baseline_p030_s4.png",
+        "text_sim": 0.299201637506485,
+        "nearest_train_cos": 0.7518351674079895,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_00.jpg"
+      },
+      {
+        "prompt_idx": 6,
+        "seed": 0,
+        "gen_file": "baseline_p031_s0.png",
+        "text_sim": 0.31422537565231323,
+        "nearest_train_cos": 0.910770058631897,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 6,
+        "seed": 1,
+        "gen_file": "baseline_p032_s1.png",
+        "text_sim": 0.3170483410358429,
+        "nearest_train_cos": 0.8514704704284668,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 6,
+        "seed": 2,
+        "gen_file": "baseline_p033_s2.png",
+        "text_sim": 0.31067559123039246,
+        "nearest_train_cos": 0.8207470774650574,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 6,
+        "seed": 3,
+        "gen_file": "baseline_p034_s3.png",
+        "text_sim": 0.3288101553916931,
+        "nearest_train_cos": 0.8907957673072815,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 6,
+        "seed": 4,
+        "gen_file": "baseline_p035_s4.png",
+        "text_sim": 0.3271695673465729,
+        "nearest_train_cos": 0.8319045901298523,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_11.jpg"
+      },
+      {
+        "prompt_idx": 7,
+        "seed": 0,
+        "gen_file": "baseline_p036_s0.png",
+        "text_sim": 0.3119836449623108,
+        "nearest_train_cos": 0.8664632439613342,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_11.jpg"
+      },
+      {
+        "prompt_idx": 7,
+        "seed": 1,
+        "gen_file": "baseline_p037_s1.png",
+        "text_sim": 0.3436530828475952,
+        "nearest_train_cos": 0.9041404128074646,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 7,
+        "seed": 2,
+        "gen_file": "baseline_p038_s2.png",
+        "text_sim": 0.34751594066619873,
+        "nearest_train_cos": 0.8071497082710266,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_00.jpg"
+      },
+      {
+        "prompt_idx": 7,
+        "seed": 3,
+        "gen_file": "baseline_p039_s3.png",
+        "text_sim": 0.38282084465026855,
+        "nearest_train_cos": 0.8725733757019043,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_00.jpg"
+      },
+      {
+        "prompt_idx": 7,
+        "seed": 4,
+        "gen_file": "baseline_p040_s4.png",
+        "text_sim": 0.3648418188095093,
+        "nearest_train_cos": 0.8681970834732056,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_00.jpg"
+      },
+      {
+        "prompt_idx": 8,
+        "seed": 0,
+        "gen_file": "baseline_p041_s0.png",
+        "text_sim": 0.3349045217037201,
+        "nearest_train_cos": 0.8864163160324097,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 8,
+        "seed": 1,
+        "gen_file": "baseline_p042_s1.png",
+        "text_sim": 0.3349367678165436,
+        "nearest_train_cos": 0.8716464042663574,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 8,
+        "seed": 2,
+        "gen_file": "baseline_p043_s2.png",
+        "text_sim": 0.3315287232398987,
+        "nearest_train_cos": 0.8650000691413879,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 8,
+        "seed": 3,
+        "gen_file": "baseline_p044_s3.png",
+        "text_sim": 0.3261454105377197,
+        "nearest_train_cos": 0.8640273809432983,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 8,
+        "seed": 4,
+        "gen_file": "baseline_p045_s4.png",
+        "text_sim": 0.33231136202812195,
+        "nearest_train_cos": 0.8867295384407043,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 9,
+        "seed": 0,
+        "gen_file": "baseline_p046_s0.png",
+        "text_sim": 0.2974381148815155,
+        "nearest_train_cos": 0.9119621515274048,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 9,
+        "seed": 1,
+        "gen_file": "baseline_p047_s1.png",
+        "text_sim": 0.36269375681877136,
+        "nearest_train_cos": 0.9039585590362549,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 9,
+        "seed": 2,
+        "gen_file": "baseline_p048_s2.png",
+        "text_sim": 0.3053705096244812,
+        "nearest_train_cos": 0.8329270482063293,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_12.jpg"
+      },
+      {
+        "prompt_idx": 9,
+        "seed": 3,
+        "gen_file": "baseline_p049_s3.png",
+        "text_sim": 0.3483806848526001,
+        "nearest_train_cos": 0.9143193960189819,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 9,
+        "seed": 4,
+        "gen_file": "baseline_p050_s4.png",
+        "text_sim": 0.3396958112716675,
+        "nearest_train_cos": 0.9116135835647583,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 10,
+        "seed": 0,
+        "gen_file": "baseline_p051_s0.png",
+        "text_sim": 0.2840697169303894,
+        "nearest_train_cos": 0.8959150314331055,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 10,
+        "seed": 1,
+        "gen_file": "baseline_p052_s1.png",
+        "text_sim": 0.29619473218917847,
+        "nearest_train_cos": 0.8958373665809631,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 10,
+        "seed": 2,
+        "gen_file": "baseline_p053_s2.png",
+        "text_sim": 0.32017621397972107,
+        "nearest_train_cos": 0.879351794719696,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_05.jpg"
+      },
+      {
+        "prompt_idx": 10,
+        "seed": 3,
+        "gen_file": "baseline_p054_s3.png",
+        "text_sim": 0.30687227845191956,
+        "nearest_train_cos": 0.9254666566848755,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 10,
+        "seed": 4,
+        "gen_file": "baseline_p055_s4.png",
+        "text_sim": 0.30728238821029663,
+        "nearest_train_cos": 0.9026368260383606,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 11,
+        "seed": 0,
+        "gen_file": "baseline_p056_s0.png",
+        "text_sim": 0.3061174154281616,
+        "nearest_train_cos": 0.8743972182273865,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 11,
+        "seed": 1,
+        "gen_file": "baseline_p057_s1.png",
+        "text_sim": 0.33605408668518066,
+        "nearest_train_cos": 0.8394079804420471,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 11,
+        "seed": 2,
+        "gen_file": "baseline_p058_s2.png",
+        "text_sim": 0.32019108533859253,
+        "nearest_train_cos": 0.83478182554245,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 11,
+        "seed": 3,
+        "gen_file": "baseline_p059_s3.png",
+        "text_sim": 0.28378796577453613,
+        "nearest_train_cos": 0.8634594082832336,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 11,
+        "seed": 4,
+        "gen_file": "baseline_p060_s4.png",
+        "text_sim": 0.3128226101398468,
+        "nearest_train_cos": 0.846004843711853,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      }
+    ],
+    "r4_lr1e-4_step0400": [
+      {
+        "prompt_idx": 0,
+        "seed": 0,
+        "gen_file": "r4_lr1e-4_step0400_p001_s0.png",
+        "text_sim": 0.2931745648384094,
+        "nearest_train_cos": 0.8008034229278564,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 0,
+        "seed": 1,
+        "gen_file": "r4_lr1e-4_step0400_p002_s1.png",
+        "text_sim": 0.31235864758491516,
+        "nearest_train_cos": 0.9082204699516296,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 0,
+        "seed": 2,
+        "gen_file": "r4_lr1e-4_step0400_p003_s2.png",
+        "text_sim": 0.28987377882003784,
+        "nearest_train_cos": 0.8780908584594727,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 0,
+        "seed": 3,
+        "gen_file": "r4_lr1e-4_step0400_p004_s3.png",
+        "text_sim": 0.26970237493515015,
+        "nearest_train_cos": 0.9407385587692261,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 0,
+        "seed": 4,
+        "gen_file": "r4_lr1e-4_step0400_p005_s4.png",
+        "text_sim": 0.31549155712127686,
+        "nearest_train_cos": 0.8785096406936646,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 1,
+        "seed": 0,
+        "gen_file": "r4_lr1e-4_step0400_p006_s0.png",
+        "text_sim": 0.320115864276886,
+        "nearest_train_cos": 0.8990435600280762,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 1,
+        "seed": 1,
+        "gen_file": "r4_lr1e-4_step0400_p007_s1.png",
+        "text_sim": 0.3254271149635315,
+        "nearest_train_cos": 0.9081544876098633,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 1,
+        "seed": 2,
+        "gen_file": "r4_lr1e-4_step0400_p008_s2.png",
+        "text_sim": 0.3120499551296234,
+        "nearest_train_cos": 0.8635112643241882,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 1,
+        "seed": 3,
+        "gen_file": "r4_lr1e-4_step0400_p009_s3.png",
+        "text_sim": 0.3332672715187073,
+        "nearest_train_cos": 0.9122171401977539,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 1,
+        "seed": 4,
+        "gen_file": "r4_lr1e-4_step0400_p010_s4.png",
+        "text_sim": 0.3463596701622009,
+        "nearest_train_cos": 0.901901364326477,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 2,
+        "seed": 0,
+        "gen_file": "r4_lr1e-4_step0400_p011_s0.png",
+        "text_sim": 0.3425362706184387,
+        "nearest_train_cos": 0.8804113864898682,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 2,
+        "seed": 1,
+        "gen_file": "r4_lr1e-4_step0400_p012_s1.png",
+        "text_sim": 0.35805973410606384,
+        "nearest_train_cos": 0.8391094207763672,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_04.jpg"
+      },
+      {
+        "prompt_idx": 2,
+        "seed": 2,
+        "gen_file": "r4_lr1e-4_step0400_p013_s2.png",
+        "text_sim": 0.3522038459777832,
+        "nearest_train_cos": 0.8570129871368408,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 2,
+        "seed": 3,
+        "gen_file": "r4_lr1e-4_step0400_p014_s3.png",
+        "text_sim": 0.2940722107887268,
+        "nearest_train_cos": 0.9004914164543152,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 2,
+        "seed": 4,
+        "gen_file": "r4_lr1e-4_step0400_p015_s4.png",
+        "text_sim": 0.34976816177368164,
+        "nearest_train_cos": 0.9172146916389465,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 3,
+        "seed": 0,
+        "gen_file": "r4_lr1e-4_step0400_p016_s0.png",
+        "text_sim": 0.3372434377670288,
+        "nearest_train_cos": 0.8581719398498535,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 3,
+        "seed": 1,
+        "gen_file": "r4_lr1e-4_step0400_p017_s1.png",
+        "text_sim": 0.359915554523468,
+        "nearest_train_cos": 0.8336448669433594,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 3,
+        "seed": 2,
+        "gen_file": "r4_lr1e-4_step0400_p018_s2.png",
+        "text_sim": 0.3631063997745514,
+        "nearest_train_cos": 0.8326076865196228,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 3,
+        "seed": 3,
+        "gen_file": "r4_lr1e-4_step0400_p019_s3.png",
+        "text_sim": 0.3460938632488251,
+        "nearest_train_cos": 0.8201835751533508,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 3,
+        "seed": 4,
+        "gen_file": "r4_lr1e-4_step0400_p020_s4.png",
+        "text_sim": 0.3487667143344879,
+        "nearest_train_cos": 0.878176748752594,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 4,
+        "seed": 0,
+        "gen_file": "r4_lr1e-4_step0400_p021_s0.png",
+        "text_sim": 0.3348481357097626,
+        "nearest_train_cos": 0.8815895318984985,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 4,
+        "seed": 1,
+        "gen_file": "r4_lr1e-4_step0400_p022_s1.png",
+        "text_sim": 0.33298325538635254,
+        "nearest_train_cos": 0.8467630743980408,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_00.jpg"
+      },
+      {
+        "prompt_idx": 4,
+        "seed": 2,
+        "gen_file": "r4_lr1e-4_step0400_p023_s2.png",
+        "text_sim": 0.3474140465259552,
+        "nearest_train_cos": 0.878710150718689,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_03.jpg"
+      },
+      {
+        "prompt_idx": 4,
+        "seed": 3,
+        "gen_file": "r4_lr1e-4_step0400_p024_s3.png",
+        "text_sim": 0.338500052690506,
+        "nearest_train_cos": 0.8374797105789185,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 4,
+        "seed": 4,
+        "gen_file": "r4_lr1e-4_step0400_p025_s4.png",
+        "text_sim": 0.276573121547699,
+        "nearest_train_cos": 0.7322957515716553,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_03.jpg"
+      },
+      {
+        "prompt_idx": 5,
+        "seed": 0,
+        "gen_file": "r4_lr1e-4_step0400_p026_s0.png",
+        "text_sim": 0.30992591381073,
+        "nearest_train_cos": 0.9095849394798279,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 5,
+        "seed": 1,
+        "gen_file": "r4_lr1e-4_step0400_p027_s1.png",
+        "text_sim": 0.3293491005897522,
+        "nearest_train_cos": 0.7986294627189636,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 5,
+        "seed": 2,
+        "gen_file": "r4_lr1e-4_step0400_p028_s2.png",
+        "text_sim": 0.3076006770133972,
+        "nearest_train_cos": 0.6384798884391785,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_18.jpg"
+      },
+      {
+        "prompt_idx": 5,
+        "seed": 3,
+        "gen_file": "r4_lr1e-4_step0400_p029_s3.png",
+        "text_sim": 0.3231513500213623,
+        "nearest_train_cos": 0.6341835260391235,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_18.jpg"
+      },
+      {
+        "prompt_idx": 5,
+        "seed": 4,
+        "gen_file": "r4_lr1e-4_step0400_p030_s4.png",
+        "text_sim": 0.299201637506485,
+        "nearest_train_cos": 0.7518351674079895,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_00.jpg"
+      },
+      {
+        "prompt_idx": 6,
+        "seed": 0,
+        "gen_file": "r4_lr1e-4_step0400_p031_s0.png",
+        "text_sim": 0.31422537565231323,
+        "nearest_train_cos": 0.910770058631897,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 6,
+        "seed": 1,
+        "gen_file": "r4_lr1e-4_step0400_p032_s1.png",
+        "text_sim": 0.3170483410358429,
+        "nearest_train_cos": 0.8514704704284668,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 6,
+        "seed": 2,
+        "gen_file": "r4_lr1e-4_step0400_p033_s2.png",
+        "text_sim": 0.31067559123039246,
+        "nearest_train_cos": 0.8207470774650574,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 6,
+        "seed": 3,
+        "gen_file": "r4_lr1e-4_step0400_p034_s3.png",
+        "text_sim": 0.3288101553916931,
+        "nearest_train_cos": 0.8907957673072815,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 6,
+        "seed": 4,
+        "gen_file": "r4_lr1e-4_step0400_p035_s4.png",
+        "text_sim": 0.3271695673465729,
+        "nearest_train_cos": 0.8319045901298523,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_11.jpg"
+      },
+      {
+        "prompt_idx": 7,
+        "seed": 0,
+        "gen_file": "r4_lr1e-4_step0400_p036_s0.png",
+        "text_sim": 0.3119836449623108,
+        "nearest_train_cos": 0.8664632439613342,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_11.jpg"
+      },
+      {
+        "prompt_idx": 7,
+        "seed": 1,
+        "gen_file": "r4_lr1e-4_step0400_p037_s1.png",
+        "text_sim": 0.3436530828475952,
+        "nearest_train_cos": 0.9041404128074646,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 7,
+        "seed": 2,
+        "gen_file": "r4_lr1e-4_step0400_p038_s2.png",
+        "text_sim": 0.34751594066619873,
+        "nearest_train_cos": 0.8071497082710266,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_00.jpg"
+      },
+      {
+        "prompt_idx": 7,
+        "seed": 3,
+        "gen_file": "r4_lr1e-4_step0400_p039_s3.png",
+        "text_sim": 0.38282084465026855,
+        "nearest_train_cos": 0.8725733757019043,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_00.jpg"
+      },
+      {
+        "prompt_idx": 7,
+        "seed": 4,
+        "gen_file": "r4_lr1e-4_step0400_p040_s4.png",
+        "text_sim": 0.3648418188095093,
+        "nearest_train_cos": 0.8681970834732056,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_00.jpg"
+      },
+      {
+        "prompt_idx": 8,
+        "seed": 0,
+        "gen_file": "r4_lr1e-4_step0400_p041_s0.png",
+        "text_sim": 0.3349045217037201,
+        "nearest_train_cos": 0.8864163160324097,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 8,
+        "seed": 1,
+        "gen_file": "r4_lr1e-4_step0400_p042_s1.png",
+        "text_sim": 0.3349367678165436,
+        "nearest_train_cos": 0.8716464042663574,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 8,
+        "seed": 2,
+        "gen_file": "r4_lr1e-4_step0400_p043_s2.png",
+        "text_sim": 0.3315287232398987,
+        "nearest_train_cos": 0.8650000691413879,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 8,
+        "seed": 3,
+        "gen_file": "r4_lr1e-4_step0400_p044_s3.png",
+        "text_sim": 0.3261454105377197,
+        "nearest_train_cos": 0.8640273809432983,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 8,
+        "seed": 4,
+        "gen_file": "r4_lr1e-4_step0400_p045_s4.png",
+        "text_sim": 0.33231136202812195,
+        "nearest_train_cos": 0.8867295384407043,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 9,
+        "seed": 0,
+        "gen_file": "r4_lr1e-4_step0400_p046_s0.png",
+        "text_sim": 0.2974381148815155,
+        "nearest_train_cos": 0.9119621515274048,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 9,
+        "seed": 1,
+        "gen_file": "r4_lr1e-4_step0400_p047_s1.png",
+        "text_sim": 0.36269375681877136,
+        "nearest_train_cos": 0.9039585590362549,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 9,
+        "seed": 2,
+        "gen_file": "r4_lr1e-4_step0400_p048_s2.png",
+        "text_sim": 0.3053705096244812,
+        "nearest_train_cos": 0.8329270482063293,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_12.jpg"
+      },
+      {
+        "prompt_idx": 9,
+        "seed": 3,
+        "gen_file": "r4_lr1e-4_step0400_p049_s3.png",
+        "text_sim": 0.3483806848526001,
+        "nearest_train_cos": 0.9143193960189819,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 9,
+        "seed": 4,
+        "gen_file": "r4_lr1e-4_step0400_p050_s4.png",
+        "text_sim": 0.3396958112716675,
+        "nearest_train_cos": 0.9116135835647583,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 10,
+        "seed": 0,
+        "gen_file": "r4_lr1e-4_step0400_p051_s0.png",
+        "text_sim": 0.2840697169303894,
+        "nearest_train_cos": 0.8959150314331055,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 10,
+        "seed": 1,
+        "gen_file": "r4_lr1e-4_step0400_p052_s1.png",
+        "text_sim": 0.29619473218917847,
+        "nearest_train_cos": 0.8958373665809631,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 10,
+        "seed": 2,
+        "gen_file": "r4_lr1e-4_step0400_p053_s2.png",
+        "text_sim": 0.32017621397972107,
+        "nearest_train_cos": 0.879351794719696,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_05.jpg"
+      },
+      {
+        "prompt_idx": 10,
+        "seed": 3,
+        "gen_file": "r4_lr1e-4_step0400_p054_s3.png",
+        "text_sim": 0.30687227845191956,
+        "nearest_train_cos": 0.9254666566848755,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 10,
+        "seed": 4,
+        "gen_file": "r4_lr1e-4_step0400_p055_s4.png",
+        "text_sim": 0.30728238821029663,
+        "nearest_train_cos": 0.9026368260383606,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 11,
+        "seed": 0,
+        "gen_file": "r4_lr1e-4_step0400_p056_s0.png",
+        "text_sim": 0.3061174154281616,
+        "nearest_train_cos": 0.8743972182273865,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 11,
+        "seed": 1,
+        "gen_file": "r4_lr1e-4_step0400_p057_s1.png",
+        "text_sim": 0.33605408668518066,
+        "nearest_train_cos": 0.8394079804420471,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 11,
+        "seed": 2,
+        "gen_file": "r4_lr1e-4_step0400_p058_s2.png",
+        "text_sim": 0.32019108533859253,
+        "nearest_train_cos": 0.83478182554245,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 11,
+        "seed": 3,
+        "gen_file": "r4_lr1e-4_step0400_p059_s3.png",
+        "text_sim": 0.28378796577453613,
+        "nearest_train_cos": 0.8634594082832336,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 11,
+        "seed": 4,
+        "gen_file": "r4_lr1e-4_step0400_p060_s4.png",
+        "text_sim": 0.3128226101398468,
+        "nearest_train_cos": 0.846004843711853,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      }
+    ],
+    "r8_lr1e-4_step0400": [
+      {
+        "prompt_idx": 0,
+        "seed": 0,
+        "gen_file": "r8_lr1e-4_step0400_p001_s0.png",
+        "text_sim": 0.2931745648384094,
+        "nearest_train_cos": 0.8008034229278564,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 0,
+        "seed": 1,
+        "gen_file": "r8_lr1e-4_step0400_p002_s1.png",
+        "text_sim": 0.31235864758491516,
+        "nearest_train_cos": 0.9082204699516296,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 0,
+        "seed": 2,
+        "gen_file": "r8_lr1e-4_step0400_p003_s2.png",
+        "text_sim": 0.28987377882003784,
+        "nearest_train_cos": 0.8780908584594727,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 0,
+        "seed": 3,
+        "gen_file": "r8_lr1e-4_step0400_p004_s3.png",
+        "text_sim": 0.26970237493515015,
+        "nearest_train_cos": 0.9407385587692261,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 0,
+        "seed": 4,
+        "gen_file": "r8_lr1e-4_step0400_p005_s4.png",
+        "text_sim": 0.31549155712127686,
+        "nearest_train_cos": 0.8785096406936646,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 1,
+        "seed": 0,
+        "gen_file": "r8_lr1e-4_step0400_p006_s0.png",
+        "text_sim": 0.320115864276886,
+        "nearest_train_cos": 0.8990435600280762,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 1,
+        "seed": 1,
+        "gen_file": "r8_lr1e-4_step0400_p007_s1.png",
+        "text_sim": 0.3254271149635315,
+        "nearest_train_cos": 0.9081544876098633,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 1,
+        "seed": 2,
+        "gen_file": "r8_lr1e-4_step0400_p008_s2.png",
+        "text_sim": 0.3120499551296234,
+        "nearest_train_cos": 0.8635112643241882,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 1,
+        "seed": 3,
+        "gen_file": "r8_lr1e-4_step0400_p009_s3.png",
+        "text_sim": 0.3332672715187073,
+        "nearest_train_cos": 0.9122171401977539,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 1,
+        "seed": 4,
+        "gen_file": "r8_lr1e-4_step0400_p010_s4.png",
+        "text_sim": 0.3463596701622009,
+        "nearest_train_cos": 0.901901364326477,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 2,
+        "seed": 0,
+        "gen_file": "r8_lr1e-4_step0400_p011_s0.png",
+        "text_sim": 0.3425362706184387,
+        "nearest_train_cos": 0.8804113864898682,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 2,
+        "seed": 1,
+        "gen_file": "r8_lr1e-4_step0400_p012_s1.png",
+        "text_sim": 0.35805973410606384,
+        "nearest_train_cos": 0.8391094207763672,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_04.jpg"
+      },
+      {
+        "prompt_idx": 2,
+        "seed": 2,
+        "gen_file": "r8_lr1e-4_step0400_p013_s2.png",
+        "text_sim": 0.3522038459777832,
+        "nearest_train_cos": 0.8570129871368408,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 2,
+        "seed": 3,
+        "gen_file": "r8_lr1e-4_step0400_p014_s3.png",
+        "text_sim": 0.2940722107887268,
+        "nearest_train_cos": 0.9004914164543152,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 2,
+        "seed": 4,
+        "gen_file": "r8_lr1e-4_step0400_p015_s4.png",
+        "text_sim": 0.34976816177368164,
+        "nearest_train_cos": 0.9172146916389465,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 3,
+        "seed": 0,
+        "gen_file": "r8_lr1e-4_step0400_p016_s0.png",
+        "text_sim": 0.3372434377670288,
+        "nearest_train_cos": 0.8581719398498535,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 3,
+        "seed": 1,
+        "gen_file": "r8_lr1e-4_step0400_p017_s1.png",
+        "text_sim": 0.359915554523468,
+        "nearest_train_cos": 0.8336448669433594,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 3,
+        "seed": 2,
+        "gen_file": "r8_lr1e-4_step0400_p018_s2.png",
+        "text_sim": 0.3631063997745514,
+        "nearest_train_cos": 0.8326076865196228,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 3,
+        "seed": 3,
+        "gen_file": "r8_lr1e-4_step0400_p019_s3.png",
+        "text_sim": 0.3460938632488251,
+        "nearest_train_cos": 0.8201835751533508,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 3,
+        "seed": 4,
+        "gen_file": "r8_lr1e-4_step0400_p020_s4.png",
+        "text_sim": 0.3487667143344879,
+        "nearest_train_cos": 0.878176748752594,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 4,
+        "seed": 0,
+        "gen_file": "r8_lr1e-4_step0400_p021_s0.png",
+        "text_sim": 0.3348481357097626,
+        "nearest_train_cos": 0.8815895318984985,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 4,
+        "seed": 1,
+        "gen_file": "r8_lr1e-4_step0400_p022_s1.png",
+        "text_sim": 0.33298325538635254,
+        "nearest_train_cos": 0.8467630743980408,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_00.jpg"
+      },
+      {
+        "prompt_idx": 4,
+        "seed": 2,
+        "gen_file": "r8_lr1e-4_step0400_p023_s2.png",
+        "text_sim": 0.3474140465259552,
+        "nearest_train_cos": 0.878710150718689,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_03.jpg"
+      },
+      {
+        "prompt_idx": 4,
+        "seed": 3,
+        "gen_file": "r8_lr1e-4_step0400_p024_s3.png",
+        "text_sim": 0.338500052690506,
+        "nearest_train_cos": 0.8374797105789185,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 4,
+        "seed": 4,
+        "gen_file": "r8_lr1e-4_step0400_p025_s4.png",
+        "text_sim": 0.276573121547699,
+        "nearest_train_cos": 0.7322957515716553,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_03.jpg"
+      },
+      {
+        "prompt_idx": 5,
+        "seed": 0,
+        "gen_file": "r8_lr1e-4_step0400_p026_s0.png",
+        "text_sim": 0.30992591381073,
+        "nearest_train_cos": 0.9095849394798279,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 5,
+        "seed": 1,
+        "gen_file": "r8_lr1e-4_step0400_p027_s1.png",
+        "text_sim": 0.3293491005897522,
+        "nearest_train_cos": 0.7986294627189636,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 5,
+        "seed": 2,
+        "gen_file": "r8_lr1e-4_step0400_p028_s2.png",
+        "text_sim": 0.3076006770133972,
+        "nearest_train_cos": 0.6384798884391785,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_18.jpg"
+      },
+      {
+        "prompt_idx": 5,
+        "seed": 3,
+        "gen_file": "r8_lr1e-4_step0400_p029_s3.png",
+        "text_sim": 0.3231513500213623,
+        "nearest_train_cos": 0.6341835260391235,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_18.jpg"
+      },
+      {
+        "prompt_idx": 5,
+        "seed": 4,
+        "gen_file": "r8_lr1e-4_step0400_p030_s4.png",
+        "text_sim": 0.299201637506485,
+        "nearest_train_cos": 0.7518351674079895,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_00.jpg"
+      },
+      {
+        "prompt_idx": 6,
+        "seed": 0,
+        "gen_file": "r8_lr1e-4_step0400_p031_s0.png",
+        "text_sim": 0.31422537565231323,
+        "nearest_train_cos": 0.910770058631897,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 6,
+        "seed": 1,
+        "gen_file": "r8_lr1e-4_step0400_p032_s1.png",
+        "text_sim": 0.3170483410358429,
+        "nearest_train_cos": 0.8514704704284668,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 6,
+        "seed": 2,
+        "gen_file": "r8_lr1e-4_step0400_p033_s2.png",
+        "text_sim": 0.31067559123039246,
+        "nearest_train_cos": 0.8207470774650574,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 6,
+        "seed": 3,
+        "gen_file": "r8_lr1e-4_step0400_p034_s3.png",
+        "text_sim": 0.3288101553916931,
+        "nearest_train_cos": 0.8907957673072815,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 6,
+        "seed": 4,
+        "gen_file": "r8_lr1e-4_step0400_p035_s4.png",
+        "text_sim": 0.3271695673465729,
+        "nearest_train_cos": 0.8319045901298523,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_11.jpg"
+      },
+      {
+        "prompt_idx": 7,
+        "seed": 0,
+        "gen_file": "r8_lr1e-4_step0400_p036_s0.png",
+        "text_sim": 0.3119836449623108,
+        "nearest_train_cos": 0.8664632439613342,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_11.jpg"
+      },
+      {
+        "prompt_idx": 7,
+        "seed": 1,
+        "gen_file": "r8_lr1e-4_step0400_p037_s1.png",
+        "text_sim": 0.3436530828475952,
+        "nearest_train_cos": 0.9041404128074646,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 7,
+        "seed": 2,
+        "gen_file": "r8_lr1e-4_step0400_p038_s2.png",
+        "text_sim": 0.34751594066619873,
+        "nearest_train_cos": 0.8071497082710266,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_00.jpg"
+      },
+      {
+        "prompt_idx": 7,
+        "seed": 3,
+        "gen_file": "r8_lr1e-4_step0400_p039_s3.png",
+        "text_sim": 0.38282084465026855,
+        "nearest_train_cos": 0.8725733757019043,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_00.jpg"
+      },
+      {
+        "prompt_idx": 7,
+        "seed": 4,
+        "gen_file": "r8_lr1e-4_step0400_p040_s4.png",
+        "text_sim": 0.3648418188095093,
+        "nearest_train_cos": 0.8681970834732056,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_00.jpg"
+      },
+      {
+        "prompt_idx": 8,
+        "seed": 0,
+        "gen_file": "r8_lr1e-4_step0400_p041_s0.png",
+        "text_sim": 0.3349045217037201,
+        "nearest_train_cos": 0.8864163160324097,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 8,
+        "seed": 1,
+        "gen_file": "r8_lr1e-4_step0400_p042_s1.png",
+        "text_sim": 0.3349367678165436,
+        "nearest_train_cos": 0.8716464042663574,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 8,
+        "seed": 2,
+        "gen_file": "r8_lr1e-4_step0400_p043_s2.png",
+        "text_sim": 0.3315287232398987,
+        "nearest_train_cos": 0.8650000691413879,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 8,
+        "seed": 3,
+        "gen_file": "r8_lr1e-4_step0400_p044_s3.png",
+        "text_sim": 0.3261454105377197,
+        "nearest_train_cos": 0.8640273809432983,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 8,
+        "seed": 4,
+        "gen_file": "r8_lr1e-4_step0400_p045_s4.png",
+        "text_sim": 0.33231136202812195,
+        "nearest_train_cos": 0.8867295384407043,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 9,
+        "seed": 0,
+        "gen_file": "r8_lr1e-4_step0400_p046_s0.png",
+        "text_sim": 0.2974381148815155,
+        "nearest_train_cos": 0.9119621515274048,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 9,
+        "seed": 1,
+        "gen_file": "r8_lr1e-4_step0400_p047_s1.png",
+        "text_sim": 0.36269375681877136,
+        "nearest_train_cos": 0.9039585590362549,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 9,
+        "seed": 2,
+        "gen_file": "r8_lr1e-4_step0400_p048_s2.png",
+        "text_sim": 0.3053705096244812,
+        "nearest_train_cos": 0.8329270482063293,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_12.jpg"
+      },
+      {
+        "prompt_idx": 9,
+        "seed": 3,
+        "gen_file": "r8_lr1e-4_step0400_p049_s3.png",
+        "text_sim": 0.3483806848526001,
+        "nearest_train_cos": 0.9143193960189819,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 9,
+        "seed": 4,
+        "gen_file": "r8_lr1e-4_step0400_p050_s4.png",
+        "text_sim": 0.3396958112716675,
+        "nearest_train_cos": 0.9116135835647583,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 10,
+        "seed": 0,
+        "gen_file": "r8_lr1e-4_step0400_p051_s0.png",
+        "text_sim": 0.2840697169303894,
+        "nearest_train_cos": 0.8959150314331055,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 10,
+        "seed": 1,
+        "gen_file": "r8_lr1e-4_step0400_p052_s1.png",
+        "text_sim": 0.29619473218917847,
+        "nearest_train_cos": 0.8958373665809631,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 10,
+        "seed": 2,
+        "gen_file": "r8_lr1e-4_step0400_p053_s2.png",
+        "text_sim": 0.32017621397972107,
+        "nearest_train_cos": 0.879351794719696,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_05.jpg"
+      },
+      {
+        "prompt_idx": 10,
+        "seed": 3,
+        "gen_file": "r8_lr1e-4_step0400_p054_s3.png",
+        "text_sim": 0.30687227845191956,
+        "nearest_train_cos": 0.9254666566848755,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 10,
+        "seed": 4,
+        "gen_file": "r8_lr1e-4_step0400_p055_s4.png",
+        "text_sim": 0.30728238821029663,
+        "nearest_train_cos": 0.9026368260383606,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 11,
+        "seed": 0,
+        "gen_file": "r8_lr1e-4_step0400_p056_s0.png",
+        "text_sim": 0.3061174154281616,
+        "nearest_train_cos": 0.8743972182273865,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 11,
+        "seed": 1,
+        "gen_file": "r8_lr1e-4_step0400_p057_s1.png",
+        "text_sim": 0.33605408668518066,
+        "nearest_train_cos": 0.8394079804420471,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 11,
+        "seed": 2,
+        "gen_file": "r8_lr1e-4_step0400_p058_s2.png",
+        "text_sim": 0.32019108533859253,
+        "nearest_train_cos": 0.83478182554245,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 11,
+        "seed": 3,
+        "gen_file": "r8_lr1e-4_step0400_p059_s3.png",
+        "text_sim": 0.28378796577453613,
+        "nearest_train_cos": 0.8634594082832336,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 11,
+        "seed": 4,
+        "gen_file": "r8_lr1e-4_step0400_p060_s4.png",
+        "text_sim": 0.3128226101398468,
+        "nearest_train_cos": 0.846004843711853,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      }
+    ],
+    "r8_lr5e-5_step0400": [
+      {
+        "prompt_idx": 0,
+        "seed": 0,
+        "gen_file": "r8_lr5e-5_step0400_p001_s0.png",
+        "text_sim": 0.2931745648384094,
+        "nearest_train_cos": 0.8008034229278564,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 0,
+        "seed": 1,
+        "gen_file": "r8_lr5e-5_step0400_p002_s1.png",
+        "text_sim": 0.31235864758491516,
+        "nearest_train_cos": 0.9082204699516296,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 0,
+        "seed": 2,
+        "gen_file": "r8_lr5e-5_step0400_p003_s2.png",
+        "text_sim": 0.28987377882003784,
+        "nearest_train_cos": 0.8780908584594727,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 0,
+        "seed": 3,
+        "gen_file": "r8_lr5e-5_step0400_p004_s3.png",
+        "text_sim": 0.26970237493515015,
+        "nearest_train_cos": 0.9407385587692261,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 0,
+        "seed": 4,
+        "gen_file": "r8_lr5e-5_step0400_p005_s4.png",
+        "text_sim": 0.31549155712127686,
+        "nearest_train_cos": 0.8785096406936646,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 1,
+        "seed": 0,
+        "gen_file": "r8_lr5e-5_step0400_p006_s0.png",
+        "text_sim": 0.320115864276886,
+        "nearest_train_cos": 0.8990435600280762,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 1,
+        "seed": 1,
+        "gen_file": "r8_lr5e-5_step0400_p007_s1.png",
+        "text_sim": 0.3254271149635315,
+        "nearest_train_cos": 0.9081544876098633,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 1,
+        "seed": 2,
+        "gen_file": "r8_lr5e-5_step0400_p008_s2.png",
+        "text_sim": 0.3120499551296234,
+        "nearest_train_cos": 0.8635112643241882,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 1,
+        "seed": 3,
+        "gen_file": "r8_lr5e-5_step0400_p009_s3.png",
+        "text_sim": 0.3332672715187073,
+        "nearest_train_cos": 0.9122171401977539,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 1,
+        "seed": 4,
+        "gen_file": "r8_lr5e-5_step0400_p010_s4.png",
+        "text_sim": 0.3463596701622009,
+        "nearest_train_cos": 0.901901364326477,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 2,
+        "seed": 0,
+        "gen_file": "r8_lr5e-5_step0400_p011_s0.png",
+        "text_sim": 0.3425362706184387,
+        "nearest_train_cos": 0.8804113864898682,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 2,
+        "seed": 1,
+        "gen_file": "r8_lr5e-5_step0400_p012_s1.png",
+        "text_sim": 0.35805973410606384,
+        "nearest_train_cos": 0.8391094207763672,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_04.jpg"
+      },
+      {
+        "prompt_idx": 2,
+        "seed": 2,
+        "gen_file": "r8_lr5e-5_step0400_p013_s2.png",
+        "text_sim": 0.3522038459777832,
+        "nearest_train_cos": 0.8570129871368408,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 2,
+        "seed": 3,
+        "gen_file": "r8_lr5e-5_step0400_p014_s3.png",
+        "text_sim": 0.2940722107887268,
+        "nearest_train_cos": 0.9004914164543152,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 2,
+        "seed": 4,
+        "gen_file": "r8_lr5e-5_step0400_p015_s4.png",
+        "text_sim": 0.34976816177368164,
+        "nearest_train_cos": 0.9172146916389465,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 3,
+        "seed": 0,
+        "gen_file": "r8_lr5e-5_step0400_p016_s0.png",
+        "text_sim": 0.3372434377670288,
+        "nearest_train_cos": 0.8581719398498535,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 3,
+        "seed": 1,
+        "gen_file": "r8_lr5e-5_step0400_p017_s1.png",
+        "text_sim": 0.359915554523468,
+        "nearest_train_cos": 0.8336448669433594,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 3,
+        "seed": 2,
+        "gen_file": "r8_lr5e-5_step0400_p018_s2.png",
+        "text_sim": 0.3631063997745514,
+        "nearest_train_cos": 0.8326076865196228,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 3,
+        "seed": 3,
+        "gen_file": "r8_lr5e-5_step0400_p019_s3.png",
+        "text_sim": 0.3460938632488251,
+        "nearest_train_cos": 0.8201835751533508,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 3,
+        "seed": 4,
+        "gen_file": "r8_lr5e-5_step0400_p020_s4.png",
+        "text_sim": 0.3487667143344879,
+        "nearest_train_cos": 0.878176748752594,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 4,
+        "seed": 0,
+        "gen_file": "r8_lr5e-5_step0400_p021_s0.png",
+        "text_sim": 0.3348481357097626,
+        "nearest_train_cos": 0.8815895318984985,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 4,
+        "seed": 1,
+        "gen_file": "r8_lr5e-5_step0400_p022_s1.png",
+        "text_sim": 0.33298325538635254,
+        "nearest_train_cos": 0.8467630743980408,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_00.jpg"
+      },
+      {
+        "prompt_idx": 4,
+        "seed": 2,
+        "gen_file": "r8_lr5e-5_step0400_p023_s2.png",
+        "text_sim": 0.3474140465259552,
+        "nearest_train_cos": 0.878710150718689,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_03.jpg"
+      },
+      {
+        "prompt_idx": 4,
+        "seed": 3,
+        "gen_file": "r8_lr5e-5_step0400_p024_s3.png",
+        "text_sim": 0.338500052690506,
+        "nearest_train_cos": 0.8374797105789185,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 4,
+        "seed": 4,
+        "gen_file": "r8_lr5e-5_step0400_p025_s4.png",
+        "text_sim": 0.276573121547699,
+        "nearest_train_cos": 0.7322957515716553,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_03.jpg"
+      },
+      {
+        "prompt_idx": 5,
+        "seed": 0,
+        "gen_file": "r8_lr5e-5_step0400_p026_s0.png",
+        "text_sim": 0.30992591381073,
+        "nearest_train_cos": 0.9095849394798279,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 5,
+        "seed": 1,
+        "gen_file": "r8_lr5e-5_step0400_p027_s1.png",
+        "text_sim": 0.3293491005897522,
+        "nearest_train_cos": 0.7986294627189636,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 5,
+        "seed": 2,
+        "gen_file": "r8_lr5e-5_step0400_p028_s2.png",
+        "text_sim": 0.3076006770133972,
+        "nearest_train_cos": 0.6384798884391785,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_18.jpg"
+      },
+      {
+        "prompt_idx": 5,
+        "seed": 3,
+        "gen_file": "r8_lr5e-5_step0400_p029_s3.png",
+        "text_sim": 0.3231513500213623,
+        "nearest_train_cos": 0.6341835260391235,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_18.jpg"
+      },
+      {
+        "prompt_idx": 5,
+        "seed": 4,
+        "gen_file": "r8_lr5e-5_step0400_p030_s4.png",
+        "text_sim": 0.299201637506485,
+        "nearest_train_cos": 0.7518351674079895,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_00.jpg"
+      },
+      {
+        "prompt_idx": 6,
+        "seed": 0,
+        "gen_file": "r8_lr5e-5_step0400_p031_s0.png",
+        "text_sim": 0.31422537565231323,
+        "nearest_train_cos": 0.910770058631897,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 6,
+        "seed": 1,
+        "gen_file": "r8_lr5e-5_step0400_p032_s1.png",
+        "text_sim": 0.3170483410358429,
+        "nearest_train_cos": 0.8514704704284668,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 6,
+        "seed": 2,
+        "gen_file": "r8_lr5e-5_step0400_p033_s2.png",
+        "text_sim": 0.31067559123039246,
+        "nearest_train_cos": 0.8207470774650574,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 6,
+        "seed": 3,
+        "gen_file": "r8_lr5e-5_step0400_p034_s3.png",
+        "text_sim": 0.3288101553916931,
+        "nearest_train_cos": 0.8907957673072815,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 6,
+        "seed": 4,
+        "gen_file": "r8_lr5e-5_step0400_p035_s4.png",
+        "text_sim": 0.3271695673465729,
+        "nearest_train_cos": 0.8319045901298523,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_11.jpg"
+      },
+      {
+        "prompt_idx": 7,
+        "seed": 0,
+        "gen_file": "r8_lr5e-5_step0400_p036_s0.png",
+        "text_sim": 0.3119836449623108,
+        "nearest_train_cos": 0.8664632439613342,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_11.jpg"
+      },
+      {
+        "prompt_idx": 7,
+        "seed": 1,
+        "gen_file": "r8_lr5e-5_step0400_p037_s1.png",
+        "text_sim": 0.3436530828475952,
+        "nearest_train_cos": 0.9041404128074646,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 7,
+        "seed": 2,
+        "gen_file": "r8_lr5e-5_step0400_p038_s2.png",
+        "text_sim": 0.34751594066619873,
+        "nearest_train_cos": 0.8071497082710266,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_00.jpg"
+      },
+      {
+        "prompt_idx": 7,
+        "seed": 3,
+        "gen_file": "r8_lr5e-5_step0400_p039_s3.png",
+        "text_sim": 0.38282084465026855,
+        "nearest_train_cos": 0.8725733757019043,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_00.jpg"
+      },
+      {
+        "prompt_idx": 7,
+        "seed": 4,
+        "gen_file": "r8_lr5e-5_step0400_p040_s4.png",
+        "text_sim": 0.3648418188095093,
+        "nearest_train_cos": 0.8681970834732056,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_00.jpg"
+      },
+      {
+        "prompt_idx": 8,
+        "seed": 0,
+        "gen_file": "r8_lr5e-5_step0400_p041_s0.png",
+        "text_sim": 0.3349045217037201,
+        "nearest_train_cos": 0.8864163160324097,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 8,
+        "seed": 1,
+        "gen_file": "r8_lr5e-5_step0400_p042_s1.png",
+        "text_sim": 0.3349367678165436,
+        "nearest_train_cos": 0.8716464042663574,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 8,
+        "seed": 2,
+        "gen_file": "r8_lr5e-5_step0400_p043_s2.png",
+        "text_sim": 0.3315287232398987,
+        "nearest_train_cos": 0.8650000691413879,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 8,
+        "seed": 3,
+        "gen_file": "r8_lr5e-5_step0400_p044_s3.png",
+        "text_sim": 0.3261454105377197,
+        "nearest_train_cos": 0.8640273809432983,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 8,
+        "seed": 4,
+        "gen_file": "r8_lr5e-5_step0400_p045_s4.png",
+        "text_sim": 0.33231136202812195,
+        "nearest_train_cos": 0.8867295384407043,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 9,
+        "seed": 0,
+        "gen_file": "r8_lr5e-5_step0400_p046_s0.png",
+        "text_sim": 0.2974381148815155,
+        "nearest_train_cos": 0.9119621515274048,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 9,
+        "seed": 1,
+        "gen_file": "r8_lr5e-5_step0400_p047_s1.png",
+        "text_sim": 0.36269375681877136,
+        "nearest_train_cos": 0.9039585590362549,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 9,
+        "seed": 2,
+        "gen_file": "r8_lr5e-5_step0400_p048_s2.png",
+        "text_sim": 0.3053705096244812,
+        "nearest_train_cos": 0.8329270482063293,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_12.jpg"
+      },
+      {
+        "prompt_idx": 9,
+        "seed": 3,
+        "gen_file": "r8_lr5e-5_step0400_p049_s3.png",
+        "text_sim": 0.3483806848526001,
+        "nearest_train_cos": 0.9143193960189819,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 9,
+        "seed": 4,
+        "gen_file": "r8_lr5e-5_step0400_p050_s4.png",
+        "text_sim": 0.3396958112716675,
+        "nearest_train_cos": 0.9116135835647583,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 10,
+        "seed": 0,
+        "gen_file": "r8_lr5e-5_step0400_p051_s0.png",
+        "text_sim": 0.2840697169303894,
+        "nearest_train_cos": 0.8959150314331055,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 10,
+        "seed": 1,
+        "gen_file": "r8_lr5e-5_step0400_p052_s1.png",
+        "text_sim": 0.29619473218917847,
+        "nearest_train_cos": 0.8958373665809631,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 10,
+        "seed": 2,
+        "gen_file": "r8_lr5e-5_step0400_p053_s2.png",
+        "text_sim": 0.32017621397972107,
+        "nearest_train_cos": 0.879351794719696,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_05.jpg"
+      },
+      {
+        "prompt_idx": 10,
+        "seed": 3,
+        "gen_file": "r8_lr5e-5_step0400_p054_s3.png",
+        "text_sim": 0.30687227845191956,
+        "nearest_train_cos": 0.9254666566848755,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 10,
+        "seed": 4,
+        "gen_file": "r8_lr5e-5_step0400_p055_s4.png",
+        "text_sim": 0.30728238821029663,
+        "nearest_train_cos": 0.9026368260383606,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 11,
+        "seed": 0,
+        "gen_file": "r8_lr5e-5_step0400_p056_s0.png",
+        "text_sim": 0.3061174154281616,
+        "nearest_train_cos": 0.8743972182273865,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 11,
+        "seed": 1,
+        "gen_file": "r8_lr5e-5_step0400_p057_s1.png",
+        "text_sim": 0.33605408668518066,
+        "nearest_train_cos": 0.8394079804420471,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 11,
+        "seed": 2,
+        "gen_file": "r8_lr5e-5_step0400_p058_s2.png",
+        "text_sim": 0.32019108533859253,
+        "nearest_train_cos": 0.83478182554245,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 11,
+        "seed": 3,
+        "gen_file": "r8_lr5e-5_step0400_p059_s3.png",
+        "text_sim": 0.28378796577453613,
+        "nearest_train_cos": 0.8634594082832336,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      },
+      {
+        "prompt_idx": 11,
+        "seed": 4,
+        "gen_file": "r8_lr5e-5_step0400_p060_s4.png",
+        "text_sim": 0.3128226101398468,
+        "nearest_train_cos": 0.846004843711853,
+        "nearest_train_file": "/content/drive/MyDrive/lab13/data/commons_16.jpg"
+      }
+    ]
+  }
+}

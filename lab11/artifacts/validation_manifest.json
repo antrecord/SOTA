@@ -1,0 +1,1177 @@
+[
+  {
+    "id": "scienceqa-validation-1",
+    "split": "validation",
+    "image": "/content/data/lab9/e6c50eaf536f934bd08b1d54ee43633b2305f8a48faa17acc9fae5c9a7462384.png",
+    "question": "Which animal's mouth is also adapted for bottom feeding?\nA. discus\nB. armored catfish\nReturn only the letter of the correct option.",
+    "answer": "B",
+    "choices": [
+      "discus",
+      "armored catfish"
+    ],
+    "answer_index": 1,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "natural science",
+    "grade": "grade3",
+    "image_sha256": "e6c50eaf536f934bd08b1d54ee43633b2305f8a48faa17acc9fae5c9a7462384"
+  },
+  {
+    "id": "scienceqa-validation-5",
+    "split": "validation",
+    "image": "/content/data/lab9/48bf5f97ea7cfef5253ace622dd494ca1800b4769b80563fa9f49cc4e4807824.png",
+    "question": "Does this passage describe the weather or the climate?\nA. weather\nB. climate\nReturn only the letter of the correct option.",
+    "answer": "B",
+    "choices": [
+      "weather",
+      "climate"
+    ],
+    "answer_index": 1,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "natural science",
+    "grade": "grade4",
+    "image_sha256": "48bf5f97ea7cfef5253ace622dd494ca1800b4769b80563fa9f49cc4e4807824"
+  },
+  {
+    "id": "scienceqa-validation-7",
+    "split": "validation",
+    "image": "/content/data/lab9/da75ce9a9060407319991e4f5ae40bf4ed2ddf7a2ed1d90eb339ec3ca9789493.png",
+    "question": "Which animal's feet are also adapted for grabbing prey?\nA. sable\nB. New Zealand falcon\nReturn only the letter of the correct option.",
+    "answer": "B",
+    "choices": [
+      "sable",
+      "New Zealand falcon"
+    ],
+    "answer_index": 1,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "natural science",
+    "grade": "grade5",
+    "image_sha256": "da75ce9a9060407319991e4f5ae40bf4ed2ddf7a2ed1d90eb339ec3ca9789493"
+  },
+  {
+    "id": "scienceqa-validation-12",
+    "split": "validation",
+    "image": "/content/data/lab9/cdf5cf49165181c324a6e9acd22c84ffa645d6715e8c917aa63085f484c5084c.png",
+    "question": "Is Lithops bromfieldii made up of many cells?\nA. yes\nB. no\nReturn only the letter of the correct option.",
+    "answer": "A",
+    "choices": [
+      "yes",
+      "no"
+    ],
+    "answer_index": 0,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "natural science",
+    "grade": "grade5",
+    "image_sha256": "cdf5cf49165181c324a6e9acd22c84ffa645d6715e8c917aa63085f484c5084c"
+  },
+  {
+    "id": "scienceqa-validation-13",
+    "split": "validation",
+    "image": "/content/data/lab9/5a47197e96772452f42145713fc239ed8fe712e0caf6a74178e1a8088cea6086.png",
+    "question": "Which bird's beak is also adapted to tear through meat?\nA. sand martin\nB. Cape vulture\nReturn only the letter of the correct option.",
+    "answer": "B",
+    "choices": [
+      "sand martin",
+      "Cape vulture"
+    ],
+    "answer_index": 1,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "natural science",
+    "grade": "grade5",
+    "image_sha256": "5a47197e96772452f42145713fc239ed8fe712e0caf6a74178e1a8088cea6086"
+  },
+  {
+    "id": "scienceqa-validation-19",
+    "split": "validation",
+    "image": "/content/data/lab9/f16b4cfb9711de2f8c92c6db8c654d628995bc039dc6956f47a436f6a4379c06.png",
+    "question": "Which property do these three objects have in common?\nA. bouncy\nB. hard\nC. soft\nReturn only the letter of the correct option.",
+    "answer": "C",
+    "choices": [
+      "bouncy",
+      "hard",
+      "soft"
+    ],
+    "answer_index": 2,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "natural science",
+    "grade": "grade4",
+    "image_sha256": "f16b4cfb9711de2f8c92c6db8c654d628995bc039dc6956f47a436f6a4379c06"
+  },
+  {
+    "id": "scienceqa-validation-22",
+    "split": "validation",
+    "image": "/content/data/lab9/148919cdec764562ee6bd79ae36d35b61aa217ab87ff374f4d07462688e49c63.png",
+    "question": "Which animal's mouth is also adapted for bottom feeding?\nA. clown triggerfish\nB. sturgeon\nReturn only the letter of the correct option.",
+    "answer": "B",
+    "choices": [
+      "clown triggerfish",
+      "sturgeon"
+    ],
+    "answer_index": 1,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "natural science",
+    "grade": "grade3",
+    "image_sha256": "148919cdec764562ee6bd79ae36d35b61aa217ab87ff374f4d07462688e49c63"
+  },
+  {
+    "id": "scienceqa-validation-24",
+    "split": "validation",
+    "image": "/content/data/lab9/6e2301fc60a773f0741b366c3aba6d61073c5d92c0e2fb7937a92d9286b9cb86.png",
+    "question": "Which property do these two objects have in common?\nA. salty\nB. sour\nReturn only the letter of the correct option.",
+    "answer": "B",
+    "choices": [
+      "salty",
+      "sour"
+    ],
+    "answer_index": 1,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "natural science",
+    "grade": "grade2",
+    "image_sha256": "6e2301fc60a773f0741b366c3aba6d61073c5d92c0e2fb7937a92d9286b9cb86"
+  },
+  {
+    "id": "scienceqa-validation-32",
+    "split": "validation",
+    "image": "/content/data/lab9/82a85617ef1446f680597e95adcb6d528de7d6b3b710907bd534eb3b6fd39bb8.png",
+    "question": "Identify the question that Reba and Donald's experiment can best answer.\nA. Does Reba's snowboard slide down a hill in less time when it has a layer of wax or when it does not have a layer of wax?\nB. Does Reba's snowboard slide down a hill in less time when it has a thin layer of wax or a thick layer of wax?\nReturn only the letter of the correct option.",
+    "answer": "A",
+    "choices": [
+      "Does Reba's snowboard slide down a hill in less time when it has a layer of wax or when it does not have a layer of wax?",
+      "Does Reba's snowboard slide down a hill in less time when it has a thin layer of wax or a thick layer of wax?"
+    ],
+    "answer_index": 0,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "natural science",
+    "grade": "grade6",
+    "image_sha256": "82a85617ef1446f680597e95adcb6d528de7d6b3b710907bd534eb3b6fd39bb8"
+  },
+  {
+    "id": "scienceqa-validation-35",
+    "split": "validation",
+    "image": "/content/data/lab9/8234fd51c98663f5ab083a0875611b8a4a834c00341543c8d2efceff47857875.png",
+    "question": "Does this passage describe the weather or the climate?\nA. climate\nB. weather\nReturn only the letter of the correct option.",
+    "answer": "B",
+    "choices": [
+      "climate",
+      "weather"
+    ],
+    "answer_index": 1,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "natural science",
+    "grade": "grade6",
+    "image_sha256": "8234fd51c98663f5ab083a0875611b8a4a834c00341543c8d2efceff47857875"
+  },
+  {
+    "id": "scienceqa-validation-37",
+    "split": "validation",
+    "image": "/content/data/lab9/95a2b7b243ba1d0c09c188e904a2644daf8891a9de8dfaa56f7e4cf1178f5a5e.png",
+    "question": "Does this passage describe the weather or the climate?\nA. climate\nB. weather\nReturn only the letter of the correct option.",
+    "answer": "B",
+    "choices": [
+      "climate",
+      "weather"
+    ],
+    "answer_index": 1,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "natural science",
+    "grade": "grade4",
+    "image_sha256": "95a2b7b243ba1d0c09c188e904a2644daf8891a9de8dfaa56f7e4cf1178f5a5e"
+  },
+  {
+    "id": "scienceqa-validation-52",
+    "split": "validation",
+    "image": "/content/data/lab9/1004e1fab0a1147d5fe5db5699a718bea8820a7f273051da0607b89705d49435.png",
+    "question": "Which bird's beak is also adapted to crack large, hard nuts?\nA. blue rock pigeon\nB. Alexandrine parakeet\nReturn only the letter of the correct option.",
+    "answer": "B",
+    "choices": [
+      "blue rock pigeon",
+      "Alexandrine parakeet"
+    ],
+    "answer_index": 1,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "natural science",
+    "grade": "grade4",
+    "image_sha256": "1004e1fab0a1147d5fe5db5699a718bea8820a7f273051da0607b89705d49435"
+  },
+  {
+    "id": "scienceqa-validation-53",
+    "split": "validation",
+    "image": "/content/data/lab9/c7e57999ae540e53a1cc5380094fd7f96c8b335d2ede50a8b7119c8a8737524c.png",
+    "question": "Complete the sentence.\n is what happens when pollen lands on a female cone.\nA. Fertilization\nB. Pollination\nC. Photosynthesis\nReturn only the letter of the correct option.",
+    "answer": "B",
+    "choices": [
+      "Fertilization",
+      "Pollination",
+      "Photosynthesis"
+    ],
+    "answer_index": 1,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "natural science",
+    "grade": "grade4",
+    "image_sha256": "c7e57999ae540e53a1cc5380094fd7f96c8b335d2ede50a8b7119c8a8737524c"
+  },
+  {
+    "id": "scienceqa-validation-54",
+    "split": "validation",
+    "image": "/content/data/lab9/f773170c57348e4bb1861ddd5a417cbe774100c1afcb58a317b6072ac1d2ca97.png",
+    "question": "Which property do these three objects have in common?\nA. stretchy\nB. transparent\nC. rough\nReturn only the letter of the correct option.",
+    "answer": "A",
+    "choices": [
+      "stretchy",
+      "transparent",
+      "rough"
+    ],
+    "answer_index": 0,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "natural science",
+    "grade": "grade4",
+    "image_sha256": "f773170c57348e4bb1861ddd5a417cbe774100c1afcb58a317b6072ac1d2ca97"
+  },
+  {
+    "id": "scienceqa-validation-65",
+    "split": "validation",
+    "image": "/content/data/lab9/c75baa9b3b2fab5193328d1b746b9603ba9809c869a95017b0b16b4a987fd094.png",
+    "question": "Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?\nA. sample A\nB. neither; the samples have the same temperature\nC. sample B\nReturn only the letter of the correct option.",
+    "answer": "A",
+    "choices": [
+      "sample A",
+      "neither; the samples have the same temperature",
+      "sample B"
+    ],
+    "answer_index": 0,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "natural science",
+    "grade": "grade6",
+    "image_sha256": "c75baa9b3b2fab5193328d1b746b9603ba9809c869a95017b0b16b4a987fd094"
+  },
+  {
+    "id": "scienceqa-validation-67",
+    "split": "validation",
+    "image": "/content/data/lab9/bee390613397978b4ce2771db49efc170f37f18ae61fa383bd6682320f53287b.png",
+    "question": "Identify the question that Rob's experiment can best answer.\nA. Do steel nails rust in fewer days when submerged in a large volume of liquid compared to a small volume?\nB. Do steel nails take fewer days to rust in water compared to vinegar?\nReturn only the letter of the correct option.",
+    "answer": "B",
+    "choices": [
+      "Do steel nails rust in fewer days when submerged in a large volume of liquid compared to a small volume?",
+      "Do steel nails take fewer days to rust in water compared to vinegar?"
+    ],
+    "answer_index": 1,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "natural science",
+    "grade": "grade6",
+    "image_sha256": "bee390613397978b4ce2771db49efc170f37f18ae61fa383bd6682320f53287b"
+  },
+  {
+    "id": "scienceqa-validation-78",
+    "split": "validation",
+    "image": "/content/data/lab9/f07c242ffa48659230341abf03e494d5f6cc1cab88fcd9d91f7ea779796fb41c.png",
+    "question": "Which animal's body is better adapted for protection against a predator with sharp teeth?\nA. queen conch\nB. collared dove\nReturn only the letter of the correct option.",
+    "answer": "A",
+    "choices": [
+      "queen conch",
+      "collared dove"
+    ],
+    "answer_index": 0,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "natural science",
+    "grade": "grade5",
+    "image_sha256": "f07c242ffa48659230341abf03e494d5f6cc1cab88fcd9d91f7ea779796fb41c"
+  },
+  {
+    "id": "scienceqa-validation-81",
+    "split": "validation",
+    "image": "/content/data/lab9/03a381403c479d43e76f2175e3dae8db6677c27436941e866d3c73e9a7406fdd.png",
+    "question": "What is the direction of this push?\nA. toward his finger\nB. away from his finger\nReturn only the letter of the correct option.",
+    "answer": "B",
+    "choices": [
+      "toward his finger",
+      "away from his finger"
+    ],
+    "answer_index": 1,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "natural science",
+    "grade": "grade4",
+    "image_sha256": "03a381403c479d43e76f2175e3dae8db6677c27436941e866d3c73e9a7406fdd"
+  },
+  {
+    "id": "scienceqa-validation-87",
+    "split": "validation",
+    "image": "/content/data/lab9/0ef4e211ce035c532952ad4abf6a2b004078ebd9b99390ff52f4765b370997d9.png",
+    "question": "Identify the question that Tim's experiment can best answer.\nA. Can pennies hold more drops of water mixed with dish soap or water mixed with hand soap?\nB. Can pennies hold more drops of pure water or water mixed with hand soap?\nReturn only the letter of the correct option.",
+    "answer": "B",
+    "choices": [
+      "Can pennies hold more drops of water mixed with dish soap or water mixed with hand soap?",
+      "Can pennies hold more drops of pure water or water mixed with hand soap?"
+    ],
+    "answer_index": 1,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "natural science",
+    "grade": "grade6",
+    "image_sha256": "0ef4e211ce035c532952ad4abf6a2b004078ebd9b99390ff52f4765b370997d9"
+  },
+  {
+    "id": "scienceqa-validation-88",
+    "split": "validation",
+    "image": "/content/data/lab9/389139f3613de620f1aedb80ff027a56a8e80a8e77297f962d2c43e5d4489708.png",
+    "question": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nA. The magnetic force is stronger in Pair 1.\nB. The magnetic force is stronger in Pair 2.\nC. The strength of the magnetic force is the same in both pairs.\nReturn only the letter of the correct option.",
+    "answer": "A",
+    "choices": [
+      "The magnetic force is stronger in Pair 1.",
+      "The magnetic force is stronger in Pair 2.",
+      "The strength of the magnetic force is the same in both pairs."
+    ],
+    "answer_index": 0,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "natural science",
+    "grade": "grade3",
+    "image_sha256": "389139f3613de620f1aedb80ff027a56a8e80a8e77297f962d2c43e5d4489708"
+  },
+  {
+    "id": "scienceqa-validation-94",
+    "split": "validation",
+    "image": "/content/data/lab9/72708e374187a680cd55ee58feeac5f49042a437194726205b4e690b90ff253a.png",
+    "question": "Which trait did Ichthyornis have? Select the trait you can observe in the drawing.\nA. fur\nB. a short tail\nReturn only the letter of the correct option.",
+    "answer": "B",
+    "choices": [
+      "fur",
+      "a short tail"
+    ],
+    "answer_index": 1,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "natural science",
+    "grade": "grade6",
+    "image_sha256": "72708e374187a680cd55ee58feeac5f49042a437194726205b4e690b90ff253a"
+  },
+  {
+    "id": "scienceqa-validation-98",
+    "split": "validation",
+    "image": "/content/data/lab9/a1761de44ca92b4e64224e28bcc05bea2b11db0400de09b978bd7216eab79ffb.png",
+    "question": "Is perfume a mineral?\nA. no\nB. yes\nReturn only the letter of the correct option.",
+    "answer": "A",
+    "choices": [
+      "no",
+      "yes"
+    ],
+    "answer_index": 0,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "natural science",
+    "grade": "grade5",
+    "image_sha256": "a1761de44ca92b4e64224e28bcc05bea2b11db0400de09b978bd7216eab79ffb"
+  },
+  {
+    "id": "scienceqa-validation-111",
+    "split": "validation",
+    "image": "/content/data/lab9/c686ee47a9f5f50d2c3102b08810b7fcff99250c27a5d9376f91893d4967b271.png",
+    "question": "Select the amphibian below.\nA. red-eyed tree frog\nB. robin\nReturn only the letter of the correct option.",
+    "answer": "A",
+    "choices": [
+      "red-eyed tree frog",
+      "robin"
+    ],
+    "answer_index": 0,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "natural science",
+    "grade": "grade2",
+    "image_sha256": "c686ee47a9f5f50d2c3102b08810b7fcff99250c27a5d9376f91893d4967b271"
+  },
+  {
+    "id": "scienceqa-validation-123",
+    "split": "validation",
+    "image": "/content/data/lab9/cbc5df9f839ee4bcb110fe4bd4efee35b63ae6b752128d5663f344247a8823a9.png",
+    "question": "Which better describes the Kibale National Forest ecosystem?\nA. It has year-round rain. It also has many different types of organisms.\nB. It has cold winters. It also has soil that is rich in nutrients.\nReturn only the letter of the correct option.",
+    "answer": "A",
+    "choices": [
+      "It has year-round rain. It also has many different types of organisms.",
+      "It has cold winters. It also has soil that is rich in nutrients."
+    ],
+    "answer_index": 0,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "natural science",
+    "grade": "grade3",
+    "image_sha256": "cbc5df9f839ee4bcb110fe4bd4efee35b63ae6b752128d5663f344247a8823a9"
+  },
+  {
+    "id": "scienceqa-validation-125",
+    "split": "validation",
+    "image": "/content/data/lab9/d09131c1ec6546576105362a8e58280127d31cf06d987dd39436931d83aa2ce0.png",
+    "question": "Select the amphibian below.\nA. golden frog\nB. bison\nReturn only the letter of the correct option.",
+    "answer": "A",
+    "choices": [
+      "golden frog",
+      "bison"
+    ],
+    "answer_index": 0,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "natural science",
+    "grade": "grade2",
+    "image_sha256": "d09131c1ec6546576105362a8e58280127d31cf06d987dd39436931d83aa2ce0"
+  },
+  {
+    "id": "scienceqa-validation-127",
+    "split": "validation",
+    "image": "/content/data/lab9/a69e242c6abbac71aeb8af914e4c54fae52595d23d0413a71e51e10121f7733e.png",
+    "question": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nA. The magnetic force is weaker in Pair 2.\nB. The strength of the magnetic force is the same in both pairs.\nC. The magnetic force is weaker in Pair 1.\nReturn only the letter of the correct option.",
+    "answer": "C",
+    "choices": [
+      "The magnetic force is weaker in Pair 2.",
+      "The strength of the magnetic force is the same in both pairs.",
+      "The magnetic force is weaker in Pair 1."
+    ],
+    "answer_index": 2,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "natural science",
+    "grade": "grade3",
+    "image_sha256": "a69e242c6abbac71aeb8af914e4c54fae52595d23d0413a71e51e10121f7733e"
+  },
+  {
+    "id": "scienceqa-validation-128",
+    "split": "validation",
+    "image": "/content/data/lab9/c1f93f6e10f5fd3d23fcf45e18f697bb76abb9a799414db21a52a5f459186681.png",
+    "question": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nA. The strength of the magnetic force is the same in both pairs.\nB. The magnetic force is weaker in Pair 1.\nC. The magnetic force is weaker in Pair 2.\nReturn only the letter of the correct option.",
+    "answer": "A",
+    "choices": [
+      "The strength of the magnetic force is the same in both pairs.",
+      "The magnetic force is weaker in Pair 1.",
+      "The magnetic force is weaker in Pair 2."
+    ],
+    "answer_index": 0,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "natural science",
+    "grade": "grade4",
+    "image_sha256": "c1f93f6e10f5fd3d23fcf45e18f697bb76abb9a799414db21a52a5f459186681"
+  },
+  {
+    "id": "scienceqa-validation-135",
+    "split": "validation",
+    "image": "/content/data/lab9/23ada76f7f36d13ad2b9c6c30fa4b4cb2c4457d6d95e69af01785ef73767b100.png",
+    "question": "Which property do these three objects have in common?\nA. bouncy\nB. fuzzy\nC. sweet\nReturn only the letter of the correct option.",
+    "answer": "C",
+    "choices": [
+      "bouncy",
+      "fuzzy",
+      "sweet"
+    ],
+    "answer_index": 2,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "natural science",
+    "grade": "grade4",
+    "image_sha256": "23ada76f7f36d13ad2b9c6c30fa4b4cb2c4457d6d95e69af01785ef73767b100"
+  },
+  {
+    "id": "scienceqa-validation-136",
+    "split": "validation",
+    "image": "/content/data/lab9/3d22b218a6f4944b80cc80d997dee03cc7c531d7c20f2668f0f0ac8015dae66c.png",
+    "question": "Is malachite a mineral?\nA. yes\nB. no\nReturn only the letter of the correct option.",
+    "answer": "A",
+    "choices": [
+      "yes",
+      "no"
+    ],
+    "answer_index": 0,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "natural science",
+    "grade": "grade6",
+    "image_sha256": "3d22b218a6f4944b80cc80d997dee03cc7c531d7c20f2668f0f0ac8015dae66c"
+  },
+  {
+    "id": "scienceqa-validation-137",
+    "split": "validation",
+    "image": "/content/data/lab9/9e625d0447a1842d99af0056e991c6877f2c72bdb3ec7395a699c2efeabf2317.png",
+    "question": "Is the following statement about our solar system true or false?\n75% of the planets are made mainly of rock.\nA. false\nB. true\nReturn only the letter of the correct option.",
+    "answer": "A",
+    "choices": [
+      "false",
+      "true"
+    ],
+    "answer_index": 0,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "natural science",
+    "grade": "grade6",
+    "image_sha256": "9e625d0447a1842d99af0056e991c6877f2c72bdb3ec7395a699c2efeabf2317"
+  },
+  {
+    "id": "scienceqa-validation-141",
+    "split": "validation",
+    "image": "/content/data/lab9/8e3011cb96f69c4695e140ef3c1151c34b4ff2bd6c81057061d346a27888cce5.png",
+    "question": "Which property do these three objects have in common?\nA. opaque\nB. stretchy\nC. fragile\nReturn only the letter of the correct option.",
+    "answer": "A",
+    "choices": [
+      "opaque",
+      "stretchy",
+      "fragile"
+    ],
+    "answer_index": 0,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "natural science",
+    "grade": "grade3",
+    "image_sha256": "8e3011cb96f69c4695e140ef3c1151c34b4ff2bd6c81057061d346a27888cce5"
+  },
+  {
+    "id": "scienceqa-validation-143",
+    "split": "validation",
+    "image": "/content/data/lab9/0c20f0476939dab5077f63f7c9ae1f2fce7ebb11e6b725efaa897863e1a3766a.png",
+    "question": "Does this passage describe the weather or the climate?\nA. climate\nB. weather\nReturn only the letter of the correct option.",
+    "answer": "A",
+    "choices": [
+      "climate",
+      "weather"
+    ],
+    "answer_index": 0,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "natural science",
+    "grade": "grade6",
+    "image_sha256": "0c20f0476939dab5077f63f7c9ae1f2fce7ebb11e6b725efaa897863e1a3766a"
+  },
+  {
+    "id": "scienceqa-validation-164",
+    "split": "validation",
+    "image": "/content/data/lab9/e8bf91dd2dd6e14375aaf8078a910e12118896ef9cda4ed7c95393c8422cfa10.png",
+    "question": "Which animal's feet are also adapted for swimming?\nA. purple gallinule\nB. lava gull\nReturn only the letter of the correct option.",
+    "answer": "B",
+    "choices": [
+      "purple gallinule",
+      "lava gull"
+    ],
+    "answer_index": 1,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "natural science",
+    "grade": "grade3",
+    "image_sha256": "e8bf91dd2dd6e14375aaf8078a910e12118896ef9cda4ed7c95393c8422cfa10"
+  },
+  {
+    "id": "scienceqa-validation-170",
+    "split": "validation",
+    "image": "/content/data/lab9/d5f981c87280a5381e9262d8301f336fad0e0abb982023497e731dad66af7da4.png",
+    "question": "What evidence of a wildfire does this picture show?\nA. There is white ash on the ground.\nB. Some of the trees have green leaves.\nReturn only the letter of the correct option.",
+    "answer": "A",
+    "choices": [
+      "There is white ash on the ground.",
+      "Some of the trees have green leaves."
+    ],
+    "answer_index": 0,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "natural science",
+    "grade": "grade2",
+    "image_sha256": "d5f981c87280a5381e9262d8301f336fad0e0abb982023497e731dad66af7da4"
+  },
+  {
+    "id": "scienceqa-validation-173",
+    "split": "validation",
+    "image": "/content/data/lab9/bffc96c26ea6063187e42a81b4c2f061bd1929d461963b909f074d397934b8e6.png",
+    "question": "Is granodiorite a mineral?\nA. yes\nB. no\nReturn only the letter of the correct option.",
+    "answer": "B",
+    "choices": [
+      "yes",
+      "no"
+    ],
+    "answer_index": 1,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "natural science",
+    "grade": "grade5",
+    "image_sha256": "bffc96c26ea6063187e42a81b4c2f061bd1929d461963b909f074d397934b8e6"
+  },
+  {
+    "id": "scienceqa-validation-184",
+    "split": "validation",
+    "image": "/content/data/lab9/865eb1968855b1a4ffc85d25b34893c509bb4faf0b50c4e84de35a177699f4eb.png",
+    "question": "Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?\nA. neither; the samples have the same temperature\nB. sample A\nC. sample B\nReturn only the letter of the correct option.",
+    "answer": "C",
+    "choices": [
+      "neither; the samples have the same temperature",
+      "sample A",
+      "sample B"
+    ],
+    "answer_index": 2,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "natural science",
+    "grade": "grade6",
+    "image_sha256": "865eb1968855b1a4ffc85d25b34893c509bb4faf0b50c4e84de35a177699f4eb"
+  },
+  {
+    "id": "scienceqa-validation-185",
+    "split": "validation",
+    "image": "/content/data/lab9/48d2eb8f6917858285cf89ccd641541f4618cbb6b58b95e5e9fcb55e319494c2.png",
+    "question": "Does this passage describe the weather or the climate?\nA. weather\nB. climate\nReturn only the letter of the correct option.",
+    "answer": "B",
+    "choices": [
+      "weather",
+      "climate"
+    ],
+    "answer_index": 1,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "natural science",
+    "grade": "grade6",
+    "image_sha256": "48d2eb8f6917858285cf89ccd641541f4618cbb6b58b95e5e9fcb55e319494c2"
+  },
+  {
+    "id": "scienceqa-validation-193",
+    "split": "validation",
+    "image": "/content/data/lab9/462489b038dfc9f029b0e006be8d17b5b93fa585496f6aeb07e2d8e614a0f15d.png",
+    "question": "Which property matches this object?\nA. scratchy\nB. flexible\nReturn only the letter of the correct option.",
+    "answer": "B",
+    "choices": [
+      "scratchy",
+      "flexible"
+    ],
+    "answer_index": 1,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "natural science",
+    "grade": "grade3",
+    "image_sha256": "462489b038dfc9f029b0e006be8d17b5b93fa585496f6aeb07e2d8e614a0f15d"
+  },
+  {
+    "id": "scienceqa-validation-195",
+    "split": "validation",
+    "image": "/content/data/lab9/8f5416dfa3808095050a22002dc7751a48d089426a577acdc6a73b635716313b.png",
+    "question": "Will these magnets attract or repel each other?\nA. repel\nB. attract\nReturn only the letter of the correct option.",
+    "answer": "A",
+    "choices": [
+      "repel",
+      "attract"
+    ],
+    "answer_index": 0,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "natural science",
+    "grade": "grade2",
+    "image_sha256": "8f5416dfa3808095050a22002dc7751a48d089426a577acdc6a73b635716313b"
+  },
+  {
+    "id": "scienceqa-validation-205",
+    "split": "validation",
+    "image": "/content/data/lab9/b8264fc7f626467ed525d075f24823d37cef614fcc47b0ff41985d42dd0fa0de.png",
+    "question": "Is gypsum a mineral?\nA. no\nB. yes\nReturn only the letter of the correct option.",
+    "answer": "B",
+    "choices": [
+      "no",
+      "yes"
+    ],
+    "answer_index": 1,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "natural science",
+    "grade": "grade6",
+    "image_sha256": "b8264fc7f626467ed525d075f24823d37cef614fcc47b0ff41985d42dd0fa0de"
+  },
+  {
+    "id": "scienceqa-validation-216",
+    "split": "validation",
+    "image": "/content/data/lab9/ab0c41f7477103b44b845dc53f5681a7094540caf1b1939105c1522adc3bbbbb.png",
+    "question": "Will these magnets attract or repel each other?\nA. attract\nB. repel\nReturn only the letter of the correct option.",
+    "answer": "B",
+    "choices": [
+      "attract",
+      "repel"
+    ],
+    "answer_index": 1,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "natural science",
+    "grade": "grade5",
+    "image_sha256": "ab0c41f7477103b44b845dc53f5681a7094540caf1b1939105c1522adc3bbbbb"
+  },
+  {
+    "id": "scienceqa-validation-219",
+    "split": "validation",
+    "image": "/content/data/lab9/be7613338b7eb0b920f05298703770f1bad10eb0e4375cdf29ededfc6042841b.png",
+    "question": "Is the air inside a balloon a solid, a liquid, or a gas?\nA. a liquid\nB. a gas\nC. a solid\nReturn only the letter of the correct option.",
+    "answer": "B",
+    "choices": [
+      "a liquid",
+      "a gas",
+      "a solid"
+    ],
+    "answer_index": 1,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "natural science",
+    "grade": "grade3",
+    "image_sha256": "be7613338b7eb0b920f05298703770f1bad10eb0e4375cdf29ededfc6042841b"
+  },
+  {
+    "id": "scienceqa-validation-222",
+    "split": "validation",
+    "image": "/content/data/lab9/ed81f88066c5031c7dfde7b599bb6e3ac7c2769570d75a07ae4220b8713d8de6.png",
+    "question": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nA. The magnitude of the magnetic force is the same in both pairs.\nB. The magnitude of the magnetic force is smaller in Pair 2.\nC. The magnitude of the magnetic force is smaller in Pair 1.\nReturn only the letter of the correct option.",
+    "answer": "A",
+    "choices": [
+      "The magnitude of the magnetic force is the same in both pairs.",
+      "The magnitude of the magnetic force is smaller in Pair 2.",
+      "The magnitude of the magnetic force is smaller in Pair 1."
+    ],
+    "answer_index": 0,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "natural science",
+    "grade": "grade5",
+    "image_sha256": "ed81f88066c5031c7dfde7b599bb6e3ac7c2769570d75a07ae4220b8713d8de6"
+  },
+  {
+    "id": "scienceqa-validation-227",
+    "split": "validation",
+    "image": "/content/data/lab9/a7029c44714fc6a41571165706f851b76d7d264552d0b9b98dc80ea7fc09bcc1.png",
+    "question": "What evidence of erosion does this picture show?\nA. The rocks in the canyon have a reddish color.\nB. There is a canyon with steep walls.\nReturn only the letter of the correct option.",
+    "answer": "B",
+    "choices": [
+      "The rocks in the canyon have a reddish color.",
+      "There is a canyon with steep walls."
+    ],
+    "answer_index": 1,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "natural science",
+    "grade": "grade2",
+    "image_sha256": "a7029c44714fc6a41571165706f851b76d7d264552d0b9b98dc80ea7fc09bcc1"
+  },
+  {
+    "id": "scienceqa-validation-230",
+    "split": "validation",
+    "image": "/content/data/lab9/2c092d504ba4da2ef958057cb0709e7970107c53788756d18944f0088c4ed53b.png",
+    "question": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nA. The strength of the magnetic force is the same in both pairs.\nB. The magnetic force is weaker in Pair 2.\nC. The magnetic force is weaker in Pair 1.\nReturn only the letter of the correct option.",
+    "answer": "B",
+    "choices": [
+      "The strength of the magnetic force is the same in both pairs.",
+      "The magnetic force is weaker in Pair 2.",
+      "The magnetic force is weaker in Pair 1."
+    ],
+    "answer_index": 1,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "natural science",
+    "grade": "grade3",
+    "image_sha256": "2c092d504ba4da2ef958057cb0709e7970107c53788756d18944f0088c4ed53b"
+  },
+  {
+    "id": "scienceqa-validation-233",
+    "split": "validation",
+    "image": "/content/data/lab9/3c0a1b7b27acb2a8ee2d7067af60bd525d4998213b66be5c2938fa34663a3d95.png",
+    "question": "Which month has the lowest average precipitation in London?\nA. May\nB. July\nC. February\nReturn only the letter of the correct option.",
+    "answer": "B",
+    "choices": [
+      "May",
+      "July",
+      "February"
+    ],
+    "answer_index": 1,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "natural science",
+    "grade": "grade4",
+    "image_sha256": "3c0a1b7b27acb2a8ee2d7067af60bd525d4998213b66be5c2938fa34663a3d95"
+  },
+  {
+    "id": "scienceqa-validation-240",
+    "split": "validation",
+    "image": "/content/data/lab9/3386eeabf7108ee335cfe4a0c53ac3e556880cab7bdf1a9a6c600111747aad8c.png",
+    "question": "Which animal's neck is also adapted for reaching high branches?\nA. chital\nB. bison\nReturn only the letter of the correct option.",
+    "answer": "A",
+    "choices": [
+      "chital",
+      "bison"
+    ],
+    "answer_index": 0,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "natural science",
+    "grade": "grade5",
+    "image_sha256": "3386eeabf7108ee335cfe4a0c53ac3e556880cab7bdf1a9a6c600111747aad8c"
+  },
+  {
+    "id": "scienceqa-validation-244",
+    "split": "validation",
+    "image": "/content/data/lab9/d0078b241535c8ae49be1d71cf5aa24f3e0fb54c972e743e36c8a1f4231735b1.png",
+    "question": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nA. The magnitude of the magnetic force is smaller in Pair 1.\nB. The magnitude of the magnetic force is smaller in Pair 2.\nC. The magnitude of the magnetic force is the same in both pairs.\nReturn only the letter of the correct option.",
+    "answer": "C",
+    "choices": [
+      "The magnitude of the magnetic force is smaller in Pair 1.",
+      "The magnitude of the magnetic force is smaller in Pair 2.",
+      "The magnitude of the magnetic force is the same in both pairs."
+    ],
+    "answer_index": 2,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "natural science",
+    "grade": "grade6",
+    "image_sha256": "d0078b241535c8ae49be1d71cf5aa24f3e0fb54c972e743e36c8a1f4231735b1"
+  },
+  {
+    "id": "scienceqa-validation-248",
+    "split": "validation",
+    "image": "/content/data/lab9/3d84de6abd73cb2c07fa9accb4218e704c05785755fbeccb5b2babedb7b81e05.png",
+    "question": "Which property matches this object?\nA. sweet\nB. bouncy\nReturn only the letter of the correct option.",
+    "answer": "A",
+    "choices": [
+      "sweet",
+      "bouncy"
+    ],
+    "answer_index": 0,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "natural science",
+    "grade": "grade3",
+    "image_sha256": "3d84de6abd73cb2c07fa9accb4218e704c05785755fbeccb5b2babedb7b81e05"
+  },
+  {
+    "id": "scienceqa-validation-251",
+    "split": "validation",
+    "image": "/content/data/lab9/3862484703fc4d85e31ccdd0a721ef649a06142808e48519c6a82fc49bd039c7.png",
+    "question": "Which animal's limbs are also adapted for climbing trees?\nA. red-necked wallaby\nB. chimpanzee\nReturn only the letter of the correct option.",
+    "answer": "B",
+    "choices": [
+      "red-necked wallaby",
+      "chimpanzee"
+    ],
+    "answer_index": 1,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "natural science",
+    "grade": "grade3",
+    "image_sha256": "3862484703fc4d85e31ccdd0a721ef649a06142808e48519c6a82fc49bd039c7"
+  },
+  {
+    "id": "scienceqa-validation-260",
+    "split": "validation",
+    "image": "/content/data/lab9/71aaef54fc89a84330d6cf2c64a3ce0dda4f3976174ca6a882d375bd8be940b2.png",
+    "question": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nA. The magnitude of the magnetic force is greater in Pair 2.\nB. The magnitude of the magnetic force is the same in both pairs.\nC. The magnitude of the magnetic force is greater in Pair 1.\nReturn only the letter of the correct option.",
+    "answer": "C",
+    "choices": [
+      "The magnitude of the magnetic force is greater in Pair 2.",
+      "The magnitude of the magnetic force is the same in both pairs.",
+      "The magnitude of the magnetic force is greater in Pair 1."
+    ],
+    "answer_index": 2,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "natural science",
+    "grade": "grade6",
+    "image_sha256": "71aaef54fc89a84330d6cf2c64a3ce0dda4f3976174ca6a882d375bd8be940b2"
+  },
+  {
+    "id": "scienceqa-validation-262",
+    "split": "validation",
+    "image": "/content/data/lab9/df5618f2fd330ce85d7b687683c6badefad9f92de8ff7e39fafdc4474c2e93d9.png",
+    "question": "Does this passage describe the weather or the climate?\nA. weather\nB. climate\nReturn only the letter of the correct option.",
+    "answer": "B",
+    "choices": [
+      "weather",
+      "climate"
+    ],
+    "answer_index": 1,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "natural science",
+    "grade": "grade4",
+    "image_sha256": "df5618f2fd330ce85d7b687683c6badefad9f92de8ff7e39fafdc4474c2e93d9"
+  },
+  {
+    "id": "scienceqa-validation-264",
+    "split": "validation",
+    "image": "/content/data/lab9/abac705bc290961984a8ebe330c3f90eb029cdb7da51af1a72dfe607a6790a13.png",
+    "question": "Look at the models of molecules below. Select the elementary substance.\nA. carbon tetrachloride\nB. chlorine\nC. ethanol\nReturn only the letter of the correct option.",
+    "answer": "B",
+    "choices": [
+      "carbon tetrachloride",
+      "chlorine",
+      "ethanol"
+    ],
+    "answer_index": 1,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "natural science",
+    "grade": "grade6",
+    "image_sha256": "abac705bc290961984a8ebe330c3f90eb029cdb7da51af1a72dfe607a6790a13"
+  },
+  {
+    "id": "scienceqa-validation-269",
+    "split": "validation",
+    "image": "/content/data/lab9/0a4d73ab83c26f5fce671a058b027596962b2cfbe160e153f1e6e76ce424fb40.png",
+    "question": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nA. The magnetic force is stronger in Pair 2.\nB. The magnetic force is stronger in Pair 1.\nC. The strength of the magnetic force is the same in both pairs.\nReturn only the letter of the correct option.",
+    "answer": "A",
+    "choices": [
+      "The magnetic force is stronger in Pair 2.",
+      "The magnetic force is stronger in Pair 1.",
+      "The strength of the magnetic force is the same in both pairs."
+    ],
+    "answer_index": 0,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "natural science",
+    "grade": "grade3",
+    "image_sha256": "0a4d73ab83c26f5fce671a058b027596962b2cfbe160e153f1e6e76ce424fb40"
+  },
+  {
+    "id": "scienceqa-validation-273",
+    "split": "validation",
+    "image": "/content/data/lab9/d16337cb32d43e623b5087741434317a0202ecc09a48698c1e4acddba1e23c13.png",
+    "question": "Which bird's beak is also adapted to get nectar out of long flowers?\nA. snowy owl\nB. violet sabrewing\nReturn only the letter of the correct option.",
+    "answer": "B",
+    "choices": [
+      "snowy owl",
+      "violet sabrewing"
+    ],
+    "answer_index": 1,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "natural science",
+    "grade": "grade3",
+    "image_sha256": "d16337cb32d43e623b5087741434317a0202ecc09a48698c1e4acddba1e23c13"
+  },
+  {
+    "id": "scienceqa-validation-276",
+    "split": "validation",
+    "image": "/content/data/lab9/a07a96cda8e21d1894444f95658ef22413119531b935fcc61222971fc4004a9f.png",
+    "question": "Is dolerite a mineral?\nA. yes\nB. no\nReturn only the letter of the correct option.",
+    "answer": "B",
+    "choices": [
+      "yes",
+      "no"
+    ],
+    "answer_index": 1,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "natural science",
+    "grade": "grade5",
+    "image_sha256": "a07a96cda8e21d1894444f95658ef22413119531b935fcc61222971fc4004a9f"
+  },
+  {
+    "id": "scienceqa-validation-279",
+    "split": "validation",
+    "image": "/content/data/lab9/096af8e964f3a5eb1718f61e3ee2b28d28ab97cc5d1c0ee0c9cb6685f4c73f17.png",
+    "question": "Select the organism in the same species as the agile wallaby.\nA. Alouatta palliata\nB. Macropus agilis\nC. Lontra canadensis\nReturn only the letter of the correct option.",
+    "answer": "B",
+    "choices": [
+      "Alouatta palliata",
+      "Macropus agilis",
+      "Lontra canadensis"
+    ],
+    "answer_index": 1,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "natural science",
+    "grade": "grade4",
+    "image_sha256": "096af8e964f3a5eb1718f61e3ee2b28d28ab97cc5d1c0ee0c9cb6685f4c73f17"
+  },
+  {
+    "id": "scienceqa-validation-283",
+    "split": "validation",
+    "image": "/content/data/lab9/bf5b43661b1fb2c319ca3c51a608b9f08767dbf9a7a44e495bf5b10900644959.png",
+    "question": "Which property matches this object?\nA. flexible\nB. slippery\nReturn only the letter of the correct option.",
+    "answer": "A",
+    "choices": [
+      "flexible",
+      "slippery"
+    ],
+    "answer_index": 0,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "natural science",
+    "grade": "grade3",
+    "image_sha256": "bf5b43661b1fb2c319ca3c51a608b9f08767dbf9a7a44e495bf5b10900644959"
+  },
+  {
+    "id": "scienceqa-validation-289",
+    "split": "validation",
+    "image": "/content/data/lab9/8788d0106e761ed45abb4043920c502850b1c344187df0774f7e337acd5d8784.png",
+    "question": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nA. The strength of the magnetic force is the same in both pairs.\nB. The magnetic force is weaker in Pair 2.\nC. The magnetic force is weaker in Pair 1.\nReturn only the letter of the correct option.",
+    "answer": "C",
+    "choices": [
+      "The strength of the magnetic force is the same in both pairs.",
+      "The magnetic force is weaker in Pair 2.",
+      "The magnetic force is weaker in Pair 1."
+    ],
+    "answer_index": 2,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "natural science",
+    "grade": "grade3",
+    "image_sha256": "8788d0106e761ed45abb4043920c502850b1c344187df0774f7e337acd5d8784"
+  },
+  {
+    "id": "scienceqa-validation-295",
+    "split": "validation",
+    "image": "/content/data/lab9/8e293df974cf2440a32d1d043442b3a19e66b21f58a91808fab4a53c3287f273.png",
+    "question": "Which solution has a higher concentration of yellow particles?\nA. Solution A\nB. Solution B\nC. neither; their concentrations are the same\nReturn only the letter of the correct option.",
+    "answer": "A",
+    "choices": [
+      "Solution A",
+      "Solution B",
+      "neither; their concentrations are the same"
+    ],
+    "answer_index": 0,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "natural science",
+    "grade": "grade6",
+    "image_sha256": "8e293df974cf2440a32d1d043442b3a19e66b21f58a91808fab4a53c3287f273"
+  },
+  {
+    "id": "scienceqa-validation-300",
+    "split": "validation",
+    "image": "/content/data/lab9/3d85cdaee8c4a0f8f67c7576d85ce1fec46e21c27c6aa519e78546d2434c44f2.png",
+    "question": "Select the organism in the same species as the green tree frog.\nA. Hyla cinerea\nB. Atelopus zeteki\nC. Bufo viridis\nReturn only the letter of the correct option.",
+    "answer": "A",
+    "choices": [
+      "Hyla cinerea",
+      "Atelopus zeteki",
+      "Bufo viridis"
+    ],
+    "answer_index": 0,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "natural science",
+    "grade": "grade4",
+    "image_sha256": "3d85cdaee8c4a0f8f67c7576d85ce1fec46e21c27c6aa519e78546d2434c44f2"
+  },
+  {
+    "id": "scienceqa-validation-301",
+    "split": "validation",
+    "image": "/content/data/lab9/cab24e6874b137868ae6ce6e26492a519298eb0a374bcb896dd441ea7546cf73.png",
+    "question": "What is the direction of this push?\nA. toward his hands\nB. away from his hands\nReturn only the letter of the correct option.",
+    "answer": "B",
+    "choices": [
+      "toward his hands",
+      "away from his hands"
+    ],
+    "answer_index": 1,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "natural science",
+    "grade": "grade4",
+    "image_sha256": "cab24e6874b137868ae6ce6e26492a519298eb0a374bcb896dd441ea7546cf73"
+  },
+  {
+    "id": "scienceqa-validation-306",
+    "split": "validation",
+    "image": "/content/data/lab9/ad5b41d7db527ba38be7841fdc56af3afefcb4334188435ceff23910eaccb0a6.png",
+    "question": "Is Oxalis acetosella made up of one cell?\nA. yes\nB. no\nReturn only the letter of the correct option.",
+    "answer": "B",
+    "choices": [
+      "yes",
+      "no"
+    ],
+    "answer_index": 1,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "natural science",
+    "grade": "grade4",
+    "image_sha256": "ad5b41d7db527ba38be7841fdc56af3afefcb4334188435ceff23910eaccb0a6"
+  },
+  {
+    "id": "scienceqa-validation-310",
+    "split": "validation",
+    "image": "/content/data/lab9/562afe692d68656053c38d9679d3988e24adcec22abe7a852a1f899a0c8d9b6b.png",
+    "question": "Which month has the lowest average precipitation in London?\nA. November\nB. May\nC. July\nReturn only the letter of the correct option.",
+    "answer": "C",
+    "choices": [
+      "November",
+      "May",
+      "July"
+    ],
+    "answer_index": 2,
+    "label_type": "multiple_choice",
+    "license": "MIT (code license, lupantech/ScienceQA)",
+    "source_url": "https://huggingface.co/datasets/derek-thomas/ScienceQA/tree/f18b0a70359ebfb41f658fd564208d0355b013f4",
+    "subject": "natural science",
+    "grade": "grade4",
+    "image_sha256": "562afe692d68656053c38d9679d3988e24adcec22abe7a852a1f899a0c8d9b6b"
+  }
+]

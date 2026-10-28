@@ -1,0 +1,69 @@
+{
+  "n_records": 60,
+  "experts": [
+    "expert1"
+  ],
+  "scales": [
+    "score_quality_1_5",
+    "score_prompt_fit_1_5",
+    "score_artifacts_1_5"
+  ],
+  "by_source": {
+    "baseline": {
+      "score_quality_1_5": {
+        "mean": 4.95,
+        "std": 0.21794494717703367,
+        "n": 60
+      },
+      "score_prompt_fit_1_5": {
+        "mean": 4.566666666666666,
+        "std": 0.6420453428086074,
+        "n": 60
+      },
+      "score_artifacts_1_5": {
+        "mean": 4.6,
+        "std": 0.6633249580710799,
+        "n": 60
+      }
+    }
+  },
+  "by_expert_source": {
+    "expert1|baseline": {
+      "score_quality_1_5": {
+        "mean": 4.95,
+        "n": 60
+      },
+      "score_prompt_fit_1_5": {
+        "mean": 4.566666666666666,
+        "n": 60
+      },
+      "score_artifacts_1_5": {
+        "mean": 4.6,
+        "n": 60
+      }
+    }
+  },
+  "agreement": null,
+  "clip_metrics": {
+    "baseline": {
+      "text_sim": 0.3250808800260226,
+      "diversity": 0.10114807883898418,
+      "nearest_train": 0.8607972860336304
+    },
+    "r4_lr1e-4_step0400": {
+      "text_sim": 0.3250808800260226,
+      "diversity": 0.10114807883898418,
+      "nearest_train": 0.8607972860336304
+    },
+    "r8_lr1e-4_step0400": {
+      "text_sim": 0.3250808800260226,
+      "diversity": 0.10114807883898418,
+      "nearest_train": 0.8607972860336304
+    },
+    "r8_lr5e-5_step0400": {
+      "text_sim": 0.3250808800260226,
+      "diversity": 0.10114807883898418,
+      "nearest_train": 0.8607972860336304
+    }
+  }
+}

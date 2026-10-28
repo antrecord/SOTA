@@ -1,0 +1,36 @@
+{
+  "seed": 64,
+  "trigger_token": "sks",
+  "n_train_captions": 28,
+  "n_held_out_prompts": 12,
+  "n_seeds": 5,
+  "n_pairs": 60,
+  "held_out_prompts": [
+    "a butterfly on a white daisy, macro photography",
+    "a monarch butterfly with orange wings resting on a leaf",
+    "a blue morpho butterfly in a tropical forest",
+    "a yellow butterfly flying over green grass",
+    "a butterfly on a purple lavender flower, shallow depth of field",
+    "a close-up of a butterfly wing pattern",
+    "a butterfly on a human hand in a garden",
+    "a white butterfly on a red flower, natural light",
+    "a butterfly resting on a stone near water",
+    "a black and orange butterfly on a sunflower",
+    "a small butterfly on a dandelion in spring",
+    "a butterfly with spread wings on a wooden surface"
+  ],
+  "held_out_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "exact_collisions_with_train": [],
+  "trigger_hits": [],
+  "duplicate_prompts": {},
+  "duplicate_seeds": {},
+  "too_similar_to_train": [],
+  "errors": [],
+  "all_ok": true
+}
