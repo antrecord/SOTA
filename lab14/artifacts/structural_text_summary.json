@@ -1,0 +1,142 @@
+{
+  "stage": "structural_and_textual_correspondence",
+  "n_images": 2000,
+  "n_configs": 10,
+  "edge_metric": {
+    "name": "tolerant_edge_f1",
+    "tolerance_pixels": 3,
+    "canny_low": 25,
+    "canny_high": 70
+  },
+  "clip": {
+    "model": "openai/clip-vit-base-patch32",
+    "metric": "normalized_image_text_cosine_similarity",
+    "prompt_template": "a single white handwritten digit {label} on a pure black background, MNIST dataset style, grayscale, high contrast, simple clean handwritten digit, centered, no texture"
+  },
+  "files": {
+    "per_image_metrics": "structural_text_metrics.csv",
+    "summary": "structural_text_summary.csv"
+  },
+  "configurations": [
+    {
+      "config_id": "baseline",
+      "cfg": 8.0,
+      "control_scale": 0.0,
+      "n_images": 200,
+      "edge_f1_mean": 0.09859522288815117,
+      "edge_f1_std": 0.03150156554054344,
+      "edge_precision_mean": 0.05797612222966192,
+      "edge_recall_mean": 0.48101765640622884,
+      "clip_cosine_mean": 0.2822852746397257,
+      "clip_cosine_std": 0.025551246754348462
+    },
+    {
+      "config_id": "cfg10.0_ctrl0.75",
+      "cfg": 10.0,
+      "control_scale": 0.75,
+      "n_images": 200,
+      "edge_f1_mean": 0.40461164903034086,
+      "edge_f1_std": 0.167723976373557,
+      "edge_precision_mean": 0.2710371248308322,
+      "edge_recall_mean": 0.9481360093053445,
+      "clip_cosine_mean": 0.2929768778383732,
+      "clip_cosine_std": 0.023870971139097648
+    },
+    {
+      "config_id": "cfg10.0_ctrl0.8",
+      "cfg": 10.0,
+      "control_scale": 0.8,
+      "n_images": 200,
+      "edge_f1_mean": 0.4445170526253255,
+      "edge_f1_std": 0.1714502575972533,
+      "edge_precision_mean": 0.30333832101294683,
+      "edge_recall_mean": 0.9597738877426462,
+      "clip_cosine_mean": 0.296062948256731,
+      "clip_cosine_std": 0.022566405426606255
+    },
+    {
+      "config_id": "cfg10.0_ctrl1.0",
+      "cfg": 10.0,
+      "control_scale": 1.0,
+      "n_images": 200,
+      "edge_f1_mean": 0.5843143295974315,
+      "edge_f1_std": 0.16267418216587068,
+      "edge_precision_mean": 0.4307549531591565,
+      "edge_recall_mean": 0.9908474240144974,
+      "clip_cosine_mean": 0.29995415978133677,
+      "clip_cosine_std": 0.024261905316925236
+    },
+    {
+      "config_id": "cfg6.0_ctrl0.75",
+      "cfg": 6.0,
+      "control_scale": 0.75,
+      "n_images": 200,
+      "edge_f1_mean": 0.4163055724403516,
+      "edge_f1_std": 0.1770460385713045,
+      "edge_precision_mean": 0.2806392714841413,
+      "edge_recall_mean": 0.9685210554759989,
+      "clip_cosine_mean": 0.28863539718091485,
+      "clip_cosine_std": 0.0251452807538695
+    },
+    {
+      "config_id": "cfg6.0_ctrl0.8",
+      "cfg": 6.0,
+      "control_scale": 0.8,
+      "n_images": 200,
+      "edge_f1_mean": 0.465454013336452,
+      "edge_f1_std": 0.18318894187185084,
+      "edge_precision_mean": 0.32296192247366706,
+      "edge_recall_mean": 0.9771386280965817,
+      "clip_cosine_mean": 0.2923129165917635,
+      "clip_cosine_std": 0.024602075323116555
+    },
+    {
+      "config_id": "cfg6.0_ctrl1.0",
+      "cfg": 6.0,
+      "control_scale": 1.0,
+      "n_images": 200,
+      "edge_f1_mean": 0.5678219413736153,
+      "edge_f1_std": 0.19464344672426276,
+      "edge_precision_mean": 0.42111036710156063,
+      "edge_recall_mean": 0.9891534823089317,
+      "clip_cosine_mean": 0.29913928255438804,
+      "clip_cosine_std": 0.026295249628125905
+    },
+    {
+      "config_id": "cfg8.0_ctrl0.75",
+      "cfg": 8.0,
+      "control_scale": 0.75,
+      "n_images": 200,
+      "edge_f1_mean": 0.4082452962820458,
+      "edge_f1_std": 0.1710678003881801,
+      "edge_precision_mean": 0.2735149482460372,
+      "edge_recall_mean": 0.9615415168418889,
+      "clip_cosine_mean": 0.29115870274603367,
+      "clip_cosine_std": 0.02564326033911293
+    },
+    {
+      "config_id": "cfg8.0_ctrl0.8",
+      "cfg": 8.0,
+      "control_scale": 0.8,
+      "n_images": 200,
+      "edge_f1_mean": 0.4593340008335403,
+      "edge_f1_std": 0.1781661763074201,
+      "edge_precision_mean": 0.3169338964100983,
+      "edge_recall_mean": 0.9722896112491978,
+      "clip_cosine_mean": 0.29341671720147133,
+      "clip_cosine_std": 0.024333439156884264
+    },
+    {
+      "config_id": "cfg8.0_ctrl1.0",
+      "cfg": 8.0,
+      "control_scale": 1.0,
+      "n_images": 200,
+      "edge_f1_mean": 0.5831081341579268,
+      "edge_f1_std": 0.17351196908821345,
+      "edge_precision_mean": 0.4314346137366048,
+      "edge_recall_mean": 0.9903978369649509,
+      "clip_cosine_mean": 0.29856484070420264,
+      "clip_cosine_std": 0.025628886209408775
+    }
+  ]
+}

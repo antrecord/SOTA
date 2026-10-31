@@ -1,0 +1,109 @@
+{
+  "test_dataset": "Official MNIST test",
+  "n_test_images": 10000,
+  "n_models": 11,
+  "models": [
+    {
+      "model": "real_plus_cfg8.0_ctrl0.8",
+      "accuracy": 0.9625,
+      "macro_precision": 0.9622835407160746,
+      "macro_recall": 0.9625870729395093,
+      "macro_f1": 0.9623508946117273,
+      "weighted_f1": 0.9624696728373976,
+      "n_test": 10000
+    },
+    {
+      "model": "real_plus_cfg8.0_ctrl0.75",
+      "accuracy": 0.9614,
+      "macro_precision": 0.9613092068472998,
+      "macro_recall": 0.961537921887242,
+      "macro_f1": 0.9613173722792745,
+      "weighted_f1": 0.9614466223289062,
+      "n_test": 10000
+    },
+    {
+      "model": "real_plus_cfg6.0_ctrl0.8",
+      "accuracy": 0.9613,
+      "macro_precision": 0.9615315292869407,
+      "macro_recall": 0.9615392948787129,
+      "macro_f1": 0.9612621496254604,
+      "weighted_f1": 0.9613757882590739,
+      "n_test": 10000
+    },
+    {
+      "model": "real_plus_cfg6.0_ctrl1.0",
+      "accuracy": 0.9611,
+      "macro_precision": 0.9609734758054941,
+      "macro_recall": 0.9613279778442859,
+      "macro_f1": 0.9609397785147603,
+      "weighted_f1": 0.961100708242929,
+      "n_test": 10000
+    },
+    {
+      "model": "real_only",
+      "accuracy": 0.9602,
+      "macro_precision": 0.9606680198203588,
+      "macro_recall": 0.9601133418391562,
+      "macro_f1": 0.9601011664536335,
+      "weighted_f1": 0.9602993720684346,
+      "n_test": 10000
+    },
+    {
+      "model": "real_plus_cfg10.0_ctrl0.75",
+      "accuracy": 0.9602,
+      "macro_precision": 0.9600549398805208,
+      "macro_recall": 0.9603447605131098,
+      "macro_f1": 0.9599879839037916,
+      "weighted_f1": 0.9601830892275997,
+      "n_test": 10000
+    },
+    {
+      "model": "real_plus_cfg6.0_ctrl0.75",
+      "accuracy": 0.9601,
+      "macro_precision": 0.960550449001726,
+      "macro_recall": 0.9602365101162608,
+      "macro_f1": 0.9600826092429354,
+      "weighted_f1": 0.9602160254658995,
+      "n_test": 10000
+    },
+    {
+      "model": "real_plus_baseline",
+      "accuracy": 0.9599,
+      "macro_precision": 0.9597800588165416,
+      "macro_recall": 0.9598390050609563,
+      "macro_f1": 0.9597288535969664,
+      "weighted_f1": 0.9598870449020594,
+      "n_test": 10000
+    },
+    {
+      "model": "real_plus_cfg8.0_ctrl1.0",
+      "accuracy": 0.9599,
+      "macro_precision": 0.9597153431273577,
+      "macro_recall": 0.9601078864518641,
+      "macro_f1": 0.959661763631394,
+      "weighted_f1": 0.9599303091237125,
+      "n_test": 10000
+    },
+    {
+      "model": "real_plus_cfg10.0_ctrl0.8",
+      "accuracy": 0.9592,
+      "macro_precision": 0.9592103802615315,
+      "macro_recall": 0.9592260763067229,
+      "macro_f1": 0.95892885717514,
+      "weighted_f1": 0.9591985833155808,
+      "n_test": 10000
+    },
+    {
+      "model": "real_plus_cfg10.0_ctrl1.0",
+      "accuracy": 0.9585,
+      "macro_precision": 0.9582345546935725,
+      "macro_recall": 0.958739713779037,
+      "macro_f1": 0.9581854718858382,
+      "weighted_f1": 0.9585356540605231,
+      "n_test": 10000
+    }
+  ],
+  "best_model_by_accuracy": "real_plus_cfg8.0_ctrl0.8",
+  "best_test_accuracy": 0.9625,
+  "test_used_for_training": false
+}

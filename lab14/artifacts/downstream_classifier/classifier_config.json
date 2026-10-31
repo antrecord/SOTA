@@ -1,0 +1,39 @@
+{
+  "seed": 27,
+  "real_per_class": 200,
+  "num_classes": 10,
+  "n_real_train": 2000,
+  "n_real_test": 10000,
+  "batch_size": 64,
+  "architecture": {
+    "name": "MNISTClassifier",
+    "layers": [
+      "Conv2d(1, 32, 3, padding=1)",
+      "ReLU",
+      "MaxPool2d(2)",
+      "Conv2d(32, 64, 3, padding=1)",
+      "ReLU",
+      "MaxPool2d(2)",
+      "Flatten",
+      "Linear(3136, 128)",
+      "ReLU",
+      "Dropout(0.25)",
+      "Linear(128, 10)"
+    ],
+    "trainable_parameters": 421642
+  },
+  "class_counts": {
+    "0": 200,
+    "1": 200,
+    "2": 200,
+    "3": 200,
+    "4": 200,
+    "5": 200,
+    "6": 200,
+    "7": 200,
+    "8": 200,
+    "9": 200
+  },
+  "train_indices_file": "/content/drive/MyDrive/lab14/artifacts/downstream_classifier/real_train_indices.npy",
+  "test_dataset": "Official MNIST test split; not used for training"
+}

@@ -1,0 +1,10 @@
+{
+  "device": "cuda",
+  "torch_cuda_available": true,
+  "gpu_name": "Tesla T4",
+  "sd_id": "runwayml/stable-diffusion-v1-5",
+  "controlnet_id": "lllyasviel/sd-controlnet-canny",
+  "scheduler": "UniPCMultistepScheduler",
+  "dtype": "torch.float16",
+  "pipeline_class": "StableDiffusionControlNetPipeline"
+}

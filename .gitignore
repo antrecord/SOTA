@@ -24,3 +24,4 @@ lab2/data/
 */artifacts/bonus_data/
 */artifacts/resnet18_features/
 *.npy
+*.pdf

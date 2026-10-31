@@ -1,0 +1,69 @@
+{
+  "metric": "normalized_pixel_hamming_distance",
+  "interpretation": "Fraction of pixels that differ between two binary images. Higher values indicate greater pairwise pixel-level diversity.",
+  "n_generated_images": 2000,
+  "n_pairs": 19000,
+  "n_groups": 100,
+  "results_by_config": [
+    {
+      "config_id": "cfg10.0_ctrl0.8",
+      "n_pairs": 1900,
+      "diversity_mean": 0.5022292287726151,
+      "diversity_std": 0.24664444261287186
+    },
+    {
+      "config_id": "cfg10.0_ctrl0.75",
+      "n_pairs": 1900,
+      "diversity_mean": 0.5013042068481446,
+      "diversity_std": 0.22286747309548577
+    },
+    {
+      "config_id": "cfg8.0_ctrl0.8",
+      "n_pairs": 1900,
+      "diversity_mean": 0.5010477427432412,
+      "diversity_std": 0.25301489827196544
+    },
+    {
+      "config_id": "cfg8.0_ctrl0.75",
+      "n_pairs": 1900,
+      "diversity_mean": 0.5009926083213405,
+      "diversity_std": 0.2258766796661331
+    },
+    {
+      "config_id": "baseline",
+      "n_pairs": 1900,
+      "diversity_mean": 0.5002574940731651,
+      "diversity_std": 0.05681780427592127
+    },
+    {
+      "config_id": "cfg6.0_ctrl0.75",
+      "n_pairs": 1900,
+      "diversity_mean": 0.4994564437866211,
+      "diversity_std": 0.23486421831047433
+    },
+    {
+      "config_id": "cfg6.0_ctrl0.8",
+      "n_pairs": 1900,
+      "diversity_mean": 0.49845952084189965,
+      "diversity_std": 0.26771049181070194
+    },
+    {
+      "config_id": "cfg6.0_ctrl1.0",
+      "n_pairs": 1900,
+      "diversity_mean": 0.49516341159218236,
+      "diversity_std": 0.31786956894280954
+    },
+    {
+      "config_id": "cfg10.0_ctrl1.0",
+      "n_pairs": 1900,
+      "diversity_mean": 0.4944192163567794,
+      "diversity_std": 0.314673948157801
+    },
+    {
+      "config_id": "cfg8.0_ctrl1.0",
+      "n_pairs": 1900,
+      "diversity_mean": 0.4934257045545076,
+      "diversity_std": 0.3191631411295169
+    }
+  ]
+}

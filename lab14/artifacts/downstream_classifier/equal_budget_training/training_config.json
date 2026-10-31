@@ -1,0 +1,45 @@
+{
+  "seed": 27,
+  "epochs": 10,
+  "steps_per_epoch": 31,
+  "optimizer_updates_per_model": 310,
+  "batch_size_real_only": 64,
+  "batch_size_augmented": 64,
+  "augmented_batch_composition": {
+    "real": 48,
+    "synthetic": 16
+  },
+  "optimizer": "Adam",
+  "learning_rate": 0.001,
+  "loss": "CrossEntropyLoss",
+  "architecture": "MNISTClassifier",
+  "initial_weights": "/content/drive/MyDrive/lab14/artifacts/downstream_classifier/classifier_initial_state.pt",
+  "real_train_size": 2000,
+  "synthetic_per_configuration": 200,
+  "configurations": [
+    "baseline",
+    "cfg10.0_ctrl0.75",
+    "cfg10.0_ctrl0.8",
+    "cfg10.0_ctrl1.0",
+    "cfg6.0_ctrl0.75",
+    "cfg6.0_ctrl0.8",
+    "cfg6.0_ctrl1.0",
+    "cfg8.0_ctrl0.75",
+    "cfg8.0_ctrl0.8",
+    "cfg8.0_ctrl1.0"
+  ],
+  "real_only_checkpoint": "/content/drive/MyDrive/lab14/artifacts/downstream_classifier/equal_budget_training/model_real_only.pt",
+  "augmented_checkpoints": {
+    "baseline": "/content/drive/MyDrive/lab14/artifacts/downstream_classifier/equal_budget_training/model_real_plus_baseline.pt",
+    "cfg10.0_ctrl0.75": "/content/drive/MyDrive/lab14/artifacts/downstream_classifier/equal_budget_training/model_real_plus_cfg10.0_ctrl0.75.pt",
+    "cfg10.0_ctrl0.8": "/content/drive/MyDrive/lab14/artifacts/downstream_classifier/equal_budget_training/model_real_plus_cfg10.0_ctrl0.8.pt",
+    "cfg10.0_ctrl1.0": "/content/drive/MyDrive/lab14/artifacts/downstream_classifier/equal_budget_training/model_real_plus_cfg10.0_ctrl1.0.pt",
+    "cfg6.0_ctrl0.75": "/content/drive/MyDrive/lab14/artifacts/downstream_classifier/equal_budget_training/model_real_plus_cfg6.0_ctrl0.75.pt",
+    "cfg6.0_ctrl0.8": "/content/drive/MyDrive/lab14/artifacts/downstream_classifier/equal_budget_training/model_real_plus_cfg6.0_ctrl0.8.pt",
+    "cfg6.0_ctrl1.0": "/content/drive/MyDrive/lab14/artifacts/downstream_classifier/equal_budget_training/model_real_plus_cfg6.0_ctrl1.0.pt",
+    "cfg8.0_ctrl0.75": "/content/drive/MyDrive/lab14/artifacts/downstream_classifier/equal_budget_training/model_real_plus_cfg8.0_ctrl0.75.pt",
+    "cfg8.0_ctrl0.8": "/content/drive/MyDrive/lab14/artifacts/downstream_classifier/equal_budget_training/model_real_plus_cfg8.0_ctrl0.8.pt",
+    "cfg8.0_ctrl1.0": "/content/drive/MyDrive/lab14/artifacts/downstream_classifier/equal_budget_training/model_real_plus_cfg8.0_ctrl1.0.pt"
+  },
+  "test_usage": "Not used during training"
+}
