@@ -1,0 +1,42 @@
+{
+  "status": "completed",
+  "hypothesis": "Снижение temperature с 1.0 до 0.4 уменьшит разнообразие генерируемых последовательностей и декодированных изображений.",
+  "changed_factor": "sampling_temperature",
+  "control_temperature": 1.0,
+  "ablation_temperature": 0.4,
+  "same_prior_checkpoint": "/content/drive/MyDrive/lab16/artifacts/prior_last.pt",
+  "same_tokenizer_checkpoint": "/content/drive/MyDrive/lab16/artifacts/vqvae_k64_last.pt",
+  "same_real_training_labels": true,
+  "same_seed": 870,
+  "num_images_per_setting": 40,
+  "test_used_for_selection": false,
+  "elapsed_seconds": 0.28963708877563477,
+  "metrics": {
+    "control_T1.0": {
+      "num_images": 40,
+      "unique_sequences": 40,
+      "unique_sequence_fraction": 1.0,
+      "used_codes": 59,
+      "codebook_utilization": 0.921875,
+      "token_entropy": 2.7610831260681152,
+      "token_perplexity": 15.816965441265092,
+      "image_pairwise_mse": 0.10928406566381454,
+      "image_pixel_mean": 0.1252267062664032,
+      "image_pixel_std": 0.2887948155403137,
+      "temperature": 1.0
+    },
+    "ablation_T0.4": {
+      "num_images": 40,
+      "unique_sequences": 40,
+      "unique_sequence_fraction": 1.0,
+      "used_codes": 57,
+      "codebook_utilization": 0.890625,
+      "token_entropy": 2.5033187866210938,
+      "token_perplexity": 12.22299222404728,
+      "image_pairwise_mse": 0.08969695121049881,
+      "image_pixel_mean": 0.10960059612989426,
+      "image_pixel_std": 0.27728471159935,
+      "temperature": 0.4
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "status": "completed",
+  "sampling_time_seconds": 2.278996467590332,
+  "prior_checkpoint": "/content/drive/MyDrive/lab16/artifacts/prior_last.pt",
+  "seed": 193,
+  "num_generated_per_scheme": 200,
+  "results": {
+    "temperature": {
+      "temperature": 0.8,
+      "top_k": null,
+      "top_p": null,
+      "num_sequences": 200,
+      "unique_sequences": 200,
+      "unique_sequence_fraction": 1.0,
+      "used_codes": 58,
+      "code_utilization": 0.90625,
+      "token_min": 0,
+      "token_max": 63
+    },
+    "top_k": {
+      "temperature": 1.0,
+      "top_k": 10,
+      "top_p": null,
+      "num_sequences": 200,
+      "unique_sequences": 200,
+      "unique_sequence_fraction": 1.0,
+      "used_codes": 57,
+      "code_utilization": 0.890625,
+      "token_min": 0,
+      "token_max": 63
+    },
+    "top_p": {
+      "temperature": 1.0,
+      "top_k": null,
+      "top_p": 0.9,
+      "num_sequences": 200,
+      "unique_sequences": 200,
+      "unique_sequence_fraction": 1.0,
+      "used_codes": 58,
+      "code_utilization": 0.90625,
+      "token_min": 0,
+      "token_max": 63
+    },
+    "top_k_top_p": {
+      "temperature": 1.0,
+      "top_k": 10,
+      "top_p": 0.9,
+      "num_sequences": 200,
+      "unique_sequences": 200,
+      "unique_sequence_fraction": 1.0,
+      "used_codes": 58,
+      "code_utilization": 0.90625,
+      "token_min": 0,
+      "token_max": 63
+    },
+    "temp_top_k_top_p": {
+      "temperature": 0.8,
+      "top_k": 10,
+      "top_p": 0.9,
+      "num_sequences": 200,
+      "unique_sequences": 200,
+      "unique_sequence_fraction": 1.0,
+      "used_codes": 57,
+      "code_utilization": 0.890625,
+      "token_min": 0,
+      "token_max": 63
+    }
+  }
+}

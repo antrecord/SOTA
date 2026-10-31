@@ -1,0 +1,24 @@
+{
+  "train_images": 20000,
+  "test_images": 2000,
+  "tokens_per_image": 49,
+  "train_tokens_total": 980000,
+  "test_tokens_total": 98000,
+  "codebook_size": 64,
+  "used_codes": 64,
+  "dead_codes": 0,
+  "perplexity": 16.760665893554688,
+  "token_shape_train": [
+    20000,
+    7,
+    7
+  ],
+  "token_shape_test": [
+    2000,
+    7,
+    7
+  ],
+  "token_min": 0,
+  "token_max": 63,
+  "tokenizer_checkpoint": "/content/drive/MyDrive/lab16/artifacts/vqvae_k64_last.pt"
+}

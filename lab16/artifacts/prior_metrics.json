@@ -1,0 +1,16 @@
+{
+  "status": "completed",
+  "train_steps_completed": 1000,
+  "train_steps_target": 1000,
+  "last_train_ce": 1.2437924146652222,
+  "training_time_seconds": 25.291077375411987,
+  "batch_size": 128,
+  "learning_rate": 0.0003,
+  "vocab_size": 64,
+  "sequence_length": 49,
+  "bos_token": 64,
+  "tokenizer": "VQ-VAE K=64",
+  "checkpoint": "/content/drive/MyDrive/lab16/artifacts/prior_last.pt",
+  "seed": 93,
+  "test_evaluation": "not_performed"
+}

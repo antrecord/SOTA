@@ -1,0 +1,14 @@
+{
+  "status": "completed",
+  "test_cross_entropy": 1.1705175930723852,
+  "test_samples": 2000,
+  "test_tokens_evaluated": 98000,
+  "sequence_length": 49,
+  "vocab_size": 64,
+  "bos_token": 64,
+  "checkpoint_step": 1000,
+  "checkpoint": "/content/drive/MyDrive/lab16/artifacts/prior_last.pt",
+  "tokenizer": "VQ-VAE K=64",
+  "weights_updated": false,
+  "evaluation_mode": "eval + no_grad"
+}

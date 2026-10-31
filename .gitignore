@@ -23,3 +23,4 @@ lab2/data/
 */.vscode/
 */artifacts/bonus_data/
 */artifacts/resnet18_features/
+*.npy

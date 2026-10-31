@@ -1,0 +1,75 @@
+{
+  "status": "completed",
+  "comparison_type": "decoded_images",
+  "num_images_per_scheme": 200,
+  "tokenizer_checkpoint": "/content/drive/MyDrive/lab16/artifacts/vqvae_k64_last.pt",
+  "prior_checkpoint": "/content/drive/MyDrive/lab16/artifacts/prior_last.pt",
+  "classifier_checkpoint": "/content/drive/MyDrive/lab16/artifacts/class_agreement_last.pt",
+  "metrics": {
+    "temperature": {
+      "num_images": 200,
+      "unique_token_sequences": 200,
+      "unique_code_count": 58,
+      "code_utilization": 0.90625,
+      "classifier_accuracy": 0.6200000047683716,
+      "classifier_mean_confidence": 0.9015840291976929,
+      "mean_pairwise_image_mse": 0.11072584241628647,
+      "mean_pixel_value": 0.12286469340324402,
+      "pixel_std": 0.2900283634662628,
+      "images_min": 2.8523144957048885e-10,
+      "images_max": 0.9963272213935852
+    },
+    "top_k": {
+      "num_images": 200,
+      "unique_token_sequences": 200,
+      "unique_code_count": 57,
+      "code_utilization": 0.890625,
+      "classifier_accuracy": 0.625,
+      "classifier_mean_confidence": 0.8925883769989014,
+      "mean_pairwise_image_mse": 0.11976562440395355,
+      "mean_pixel_value": 0.13470257818698883,
+      "pixel_std": 0.3020976185798645,
+      "images_min": 2.501736595661441e-10,
+      "images_max": 0.9957971572875977
+    },
+    "top_p": {
+      "num_images": 200,
+      "unique_token_sequences": 200,
+      "unique_code_count": 58,
+      "code_utilization": 0.90625,
+      "classifier_accuracy": 0.6600000262260437,
+      "classifier_mean_confidence": 0.8894986510276794,
+      "mean_pairwise_image_mse": 0.108312226831913,
+      "mean_pixel_value": 0.1256014108657837,
+      "pixel_std": 0.29270026087760925,
+      "images_min": 5.208193321060151e-10,
+      "images_max": 0.9971503615379333
+    },
+    "top_k_top_p": {
+      "num_images": 200,
+      "unique_token_sequences": 200,
+      "unique_code_count": 58,
+      "code_utilization": 0.90625,
+      "classifier_accuracy": 0.675000011920929,
+      "classifier_mean_confidence": 0.8765692710876465,
+      "mean_pairwise_image_mse": 0.11059422791004181,
+      "mean_pixel_value": 0.12613871693611145,
+      "pixel_std": 0.2947844862937927,
+      "images_min": 1.1460062898649426e-09,
+      "images_max": 0.9966444969177246
+    },
+    "temp_top_k_top_p": {
+      "num_images": 200,
+      "unique_token_sequences": 200,
+      "unique_code_count": 57,
+      "code_utilization": 0.890625,
+      "classifier_accuracy": 0.6349999904632568,
+      "classifier_mean_confidence": 0.8928749561309814,
+      "mean_pairwise_image_mse": 0.10314235091209412,
+      "mean_pixel_value": 0.12045395374298096,
+      "pixel_std": 0.28936073184013367,
+      "images_min": 3.6323000163207553e-10,
+      "images_max": 0.9956402778625488
+    }
+  }
+}

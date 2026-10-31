@@ -1,0 +1,13 @@
+{
+  "K": 64,
+  "train_steps_completed": 1000,
+  "test_mse": 0.005445025813822843,
+  "used_codes": 64,
+  "dead_codes": 0,
+  "codebook_utilization": 1.0,
+  "perplexity": 16.765642166137695,
+  "total_codes": 64,
+  "training_time_seconds": 5.947869777679443,
+  "fast_dev_run": false,
+  "seed": 93
+}

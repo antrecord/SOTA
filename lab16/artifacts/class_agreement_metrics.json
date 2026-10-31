@@ -1,0 +1,18 @@
+{
+  "status": "completed",
+  "train_steps_completed": 1000,
+  "train_steps_target": 1000,
+  "last_train_ce": 0.022265590727329254,
+  "test_accuracy": 0.983,
+  "test_accuracy_percent": 98.3,
+  "test_cross_entropy": 0.04601264196634293,
+  "test_samples": 2000,
+  "training_time_seconds": 5.60209584236145,
+  "batch_size": 128,
+  "learning_rate": 0.001,
+  "architecture": "ClassAgreementCNN",
+  "training_data": "Real MNIST train",
+  "evaluation_data": "Independent real MNIST test",
+  "checkpoint": "/content/drive/MyDrive/lab16/artifacts/class_agreement_last.pt",
+  "seed": 93
+}

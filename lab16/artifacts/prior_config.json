@@ -1,0 +1,21 @@
+{
+  "model": "AutoregressivePrior",
+  "vocab_size": 64,
+  "bos_token": 64,
+  "num_classes": 10,
+  "sequence_length": 49,
+  "latent_grid": [
+    7,
+    7
+  ],
+  "d_model": 128,
+  "n_heads": 4,
+  "num_layers": 4,
+  "dim_feedforward": 256,
+  "dropout": 0.1,
+  "activation": "gelu",
+  "causal_mask": true,
+  "class_conditioning": true,
+  "tokenizer": "VQ-VAE K=64",
+  "seed": 93
+}
