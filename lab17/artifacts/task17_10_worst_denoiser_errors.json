@@ -1,0 +1,47 @@
+{
+  "status": "completed",
+  "task": "worst_denoiser_errors",
+  "fast_dev_run": false,
+  "test_samples_evaluated": 2000,
+  "timesteps": [
+    0,
+    100,
+    250,
+    500,
+    750,
+    999
+  ],
+  "error_definition": "mean conditional noise MSE over selected timesteps",
+  "worst_examples": [
+    {
+      "test_index": 1415,
+      "true_label": 8,
+      "mean_noise_mse": 0.08988586068153381
+    },
+    {
+      "test_index": 1438,
+      "true_label": 0,
+      "mean_noise_mse": 0.08766578137874603
+    },
+    {
+      "test_index": 1526,
+      "true_label": 0,
+      "mean_noise_mse": 0.08659052103757858
+    },
+    {
+      "test_index": 1589,
+      "true_label": 0,
+      "mean_noise_mse": 0.08388054370880127
+    },
+    {
+      "test_index": 464,
+      "true_label": 3,
+      "mean_noise_mse": 0.08333978056907654
+    }
+  ],
+  "mean_test_mse": 0.04804517701268196,
+  "max_test_mse": 0.08988586068153381,
+  "min_test_mse": 0.016250917688012123,
+  "checkpoint": "/content/drive/MyDrive/lab17/artifacts/denoiser_worst_errors_full.pt",
+  "visualization": "/content/drive/MyDrive/lab17/artifacts/denoiser_worst_errors_full.png"
+}

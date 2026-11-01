@@ -1,0 +1,49 @@
+{
+  "status": "completed",
+  "task": "independent_mnist_classifier",
+  "fast_dev_run": false,
+  "device": "cuda",
+  "train_source": "MNIST official train split only",
+  "test_source": "MNIST official test split only",
+  "train_samples_seen": 99840,
+  "test_samples": 2000,
+  "completed_epochs": 5,
+  "completed_batches": 780,
+  "train_history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.4656000435829927,
+      "train_accuracy": 0.8588741987179487,
+      "samples_seen": 19968
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.10524954716077982,
+      "train_accuracy": 0.9692007211538461,
+      "samples_seen": 19968
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.07063343302490047,
+      "train_accuracy": 0.9797175480769231,
+      "samples_seen": 19968
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.0549430203003188,
+      "train_accuracy": 0.982421875,
+      "samples_seen": 19968
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.045339059424944796,
+      "train_accuracy": 0.9854266826923077,
+      "samples_seen": 19968
+    }
+  ],
+  "test_loss": 0.054400680527091023,
+  "test_accuracy": 0.9785,
+  "test_correct": 1957,
+  "training_time_seconds": 23.425957441329956,
+  "checkpoint": "/content/drive/MyDrive/lab17/artifacts/mnist_classifier_full.pt"
+}

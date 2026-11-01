@@ -1,0 +1,27 @@
+{
+  "status": "completed",
+  "task": "Расписание прямой диффузии",
+  "fast_dev_run": false,
+  "device": "cuda",
+  "T": 1000,
+  "beta_min": 9.999999747378752e-05,
+  "beta_max": 0.019999999552965164,
+  "alpha_min": 0.9800000190734863,
+  "alpha_max": 0.9998999834060669,
+  "alpha_bar_first": 0.9998999834060669,
+  "alpha_bar_last": 4.035829260828905e-05,
+  "test_batch_size": 16,
+  "input_shape": [
+    16,
+    1,
+    28,
+    28
+  ],
+  "output_shape": [
+    16,
+    1,
+    28,
+    28
+  ],
+  "max_formula_error": 0.0
+}

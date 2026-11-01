@@ -1,0 +1,96 @@
+{
+  "status": "completed",
+  "task": "ddpm_sampling_and_guidance",
+  "fast_dev_run": false,
+  "device": "cuda",
+  "guidance_scales": [
+    0.0,
+    1.0,
+    3.0,
+    5.0
+  ],
+  "num_images_per_scale": 1000,
+  "samples_per_class": 100,
+  "class_counts": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+  ],
+  "same_initial_noise_for_all_scales": true,
+  "same_reverse_noise_seed_for_all_scales": true,
+  "metrics_by_guidance": {
+    "0.0": {
+      "guidance_scale": 0.0,
+      "num_images": 1000,
+      "num_diffusion_steps": 1000,
+      "unconditional_nfe_per_image": 1000,
+      "conditional_nfe_per_image": 1000,
+      "total_nfe_per_image": 2000,
+      "total_nfe": 2000000,
+      "sampling_time_seconds": 334.37872076034546,
+      "images_shape": [
+        1000,
+        1,
+        28,
+        28
+      ]
+    },
+    "1.0": {
+      "guidance_scale": 1.0,
+      "num_images": 1000,
+      "num_diffusion_steps": 1000,
+      "unconditional_nfe_per_image": 1000,
+      "conditional_nfe_per_image": 1000,
+      "total_nfe_per_image": 2000,
+      "total_nfe": 2000000,
+      "sampling_time_seconds": 339.6859951019287,
+      "images_shape": [
+        1000,
+        1,
+        28,
+        28
+      ]
+    },
+    "3.0": {
+      "guidance_scale": 3.0,
+      "num_images": 1000,
+      "num_diffusion_steps": 1000,
+      "unconditional_nfe_per_image": 1000,
+      "conditional_nfe_per_image": 1000,
+      "total_nfe_per_image": 2000,
+      "total_nfe": 2000000,
+      "sampling_time_seconds": 339.07135462760925,
+      "images_shape": [
+        1000,
+        1,
+        28,
+        28
+      ]
+    },
+    "5.0": {
+      "guidance_scale": 5.0,
+      "num_images": 1000,
+      "num_diffusion_steps": 1000,
+      "unconditional_nfe_per_image": 1000,
+      "conditional_nfe_per_image": 1000,
+      "total_nfe_per_image": 2000,
+      "total_nfe": 2000000,
+      "sampling_time_seconds": 338.3091609477997,
+      "images_shape": [
+        1000,
+        1,
+        28,
+        28
+      ]
+    }
+  },
+  "total_sampling_time_seconds": 1351.44837808609,
+  "checkpoint": "/content/drive/MyDrive/lab17/artifacts/ddpm_generated_full.pt"
+}

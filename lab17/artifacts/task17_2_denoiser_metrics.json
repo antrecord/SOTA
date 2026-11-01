@@ -1,0 +1,28 @@
+{
+  "status": "completed",
+  "task": "Условный denoiser и проверка форм",
+  "fast_dev_run": false,
+  "device": "cuda",
+  "input_shape": [
+    16,
+    1,
+    28,
+    28
+  ],
+  "conditional_output_shape": [
+    16,
+    1,
+    28,
+    28
+  ],
+  "unconditional_output_shape": [
+    16,
+    1,
+    28,
+    28
+  ],
+  "num_parameters": 307649,
+  "num_classes": 10,
+  "null_class": 10,
+  "all_outputs_finite": true
+}

@@ -1,0 +1,44 @@
+{
+  "status": "completed",
+  "task": "best_denoiser_predictions",
+  "fast_dev_run": false,
+  "test_samples_evaluated": 2000,
+  "timesteps": [
+    0,
+    100,
+    250,
+    500,
+    750,
+    999
+  ],
+  "best_examples": [
+    {
+      "test_index": 967,
+      "true_label": 1,
+      "mean_noise_mse": 0.016250917688012123
+    },
+    {
+      "test_index": 1909,
+      "true_label": 1,
+      "mean_noise_mse": 0.017620814964175224
+    },
+    {
+      "test_index": 40,
+      "true_label": 1,
+      "mean_noise_mse": 0.018341373652219772
+    },
+    {
+      "test_index": 1201,
+      "true_label": 1,
+      "mean_noise_mse": 0.019308585673570633
+    },
+    {
+      "test_index": 1867,
+      "true_label": 1,
+      "mean_noise_mse": 0.019927548244595528
+    }
+  ],
+  "mean_best_mse": 0.018289845436811447,
+  "checkpoint": "/content/drive/MyDrive/lab17/artifacts/denoiser_best_errors_full.pt",
+  "visualization": "/content/drive/MyDrive/lab17/artifacts/denoiser_best_errors_full.png"
+}

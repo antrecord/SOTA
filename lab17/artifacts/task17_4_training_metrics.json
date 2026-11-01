@@ -1,0 +1,16 @@
+{
+  "status": "completed",
+  "task": "Обучение epsilon-предсказателя с CFG dropout",
+  "fast_dev_run": false,
+  "device": "cuda",
+  "completed_steps": 10000,
+  "start_step": 0,
+  "batch_size": 128,
+  "learning_rate": 0.0002,
+  "cfg_dropout_probability": 0.1,
+  "actual_dropout_rate": 0.10032578125,
+  "mean_loss": 0.027628452249895782,
+  "last_loss": 0.024976197630167007,
+  "training_time_seconds": 659.3687925338745,
+  "checkpoint": "/content/drive/MyDrive/lab17/artifacts/ddpm_full_checkpoint.pt"
+}

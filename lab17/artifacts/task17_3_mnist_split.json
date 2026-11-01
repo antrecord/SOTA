@@ -1,0 +1,46 @@
+{
+  "status": "completed",
+  "task": "Train/test MNIST для DDPM",
+  "fast_dev_run": false,
+  "device": "cuda",
+  "train_size": 20000,
+  "test_size": 2000,
+  "batch_size": 128,
+  "train_batches": 156,
+  "test_batches": 16,
+  "image_shape": [
+    1,
+    28,
+    28
+  ],
+  "pixel_min": -1.0,
+  "pixel_max": 1.0,
+  "train_class_counts": [
+    1994,
+    2281,
+    1929,
+    2076,
+    1945,
+    1775,
+    1971,
+    2093,
+    1922,
+    2014
+  ],
+  "test_class_counts": [
+    175,
+    234,
+    219,
+    207,
+    217,
+    179,
+    178,
+    205,
+    192,
+    194
+  ],
+  "train_source": "MNIST official train, first 20000",
+  "test_source": "MNIST official test, first 2000",
+  "normalization": "ToTensor + Normalize(0.5, 0.5)",
+  "seed": 14
+}

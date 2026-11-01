@@ -1,0 +1,3 @@
+Experiment,CFG dropout,Training steps,Training time (sec),Final train loss,Conditional validation MSE,Unconditional validation MSE
+Baseline: dropout 10%,0.1,10000,669.6,0.03122612275183201,0.048743216505666986,0.049278716689064396
+Ablation: dropout 20%,0.2,10000,681.92,0.03159886226058006,0.04846208865251265,0.04908064978103452

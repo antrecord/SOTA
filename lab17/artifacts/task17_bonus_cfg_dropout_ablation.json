@@ -1,0 +1,66 @@
+{
+  "hypothesis": "Increasing CFG dropout from 10% to 20% may improve unconditional noise prediction, but may weaken conditional noise prediction.",
+  "configuration": {
+    "baseline_dropout": 0.1,
+    "ablation_dropout": 0.2,
+    "seed": 14,
+    "training_steps": 10000,
+    "training_images": 18000,
+    "validation_images": 2000,
+    "validation_timesteps": [
+      0,
+      100,
+      250,
+      500,
+      750,
+      999
+    ],
+    "test_set_used_for_selection": false
+  },
+  "baseline": {
+    "dropout_probability": 0.1,
+    "training_steps": 10000,
+    "training_time_sec": 669.5975289344788,
+    "final_train_loss": 0.03122612275183201,
+    "checkpoint": "/content/drive/MyDrive/lab17/artifacts/bonus_cfg_dropout_baseline_10pct.pt",
+    "conditional_mse_t0": 0.18265520368303573,
+    "unconditional_mse_t0": 0.1824475720463967,
+    "conditional_mse_t100": 0.05844202936912069,
+    "unconditional_mse_t100": 0.0590018246709084,
+    "conditional_mse_t250": 0.034177747142558196,
+    "unconditional_mse_t250": 0.03595780960394412,
+    "conditional_mse_t500": 0.015923626491001673,
+    "unconditional_mse_t500": 0.017024916746178453,
+    "conditional_mse_t750": 0.001067684504450584,
+    "unconditional_mse_t750": 0.0010770298558838514,
+    "conditional_mse_t999": 0.00019300784383501326,
+    "unconditional_mse_t999": 0.0001631472110748291,
+    "conditional_mse_mean": 0.048743216505666986,
+    "unconditional_mse_mean": 0.049278716689064396
+  },
+  "ablation": {
+    "dropout_probability": 0.2,
+    "training_steps": 10000,
+    "training_time_sec": 681.9155540466309,
+    "final_train_loss": 0.03159886226058006,
+    "checkpoint": "/content/drive/MyDrive/lab17/artifacts/bonus_cfg_dropout_ablation_20pct.pt",
+    "conditional_mse_t0": 0.18052218191964287,
+    "unconditional_mse_t0": 0.18123036038145726,
+    "conditional_mse_t100": 0.05853034194634885,
+    "unconditional_mse_t100": 0.059067490713936945,
+    "conditional_mse_t250": 0.03448417165328045,
+    "unconditional_mse_t250": 0.0360095241313078,
+    "conditional_mse_t500": 0.016015363265057,
+    "unconditional_mse_t500": 0.01701968158021265,
+    "conditional_mse_t750": 0.0010599315604385064,
+    "unconditional_mse_t750": 0.0010486036709376743,
+    "conditional_mse_t999": 0.00016054157030825713,
+    "unconditional_mse_t999": 0.00010823820835473587,
+    "conditional_mse_mean": 0.04846208865251265,
+    "unconditional_mse_mean": 0.04908064978103452
+  },
+  "relative_change_percent": {
+    "conditional_mse": -0.5767527736329289,
+    "unconditional_mse": -0.40193195224548306
+  }
+}
