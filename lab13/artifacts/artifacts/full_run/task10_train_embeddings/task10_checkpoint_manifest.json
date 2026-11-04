@@ -1,0 +1,38 @@
+{
+  "baseline": {
+    "type": "base_model",
+    "lora": false,
+    "checkpoint": null,
+    "note": "Чистая SD1.5 без LoRA"
+  },
+  "A_r4_lr1e-4": {
+    "type": "lora_adapter",
+    "lora": true,
+    "checkpoint": "/content/drive/MyDrive/lab13/artifacts/full_run/adapters/A_r4_lr1e-4/checkpoint-0400",
+    "update": 400,
+    "weights_file": "/content/drive/MyDrive/lab13/artifacts/full_run/adapters/A_r4_lr1e-4/checkpoint-0400/pytorch_lora_weights.safetensors",
+    "weights_sha256": "cee544daecff9fbd8fa12138adf4ceaae7a973c3c91271bd1f1977a73be6490c",
+    "config_fingerprint": "f9e7a12b112550ca65dfd7e34af0f62eebcd7d4f7ea1fc8c6a8ee73d7a60fce0",
+    "dataset_fingerprint": "b21901e386ab4d7a54483a369bd74fa82f0cb7ed9c99125b36cc56c8f11303a8"
+  },
+  "B_r16_lr1e-4": {
+    "type": "lora_adapter",
+    "lora": true,
+    "checkpoint": "/content/drive/MyDrive/lab13/artifacts/full_run/adapters/B_r16_lr1e-4/checkpoint-0400",
+    "update": 400,
+    "weights_file": "/content/drive/MyDrive/lab13/artifacts/full_run/adapters/B_r16_lr1e-4/checkpoint-0400/pytorch_lora_weights.safetensors",
+    "weights_sha256": "bb552f67662c5dfdde3750112b8082d54515df8313f784244dec257c8f95e6b9",
+    "config_fingerprint": "f9e7a12b112550ca65dfd7e34af0f62eebcd7d4f7ea1fc8c6a8ee73d7a60fce0",
+    "dataset_fingerprint": "b21901e386ab4d7a54483a369bd74fa82f0cb7ed9c99125b36cc56c8f11303a8"
+  },
+  "C_r16_lr5e-4": {
+    "type": "lora_adapter",
+    "lora": true,
+    "checkpoint": "/content/drive/MyDrive/lab13/artifacts/full_run/adapters/C_r16_lr5e-4/checkpoint-0400",
+    "update": 400,
+    "weights_file": "/content/drive/MyDrive/lab13/artifacts/full_run/adapters/C_r16_lr5e-4/checkpoint-0400/pytorch_lora_weights.safetensors",
+    "weights_sha256": "785edb0488b813e0b7ba4bcf4bf557d6b722bedcdd090219383470fb4b58508b",
+    "config_fingerprint": "f9e7a12b112550ca65dfd7e34af0f62eebcd7d4f7ea1fc8c6a8ee73d7a60fce0",
+    "dataset_fingerprint": "b21901e386ab4d7a54483a369bd74fa82f0cb7ed9c99125b36cc56c8f11303a8"
+  }
+}

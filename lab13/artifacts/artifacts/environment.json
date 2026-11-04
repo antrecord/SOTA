@@ -1,0 +1,14 @@
+{
+  "versions": {
+    "torch": "2.11.0+cu130",
+    "torchvision": "0.26.0+cu130",
+    "diffusers": "0.42.1",
+    "transformers": "5.22.0",
+    "accelerate": "1.15.0",
+    "peft": "0.21.2",
+    "safetensors": "0.8.0",
+    "pillow": "11.3.0"
+  },
+  "gpu": "Tesla T4",
+  "python": "3.13.16"
+}

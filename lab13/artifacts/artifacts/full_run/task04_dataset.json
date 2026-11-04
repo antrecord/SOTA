@@ -1,0 +1,401 @@
+{
+  "status": "passed",
+  "fast_dev_run": false,
+  "n_items": 28,
+  "resolution": 512,
+  "preprocessing": "center crop + LANCZOS resize, [-1, 1], без аугментаций",
+  "tokenizer": {
+    "max_length": 77,
+    "vocab_size": 49408,
+    "bos_id": 49406,
+    "eos_id": 49407,
+    "pad_id": 49407,
+    "sks_pieces": [
+      "sks</w>"
+    ]
+  },
+  "token_len": {
+    "min": 10,
+    "max": 23,
+    "mean": 15.0
+  },
+  "eval_prompt_token_len": {
+    "p01": 12,
+    "p02": 15,
+    "p03": 14,
+    "p04": 14,
+    "p05": 11,
+    "p06": 12,
+    "p07": 10,
+    "p08": 11
+  },
+  "dataset_fingerprint": "b21901e386ab4d7a54483a369bd74fa82f0cb7ed9c99125b36cc56c8f11303a8",
+  "warnings": [],
+  "errors": [],
+  "items": [
+    {
+      "file_name": "commons_00.jpg",
+      "caption": "a photo of sks butterfly, 20230130-butterfly",
+      "n_tokens": 18,
+      "src_size": [
+        960,
+        720
+      ],
+      "crop_side": 720,
+      "upscale_factor": 0.711,
+      "pixel_min": -1.0,
+      "pixel_max": 1.0
+    },
+    {
+      "file_name": "commons_01.jpg",
+      "caption": "a photo of sks butterfly, a beautiful black butterfly",
+      "n_tokens": 12,
+      "src_size": [
+        960,
+        540
+      ],
+      "crop_side": 540,
+      "upscale_factor": 0.948,
+      "pixel_min": -1.0,
+      "pixel_max": 1.0
+    },
+    {
+      "file_name": "commons_02.jpg",
+      "caption": "a photo of sks butterfly, a butterfly eating papaya, location- lakhimpur, assam",
+      "n_tokens": 20,
+      "src_size": [
+        960,
+        540
+      ],
+      "crop_side": 540,
+      "upscale_factor": 0.948,
+      "pixel_min": -1.0,
+      "pixel_max": 1.0
+    },
+    {
+      "file_name": "commons_03.jpg",
+      "caption": "a photo of sks butterfly, a butterfly on a purple flower",
+      "n_tokens": 14,
+      "src_size": [
+        960,
+        640
+      ],
+      "crop_side": 640,
+      "upscale_factor": 0.8,
+      "pixel_min": -1.0,
+      "pixel_max": 1.0
+    },
+    {
+      "file_name": "commons_04.jpg",
+      "caption": "a photo of sks butterfly, black and white butterfly near shirahama",
+      "n_tokens": 16,
+      "src_size": [
+        960,
+        720
+      ],
+      "crop_side": 720,
+      "upscale_factor": 0.711,
+      "pixel_min": -1.0,
+      "pixel_max": 1.0
+    },
+    {
+      "file_name": "commons_05.jpg",
+      "caption": "a photo of sks butterfly, butterfly 51",
+      "n_tokens": 11,
+      "src_size": [
+        960,
+        1171
+      ],
+      "crop_side": 960,
+      "upscale_factor": 0.533,
+      "pixel_min": -1.0,
+      "pixel_max": 1.0
+    },
+    {
+      "file_name": "commons_06.jpg",
+      "caption": "a photo of sks butterfly, butterfly iguazu falls",
+      "n_tokens": 12,
+      "src_size": [
+        960,
+        1281
+      ],
+      "crop_side": 960,
+      "upscale_factor": 0.533,
+      "pixel_min": -1.0,
+      "pixel_max": 1.0
+    },
+    {
+      "file_name": "commons_07.jpg",
+      "caption": "a photo of sks butterfly, butterfly the insect",
+      "n_tokens": 11,
+      "src_size": [
+        960,
+        1200
+      ],
+      "crop_side": 960,
+      "upscale_factor": 0.533,
+      "pixel_min": -1.0,
+      "pixel_max": 1.0
+    },
+    {
+      "file_name": "commons_08.jpg",
+      "caption": "a photo of sks butterfly, butterfly at jonanjima",
+      "n_tokens": 13,
+      "src_size": [
+        960,
+        720
+      ],
+      "crop_side": 720,
+      "upscale_factor": 0.711,
+      "pixel_min": -1.0,
+      "pixel_max": 1.0
+    },
+    {
+      "file_name": "commons_09.jpg",
+      "caption": "a photo of sks butterfly, butterfly at wingham wildlife park kent uk",
+      "n_tokens": 16,
+      "src_size": [
+        960,
+        720
+      ],
+      "crop_side": 720,
+      "upscale_factor": 0.711,
+      "pixel_min": -1.0,
+      "pixel_max": 1.0
+    },
+    {
+      "file_name": "commons_10.jpg",
+      "caption": "a photo of sks butterfly, butterfly by the water",
+      "n_tokens": 12,
+      "src_size": [
+        960,
+        720
+      ],
+      "crop_side": 720,
+      "upscale_factor": 0.711,
+      "pixel_min": -1.0,
+      "pixel_max": 0.9922
+    },
+    {
+      "file_name": "commons_11.jpg",
+      "caption": "a photo of sks butterfly, butterfly enjoying with nature",
+      "n_tokens": 12,
+      "src_size": [
+        960,
+        640
+      ],
+      "crop_side": 640,
+      "upscale_factor": 0.8,
+      "pixel_min": -1.0,
+      "pixel_max": 1.0
+    },
+    {
+      "file_name": "commons_12.jpg",
+      "caption": "a photo of sks butterfly, butterfly from butterfly garden-lucknow zoo",
+      "n_tokens": 15,
+      "src_size": [
+        960,
+        1180
+      ],
+      "crop_side": 960,
+      "upscale_factor": 0.533,
+      "pixel_min": -1.0,
+      "pixel_max": 1.0
+    },
+    {
+      "file_name": "commons_13.jpg",
+      "caption": "a photo of sks butterfly, butterfly hanging on leaf",
+      "n_tokens": 12,
+      "src_size": [
+        960,
+        720
+      ],
+      "crop_side": 720,
+      "upscale_factor": 0.711,
+      "pixel_min": -1.0,
+      "pixel_max": 1.0
+    },
+    {
+      "file_name": "commons_14.jpg",
+      "caption": "a photo of sks butterfly, butterfly in armenia",
+      "n_tokens": 11,
+      "src_size": [
+        960,
+        723
+      ],
+      "crop_side": 723,
+      "upscale_factor": 0.708,
+      "pixel_min": -1.0,
+      "pixel_max": 1.0
+    },
+    {
+      "file_name": "commons_15.jpg",
+      "caption": "a photo of sks butterfly, butterfly orange",
+      "n_tokens": 10,
+      "src_size": [
+        960,
+        970
+      ],
+      "crop_side": 960,
+      "upscale_factor": 0.533,
+      "pixel_min": -1.0,
+      "pixel_max": 1.0
+    },
+    {
+      "file_name": "commons_16.jpg",
+      "caption": "a photo of sks butterfly, common jezebel delias eucharis by kadavoor 3",
+      "n_tokens": 21,
+      "src_size": [
+        960,
+        682
+      ],
+      "crop_side": 682,
+      "upscale_factor": 0.751,
+      "pixel_min": -1.0,
+      "pixel_max": 1.0
+    },
+    {
+      "file_name": "commons_17.jpg",
+      "caption": "a photo of sks butterfly, common pierrot butterfly at anamangad, malappuram, kerala",
+      "n_tokens": 23,
+      "src_size": [
+        960,
+        1280
+      ],
+      "crop_side": 960,
+      "upscale_factor": 0.533,
+      "pixel_min": -1.0,
+      "pixel_max": 1.0
+    },
+    {
+      "file_name": "commons_18.jpg",
+      "caption": "a photo of sks butterfly, common cerulean butterfly at sooranad north",
+      "n_tokens": 18,
+      "src_size": [
+        960,
+        960
+      ],
+      "crop_side": 960,
+      "upscale_factor": 0.533,
+      "pixel_min": -1.0,
+      "pixel_max": 1.0
+    },
+    {
+      "file_name": "commons_19.jpg",
+      "caption": "a photo of sks butterfly, dark cerulean butterfly female",
+      "n_tokens": 14,
+      "src_size": [
+        960,
+        640
+      ],
+      "crop_side": 640,
+      "upscale_factor": 0.8,
+      "pixel_min": -1.0,
+      "pixel_max": 1.0
+    },
+    {
+      "file_name": "commons_20.jpg",
+      "caption": "a photo of sks butterfly, elymnias hypermnestra male by kadavoor",
+      "n_tokens": 21,
+      "src_size": [
+        960,
+        720
+      ],
+      "crop_side": 720,
+      "upscale_factor": 0.711,
+      "pixel_min": -1.0,
+      "pixel_max": 1.0
+    },
+    {
+      "file_name": "commons_21.jpg",
+      "caption": "a photo of sks butterfly, marbled white butterfly (melanargia galathea)",
+      "n_tokens": 20,
+      "src_size": [
+        960,
+        960
+      ],
+      "crop_side": 960,
+      "upscale_factor": 0.533,
+      "pixel_min": -1.0,
+      "pixel_max": 1.0
+    },
+    {
+      "file_name": "commons_22.jpg",
+      "caption": "a photo of sks butterfly, monarch butterfly on butterfly bush flower",
+      "n_tokens": 14,
+      "src_size": [
+        960,
+        640
+      ],
+      "crop_side": 640,
+      "upscale_factor": 0.8,
+      "pixel_min": -1.0,
+      "pixel_max": 1.0
+    },
+    {
+      "file_name": "commons_23.jpg",
+      "caption": "a photo of sks butterfly, red pierrot butterfly at jakkur, bangalore",
+      "n_tokens": 18,
+      "src_size": [
+        960,
+        769
+      ],
+      "crop_side": 769,
+      "upscale_factor": 0.666,
+      "pixel_min": -1.0,
+      "pixel_max": 1.0
+    },
+    {
+      "file_name": "commons_24.jpg",
+      "caption": "a photo of sks butterfly, red admiral butterfly with wings closed",
+      "n_tokens": 14,
+      "src_size": [
+        960,
+        1280
+      ],
+      "crop_side": 960,
+      "upscale_factor": 0.533,
+      "pixel_min": -1.0,
+      "pixel_max": 1.0
+    },
+    {
+      "file_name": "commons_25.jpg",
+      "caption": "a photo of sks butterfly, swallowtail butterfly up close",
+      "n_tokens": 14,
+      "src_size": [
+        960,
+        640
+      ],
+      "crop_side": 640,
+      "upscale_factor": 0.8,
+      "pixel_min": -1.0,
+      "pixel_max": 1.0
+    },
+    {
+      "file_name": "commons_26.jpg",
+      "caption": "a photo of sks butterfly, white butterfly upside down on leaf",
+      "n_tokens": 14,
+      "src_size": [
+        960,
+        1280
+      ],
+      "crop_side": 960,
+      "upscale_factor": 0.533,
+      "pixel_min": -1.0,
+      "pixel_max": 1.0
+    },
+    {
+      "file_name": "commons_27.jpg",
+      "caption": "a photo of sks butterfly, yellow and black butterfly on ground",
+      "n_tokens": 14,
+      "src_size": [
+        960,
+        924
+      ],
+      "crop_side": 924,
+      "upscale_factor": 0.554,
+      "pixel_min": -1.0,
+      "pixel_max": 1.0
+    }
+  ]
+}

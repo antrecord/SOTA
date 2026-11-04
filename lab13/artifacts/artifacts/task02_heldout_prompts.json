@@ -1,0 +1,335 @@
+{
+  "status": "passed",
+  "fast_dev_run": false,
+  "spec_sha256": "3239d3d9dca0164d0ae7c5f6f5d822e9f6330f88763f1a9ed5af799a38af9cbb",
+  "similarity_limit": 0.8,
+  "resolution": 512,
+  "gen_config": {
+    "num_inference_steps": 30,
+    "guidance_scale": 7.5,
+    "negative_prompt": ""
+  },
+  "seeds": [
+    1001,
+    1002,
+    1003,
+    1004
+  ],
+  "train_seeds_reserved": [
+    64,
+    65,
+    66
+  ],
+  "prompts": [
+    {
+      "id": "p01",
+      "group": "trigger",
+      "text": "a photo of sks butterfly resting on a wooden fence"
+    },
+    {
+      "id": "p02",
+      "group": "trigger",
+      "text": "a photo of sks butterfly on a pink zinnia in a garden"
+    },
+    {
+      "id": "p03",
+      "group": "trigger",
+      "text": "a photo of sks butterfly with open wings on a stone wall"
+    },
+    {
+      "id": "p04",
+      "group": "trigger",
+      "text": "a photo of sks butterfly flying over a green meadow at sunrise"
+    },
+    {
+      "id": "p05",
+      "group": "trigger",
+      "text": "a macro photo of sks butterfly on a dandelion"
+    },
+    {
+      "id": "p06",
+      "group": "trigger",
+      "text": "a photo of sks butterfly sitting on a persons hand"
+    },
+    {
+      "id": "p07",
+      "group": "plain",
+      "text": "a photo of a butterfly on a sunflower"
+    },
+    {
+      "id": "p08",
+      "group": "control",
+      "text": "a photo of a ladybug on a green leaf"
+    }
+  ],
+  "leak_check": [
+    {
+      "id": "p01",
+      "max_similarity": 0.7,
+      "nearest_train_caption": "a photo of sks butterfly, butterfly hanging on leaf"
+    },
+    {
+      "id": "p02",
+      "max_similarity": 0.673,
+      "nearest_train_caption": "a photo of sks butterfly, butterfly in armenia"
+    },
+    {
+      "id": "p03",
+      "max_similarity": 0.679,
+      "nearest_train_caption": "a photo of sks butterfly, butterfly hanging on leaf"
+    },
+    {
+      "id": "p04",
+      "max_similarity": 0.673,
+      "nearest_train_caption": "a photo of sks butterfly, butterfly in armenia"
+    },
+    {
+      "id": "p05",
+      "max_similarity": 0.674,
+      "nearest_train_caption": "a photo of sks butterfly, butterfly orange"
+    },
+    {
+      "id": "p06",
+      "max_similarity": 0.716,
+      "nearest_train_caption": "a photo of sks butterfly, butterfly in armenia"
+    },
+    {
+      "id": "p07",
+      "max_similarity": 0.761,
+      "nearest_train_caption": "a photo of sks butterfly, a butterfly on a purple flower"
+    },
+    {
+      "id": "p08",
+      "max_similarity": 0.549,
+      "nearest_train_caption": "a photo of sks butterfly, a butterfly on a purple flower"
+    }
+  ],
+  "active_case_count": 32,
+  "eval_cases": [
+    {
+      "case_id": "p01_s1001",
+      "prompt_id": "p01",
+      "group": "trigger",
+      "prompt": "a photo of sks butterfly resting on a wooden fence",
+      "seed": 1001
+    },
+    {
+      "case_id": "p01_s1002",
+      "prompt_id": "p01",
+      "group": "trigger",
+      "prompt": "a photo of sks butterfly resting on a wooden fence",
+      "seed": 1002
+    },
+    {
+      "case_id": "p01_s1003",
+      "prompt_id": "p01",
+      "group": "trigger",
+      "prompt": "a photo of sks butterfly resting on a wooden fence",
+      "seed": 1003
+    },
+    {
+      "case_id": "p01_s1004",
+      "prompt_id": "p01",
+      "group": "trigger",
+      "prompt": "a photo of sks butterfly resting on a wooden fence",
+      "seed": 1004
+    },
+    {
+      "case_id": "p02_s1001",
+      "prompt_id": "p02",
+      "group": "trigger",
+      "prompt": "a photo of sks butterfly on a pink zinnia in a garden",
+      "seed": 1001
+    },
+    {
+      "case_id": "p02_s1002",
+      "prompt_id": "p02",
+      "group": "trigger",
+      "prompt": "a photo of sks butterfly on a pink zinnia in a garden",
+      "seed": 1002
+    },
+    {
+      "case_id": "p02_s1003",
+      "prompt_id": "p02",
+      "group": "trigger",
+      "prompt": "a photo of sks butterfly on a pink zinnia in a garden",
+      "seed": 1003
+    },
+    {
+      "case_id": "p02_s1004",
+      "prompt_id": "p02",
+      "group": "trigger",
+      "prompt": "a photo of sks butterfly on a pink zinnia in a garden",
+      "seed": 1004
+    },
+    {
+      "case_id": "p03_s1001",
+      "prompt_id": "p03",
+      "group": "trigger",
+      "prompt": "a photo of sks butterfly with open wings on a stone wall",
+      "seed": 1001
+    },
+    {
+      "case_id": "p03_s1002",
+      "prompt_id": "p03",
+      "group": "trigger",
+      "prompt": "a photo of sks butterfly with open wings on a stone wall",
+      "seed": 1002
+    },
+    {
+      "case_id": "p03_s1003",
+      "prompt_id": "p03",
+      "group": "trigger",
+      "prompt": "a photo of sks butterfly with open wings on a stone wall",
+      "seed": 1003
+    },
+    {
+      "case_id": "p03_s1004",
+      "prompt_id": "p03",
+      "group": "trigger",
+      "prompt": "a photo of sks butterfly with open wings on a stone wall",
+      "seed": 1004
+    },
+    {
+      "case_id": "p04_s1001",
+      "prompt_id": "p04",
+      "group": "trigger",
+      "prompt": "a photo of sks butterfly flying over a green meadow at sunrise",
+      "seed": 1001
+    },
+    {
+      "case_id": "p04_s1002",
+      "prompt_id": "p04",
+      "group": "trigger",
+      "prompt": "a photo of sks butterfly flying over a green meadow at sunrise",
+      "seed": 1002
+    },
+    {
+      "case_id": "p04_s1003",
+      "prompt_id": "p04",
+      "group": "trigger",
+      "prompt": "a photo of sks butterfly flying over a green meadow at sunrise",
+      "seed": 1003
+    },
+    {
+      "case_id": "p04_s1004",
+      "prompt_id": "p04",
+      "group": "trigger",
+      "prompt": "a photo of sks butterfly flying over a green meadow at sunrise",
+      "seed": 1004
+    },
+    {
+      "case_id": "p05_s1001",
+      "prompt_id": "p05",
+      "group": "trigger",
+      "prompt": "a macro photo of sks butterfly on a dandelion",
+      "seed": 1001
+    },
+    {
+      "case_id": "p05_s1002",
+      "prompt_id": "p05",
+      "group": "trigger",
+      "prompt": "a macro photo of sks butterfly on a dandelion",
+      "seed": 1002
+    },
+    {
+      "case_id": "p05_s1003",
+      "prompt_id": "p05",
+      "group": "trigger",
+      "prompt": "a macro photo of sks butterfly on a dandelion",
+      "seed": 1003
+    },
+    {
+      "case_id": "p05_s1004",
+      "prompt_id": "p05",
+      "group": "trigger",
+      "prompt": "a macro photo of sks butterfly on a dandelion",
+      "seed": 1004
+    },
+    {
+      "case_id": "p06_s1001",
+      "prompt_id": "p06",
+      "group": "trigger",
+      "prompt": "a photo of sks butterfly sitting on a persons hand",
+      "seed": 1001
+    },
+    {
+      "case_id": "p06_s1002",
+      "prompt_id": "p06",
+      "group": "trigger",
+      "prompt": "a photo of sks butterfly sitting on a persons hand",
+      "seed": 1002
+    },
+    {
+      "case_id": "p06_s1003",
+      "prompt_id": "p06",
+      "group": "trigger",
+      "prompt": "a photo of sks butterfly sitting on a persons hand",
+      "seed": 1003
+    },
+    {
+      "case_id": "p06_s1004",
+      "prompt_id": "p06",
+      "group": "trigger",
+      "prompt": "a photo of sks butterfly sitting on a persons hand",
+      "seed": 1004
+    },
+    {
+      "case_id": "p07_s1001",
+      "prompt_id": "p07",
+      "group": "plain",
+      "prompt": "a photo of a butterfly on a sunflower",
+      "seed": 1001
+    },
+    {
+      "case_id": "p07_s1002",
+      "prompt_id": "p07",
+      "group": "plain",
+      "prompt": "a photo of a butterfly on a sunflower",
+      "seed": 1002
+    },
+    {
+      "case_id": "p07_s1003",
+      "prompt_id": "p07",
+      "group": "plain",
+      "prompt": "a photo of a butterfly on a sunflower",
+      "seed": 1003
+    },
+    {
+      "case_id": "p07_s1004",
+      "prompt_id": "p07",
+      "group": "plain",
+      "prompt": "a photo of a butterfly on a sunflower",
+      "seed": 1004
+    },
+    {
+      "case_id": "p08_s1001",
+      "prompt_id": "p08",
+      "group": "control",
+      "prompt": "a photo of a ladybug on a green leaf",
+      "seed": 1001
+    },
+    {
+      "case_id": "p08_s1002",
+      "prompt_id": "p08",
+      "group": "control",
+      "prompt": "a photo of a ladybug on a green leaf",
+      "seed": 1002
+    },
+    {
+      "case_id": "p08_s1003",
+      "prompt_id": "p08",
+      "group": "control",
+      "prompt": "a photo of a ladybug on a green leaf",
+      "seed": 1003
+    },
+    {
+      "case_id": "p08_s1004",
+      "prompt_id": "p08",
+      "group": "control",
+      "prompt": "a photo of a ladybug on a green leaf",
+      "seed": 1004
+    }
+  ],
+  "errors": []
+}

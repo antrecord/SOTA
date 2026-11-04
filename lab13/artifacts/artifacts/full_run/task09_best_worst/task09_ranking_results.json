@@ -1,0 +1,346 @@
+{
+  "baseline": {
+    "best_5": [
+      {
+        "rank": 1,
+        "case_id": "p03_s1003",
+        "prompt": "a photo of sks butterfly with open wings on a stone wall",
+        "seed": 1003,
+        "cosine_similarity": 0.3264032304286957,
+        "image_path": "/content/drive/MyDrive/lab13/artifacts/full_run/generations/baseline/p03_s1003.png"
+      },
+      {
+        "rank": 2,
+        "case_id": "p02_s1004",
+        "prompt": "a photo of sks butterfly on a pink zinnia in a garden",
+        "seed": 1004,
+        "cosine_similarity": 0.31299537420272827,
+        "image_path": "/content/drive/MyDrive/lab13/artifacts/full_run/generations/baseline/p02_s1004.png"
+      },
+      {
+        "rank": 3,
+        "case_id": "p03_s1001",
+        "prompt": "a photo of sks butterfly with open wings on a stone wall",
+        "seed": 1001,
+        "cosine_similarity": 0.3123253285884857,
+        "image_path": "/content/drive/MyDrive/lab13/artifacts/full_run/generations/baseline/p03_s1001.png"
+      },
+      {
+        "rank": 4,
+        "case_id": "p04_s1002",
+        "prompt": "a photo of sks butterfly flying over a green meadow at sunrise",
+        "seed": 1002,
+        "cosine_similarity": 0.309517502784729,
+        "image_path": "/content/drive/MyDrive/lab13/artifacts/full_run/generations/baseline/p04_s1002.png"
+      },
+      {
+        "rank": 5,
+        "case_id": "p01_s1003",
+        "prompt": "a photo of sks butterfly resting on a wooden fence",
+        "seed": 1003,
+        "cosine_similarity": 0.30475980043411255,
+        "image_path": "/content/drive/MyDrive/lab13/artifacts/full_run/generations/baseline/p01_s1003.png"
+      }
+    ],
+    "worst_5": [
+      {
+        "rank": 1,
+        "case_id": "p08_s1002",
+        "prompt": "a photo of a ladybug on a green leaf",
+        "seed": 1002,
+        "cosine_similarity": 0.22458969056606293,
+        "image_path": "/content/drive/MyDrive/lab13/artifacts/full_run/generations/baseline/p08_s1002.png"
+      },
+      {
+        "rank": 2,
+        "case_id": "p05_s1001",
+        "prompt": "a macro photo of sks butterfly on a dandelion",
+        "seed": 1001,
+        "cosine_similarity": 0.24175022542476654,
+        "image_path": "/content/drive/MyDrive/lab13/artifacts/full_run/generations/baseline/p05_s1001.png"
+      },
+      {
+        "rank": 3,
+        "case_id": "p05_s1003",
+        "prompt": "a macro photo of sks butterfly on a dandelion",
+        "seed": 1003,
+        "cosine_similarity": 0.2540242075920105,
+        "image_path": "/content/drive/MyDrive/lab13/artifacts/full_run/generations/baseline/p05_s1003.png"
+      },
+      {
+        "rank": 4,
+        "case_id": "p07_s1004",
+        "prompt": "a photo of a butterfly on a sunflower",
+        "seed": 1004,
+        "cosine_similarity": 0.260503888130188,
+        "image_path": "/content/drive/MyDrive/lab13/artifacts/full_run/generations/baseline/p07_s1004.png"
+      },
+      {
+        "rank": 5,
+        "case_id": "p08_s1001",
+        "prompt": "a photo of a ladybug on a green leaf",
+        "seed": 1001,
+        "cosine_similarity": 0.2710667550563812,
+        "image_path": "/content/drive/MyDrive/lab13/artifacts/full_run/generations/baseline/p08_s1001.png"
+      }
+    ]
+  },
+  "A_r4_lr1e-4": {
+    "best_5": [
+      {
+        "rank": 1,
+        "case_id": "p03_s1002",
+        "prompt": "a photo of sks butterfly with open wings on a stone wall",
+        "seed": 1002,
+        "cosine_similarity": 0.3166554272174835,
+        "image_path": "/content/drive/MyDrive/lab13/artifacts/full_run/generations/A_r4_lr1e-4/p03_s1002.png"
+      },
+      {
+        "rank": 2,
+        "case_id": "p03_s1001",
+        "prompt": "a photo of sks butterfly with open wings on a stone wall",
+        "seed": 1001,
+        "cosine_similarity": 0.31019917130470276,
+        "image_path": "/content/drive/MyDrive/lab13/artifacts/full_run/generations/A_r4_lr1e-4/p03_s1001.png"
+      },
+      {
+        "rank": 3,
+        "case_id": "p06_s1002",
+        "prompt": "a photo of sks butterfly sitting on a persons hand",
+        "seed": 1002,
+        "cosine_similarity": 0.30641499161720276,
+        "image_path": "/content/drive/MyDrive/lab13/artifacts/full_run/generations/A_r4_lr1e-4/p06_s1002.png"
+      },
+      {
+        "rank": 4,
+        "case_id": "p03_s1003",
+        "prompt": "a photo of sks butterfly with open wings on a stone wall",
+        "seed": 1003,
+        "cosine_similarity": 0.3041461408138275,
+        "image_path": "/content/drive/MyDrive/lab13/artifacts/full_run/generations/A_r4_lr1e-4/p03_s1003.png"
+      },
+      {
+        "rank": 5,
+        "case_id": "p01_s1001",
+        "prompt": "a photo of sks butterfly resting on a wooden fence",
+        "seed": 1001,
+        "cosine_similarity": 0.30020254850387573,
+        "image_path": "/content/drive/MyDrive/lab13/artifacts/full_run/generations/A_r4_lr1e-4/p01_s1001.png"
+      }
+    ],
+    "worst_5": [
+      {
+        "rank": 1,
+        "case_id": "p05_s1001",
+        "prompt": "a macro photo of sks butterfly on a dandelion",
+        "seed": 1001,
+        "cosine_similarity": 0.19826436042785645,
+        "image_path": "/content/drive/MyDrive/lab13/artifacts/full_run/generations/A_r4_lr1e-4/p05_s1001.png"
+      },
+      {
+        "rank": 2,
+        "case_id": "p04_s1001",
+        "prompt": "a photo of sks butterfly flying over a green meadow at sunrise",
+        "seed": 1001,
+        "cosine_similarity": 0.2410089671611786,
+        "image_path": "/content/drive/MyDrive/lab13/artifacts/full_run/generations/A_r4_lr1e-4/p04_s1001.png"
+      },
+      {
+        "rank": 3,
+        "case_id": "p05_s1003",
+        "prompt": "a macro photo of sks butterfly on a dandelion",
+        "seed": 1003,
+        "cosine_similarity": 0.2604328393936157,
+        "image_path": "/content/drive/MyDrive/lab13/artifacts/full_run/generations/A_r4_lr1e-4/p05_s1003.png"
+      },
+      {
+        "rank": 4,
+        "case_id": "p04_s1003",
+        "prompt": "a photo of sks butterfly flying over a green meadow at sunrise",
+        "seed": 1003,
+        "cosine_similarity": 0.2626831531524658,
+        "image_path": "/content/drive/MyDrive/lab13/artifacts/full_run/generations/A_r4_lr1e-4/p04_s1003.png"
+      },
+      {
+        "rank": 5,
+        "case_id": "p04_s1004",
+        "prompt": "a photo of sks butterfly flying over a green meadow at sunrise",
+        "seed": 1004,
+        "cosine_similarity": 0.26354309916496277,
+        "image_path": "/content/drive/MyDrive/lab13/artifacts/full_run/generations/A_r4_lr1e-4/p04_s1004.png"
+      }
+    ]
+  },
+  "B_r16_lr1e-4": {
+    "best_5": [
+      {
+        "rank": 1,
+        "case_id": "p03_s1002",
+        "prompt": "a photo of sks butterfly with open wings on a stone wall",
+        "seed": 1002,
+        "cosine_similarity": 0.32073137164115906,
+        "image_path": "/content/drive/MyDrive/lab13/artifacts/full_run/generations/B_r16_lr1e-4/p03_s1002.png"
+      },
+      {
+        "rank": 2,
+        "case_id": "p04_s1004",
+        "prompt": "a photo of sks butterfly flying over a green meadow at sunrise",
+        "seed": 1004,
+        "cosine_similarity": 0.31450986862182617,
+        "image_path": "/content/drive/MyDrive/lab13/artifacts/full_run/generations/B_r16_lr1e-4/p04_s1004.png"
+      },
+      {
+        "rank": 3,
+        "case_id": "p03_s1003",
+        "prompt": "a photo of sks butterfly with open wings on a stone wall",
+        "seed": 1003,
+        "cosine_similarity": 0.31448113918304443,
+        "image_path": "/content/drive/MyDrive/lab13/artifacts/full_run/generations/B_r16_lr1e-4/p03_s1003.png"
+      },
+      {
+        "rank": 4,
+        "case_id": "p03_s1004",
+        "prompt": "a photo of sks butterfly with open wings on a stone wall",
+        "seed": 1004,
+        "cosine_similarity": 0.30406421422958374,
+        "image_path": "/content/drive/MyDrive/lab13/artifacts/full_run/generations/B_r16_lr1e-4/p03_s1004.png"
+      },
+      {
+        "rank": 5,
+        "case_id": "p07_s1002",
+        "prompt": "a photo of a butterfly on a sunflower",
+        "seed": 1002,
+        "cosine_similarity": 0.30353015661239624,
+        "image_path": "/content/drive/MyDrive/lab13/artifacts/full_run/generations/B_r16_lr1e-4/p07_s1002.png"
+      }
+    ],
+    "worst_5": [
+      {
+        "rank": 1,
+        "case_id": "p05_s1001",
+        "prompt": "a macro photo of sks butterfly on a dandelion",
+        "seed": 1001,
+        "cosine_similarity": 0.19592630863189697,
+        "image_path": "/content/drive/MyDrive/lab13/artifacts/full_run/generations/B_r16_lr1e-4/p05_s1001.png"
+      },
+      {
+        "rank": 2,
+        "case_id": "p04_s1001",
+        "prompt": "a photo of sks butterfly flying over a green meadow at sunrise",
+        "seed": 1001,
+        "cosine_similarity": 0.2337656021118164,
+        "image_path": "/content/drive/MyDrive/lab13/artifacts/full_run/generations/B_r16_lr1e-4/p04_s1001.png"
+      },
+      {
+        "rank": 3,
+        "case_id": "p05_s1003",
+        "prompt": "a macro photo of sks butterfly on a dandelion",
+        "seed": 1003,
+        "cosine_similarity": 0.24931877851486206,
+        "image_path": "/content/drive/MyDrive/lab13/artifacts/full_run/generations/B_r16_lr1e-4/p05_s1003.png"
+      },
+      {
+        "rank": 4,
+        "case_id": "p08_s1002",
+        "prompt": "a photo of a ladybug on a green leaf",
+        "seed": 1002,
+        "cosine_similarity": 0.2600538432598114,
+        "image_path": "/content/drive/MyDrive/lab13/artifacts/full_run/generations/B_r16_lr1e-4/p08_s1002.png"
+      },
+      {
+        "rank": 5,
+        "case_id": "p07_s1001",
+        "prompt": "a photo of a butterfly on a sunflower",
+        "seed": 1001,
+        "cosine_similarity": 0.26352593302726746,
+        "image_path": "/content/drive/MyDrive/lab13/artifacts/full_run/generations/B_r16_lr1e-4/p07_s1001.png"
+      }
+    ]
+  },
+  "C_r16_lr5e-4": {
+    "best_5": [
+      {
+        "rank": 1,
+        "case_id": "p03_s1001",
+        "prompt": "a photo of sks butterfly with open wings on a stone wall",
+        "seed": 1001,
+        "cosine_similarity": 0.37804752588272095,
+        "image_path": "/content/drive/MyDrive/lab13/artifacts/full_run/generations/C_r16_lr5e-4/p03_s1001.png"
+      },
+      {
+        "rank": 2,
+        "case_id": "p04_s1001",
+        "prompt": "a photo of sks butterfly flying over a green meadow at sunrise",
+        "seed": 1001,
+        "cosine_similarity": 0.3360922336578369,
+        "image_path": "/content/drive/MyDrive/lab13/artifacts/full_run/generations/C_r16_lr5e-4/p04_s1001.png"
+      },
+      {
+        "rank": 3,
+        "case_id": "p04_s1002",
+        "prompt": "a photo of sks butterfly flying over a green meadow at sunrise",
+        "seed": 1002,
+        "cosine_similarity": 0.3304139971733093,
+        "image_path": "/content/drive/MyDrive/lab13/artifacts/full_run/generations/C_r16_lr5e-4/p04_s1002.png"
+      },
+      {
+        "rank": 4,
+        "case_id": "p03_s1003",
+        "prompt": "a photo of sks butterfly with open wings on a stone wall",
+        "seed": 1003,
+        "cosine_similarity": 0.32936596870422363,
+        "image_path": "/content/drive/MyDrive/lab13/artifacts/full_run/generations/C_r16_lr5e-4/p03_s1003.png"
+      },
+      {
+        "rank": 5,
+        "case_id": "p04_s1003",
+        "prompt": "a photo of sks butterfly flying over a green meadow at sunrise",
+        "seed": 1003,
+        "cosine_similarity": 0.3156333267688751,
+        "image_path": "/content/drive/MyDrive/lab13/artifacts/full_run/generations/C_r16_lr5e-4/p04_s1003.png"
+      }
+    ],
+    "worst_5": [
+      {
+        "rank": 1,
+        "case_id": "p06_s1001",
+        "prompt": "a photo of sks butterfly sitting on a persons hand",
+        "seed": 1001,
+        "cosine_similarity": 0.21334302425384521,
+        "image_path": "/content/drive/MyDrive/lab13/artifacts/full_run/generations/C_r16_lr5e-4/p06_s1001.png"
+      },
+      {
+        "rank": 2,
+        "case_id": "p05_s1001",
+        "prompt": "a macro photo of sks butterfly on a dandelion",
+        "seed": 1001,
+        "cosine_similarity": 0.23617590963840485,
+        "image_path": "/content/drive/MyDrive/lab13/artifacts/full_run/generations/C_r16_lr5e-4/p05_s1001.png"
+      },
+      {
+        "rank": 3,
+        "case_id": "p05_s1003",
+        "prompt": "a macro photo of sks butterfly on a dandelion",
+        "seed": 1003,
+        "cosine_similarity": 0.25481051206588745,
+        "image_path": "/content/drive/MyDrive/lab13/artifacts/full_run/generations/C_r16_lr5e-4/p05_s1003.png"
+      },
+      {
+        "rank": 4,
+        "case_id": "p05_s1004",
+        "prompt": "a macro photo of sks butterfly on a dandelion",
+        "seed": 1004,
+        "cosine_similarity": 0.2560436725616455,
+        "image_path": "/content/drive/MyDrive/lab13/artifacts/full_run/generations/C_r16_lr5e-4/p05_s1004.png"
+      },
+      {
+        "rank": 5,
+        "case_id": "p03_s1002",
+        "prompt": "a photo of sks butterfly with open wings on a stone wall",
+        "seed": 1002,
+        "cosine_similarity": 0.26986488699913025,
+        "image_path": "/content/drive/MyDrive/lab13/artifacts/full_run/generations/C_r16_lr5e-4/p03_s1002.png"
+      }
+    ]
+  }
+}

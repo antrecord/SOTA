@@ -1,0 +1,198 @@
+[
+  {
+    "index": 0,
+    "file_name": "commons_00.jpg",
+    "caption": "a photo of sks butterfly, 20230130-butterfly",
+    "sha256": "a06b441377efdd2284dd93d2c71f8232ac5a043d02313998a9f907d9c8f07956",
+    "path": "/content/drive/MyDrive/lab13/data/lab13/commons_00.jpg"
+  },
+  {
+    "index": 1,
+    "file_name": "commons_01.jpg",
+    "caption": "a photo of sks butterfly, a beautiful black butterfly",
+    "sha256": "31aef01c2a443cc7ca103c4f152d8460672a19af26844e08a43145ce3a0228f8",
+    "path": "/content/drive/MyDrive/lab13/data/lab13/commons_01.jpg"
+  },
+  {
+    "index": 2,
+    "file_name": "commons_02.jpg",
+    "caption": "a photo of sks butterfly, a butterfly eating papaya, location- lakhimpur, assam",
+    "sha256": "0c50cab0978ba3e4364caee684fbd19f1ec9e0171efab35f9bd43156d1fcdd74",
+    "path": "/content/drive/MyDrive/lab13/data/lab13/commons_02.jpg"
+  },
+  {
+    "index": 3,
+    "file_name": "commons_03.jpg",
+    "caption": "a photo of sks butterfly, a butterfly on a purple flower",
+    "sha256": "3d0dd918099f3f3328793c3442dcc78c8c2fa3764ed793049f6d2352e63e4def",
+    "path": "/content/drive/MyDrive/lab13/data/lab13/commons_03.jpg"
+  },
+  {
+    "index": 4,
+    "file_name": "commons_04.jpg",
+    "caption": "a photo of sks butterfly, black and white butterfly near shirahama",
+    "sha256": "7c387b7c0ed0a64f7cf360fa8ad4ef43e2708eb96551d3c910fe0587b88731ca",
+    "path": "/content/drive/MyDrive/lab13/data/lab13/commons_04.jpg"
+  },
+  {
+    "index": 5,
+    "file_name": "commons_05.jpg",
+    "caption": "a photo of sks butterfly, butterfly 51",
+    "sha256": "eb084efff7811690d31f9950e9abbc73c1f38422ed2da2b7ac77273d41fda235",
+    "path": "/content/drive/MyDrive/lab13/data/lab13/commons_05.jpg"
+  },
+  {
+    "index": 6,
+    "file_name": "commons_06.jpg",
+    "caption": "a photo of sks butterfly, butterfly iguazu falls",
+    "sha256": "d3c0aba6ee25c48af1e6c558241d51c8c070bf6037e4db37b3a8296f4e5e65e8",
+    "path": "/content/drive/MyDrive/lab13/data/lab13/commons_06.jpg"
+  },
+  {
+    "index": 7,
+    "file_name": "commons_07.jpg",
+    "caption": "a photo of sks butterfly, butterfly the insect",
+    "sha256": "334fad254b1558259ab17f6e3b0df3de03c594bfcbb7ed030862b1611ad68b15",
+    "path": "/content/drive/MyDrive/lab13/data/lab13/commons_07.jpg"
+  },
+  {
+    "index": 8,
+    "file_name": "commons_08.jpg",
+    "caption": "a photo of sks butterfly, butterfly at jonanjima",
+    "sha256": "7ca84d8e348a2d8bc9559630a3cd0a40da14989ed8b5cdf94c33b815aa415578",
+    "path": "/content/drive/MyDrive/lab13/data/lab13/commons_08.jpg"
+  },
+  {
+    "index": 9,
+    "file_name": "commons_09.jpg",
+    "caption": "a photo of sks butterfly, butterfly at wingham wildlife park kent uk",
+    "sha256": "e819d3cda802f669c5cdbf3a2ebcbac7e7dbcef4b9826cdb8c428a6048ddae7c",
+    "path": "/content/drive/MyDrive/lab13/data/lab13/commons_09.jpg"
+  },
+  {
+    "index": 10,
+    "file_name": "commons_10.jpg",
+    "caption": "a photo of sks butterfly, butterfly by the water",
+    "sha256": "270f232b0e03a81a272b0257b7948c2fdbb929ede7480f11e4523f8e3fc43c1e",
+    "path": "/content/drive/MyDrive/lab13/data/lab13/commons_10.jpg"
+  },
+  {
+    "index": 11,
+    "file_name": "commons_11.jpg",
+    "caption": "a photo of sks butterfly, butterfly enjoying with nature",
+    "sha256": "7a3097c67d10a1ec16bba3e0c8bf5f06514d898e28a2fd8cbca2b298479162b5",
+    "path": "/content/drive/MyDrive/lab13/data/lab13/commons_11.jpg"
+  },
+  {
+    "index": 12,
+    "file_name": "commons_12.jpg",
+    "caption": "a photo of sks butterfly, butterfly from butterfly garden-lucknow zoo",
+    "sha256": "b08d62a310d54a8fb15d231fa1a69daa039c97be7e90e41c88d3ef4ed50ce025",
+    "path": "/content/drive/MyDrive/lab13/data/lab13/commons_12.jpg"
+  },
+  {
+    "index": 13,
+    "file_name": "commons_13.jpg",
+    "caption": "a photo of sks butterfly, butterfly hanging on leaf",
+    "sha256": "6185b07014f7e81825c9c7b2ca0c88dd82629e92d01d36a95afb969f1cada8af",
+    "path": "/content/drive/MyDrive/lab13/data/lab13/commons_13.jpg"
+  },
+  {
+    "index": 14,
+    "file_name": "commons_14.jpg",
+    "caption": "a photo of sks butterfly, butterfly in armenia",
+    "sha256": "f65801fcb77140803806ce8c4f81644550fa27cd282d664226c63a4e93df8089",
+    "path": "/content/drive/MyDrive/lab13/data/lab13/commons_14.jpg"
+  },
+  {
+    "index": 15,
+    "file_name": "commons_15.jpg",
+    "caption": "a photo of sks butterfly, butterfly orange",
+    "sha256": "0e537da85692276bdbc4e9a2e681b3b2ce1daeda133709d8d206b514a677d408",
+    "path": "/content/drive/MyDrive/lab13/data/lab13/commons_15.jpg"
+  },
+  {
+    "index": 16,
+    "file_name": "commons_16.jpg",
+    "caption": "a photo of sks butterfly, common jezebel delias eucharis by kadavoor 3",
+    "sha256": "f2fa929b185fa5ae8722d037e2b0e58db59203d89ee2153d4d63cff213c374a9",
+    "path": "/content/drive/MyDrive/lab13/data/lab13/commons_16.jpg"
+  },
+  {
+    "index": 17,
+    "file_name": "commons_17.jpg",
+    "caption": "a photo of sks butterfly, common pierrot butterfly at anamangad, malappuram, kerala",
+    "sha256": "2b5c90fa77aff59278620dbbb81b9ca5bc33d8de6d2cf1e12dcd4930ef0fdcd5",
+    "path": "/content/drive/MyDrive/lab13/data/lab13/commons_17.jpg"
+  },
+  {
+    "index": 18,
+    "file_name": "commons_18.jpg",
+    "caption": "a photo of sks butterfly, common cerulean butterfly at sooranad north",
+    "sha256": "f8aa5519a64ebf0b6a983c51fbc3195bbf5518e97944f677129db08139e54c27",
+    "path": "/content/drive/MyDrive/lab13/data/lab13/commons_18.jpg"
+  },
+  {
+    "index": 19,
+    "file_name": "commons_19.jpg",
+    "caption": "a photo of sks butterfly, dark cerulean butterfly female",
+    "sha256": "32307183337661bff0571ca9802a0f0accbc7e37386fd9f4fb3a1f824da7fbc7",
+    "path": "/content/drive/MyDrive/lab13/data/lab13/commons_19.jpg"
+  },
+  {
+    "index": 20,
+    "file_name": "commons_20.jpg",
+    "caption": "a photo of sks butterfly, elymnias hypermnestra male by kadavoor",
+    "sha256": "11607d59e85b19d43f6519c0d948ee31455a23ae623b124e54a60465b26e50f3",
+    "path": "/content/drive/MyDrive/lab13/data/lab13/commons_20.jpg"
+  },
+  {
+    "index": 21,
+    "file_name": "commons_21.jpg",
+    "caption": "a photo of sks butterfly, marbled white butterfly (melanargia galathea)",
+    "sha256": "1710d53288457d8a9a22bdedffd8480ff687a9eabe3e6e30f1a212b449547b14",
+    "path": "/content/drive/MyDrive/lab13/data/lab13/commons_21.jpg"
+  },
+  {
+    "index": 22,
+    "file_name": "commons_22.jpg",
+    "caption": "a photo of sks butterfly, monarch butterfly on butterfly bush flower",
+    "sha256": "4291fec92b4fa83567f30af879aed0dca0bee9b15d55e76e9a63f39445867536",
+    "path": "/content/drive/MyDrive/lab13/data/lab13/commons_22.jpg"
+  },
+  {
+    "index": 23,
+    "file_name": "commons_23.jpg",
+    "caption": "a photo of sks butterfly, red pierrot butterfly at jakkur, bangalore",
+    "sha256": "5d9717d1500a96a2915e03ee4a3b54ed2a9407812d902ada5ccec05f80520d8d",
+    "path": "/content/drive/MyDrive/lab13/data/lab13/commons_23.jpg"
+  },
+  {
+    "index": 24,
+    "file_name": "commons_24.jpg",
+    "caption": "a photo of sks butterfly, red admiral butterfly with wings closed",
+    "sha256": "775b5f6bda2c38d751464caa9e9a229b0c9c8f40f935a636493fdc02b66fcfc9",
+    "path": "/content/drive/MyDrive/lab13/data/lab13/commons_24.jpg"
+  },
+  {
+    "index": 25,
+    "file_name": "commons_25.jpg",
+    "caption": "a photo of sks butterfly, swallowtail butterfly up close",
+    "sha256": "6d845d7f2bde17b2fc63beee4401113eddde4be26484e9211265579de9df1f66",
+    "path": "/content/drive/MyDrive/lab13/data/lab13/commons_25.jpg"
+  },
+  {
+    "index": 26,
+    "file_name": "commons_26.jpg",
+    "caption": "a photo of sks butterfly, white butterfly upside down on leaf",
+    "sha256": "54546f94ffb663827c49f76ecf89975d294e79bdc81036b6e3587f38783ef0d4",
+    "path": "/content/drive/MyDrive/lab13/data/lab13/commons_26.jpg"
+  },
+  {
+    "index": 27,
+    "file_name": "commons_27.jpg",
+    "caption": "a photo of sks butterfly, yellow and black butterfly on ground",
+    "sha256": "3f2c788a0afe9baa08b09203f4a6fd6673e0a856f4af9f7e4024f003c127455c",
+    "path": "/content/drive/MyDrive/lab13/data/lab13/commons_27.jpg"
+  }
+]

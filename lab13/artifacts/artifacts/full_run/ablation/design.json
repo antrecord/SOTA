@@ -1,0 +1,133 @@
+{
+  "hypothesis_sha256": "6833a9f63b02bd1a7e1f58ad349d14ae045fe606b086267035c43e80ce4a3638",
+  "ablation_config": {
+    "name": "B_nosks_r16_lr1e-4",
+    "rank": 16,
+    "lora_alpha": 16,
+    "learning_rate": 0.0001
+  },
+  "audit": {
+    "removed_token": "sks",
+    "captions_changed": 28,
+    "identical_between_runs": [
+      "images",
+      "rank",
+      "lr",
+      "lora_alpha",
+      "updates",
+      "effective_batch",
+      "seed",
+      "sample_order",
+      "noise_and_timesteps",
+      "lora_init",
+      "eval_prompts",
+      "eval_seeds",
+      "reference_config=B_r16_lr1e-4"
+    ],
+    "same_rank_lr_alpha": true,
+    "max_similarity_eval_prompt_vs_train_caption": {
+      "p01": 0.7,
+      "p01n": 0.674,
+      "p02": 0.673,
+      "p02n": 0.644,
+      "p03": 0.679,
+      "p03n": 0.653,
+      "p04": 0.673,
+      "p04n": 0.646,
+      "p05": 0.674,
+      "p05n": 0.641,
+      "p06": 0.716,
+      "p06n": 0.69,
+      "p07": 0.795,
+      "p08": 0.575
+    }
+  },
+  "ablation_dataset_fingerprint": "20f22673684618ffaca3098fbaac5d09df5a2e5bf76534a82b205f426efe4f60",
+  "prompts": [
+    {
+      "id": "p01",
+      "pair": "p01",
+      "kind": "with_sks",
+      "text": "a photo of sks butterfly resting on a wooden fence"
+    },
+    {
+      "id": "p01n",
+      "pair": "p01",
+      "kind": "no_sks",
+      "text": "a photo of butterfly resting on a wooden fence"
+    },
+    {
+      "id": "p02",
+      "pair": "p02",
+      "kind": "with_sks",
+      "text": "a photo of sks butterfly on a pink zinnia in a garden"
+    },
+    {
+      "id": "p02n",
+      "pair": "p02",
+      "kind": "no_sks",
+      "text": "a photo of butterfly on a pink zinnia in a garden"
+    },
+    {
+      "id": "p03",
+      "pair": "p03",
+      "kind": "with_sks",
+      "text": "a photo of sks butterfly with open wings on a stone wall"
+    },
+    {
+      "id": "p03n",
+      "pair": "p03",
+      "kind": "no_sks",
+      "text": "a photo of butterfly with open wings on a stone wall"
+    },
+    {
+      "id": "p04",
+      "pair": "p04",
+      "kind": "with_sks",
+      "text": "a photo of sks butterfly flying over a green meadow at sunrise"
+    },
+    {
+      "id": "p04n",
+      "pair": "p04",
+      "kind": "no_sks",
+      "text": "a photo of butterfly flying over a green meadow at sunrise"
+    },
+    {
+      "id": "p05",
+      "pair": "p05",
+      "kind": "with_sks",
+      "text": "a macro photo of sks butterfly on a dandelion"
+    },
+    {
+      "id": "p05n",
+      "pair": "p05",
+      "kind": "no_sks",
+      "text": "a macro photo of butterfly on a dandelion"
+    },
+    {
+      "id": "p06",
+      "pair": "p06",
+      "kind": "with_sks",
+      "text": "a photo of sks butterfly sitting on a persons hand"
+    },
+    {
+      "id": "p06n",
+      "pair": "p06",
+      "kind": "no_sks",
+      "text": "a photo of butterfly sitting on a persons hand"
+    },
+    {
+      "id": "p07",
+      "pair": "p07",
+      "kind": "plain",
+      "text": "a photo of a butterfly on a sunflower"
+    },
+    {
+      "id": "p08",
+      "pair": "p08",
+      "kind": "control",
+      "text": "a photo of a ladybug on a green leaf"
+    }
+  ],
+  "errors": []
+}

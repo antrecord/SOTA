@@ -1,0 +1,356 @@
+{
+  "status": "passed",
+  "fast_dev_run": false,
+  "model_id": "stable-diffusion-v1-5/stable-diffusion-v1-5",
+  "model_revision": "451f4fe16113bff5a5d2269ed5ad43b0592e9a14",
+  "dtype": "float16",
+  "scheduler": "DPMSolverMultistepScheduler",
+  "safety_checker": null,
+  "gen_config": {
+    "num_inference_steps": 30,
+    "guidance_scale": 7.5,
+    "negative_prompt": ""
+  },
+  "resolution": 512,
+  "gpu": "Tesla T4",
+  "versions": {
+    "torch": "2.11.0+cu130",
+    "torchvision": "0.26.0+cu130",
+    "diffusers": "0.42.1",
+    "transformers": "5.22.0",
+    "accelerate": "1.15.0",
+    "peft": "0.21.2",
+    "safetensors": "0.8.0",
+    "pillow": "11.3.0"
+  },
+  "spec_sha256": "3239d3d9dca0164d0ae7c5f6f5d822e9f6330f88763f1a9ed5af799a38af9cbb",
+  "repro_check": {
+    "case_id": "p01_s1001",
+    "mean_abs_diff": 0.0,
+    "max_abs_diff": 0
+  },
+  "n_images": 32,
+  "cases": [
+    {
+      "case_id": "p01_s1001",
+      "prompt_id": "p01",
+      "group": "trigger",
+      "prompt": "a photo of sks butterfly resting on a wooden fence",
+      "seed": 1001,
+      "path": "/content/drive/MyDrive/lab13/artifacts/full_run/generations/baseline/p01_s1001.png",
+      "seconds": 6.31,
+      "sha256": "16b7011664af726990aeb0136f75f8d7e33dacafbb3ea5ab00833f3bf8cd06f2"
+    },
+    {
+      "case_id": "p01_s1002",
+      "prompt_id": "p01",
+      "group": "trigger",
+      "prompt": "a photo of sks butterfly resting on a wooden fence",
+      "seed": 1002,
+      "path": "/content/drive/MyDrive/lab13/artifacts/full_run/generations/baseline/p01_s1002.png",
+      "seconds": 4.52,
+      "sha256": "2c8d032f220eb41db3c741eb6c63342965743d67df259aa2b960327d2c6829b8"
+    },
+    {
+      "case_id": "p01_s1003",
+      "prompt_id": "p01",
+      "group": "trigger",
+      "prompt": "a photo of sks butterfly resting on a wooden fence",
+      "seed": 1003,
+      "path": "/content/drive/MyDrive/lab13/artifacts/full_run/generations/baseline/p01_s1003.png",
+      "seconds": 4.55,
+      "sha256": "d4dd99a756c34743640142a80d9716d31529730dcf0bf150e2e596d9cbd3d226"
+    },
+    {
+      "case_id": "p01_s1004",
+      "prompt_id": "p01",
+      "group": "trigger",
+      "prompt": "a photo of sks butterfly resting on a wooden fence",
+      "seed": 1004,
+      "path": "/content/drive/MyDrive/lab13/artifacts/full_run/generations/baseline/p01_s1004.png",
+      "seconds": 4.57,
+      "sha256": "bdaa76fd8b18e4df017069901dde2dc0dab4c6f4337db503e4c767b36260a10c"
+    },
+    {
+      "case_id": "p02_s1001",
+      "prompt_id": "p02",
+      "group": "trigger",
+      "prompt": "a photo of sks butterfly on a pink zinnia in a garden",
+      "seed": 1001,
+      "path": "/content/drive/MyDrive/lab13/artifacts/full_run/generations/baseline/p02_s1001.png",
+      "seconds": 4.58,
+      "sha256": "8f48453adad6b5831762c6076c946802fb288d06f512d88271b04c00d17545df"
+    },
+    {
+      "case_id": "p02_s1002",
+      "prompt_id": "p02",
+      "group": "trigger",
+      "prompt": "a photo of sks butterfly on a pink zinnia in a garden",
+      "seed": 1002,
+      "path": "/content/drive/MyDrive/lab13/artifacts/full_run/generations/baseline/p02_s1002.png",
+      "seconds": 5.37,
+      "sha256": "7c5036fc6e351953e342bba198db75ae17017bc81bf05ead9b058bd5d93a11c5"
+    },
+    {
+      "case_id": "p02_s1003",
+      "prompt_id": "p02",
+      "group": "trigger",
+      "prompt": "a photo of sks butterfly on a pink zinnia in a garden",
+      "seed": 1003,
+      "path": "/content/drive/MyDrive/lab13/artifacts/full_run/generations/baseline/p02_s1003.png",
+      "seconds": 5.36,
+      "sha256": "0ce7dd1ef697a509d63beb905c9e52fc3f808493f7fbad718ab4ceefb715ee5b"
+    },
+    {
+      "case_id": "p02_s1004",
+      "prompt_id": "p02",
+      "group": "trigger",
+      "prompt": "a photo of sks butterfly on a pink zinnia in a garden",
+      "seed": 1004,
+      "path": "/content/drive/MyDrive/lab13/artifacts/full_run/generations/baseline/p02_s1004.png",
+      "seconds": 4.74,
+      "sha256": "73ec6c41e00a87c8db64743e35fdcce505da884adf49b9d0e61b596bce5e0839"
+    },
+    {
+      "case_id": "p03_s1001",
+      "prompt_id": "p03",
+      "group": "trigger",
+      "prompt": "a photo of sks butterfly with open wings on a stone wall",
+      "seed": 1001,
+      "path": "/content/drive/MyDrive/lab13/artifacts/full_run/generations/baseline/p03_s1001.png",
+      "seconds": 5.41,
+      "sha256": "2fa3146b04fb405f40cde8e6066b68fc437d17f1b4fe0d939a5177e457ce88c1"
+    },
+    {
+      "case_id": "p03_s1002",
+      "prompt_id": "p03",
+      "group": "trigger",
+      "prompt": "a photo of sks butterfly with open wings on a stone wall",
+      "seed": 1002,
+      "path": "/content/drive/MyDrive/lab13/artifacts/full_run/generations/baseline/p03_s1002.png",
+      "seconds": 4.8,
+      "sha256": "0a779b2425b094a032d8e6816c6fbc0de96b41a2ff93866cfb212554b8b1737c"
+    },
+    {
+      "case_id": "p03_s1003",
+      "prompt_id": "p03",
+      "group": "trigger",
+      "prompt": "a photo of sks butterfly with open wings on a stone wall",
+      "seed": 1003,
+      "path": "/content/drive/MyDrive/lab13/artifacts/full_run/generations/baseline/p03_s1003.png",
+      "seconds": 4.79,
+      "sha256": "43d9abcc41b366ef040cab2906e7133b95fbc4631bd5a55c9d967b9d541c5ecd"
+    },
+    {
+      "case_id": "p03_s1004",
+      "prompt_id": "p03",
+      "group": "trigger",
+      "prompt": "a photo of sks butterfly with open wings on a stone wall",
+      "seed": 1004,
+      "path": "/content/drive/MyDrive/lab13/artifacts/full_run/generations/baseline/p03_s1004.png",
+      "seconds": 4.81,
+      "sha256": "a9bf427745eeaa184db93a7a38d4288477eac52d3fe50232393e4a3900457275"
+    },
+    {
+      "case_id": "p04_s1001",
+      "prompt_id": "p04",
+      "group": "trigger",
+      "prompt": "a photo of sks butterfly flying over a green meadow at sunrise",
+      "seed": 1001,
+      "path": "/content/drive/MyDrive/lab13/artifacts/full_run/generations/baseline/p04_s1001.png",
+      "seconds": 4.87,
+      "sha256": "e00848d0594955a8d686d14e9b295030e68a37ffa8896695009ca6fc210945d9"
+    },
+    {
+      "case_id": "p04_s1002",
+      "prompt_id": "p04",
+      "group": "trigger",
+      "prompt": "a photo of sks butterfly flying over a green meadow at sunrise",
+      "seed": 1002,
+      "path": "/content/drive/MyDrive/lab13/artifacts/full_run/generations/baseline/p04_s1002.png",
+      "seconds": 4.93,
+      "sha256": "f1542c6932b0fe9ffa1bf61b70925e2b5d8a975c2d6240df328a09505effbd69"
+    },
+    {
+      "case_id": "p04_s1003",
+      "prompt_id": "p04",
+      "group": "trigger",
+      "prompt": "a photo of sks butterfly flying over a green meadow at sunrise",
+      "seed": 1003,
+      "path": "/content/drive/MyDrive/lab13/artifacts/full_run/generations/baseline/p04_s1003.png",
+      "seconds": 4.99,
+      "sha256": "625540415764ea10c0cafaee9907267c40b08016a04d86e4c0350f589739e7bc"
+    },
+    {
+      "case_id": "p04_s1004",
+      "prompt_id": "p04",
+      "group": "trigger",
+      "prompt": "a photo of sks butterfly flying over a green meadow at sunrise",
+      "seed": 1004,
+      "path": "/content/drive/MyDrive/lab13/artifacts/full_run/generations/baseline/p04_s1004.png",
+      "seconds": 4.99,
+      "sha256": "52957b814debce03506a04ce68b2810458ce3ec6d0cd3fbb5626f6e32c6be46c"
+    },
+    {
+      "case_id": "p05_s1001",
+      "prompt_id": "p05",
+      "group": "trigger",
+      "prompt": "a macro photo of sks butterfly on a dandelion",
+      "seed": 1001,
+      "path": "/content/drive/MyDrive/lab13/artifacts/full_run/generations/baseline/p05_s1001.png",
+      "seconds": 5.0,
+      "sha256": "480e56e9b167fd8f4b848f072e82b1e00740caa52b2f2aa53a4395d76c9a7144"
+    },
+    {
+      "case_id": "p05_s1002",
+      "prompt_id": "p05",
+      "group": "trigger",
+      "prompt": "a macro photo of sks butterfly on a dandelion",
+      "seed": 1002,
+      "path": "/content/drive/MyDrive/lab13/artifacts/full_run/generations/baseline/p05_s1002.png",
+      "seconds": 5.01,
+      "sha256": "69d93c32820ff95ac2c80aa46e08f3ee55e5656f925315ed7129afea406b2bb0"
+    },
+    {
+      "case_id": "p05_s1003",
+      "prompt_id": "p05",
+      "group": "trigger",
+      "prompt": "a macro photo of sks butterfly on a dandelion",
+      "seed": 1003,
+      "path": "/content/drive/MyDrive/lab13/artifacts/full_run/generations/baseline/p05_s1003.png",
+      "seconds": 5.02,
+      "sha256": "ae2d81776a0cd9569946f815caa5b79ff7de92cce184125745f917119a9fd3f6"
+    },
+    {
+      "case_id": "p05_s1004",
+      "prompt_id": "p05",
+      "group": "trigger",
+      "prompt": "a macro photo of sks butterfly on a dandelion",
+      "seed": 1004,
+      "path": "/content/drive/MyDrive/lab13/artifacts/full_run/generations/baseline/p05_s1004.png",
+      "seconds": 5.05,
+      "sha256": "b00978e6b49f0b0336c5d9de7f0bc14a00a91d413aabd768b6686c926a0998ca"
+    },
+    {
+      "case_id": "p06_s1001",
+      "prompt_id": "p06",
+      "group": "trigger",
+      "prompt": "a photo of sks butterfly sitting on a persons hand",
+      "seed": 1001,
+      "path": "/content/drive/MyDrive/lab13/artifacts/full_run/generations/baseline/p06_s1001.png",
+      "seconds": 5.13,
+      "sha256": "682d9196cb09a4148aeb2b600a0d4bc789fb95e01d6cd6706d17644c0c9be53b"
+    },
+    {
+      "case_id": "p06_s1002",
+      "prompt_id": "p06",
+      "group": "trigger",
+      "prompt": "a photo of sks butterfly sitting on a persons hand",
+      "seed": 1002,
+      "path": "/content/drive/MyDrive/lab13/artifacts/full_run/generations/baseline/p06_s1002.png",
+      "seconds": 5.19,
+      "sha256": "f7a0518b32ef8d1b830e28673ae7818fdf944c85ba02fdded0ce7557abc48232"
+    },
+    {
+      "case_id": "p06_s1003",
+      "prompt_id": "p06",
+      "group": "trigger",
+      "prompt": "a photo of sks butterfly sitting on a persons hand",
+      "seed": 1003,
+      "path": "/content/drive/MyDrive/lab13/artifacts/full_run/generations/baseline/p06_s1003.png",
+      "seconds": 5.22,
+      "sha256": "23c4ad8a83a06640635aa204feeff6fe60bd7df3f67239b30b1d1a8e4fd69c89"
+    },
+    {
+      "case_id": "p06_s1004",
+      "prompt_id": "p06",
+      "group": "trigger",
+      "prompt": "a photo of sks butterfly sitting on a persons hand",
+      "seed": 1004,
+      "path": "/content/drive/MyDrive/lab13/artifacts/full_run/generations/baseline/p06_s1004.png",
+      "seconds": 5.28,
+      "sha256": "c65ea8c1c86aef7c44f0f17d993cd1a743a16764fe11cad473fc2a5e62cdc398"
+    },
+    {
+      "case_id": "p07_s1001",
+      "prompt_id": "p07",
+      "group": "plain",
+      "prompt": "a photo of a butterfly on a sunflower",
+      "seed": 1001,
+      "path": "/content/drive/MyDrive/lab13/artifacts/full_run/generations/baseline/p07_s1001.png",
+      "seconds": 5.33,
+      "sha256": "67c0233fd486c58c4b45aaee80531da25e1d3f77e2545c06103259f5d300950e"
+    },
+    {
+      "case_id": "p07_s1002",
+      "prompt_id": "p07",
+      "group": "plain",
+      "prompt": "a photo of a butterfly on a sunflower",
+      "seed": 1002,
+      "path": "/content/drive/MyDrive/lab13/artifacts/full_run/generations/baseline/p07_s1002.png",
+      "seconds": 5.4,
+      "sha256": "c270cfad3ab4cf68b7f1c8c991ddec3aa30019c9d0b8c39de25015d8a3e4d37c"
+    },
+    {
+      "case_id": "p07_s1003",
+      "prompt_id": "p07",
+      "group": "plain",
+      "prompt": "a photo of a butterfly on a sunflower",
+      "seed": 1003,
+      "path": "/content/drive/MyDrive/lab13/artifacts/full_run/generations/baseline/p07_s1003.png",
+      "seconds": 5.5,
+      "sha256": "3111b4086009db5c5a742c98609d0abee0c5c7789bb7ee7262258998881fb029"
+    },
+    {
+      "case_id": "p07_s1004",
+      "prompt_id": "p07",
+      "group": "plain",
+      "prompt": "a photo of a butterfly on a sunflower",
+      "seed": 1004,
+      "path": "/content/drive/MyDrive/lab13/artifacts/full_run/generations/baseline/p07_s1004.png",
+      "seconds": 5.56,
+      "sha256": "9696e8afcf520216319efc28b8ded49728a668a1d8c0e821d9eaf23ce87575b5"
+    },
+    {
+      "case_id": "p08_s1001",
+      "prompt_id": "p08",
+      "group": "control",
+      "prompt": "a photo of a ladybug on a green leaf",
+      "seed": 1001,
+      "path": "/content/drive/MyDrive/lab13/artifacts/full_run/generations/baseline/p08_s1001.png",
+      "seconds": 5.62,
+      "sha256": "fa7e91c3d4227020a4277c00dffb2044ddfe98d917d3fef308a81c448a2732b9"
+    },
+    {
+      "case_id": "p08_s1002",
+      "prompt_id": "p08",
+      "group": "control",
+      "prompt": "a photo of a ladybug on a green leaf",
+      "seed": 1002,
+      "path": "/content/drive/MyDrive/lab13/artifacts/full_run/generations/baseline/p08_s1002.png",
+      "seconds": 5.62,
+      "sha256": "87e47545e273fa03a294481817c7793d26b5d598623d942bc598d6cfc4b74864"
+    },
+    {
+      "case_id": "p08_s1003",
+      "prompt_id": "p08",
+      "group": "control",
+      "prompt": "a photo of a ladybug on a green leaf",
+      "seed": 1003,
+      "path": "/content/drive/MyDrive/lab13/artifacts/full_run/generations/baseline/p08_s1003.png",
+      "seconds": 5.59,
+      "sha256": "f55786be76c102dda60ea0cd6e5d116e4a96523f2ca895655b47089b48410a51"
+    },
+    {
+      "case_id": "p08_s1004",
+      "prompt_id": "p08",
+      "group": "control",
+      "prompt": "a photo of a ladybug on a green leaf",
+      "seed": 1004,
+      "path": "/content/drive/MyDrive/lab13/artifacts/full_run/generations/baseline/p08_s1004.png",
+      "seconds": 5.54,
+      "sha256": "99667e8d29257333c6b6b22d2cdc7bd33f8262e09fc69f752934a579f442f90d"
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,141 @@
+{
+  "status": "passed",
+  "fast_dev_run": false,
+  "config_fingerprint": "f9e7a12b112550ca65dfd7e34af0f62eebcd7d4f7ea1fc8c6a8ee73d7a60fce0",
+  "dataset_fingerprint": "b21901e386ab4d7a54483a369bd74fa82f0cb7ed9c99125b36cc56c8f11303a8",
+  "configs": [
+    {
+      "name": "A_r4_lr1e-4",
+      "rank": 4,
+      "lora_alpha": 4,
+      "learning_rate": 0.0001
+    },
+    {
+      "name": "B_r16_lr1e-4",
+      "rank": 16,
+      "lora_alpha": 16,
+      "learning_rate": 0.0001
+    },
+    {
+      "name": "C_r16_lr5e-4",
+      "rank": 16,
+      "lora_alpha": 16,
+      "learning_rate": 0.0005
+    }
+  ],
+  "lora_common": {
+    "target_modules": [
+      "to_q",
+      "to_k",
+      "to_v",
+      "to_out.0"
+    ],
+    "lora_dropout": 0.0,
+    "init_lora_weights": "gaussian",
+    "alpha_equals_rank": true
+  },
+  "schedule": {
+    "total_updates": 400,
+    "checkpoint_updates": [
+      200,
+      400
+    ],
+    "per_device_batch_size": 1,
+    "grad_accum_steps": 4,
+    "lr_schedule": "constant_with_warmup",
+    "warmup_updates": 20,
+    "optimizer": "AdamW",
+    "adam_betas": [
+      0.9,
+      0.999
+    ],
+    "adam_eps": 1e-08,
+    "weight_decay": 0.01,
+    "max_grad_norm": 1.0,
+    "precision": "frozen weights fp16, LoRA params fp32, autocast fp16",
+    "prediction_target": "epsilon",
+    "timestep_sampling": "uniform over [0, num_train_timesteps)",
+    "gradient_checkpointing": true,
+    "seed": 64,
+    "shuffle_data": true,
+    "effective_batch_size": 4,
+    "samples_seen": 1600,
+    "epochs": 57.14
+  },
+  "design": "A->B меняет только rank, B->C меняет только LR; seed обучения общий",
+  "frozen_components": {
+    "vae": {
+      "trainable_tensors": 0,
+      "training_mode": false,
+      "n_params": 83653863
+    },
+    "text_encoder": {
+      "trainable_tensors": 0,
+      "training_mode": false,
+      "n_params": 123060480
+    },
+    "noise_scheduler": {
+      "prediction_type": "epsilon",
+      "num_train_timesteps": 1000
+    },
+    "vae_scaling_factor": 0.18215
+  },
+  "unet_base_params": 859520964,
+  "verification": {
+    "A_r4_lr1e-4": {
+      "lora_layers": 128,
+      "target_linear_layers": 128,
+      "trainable_params": 797184,
+      "expected_trainable_params": 797184,
+      "trainable_fraction": 0.0009266153478840714,
+      "init_max_abs_diff_vs_base": 0.0
+    },
+    "B_r16_lr1e-4": {
+      "lora_layers": 128,
+      "target_linear_layers": 128,
+      "trainable_params": 3188736,
+      "expected_trainable_params": 3188736,
+      "trainable_fraction": 0.003696186561945461,
+      "init_max_abs_diff_vs_base": 0.0
+    },
+    "C_r16_lr5e-4": {
+      "lora_layers": 128,
+      "target_linear_layers": 128,
+      "trainable_params": 3188736,
+      "expected_trainable_params": 3188736,
+      "trainable_fraction": 0.003696186561945461,
+      "init_max_abs_diff_vs_base": 0.0
+    }
+  },
+  "lr_trace": {
+    "A_r4_lr1e-4": {
+      "n_updates": 400,
+      "first": 5e-06,
+      "warmup_end": 0.0001,
+      "last": 0.0001
+    },
+    "B_r16_lr1e-4": {
+      "n_updates": 400,
+      "first": 5e-06,
+      "warmup_end": 0.0001,
+      "last": 0.0001
+    },
+    "C_r16_lr5e-4": {
+      "n_updates": 400,
+      "first": 2.5e-05,
+      "warmup_end": 0.0005,
+      "last": 0.0005
+    }
+  },
+  "versions": {
+    "torch": "2.11.0+cu130",
+    "torchvision": "0.26.0+cu130",
+    "diffusers": "0.42.1",
+    "transformers": "5.22.0",
+    "accelerate": "1.15.0",
+    "peft": "0.21.2",
+    "safetensors": "0.8.0",
+    "pillow": "11.3.0"
+  },
+  "errors": []
+}

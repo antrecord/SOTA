@@ -1,0 +1,270 @@
+{
+  "status": "passed",
+  "fast_dev_run": false,
+  "config_fingerprint": "f9e7a12b112550ca65dfd7e34af0f62eebcd7d4f7ea1fc8c6a8ee73d7a60fce0",
+  "dataset_fingerprint": "b21901e386ab4d7a54483a369bd74fa82f0cb7ed9c99125b36cc56c8f11303a8",
+  "schedule": {
+    "total_updates": 400,
+    "checkpoint_updates": [
+      200,
+      400
+    ],
+    "per_device_batch_size": 1,
+    "grad_accum_steps": 4,
+    "lr_schedule": "constant_with_warmup",
+    "warmup_updates": 20,
+    "optimizer": "AdamW",
+    "adam_betas": [
+      0.9,
+      0.999
+    ],
+    "adam_eps": 1e-08,
+    "weight_decay": 0.01,
+    "max_grad_norm": 1.0,
+    "precision": "frozen weights fp16, LoRA params fp32, autocast fp16",
+    "prediction_target": "epsilon",
+    "timestep_sampling": "uniform over [0, num_train_timesteps)",
+    "gradient_checkpointing": true,
+    "seed": 64,
+    "shuffle_data": true,
+    "effective_batch_size": 4,
+    "samples_seen": 1600,
+    "epochs": 57.14
+  },
+  "versions": {
+    "torch": "2.11.0+cu130",
+    "torchvision": "0.26.0+cu130",
+    "diffusers": "0.42.1",
+    "transformers": "5.22.0",
+    "accelerate": "1.15.0",
+    "peft": "0.21.2",
+    "safetensors": "0.8.0",
+    "pillow": "11.3.0"
+  },
+  "latent_std_after_scaling": 0.8360030055046082,
+  "adapters": {
+    "A_r4_lr1e-4": {
+      "name": "A_r4_lr1e-4",
+      "config": {
+        "name": "A_r4_lr1e-4",
+        "rank": 4,
+        "lora_alpha": 4,
+        "learning_rate": 0.0001
+      },
+      "config_fingerprint": "f9e7a12b112550ca65dfd7e34af0f62eebcd7d4f7ea1fc8c6a8ee73d7a60fce0",
+      "dataset_fingerprint": "b21901e386ab4d7a54483a369bd74fa82f0cb7ed9c99125b36cc56c8f11303a8",
+      "status": "passed",
+      "updates": 400,
+      "skipped_updates": 0,
+      "loss_first50": 0.14873280189931393,
+      "loss_last50": 0.14052249640226364,
+      "lora_B_norm": 1.9206565067403847,
+      "peak_gpu_gb": 2.17,
+      "train_minutes_this_session": 10.5,
+      "checkpoints": {
+        "200": {
+          "update": 200,
+          "config": {
+            "name": "A_r4_lr1e-4",
+            "rank": 4,
+            "lora_alpha": 4,
+            "learning_rate": 0.0001
+          },
+          "weights_file": "pytorch_lora_weights.safetensors",
+          "weights_sha256": "8beeeff826f9e722d533d2eaadf573e356766eb7f2807a03deac6e3d117855d0",
+          "weights_bytes": 3226184,
+          "n_tensors": 256,
+          "rank": 4,
+          "lora_alpha": 4,
+          "target_modules": [
+            "to_q",
+            "to_k",
+            "to_v",
+            "to_out.0"
+          ],
+          "config_fingerprint": "f9e7a12b112550ca65dfd7e34af0f62eebcd7d4f7ea1fc8c6a8ee73d7a60fce0",
+          "dataset_fingerprint": "b21901e386ab4d7a54483a369bd74fa82f0cb7ed9c99125b36cc56c8f11303a8",
+          "loss_last50": 0.1505661281105131,
+          "skipped_updates_so_far": 0,
+          "dir": "/content/drive/MyDrive/lab13/artifacts/full_run/adapters/A_r4_lr1e-4/checkpoint-0200"
+        },
+        "400": {
+          "update": 400,
+          "config": {
+            "name": "A_r4_lr1e-4",
+            "rank": 4,
+            "lora_alpha": 4,
+            "learning_rate": 0.0001
+          },
+          "weights_file": "pytorch_lora_weights.safetensors",
+          "weights_sha256": "cee544daecff9fbd8fa12138adf4ceaae7a973c3c91271bd1f1977a73be6490c",
+          "weights_bytes": 3226184,
+          "n_tensors": 256,
+          "rank": 4,
+          "lora_alpha": 4,
+          "target_modules": [
+            "to_q",
+            "to_k",
+            "to_v",
+            "to_out.0"
+          ],
+          "config_fingerprint": "f9e7a12b112550ca65dfd7e34af0f62eebcd7d4f7ea1fc8c6a8ee73d7a60fce0",
+          "dataset_fingerprint": "b21901e386ab4d7a54483a369bd74fa82f0cb7ed9c99125b36cc56c8f11303a8",
+          "loss_last50": 0.14052249640226364,
+          "skipped_updates_so_far": 0,
+          "dir": "/content/drive/MyDrive/lab13/artifacts/full_run/adapters/A_r4_lr1e-4/checkpoint-0400"
+        }
+      },
+      "errors": []
+    },
+    "B_r16_lr1e-4": {
+      "name": "B_r16_lr1e-4",
+      "config": {
+        "name": "B_r16_lr1e-4",
+        "rank": 16,
+        "lora_alpha": 16,
+        "learning_rate": 0.0001
+      },
+      "config_fingerprint": "f9e7a12b112550ca65dfd7e34af0f62eebcd7d4f7ea1fc8c6a8ee73d7a60fce0",
+      "dataset_fingerprint": "b21901e386ab4d7a54483a369bd74fa82f0cb7ed9c99125b36cc56c8f11303a8",
+      "status": "passed",
+      "updates": 400,
+      "skipped_updates": 0,
+      "loss_first50": 0.14872876016423106,
+      "loss_last50": 0.14014117769896983,
+      "lora_B_norm": 3.9584748024666876,
+      "peak_gpu_gb": 2.2,
+      "train_minutes_this_session": 10.3,
+      "checkpoints": {
+        "200": {
+          "update": 200,
+          "config": {
+            "name": "B_r16_lr1e-4",
+            "rank": 16,
+            "lora_alpha": 16,
+            "learning_rate": 0.0001
+          },
+          "weights_file": "pytorch_lora_weights.safetensors",
+          "weights_sha256": "6ad0059ed0734a6a6c006a54056756cd037b1d875c021100e5360e8ecb7085e2",
+          "weights_bytes": 12792952,
+          "n_tensors": 256,
+          "rank": 16,
+          "lora_alpha": 16,
+          "target_modules": [
+            "to_q",
+            "to_k",
+            "to_v",
+            "to_out.0"
+          ],
+          "config_fingerprint": "f9e7a12b112550ca65dfd7e34af0f62eebcd7d4f7ea1fc8c6a8ee73d7a60fce0",
+          "dataset_fingerprint": "b21901e386ab4d7a54483a369bd74fa82f0cb7ed9c99125b36cc56c8f11303a8",
+          "loss_last50": 0.15046732029877602,
+          "skipped_updates_so_far": 0,
+          "dir": "/content/drive/MyDrive/lab13/artifacts/full_run/adapters/B_r16_lr1e-4/checkpoint-0200"
+        },
+        "400": {
+          "update": 400,
+          "config": {
+            "name": "B_r16_lr1e-4",
+            "rank": 16,
+            "lora_alpha": 16,
+            "learning_rate": 0.0001
+          },
+          "weights_file": "pytorch_lora_weights.safetensors",
+          "weights_sha256": "bb552f67662c5dfdde3750112b8082d54515df8313f784244dec257c8f95e6b9",
+          "weights_bytes": 12792952,
+          "n_tensors": 256,
+          "rank": 16,
+          "lora_alpha": 16,
+          "target_modules": [
+            "to_q",
+            "to_k",
+            "to_v",
+            "to_out.0"
+          ],
+          "config_fingerprint": "f9e7a12b112550ca65dfd7e34af0f62eebcd7d4f7ea1fc8c6a8ee73d7a60fce0",
+          "dataset_fingerprint": "b21901e386ab4d7a54483a369bd74fa82f0cb7ed9c99125b36cc56c8f11303a8",
+          "loss_last50": 0.14014117769896983,
+          "skipped_updates_so_far": 0,
+          "dir": "/content/drive/MyDrive/lab13/artifacts/full_run/adapters/B_r16_lr1e-4/checkpoint-0400"
+        }
+      },
+      "errors": []
+    },
+    "C_r16_lr5e-4": {
+      "name": "C_r16_lr5e-4",
+      "config": {
+        "name": "C_r16_lr5e-4",
+        "rank": 16,
+        "lora_alpha": 16,
+        "learning_rate": 0.0005
+      },
+      "config_fingerprint": "f9e7a12b112550ca65dfd7e34af0f62eebcd7d4f7ea1fc8c6a8ee73d7a60fce0",
+      "dataset_fingerprint": "b21901e386ab4d7a54483a369bd74fa82f0cb7ed9c99125b36cc56c8f11303a8",
+      "status": "passed",
+      "updates": 400,
+      "skipped_updates": 0,
+      "loss_first50": 0.1485924152471125,
+      "loss_last50": 0.13668496966361998,
+      "lora_B_norm": 15.915706874093578,
+      "peak_gpu_gb": 2.2,
+      "train_minutes_this_session": 10.3,
+      "checkpoints": {
+        "200": {
+          "update": 200,
+          "config": {
+            "name": "C_r16_lr5e-4",
+            "rank": 16,
+            "lora_alpha": 16,
+            "learning_rate": 0.0005
+          },
+          "weights_file": "pytorch_lora_weights.safetensors",
+          "weights_sha256": "6ee08a265ad73ca93fc04a98c5f87f3b730dda58a6440a0323bb9c15f80d9ce6",
+          "weights_bytes": 12792952,
+          "n_tensors": 256,
+          "rank": 16,
+          "lora_alpha": 16,
+          "target_modules": [
+            "to_q",
+            "to_k",
+            "to_v",
+            "to_out.0"
+          ],
+          "config_fingerprint": "f9e7a12b112550ca65dfd7e34af0f62eebcd7d4f7ea1fc8c6a8ee73d7a60fce0",
+          "dataset_fingerprint": "b21901e386ab4d7a54483a369bd74fa82f0cb7ed9c99125b36cc56c8f11303a8",
+          "loss_last50": 0.149163148868829,
+          "skipped_updates_so_far": 0,
+          "dir": "/content/drive/MyDrive/lab13/artifacts/full_run/adapters/C_r16_lr5e-4/checkpoint-0200"
+        },
+        "400": {
+          "update": 400,
+          "config": {
+            "name": "C_r16_lr5e-4",
+            "rank": 16,
+            "lora_alpha": 16,
+            "learning_rate": 0.0005
+          },
+          "weights_file": "pytorch_lora_weights.safetensors",
+          "weights_sha256": "785edb0488b813e0b7ba4bcf4bf557d6b722bedcdd090219383470fb4b58508b",
+          "weights_bytes": 12792952,
+          "n_tensors": 256,
+          "rank": 16,
+          "lora_alpha": 16,
+          "target_modules": [
+            "to_q",
+            "to_k",
+            "to_v",
+            "to_out.0"
+          ],
+          "config_fingerprint": "f9e7a12b112550ca65dfd7e34af0f62eebcd7d4f7ea1fc8c6a8ee73d7a60fce0",
+          "dataset_fingerprint": "b21901e386ab4d7a54483a369bd74fa82f0cb7ed9c99125b36cc56c8f11303a8",
+          "loss_last50": 0.13668496966361998,
+          "skipped_updates_so_far": 0,
+          "dir": "/content/drive/MyDrive/lab13/artifacts/full_run/adapters/C_r16_lr5e-4/checkpoint-0400"
+        }
+      },
+      "errors": []
+    }
+  },
+  "errors": []
+}

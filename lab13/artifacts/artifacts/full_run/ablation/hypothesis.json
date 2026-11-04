@@ -1,0 +1,35 @@
+{
+  "created_utc": "2026-11-04 16:13:36",
+  "sha256": "6833a9f63b02bd1a7e1f58ad349d14ae045fe606b086267035c43e80ce4a3638",
+  "hypothesis": {
+    "factor": "Токен sks в обучающих подписях. Меняется только он.",
+    "main_caption": "a photo of sks butterfly, <title>",
+    "ablation_caption": "a photo of butterfly, <title>",
+    "rationale": "С sks адаптер может привязать особенности выборки к редкому токену, оставив общее слово butterfly ближе к базовой модели. Без sks носителем адаптации остаётся слово butterfly, поэтому сдвиг должен распространяться на все prompts с этим словом (language drift).",
+    "H1": "Эффект вставки sks в prompt (сходство с ближайшей train-картинкой, CLIP: с sks минус без sks) в основной модели больше, чем в абляционной.",
+    "H2": "На prompts без sks абляционный адаптер сильнее смещает генерации от baseline (1 - cos в CLIP), чем основной.",
+    "metrics": [
+      "nearest_train_clip_sim",
+      "shift_from_baseline_clip",
+      "clip_text_sim",
+      "diversity",
+      "pixel_mad"
+    ],
+    "statistics": "Бутстрап по prompts (кластеры), 95% ДИ среднего парной разности; подтверждено, если нижняя граница > 0.",
+    "fixed": [
+      "images",
+      "rank",
+      "lr",
+      "lora_alpha",
+      "updates",
+      "effective_batch",
+      "seed",
+      "sample_order",
+      "noise_and_timesteps",
+      "lora_init",
+      "eval_prompts",
+      "eval_seeds",
+      "reference_config=B_r16_lr1e-4"
+    ]
+  }
+}

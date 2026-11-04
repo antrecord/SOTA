@@ -1,0 +1,25 @@
+{
+  "update": 200,
+  "config": {
+    "name": "B_r16_lr1e-4",
+    "rank": 16,
+    "lora_alpha": 16,
+    "learning_rate": 0.0001
+  },
+  "weights_file": "pytorch_lora_weights.safetensors",
+  "weights_sha256": "6ad0059ed0734a6a6c006a54056756cd037b1d875c021100e5360e8ecb7085e2",
+  "weights_bytes": 12792952,
+  "n_tensors": 256,
+  "rank": 16,
+  "lora_alpha": 16,
+  "target_modules": [
+    "to_q",
+    "to_k",
+    "to_v",
+    "to_out.0"
+  ],
+  "config_fingerprint": "f9e7a12b112550ca65dfd7e34af0f62eebcd7d4f7ea1fc8c6a8ee73d7a60fce0",
+  "dataset_fingerprint": "b21901e386ab4d7a54483a369bd74fa82f0cb7ed9c99125b36cc56c8f11303a8",
+  "loss_last50": 0.15046732029877602,
+  "skipped_updates_so_far": 0
+}
